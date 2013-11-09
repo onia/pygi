@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="VIEW_DESC_P">
+    <parameter source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="View" descr="View to delete"></parameter>
+    <parameter xml:lang="ar" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="عرض" descr="View to delete"></parameter>
+    <parameter xml:lang="az" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="View" descr="View to delete"></parameter>
+    <parameter xml:lang="ca" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Visualitza" descr="View to delete"></parameter>
+    <parameter xml:lang="ca@valencia" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Visualitza" descr="View to delete"></parameter>
+    <parameter xml:lang="cs" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Pohled" descr="Pohled, která se má smazat"></parameter>
+    <parameter xml:lang="da" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Visning" descr="Visning til sletning"></parameter>
+    <parameter xml:lang="de" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Ansicht" descr="Zu löschende Ansicht"></parameter>
+    <parameter xml:lang="dz" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="སྟོན།" descr="View to delete"></parameter>
+    <parameter xml:lang="el" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Όψη" descr="View to delete"></parameter>
+    <parameter xml:lang="en_CA" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="View" descr="View to delete"></parameter>
+    <parameter xml:lang="en_GB" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="View" descr="View to delete"></parameter>
+    <parameter xml:lang="eo" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Vido" descr="View to delete"></parameter>
+    <parameter xml:lang="es" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Ver" descr="Vista para eliminar"></parameter>
+    <parameter xml:lang="eu" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Ikusi" descr="Ikuspegia ezabatzeko"></parameter>
+    <parameter xml:lang="fa" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="نما" descr="View to delete"></parameter>
+    <parameter xml:lang="fi" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Näkymä" descr="Poistettava näkymä"></parameter>
+    <parameter xml:lang="fr" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Vue" descr="Vue à supprimer"></parameter>
+    <parameter xml:lang="ga" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="View" descr="View to delete"></parameter>
+    <parameter xml:lang="gl" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Ver" descr="Vista a eliminar"></parameter>
+    <parameter xml:lang="hr" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Pogled" descr="View to delete"></parameter>
+    <parameter xml:lang="hu" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Nézet" descr="View to delete"></parameter>
+    <parameter xml:lang="id" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="View" descr="View yang akan dihapus"></parameter>
+    <parameter xml:lang="it" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Vista" descr="Vista da cancellare"></parameter>
+    <parameter xml:lang="ja" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="ビュー" descr="View to delete"></parameter>
+    <parameter xml:lang="ko" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="View" descr="View to delete"></parameter>
+    <parameter xml:lang="lt" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Peržiurėti" descr="View to delete"></parameter>
+    <parameter xml:lang="mk" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="View" descr="View to delete"></parameter>
+    <parameter xml:lang="ml" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="കാഴ്ച" descr="View to delete"></parameter>
+    <parameter xml:lang="ms" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Paparan" descr="View to delete"></parameter>
+    <parameter xml:lang="nb" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Visning" descr="Visning som skal slettes"></parameter>
+    <parameter xml:lang="ne" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="दृश्य" descr="View to delete"></parameter>
+    <parameter xml:lang="nl" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Weergeven" descr="View to delete"></parameter>
+    <parameter xml:lang="oc" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Visualizacion" descr="View to delete"></parameter>
+    <parameter xml:lang="pa" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="ਦਰਿਸ਼" descr="View to delete"></parameter>
+    <parameter xml:lang="pl" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Perspektywa" descr="View to delete"></parameter>
+    <parameter xml:lang="pt" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Vista" descr="Vista a eliminar"></parameter>
+    <parameter xml:lang="pt_BR" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Visão" descr="Visão a excluir"></parameter>
+    <parameter xml:lang="ru" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Представление" descr="View to delete"></parameter>
+    <parameter xml:lang="rw" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Igaragaza" descr="View to delete"></parameter>
+    <parameter xml:lang="sk" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Pohľad" descr="View to delete"></parameter>
+    <parameter xml:lang="sl" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Pogled" descr="pogled za brisanje"></parameter>
+    <parameter xml:lang="sq" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="View" descr="View to delete"></parameter>
+    <parameter xml:lang="sr" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Поглед" descr="View to delete"></parameter>
+    <parameter xml:lang="sr@Latn" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Pogled" descr="View to delete"></parameter>
+    <parameter xml:lang="sv" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Vy" descr="View to delete"></parameter>
+    <parameter xml:lang="tr" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="View" descr="View to delete"></parameter>
+    <parameter xml:lang="uk" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Відображення" descr="View to delete"></parameter>
+    <parameter xml:lang="vi" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="Xem" descr="View to delete"></parameter>
+    <parameter xml:lang="zh_CN" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="查看" descr="要删除的视图"></parameter>
+    <parameter xml:lang="zh_HK" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="檢視" descr="View to delete"></parameter>
+    <parameter xml:lang="zh_TW" source="_DICT_VIEWS_" nullok="FALSE" id="VIEW_NAME" gdatype="gchararray" name="檢視" descr="View to delete"></parameter>
+    <parameter id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="ar" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="az" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="ca" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="ca@valencia" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="cs" id="VIEW_IFEXISTS" gdatype="gboolean" name="Pokud existuje" descr="Odstranit pohled, jen když existuje"></parameter>
+    <parameter xml:lang="da" id="VIEW_IFEXISTS" gdatype="gboolean" name="Hvis den findes" descr="Smid kun visning hvis den findes"></parameter>
+    <parameter xml:lang="de" id="VIEW_IFEXISTS" gdatype="gboolean" name="Falls vorhanden" descr="Ansicht einfügen, nur wenn sie existiert"></parameter>
+    <parameter xml:lang="dz" id="VIEW_IFEXISTS" gdatype="gboolean" name="གནས་ཡོད་པ་ཅིན་" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="el" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="en_CA" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="en_GB" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="eo" id="VIEW_IFEXISTS" gdatype="gboolean" name="Se ekzistas" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="es" id="VIEW_IFEXISTS" gdatype="gboolean" name="Si existe" descr="Eliminar la vista sólo si existe"></parameter>
+    <parameter xml:lang="eu" id="VIEW_IFEXISTS" gdatype="gboolean" name="Existitzen bada" descr="Ezabatu ikuspegia existitzen bada soilik"></parameter>
+    <parameter xml:lang="fa" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="fi" id="VIEW_IFEXISTS" gdatype="gboolean" name="Jos olemassa" descr="Poista näkymä vain jos se on olemassa"></parameter>
+    <parameter xml:lang="fr" id="VIEW_IFEXISTS" gdatype="gboolean" name="Si existant" descr="Supprimer la vue seulement si elle existe"></parameter>
+    <parameter xml:lang="ga" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="gl" id="VIEW_IFEXISTS" gdatype="gboolean" name="Se existe" descr="Eliminar a vista só se existe"></parameter>
+    <parameter xml:lang="hr" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="hu" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="id" id="VIEW_IFEXISTS" gdatype="gboolean" name="Bila ada" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="it" id="VIEW_IFEXISTS" gdatype="gboolean" name="Se esiste" descr="Elimina la vista solo se esiste"></parameter>
+    <parameter xml:lang="ja" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="ko" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="lt" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="mk" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="ml" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="ms" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="nb" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="ne" id="VIEW_IFEXISTS" gdatype="gboolean" name="यदि अवस्थित छ भने" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="nl" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="oc" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="pa" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="pl" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="pt" id="VIEW_IFEXISTS" gdatype="gboolean" name="Se existir" descr="Descartar vista apenas se existir"></parameter>
+    <parameter xml:lang="pt_BR" id="VIEW_IFEXISTS" gdatype="gboolean" name="Se existir" descr="Descarta a visão somente se existir"></parameter>
+    <parameter xml:lang="ru" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="rw" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="sk" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="sl" id="VIEW_IFEXISTS" gdatype="gboolean" name="Če obstaja" descr="Spusti pogled le, če obstaja"></parameter>
+    <parameter xml:lang="sq" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="sr" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="sr@Latn" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="sv" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="tr" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="uk" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="vi" id="VIEW_IFEXISTS" gdatype="gboolean" name="Nếu tồn tại" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="zh_CN" id="VIEW_IFEXISTS" gdatype="gboolean" name="如果存在" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="zh_HK" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter xml:lang="zh_TW" id="VIEW_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop view only if it exists"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ar" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="az" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ca" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referències" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ca@valencia" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referències" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="cs" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Odkazy" descr="Co udělat s objekty odkazujícími se na pohled">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="da" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencer" descr="Hvad skal der ske med objekter som refererer visningen">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="de" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Bezüge" descr="Umgang mit Objekten, die sich auf die Ansicht beziehen">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="dz" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="གཞི་བསྟུན་ཚུ།" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="el" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="en_CA" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="en_GB" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="eo" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencoj" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="es" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencias" descr="Qué hacer con los objetos que referencien la vista">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="eu" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Erreferentziak" descr="Zer egin ikuspegia erreferentziatzen duten objektuekin">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="fa" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="fi" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Viittaukset" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="fr" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Références" descr="Que faire avec les objets qui référencent la vue">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ga" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="gl" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencias" descr="Que facer cos obxectos que referencian á vista">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="hr" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Reference" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="hu" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="id" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Rujukan" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="it" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Riferimenti" descr="Cosa fare con gli oggetti riferiti dalla vista">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ja" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="参照" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ko" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="참조" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="lt" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Nuorodos" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="mk" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ml" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ms" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Rujukan" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="nb" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referanser" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ne" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="सन्दर्भहरू" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="nl" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referenties" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="oc" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referéncias" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="pa" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="ਰੈਫਰਸ(ਹਵਾਲਾ)" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="pl" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencja" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="pt" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referências" descr="O que fazer com objectos que refiram a vista">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="pt_BR" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referências" descr="O que fazer com objetos que referenciam a visão">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ru" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Ссылки" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="rw" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Indango" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sk" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencie" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sl" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Sklici" descr="Kaj storiti s predmeti, ki se sklicujejo na pogled">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sq" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sr" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Препоруке" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sr@Latn" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Preporuke" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sv" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referenser" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="tr" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="uk" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Посилання" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="vi" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Tham chiếu" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_CN" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="引用" descr="如何处理引用该视图的对象">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_HK" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="參考" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_TW" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="參考" descr="What to do with objects referencing the view">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+
+  
+  <sources>
+    <gda_array name="action_cb">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="text" gdatype="gchararray"/>
+      <gda_array_data>
+        <gda_array_row>
+          <gda_value>CASCADE</gda_value>
+          <gda_value>Automatically drop objects that depend on the view (CASCADE)</gda_value>
+          <gda_value xml:lang="cs">Automaticky odstranit objekty, které závisí na pohledu (CASCADE)</gda_value>
+          <gda_value xml:lang="da">Smid automatisk objekter som afhænger af visningen (CASCADE)</gda_value>
+          <gda_value xml:lang="de">Von der Ansicht abhängige Objekte automatisch einfügen (CASCADE)</gda_value>
+          <gda_value xml:lang="es">Eliminar automáticamente los objetos que dependan de la vista (CASCADE)</gda_value>
+          <gda_value xml:lang="eu">Ezabatu ikuspegiaren mende dauden (teilakatuta) objektuak automatikoki</gda_value>
+          <gda_value xml:lang="fi">Poista automaattisesti objektit, jotka riippuvat näkymästä (CASCADE)</gda_value>
+          <gda_value xml:lang="fr">Supprimer automatiquement les objets qui dépendent de la vue (CASCADE)</gda_value>
+          <gda_value xml:lang="gl">Eliminar automáticamente os obxectos que dependen da vista (FERVENZA)</gda_value>
+          <gda_value xml:lang="it">Elimina automaticamente gli oggetti che dipendono dalla vista (CASCADE)</gda_value>
+          <gda_value xml:lang="pt">Descartar automaticamente objectos que dependam da vista (CASCADE)</gda_value>
+          <gda_value xml:lang="pt_BR">Descartar automaticamente objetos que dependam da visão (CASCATA)</gda_value>
+          <gda_value xml:lang="sl">Samodejno spusti predmet, ki je odvisen od pogleda (CASCADE)</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>RESTRICT</gda_value>
+          <gda_value>Refuse to drop the view if any objects depend on it (RESTRICT)</gda_value>
+          <gda_value xml:lang="cs">Zabránit odstranění pohledu, pokud na něm závisí nějaké objekty (RESTRICT)</gda_value>
+          <gda_value xml:lang="da">Nægt at smide visningen hvis et objekt afhænger af den (RESTRICT)</gda_value>
+          <gda_value xml:lang="de">Einfügen der Ansicht verweigern, falls irgendwelche Objekte davon abhängen (RESTRICT)</gda_value>
+          <gda_value xml:lang="es">Rehusar a eliminar la tabla si cualquier objeto depende de ella (RESTRICT)</gda_value>
+          <gda_value xml:lang="eu">Bertan behera utzi ikuspegia ezabatzea objekturen batek mendekotasuna badu ikuspegiarekiko (MURRIZTU)</gda_value>
+          <gda_value xml:lang="fi">Kieltäydy poistamasta näkymää, jos joku olio riippuu siitä (RESTRICT)</gda_value>
+          <gda_value xml:lang="fr">Refuser la suppression de la vue si des objets en dépendent (RESTRICT)</gda_value>
+          <gda_value xml:lang="gl">Rexeitar o borrado de vista se calquera obxecto depende dela (RESTRINXIR)</gda_value>
+          <gda_value xml:lang="it">Non elimina la vista nel caso esista qualche oggetto che dipenda da essa (RESTRICT)</gda_value>
+          <gda_value xml:lang="pt">Recusar descartar vista se algum objecto depender dela (RESTRICT)</gda_value>
+          <gda_value xml:lang="pt_BR">Recusar descarte da visão se algum objeto depende dela (RESTRITO)</gda_value>
+          <gda_value xml:lang="sl">Zavrni spuščanje pogleda, če je katerikoli predmet od njega odvisen (RESTRICT)</gda_value>
+        </gda_array_row>
+      </gda_array_data>
+    </gda_array>
+  </sources>
+</serv_op>

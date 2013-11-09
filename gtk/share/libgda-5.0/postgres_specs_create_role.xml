@@ -1,0 +1,1931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+
+  <parameters id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="Role's password"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is.">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)"></parameter>
+  </parameters>
+  <parameters xml:lang="ar" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name" xml:lang="ar"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="Role's password" xml:lang="ar"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ar">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="ar">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="ar">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="ar">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="ar">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="ar">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="ar">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ar"></parameter>
+  </parameters>
+  <parameters xml:lang="az" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name" xml:lang="az"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="Role's password" xml:lang="az"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="az">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="az">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="az">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="az">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="az">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="az">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="az">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="az"></parameter>
+  </parameters>
+  <parameters xml:lang="ca" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="Role's name" xml:lang="ca"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Contrasenya" descr="Role's password" xml:lang="ca"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ca">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="ca">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="ca">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="ca">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="ca">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="ca">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="ca">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ca"></parameter>
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="Role's name" xml:lang="ca@valencia"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Contrasenya" descr="Role's password" xml:lang="ca@valencia"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ca@valencia">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="ca@valencia">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="ca@valencia">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="ca@valencia">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="ca@valencia">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="ca@valencia">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="ca@valencia">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ca@valencia"></parameter>
+  </parameters>
+  <parameters xml:lang="cs" id="USER_DEF_P" name="Definice role">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Název" descr="Název role" xml:lang="cs"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Heslo" descr="Heslo role" xml:lang="cs"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Šifrovat heslo" descr="Určuje, zda je heslo v systémovém katalogu uchované v šifrované podobě. Pokud je uvedené heslo již šifrované ve formátu MD5, pak bude uloženo šifrované tak, jak je." xml:lang="cs">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Superuživatel databáze" descr="Nastavte na ZAPNUTO, pokud je role databázovým superuživatelem" xml:lang="cs">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Nelze vytvořit databázi" descr="Nastavte na ZAPNUTO, pokud má mít role povoleno vytvářet databáze" xml:lang="cs">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Nelze vytvořit roli" descr="Nastavte na ZAPNUTO, pokud má mít role povoleno vytvářet role" xml:lang="cs">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Dědit" descr="Nastavte na ZAPNUTO, pokud má vytvářená role dědit oprávnění rolí, jichž je členem" xml:lang="cs">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Může se přihlašovat" descr="Nastavte na ZAPNUTO, pokud má mít role povoleno přihlašování" xml:lang="cs">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Omezení přihlášení" descr="Pokud má role dovolené přihlašování, definuje počet souběžných připojení, které může role vytvořit (-1 nebo nenastaveno znamená neomezený počet)" xml:lang="cs">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Platné do" descr="Určuje čas vypršení platnosti pouze pro heslo (ne pro celý uživatelský účet: tato doba platnosti není vynucována, když se používá při přihlašování ověření, které není založené na hesle)" xml:lang="cs"></parameter>
+  </parameters>
+  <parameters xml:lang="da" id="USER_DEF_P" name="Rolles definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Navn" descr="Rolles navn" xml:lang="da"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Adgangskode" descr="Rolles adgangskode" xml:lang="da"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Krypter adgangskode" descr="Kontrollerer hvorvidt adgangskoden er gemt krypteret i systemkatalogerne. Hvis den præsenterede adgangskodestreng allerede er i MD5-krypteret format, så gemmes den krypteret som den er." xml:lang="da">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Databasesuperbruger" descr="Angiv som TRUE (SAND) hvis rollen er en databasesuperbruger" xml:lang="da">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Kan oprette databaser" descr="Angiv som TRUE (SAND) hvis rollen har lov til at oprette databaser" xml:lang="da">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Kan oprette roller" descr="Angiv som TRUE (SAND) hvis rollen har tilladelse til at oprette roller" xml:lang="da">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Nedarv" descr="Angiv som TRUE (SAND) hvis den oprettede rolle arver privilegierne på de roller, den er medlem af" xml:lang="da">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Kan logge ind" descr="Angiv som TRUE (SAND) hvis rollen har tilladelse til at logge ind" xml:lang="da">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Logind-begrænsning" descr="Hvis rollen har tilladelse til at logge ind, så definerer dette antallet af samtidige forbindelser rollen kan foretage (-1 eller usat for ubegrænset)" xml:lang="da">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Gyldig indtil" descr="Angiver en udløbsdato for en adgangskode (gælder ikke for brugerkontoen: Udløbsdatoen iværksættes ikke når der logges ind med brug af en godkendelsesmetode der ikke er adgangskodebaseret)" xml:lang="da"></parameter>
+  </parameters>
+  <parameters xml:lang="de" id="USER_DEF_P" name="Definition der Rolle">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Name der Rolle" xml:lang="de"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Passwort" descr="Passwort der Rolle" xml:lang="de"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Passwort verschlüsseln" descr="Legt fest, ob das Passwort in den Systemkatalogen verschlüsselt abgelegt wird. Falls die angegebene Passwortzeichenkette bereits im MD5-Format verschlüsselt ist, wird es wie vorliegend gespeichert." xml:lang="de">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Administrator der Datenbank" descr="Auf WAHR setzen, damit die Rolle Administrator einer Datenbank ist" xml:lang="de">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Darf Datenbanken erstellen" descr="Auf WAHR setzen, damit die Rolle Datenbanken erstellen darf" xml:lang="de">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Darf Rollen erstellen" descr="Auf WAHR setzen, damit die Rolle andere Rollen erstellen darf" xml:lang="de">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Vererbungsfähig" descr="Auf WAHR setzen, damit die erstellte Rolle die Privilegien der Rollen erbt, bei denen sie Mitglied ist" xml:lang="de">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Darf sich anmelden" descr="Auf WAHR setzen, damit die Rolle sich anmelden darf" xml:lang="de">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Anmeldebegrenzung" descr="Wenn der Rolle eine Anmeldung erlaubt ist, so wird die Anzahl der gleichzeitig möglichen Verbindungen für die Rolle festgelegt (»-1« oder leeres Feld bedeutet unbegrenzt)" xml:lang="de">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Gültig bis" descr="Legt eine Ablaufzeit nur für das Passwort fest. Das Benutzerkonto an sich wird dadurch nicht beeinflusst. Die Ablaufzeit kommt nicht zur Anwendung, wenn sich ein Benutzer mittels einer nicht auf Passwörtern basierenden Legitimiertungsmethode anmeldet." xml:lang="de"></parameter>
+  </parameters>
+  <parameters xml:lang="dz" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="མིང་།" descr="Role's name" xml:lang="dz"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="ཆོག་ཡིག" descr="Role's password" xml:lang="dz"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="dz">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="dz">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="dz">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="dz">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="dz">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="dz">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="dz">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="dz"></parameter>
+  </parameters>
+  <parameters xml:lang="el" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Όνομα" descr="Role's name" xml:lang="el"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Κωδικός" descr="Role's password" xml:lang="el"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="el">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="el">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="el">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="el">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="el">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="el">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="el">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="el"></parameter>
+  </parameters>
+  <parameters xml:lang="en_CA" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name" xml:lang="en_CA"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="Role's password" xml:lang="en_CA"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="en_CA">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="en_CA">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="en_CA">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="en_CA">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="en_CA">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="en_CA">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="en_CA">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="en_CA"></parameter>
+  </parameters>
+  <parameters xml:lang="en_GB" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name" xml:lang="en_GB"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="Role's password" xml:lang="en_GB"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="en_GB">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="en_GB">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="en_GB">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="en_GB">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="en_GB">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="en_GB">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="en_GB">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="en_GB"></parameter>
+  </parameters>
+  <parameters xml:lang="eo" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nomo" descr="Role's name" xml:lang="eo"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Pasvorto" descr="Role's password" xml:lang="eo"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="eo">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="eo">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="eo">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="eo">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="eo">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="eo">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="eo">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="eo"></parameter>
+  </parameters>
+  <parameters xml:lang="es" id="USER_DEF_P" name="Definición del rol">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nombre" descr="Nombre del rol" xml:lang="es"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Contraseña" descr="Contraseña del rol" xml:lang="es"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Cifrar contraseña" descr="Controla si la contraseña se almacena cifrada en los catálogos del sistema. Si la cadena de contraseña presentada ya está en el formato cifrado MD5, entonces se almacena cifrada como tal." xml:lang="es">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Superusuario de la base de datos" descr="Establecer a cierto si el rol es un superusuario de la base de datos" xml:lang="es">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Puede crear bases de datos" descr="Establecer a cierto si se permite crear bases de datos al rol" xml:lang="es">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Puede crear roles" descr="Establecer a cierto si se permite crear roles al rol" xml:lang="es">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Heredar" descr="Establecer a cierto si el rol creado hereda los privilegios de los roles de los que es miembro" xml:lang="es">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Puede iniciar sesión" descr="Establecer a cierto si se permite iniciar sesión al rol" xml:lang="es">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Límite de inicio de sesión" descr="Si se permite iniciar sesión al rol, define el número de conexiones concurrentes que el rol puede realizar (-1 o sin establecer para conexiones ilimitadas)" xml:lang="es">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Válido hasta" descr="Especifica un tiempo de expiración para una contraseña (no para la cuenta de usuario en si: el tiempo de expiración no se refuerza al iniciar sesión usando un método de autenticación no basado en contraseña)" xml:lang="es"></parameter>
+  </parameters>
+  <parameters xml:lang="eu" id="USER_DEF_P" name="Rolaren definizioa">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Izena" descr="Rolaren izena" xml:lang="eu"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Pasahitza" descr="Rolaren pasahitza" xml:lang="eu"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Enkriptatu pasahitza" descr="Sistemako katalogoetan pasahitza enkriptatuta gordetzen den edo ez kontrolatzen du. Aurkeztutako pasahitzaren katea MD5 formatuan enkriptatuta egonez gero, dagoen bezala gordeko da." xml:lang="eu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Datu-basearen supererabiltzailea" descr="Ezarri TRUE (egia) gisa rola datu-baseko supererabiltzailea bada" xml:lang="eu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Datu-baseak sor ditzake" descr="Ezarri TRUE (egia) gisa rol honek datu-baseak sortzeko baimenak baditu" xml:lang="eu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Rolak sor ditzake" descr="Ezarri TRUE (egia) gisa rol honek rolak sortzeko baimenak baditu" xml:lang="eu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Heredatu" descr="Ezarri TRUE (egia) gisa sortutako rolak kide den rolen pribilegioak jasotzen baditu" xml:lang="eu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Saioa has daiteke" descr="Ezarri TRUE (egia) gisa rol hau baimenduta badago saioa hasteko" xml:lang="eu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Saio-hasieraren muga" descr="Rola baimenduta badago saioa hasteko, rolak egin ditzakeen aldibereko konexio kopurua definitzen du (-1 edo ez ezarri mugagabearentzako)" xml:lang="eu">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Noiz arte baliozkoa" descr="Pasahitz baten iraungitze-denbora zehazten du soilik (ez erabiltzailearen kontuarena: iraungitze-denbora ez da betearazten pasahitzik gabeko autentifikazio metodo bat erabiliz saioa hastean)" xml:lang="eu"></parameter>
+  </parameters>
+  <parameters xml:lang="fa" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="نام" descr="Role's name" xml:lang="fa"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="گذرواژه" descr="Role's password" xml:lang="fa"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="fa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="fa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="fa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="fa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="fa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="fa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="fa">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="fa"></parameter>
+  </parameters>
+  <parameters xml:lang="fi" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nimi" descr="Role's name" xml:lang="fi"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Salasana" descr="Role's password" xml:lang="fi"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="fi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="fi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="fi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="fi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="fi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="fi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="fi">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="fi"></parameter>
+  </parameters>
+  <parameters xml:lang="fr" id="USER_DEF_P" name="Définition du rôle">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="Nom du rôle" xml:lang="fr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Mot de passe" descr="Mot de passe du rôle" xml:lang="fr"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Chiffrer le mot de passe" descr="Contrôle si le mot de passe stocké dans les catalogues système est chiffré. Si le mot de passe présenté est déjà dans le format chiffré MD5, il est alors stocké tel quel." xml:lang="fr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Super utilisateur de la base de données" descr="Définir à VRAI si le rôle est un super utilisateur de la base de données" xml:lang="fr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Peut créer des bases de données" descr="Définir à VRAI si le rôle a la permission de créer des bases de données" xml:lang="fr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Peut créer des rôles" descr="Définir à VRAI si le rôle a la permission de créer des rôles" xml:lang="fr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Hériter" descr="Définir à VRAI si le rôle créé hérite des privilèges des rôles dont il est membre" xml:lang="fr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Peut se connecter" descr="Définir à VRAI si le rôle a la permission de se connecter" xml:lang="fr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Limite de connexion" descr="Si le rôle a la permission de se connecter, définit le nombre de connexions simultanées que le rôle peut ouvrir (-1 ou non défini pour ne pas limiter)" xml:lang="fr">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valide jusqu&apos;à" descr="Spécifie un temps d&apos;expiration seulement pour le mot de passe (pas pour le compte utilisateur en soi : le temps d&apos;expiration n&apos;est pas appliqué lorsque la connexion utilise un mode d&apos;authentification sans mot de passe)" xml:lang="fr"></parameter>
+  </parameters>
+  <parameters xml:lang="ga" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ainm" descr="Role's name" xml:lang="ga"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="Role's password" xml:lang="ga"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ga">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="ga">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="ga">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="ga">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="ga">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="ga">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="ga">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ga"></parameter>
+  </parameters>
+  <parameters xml:lang="gl" id="USER_DEF_P" name="Definición de roles">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome ddos roles" xml:lang="gl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Contrasinal" descr="Contrasinal dos roles" xml:lang="gl"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Cifrar contrasinal" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="gl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Superusuario da base de datos" descr="Estabelecer a TRUE se o rol é de superusuario da base de datos" xml:lang="gl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Pode crear bases de datos" descr="Estabelecer a TRUE se o rol permite crear bases de datos" xml:lang="gl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Pode crear roles" descr="Estabelecer a TRUE se o rol permite crear roles" xml:lang="gl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Herdar" descr="Estabelecer a TRUE se o rol  creado herda os privilexios de roles e é membro de" xml:lang="gl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Non é posíbel acceder" descr="Estabelecer a TRUE e o rol permite acceder" xml:lang="gl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Límite de acceso" descr="Se o rol ten permiso para acceder, define o número de conexións concorrentes que o rol pode facer (-1 ou unset para ilimitadas)" xml:lang="gl">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Válido ata" descr="Especifica unha data de caducidade só para o contrasinal (non para a conta de usuario en si:  a data de caducidade non se aplica ao iniciar sesión cun método de autenticación no baseado en contrasinal" xml:lang="gl"></parameter>
+  </parameters>
+  <parameters xml:lang="hr" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="Role's name" xml:lang="hr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Lozinka" descr="Role's password" xml:lang="hr"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="hr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="hr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="hr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="hr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="hr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="hr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="hr">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="hr"></parameter>
+  </parameters>
+  <parameters xml:lang="hu" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Név" descr="Role's name" xml:lang="hu"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Jelszó" descr="Role's password" xml:lang="hu"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="hu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="hu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="hu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="hu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="hu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="hu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="hu">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Érvényesség" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="hu"></parameter>
+  </parameters>
+  <parameters xml:lang="id" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nama" descr="Role's name" xml:lang="id"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Kata Sandi" descr="Role's password" xml:lang="id"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Enkripsikan sandi" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="id">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Pengguna super basis data" descr="Set to TRUE if the role is a database superuser" xml:lang="id">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="id">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="id">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="id">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Bisa log masuk" descr="Set to TRUE if the role is allowed to log in" xml:lang="id">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="id">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Berlaku hingga" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="id"></parameter>
+  </parameters>
+  <parameters xml:lang="it" id="USER_DEF_P" name="Definizione del roulo">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome del ruolo" xml:lang="it"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="Password del ruolo" xml:lang="it"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Cifra password" descr="Controlla se la password viene memorizzata codificata nelle strutture dati del sistema. Se la stringa di password presentata è già in formato codificato MD5, allora viene memorizzata così com&apos;è." xml:lang="it">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Superutente del database" descr="Imposta a TRUE se il ruolo è un superutente del database" xml:lang="it">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Può creare database" descr="Impostare a TRUE se al ruolo è concesso creare database" xml:lang="it">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Può creare ruoli" descr="Impostato a TRUE se al ruolo è concesso creare ruoli" xml:lang="it">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Eredita" descr="Imposta a TRUE se il ruolo creato eredita i privilegi del ruolo di cui è membro" xml:lang="it">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Può fare login" descr="Impostata a TRUE se al ruolo è concesso effettuare login" xml:lang="it">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Limite di login" descr="Se al ruolo è permesso di effettuare il login, definisce il numero di connessioni contemporanee che il ruolo può effettuare (-1 o non impostato per un numero illimitato)" xml:lang="it">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valido fino a" descr="Specifica una data di scadenza solo per la password (non per l&apos;account dell&apos;utente: la scadenza non è efficace se si effettua il login usando un metodo di autenticazione diverso dalla password)" xml:lang="it"></parameter>
+  </parameters>
+  <parameters xml:lang="ja" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名前" descr="Role's name" xml:lang="ja"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="パスワード" descr="Role's password" xml:lang="ja"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ja">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="ja">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="ja">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="ja">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="ja">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="ja">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="ja">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ja"></parameter>
+  </parameters>
+  <parameters xml:lang="ko" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="이름" descr="Role's name" xml:lang="ko"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="비밀번호" descr="Role's password" xml:lang="ko"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ko">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="ko">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="ko">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="ko">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="ko">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="ko">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="ko">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ko"></parameter>
+  </parameters>
+  <parameters xml:lang="lt" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Pavadinimas" descr="Role's name" xml:lang="lt"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Slaptažodis" descr="Role's password" xml:lang="lt"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="lt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="lt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="lt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="lt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="lt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="lt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="lt">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="lt"></parameter>
+  </parameters>
+  <parameters xml:lang="mk" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name" xml:lang="mk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="Role's password" xml:lang="mk"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="mk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="mk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="mk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="mk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="mk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="mk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="mk">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="mk"></parameter>
+  </parameters>
+  <parameters xml:lang="ml" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="പേര‍്" descr="Role's name" xml:lang="ml"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="അടയാളവാക്യം" descr="Role's password" xml:lang="ml"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ml">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="ml">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="ml">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="ml">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="ml">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="ml">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="ml">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ml"></parameter>
+  </parameters>
+  <parameters xml:lang="ms" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nama" descr="Role's name" xml:lang="ms"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Katalaluan" descr="Role's password" xml:lang="ms"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ms">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="ms">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="ms">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="ms">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="ms">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="ms">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="ms">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ms"></parameter>
+  </parameters>
+  <parameters xml:lang="nb" id="USER_DEF_P" name="Rollens definisjon">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Navn" descr="Rollens navn" xml:lang="nb"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Passord" descr="Rollens passord" xml:lang="nb"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Krypter passord" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="nb">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Superbruker for database" descr="Set to TRUE if the role is a database superuser" xml:lang="nb">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Kan lage databaser" descr="Set to TRUE if the role is allowed to create databases" xml:lang="nb">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Kan lage roller" descr="Set to TRUE if the role is allowed to create roles" xml:lang="nb">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Arv" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="nb">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Kan logge inn" descr="Set to TRUE if the role is allowed to log in" xml:lang="nb">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="nb">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="nb"></parameter>
+  </parameters>
+  <parameters xml:lang="ne" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="नाम" descr="Role's name" xml:lang="ne"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="पासवर्ड" descr="Role's password" xml:lang="ne"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ne">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="ne">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="ne">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="ne">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="ne">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="ne">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="ne">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ne"></parameter>
+  </parameters>
+  <parameters xml:lang="nl" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Naam" descr="Role's name" xml:lang="nl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Wachtwoord" descr="Role's password" xml:lang="nl"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="nl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="nl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="nl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="nl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="nl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="nl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="nl">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="nl"></parameter>
+  </parameters>
+  <parameters xml:lang="oc" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="Role's name" xml:lang="oc"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Mot de pas" descr="Role's password" xml:lang="oc"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="oc">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="oc">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="oc">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="oc">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="oc">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="oc">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="oc">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="oc"></parameter>
+  </parameters>
+  <parameters xml:lang="pa" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="ਨਾਮ" descr="Role's name" xml:lang="pa"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="ਗੁਪਤ-ਕੋਡ" descr="Role's password" xml:lang="pa"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="pa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="pa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="pa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="pa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="pa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="pa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="pa">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="pa"></parameter>
+  </parameters>
+  <parameters xml:lang="pl" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nazwa" descr="Role's name" xml:lang="pl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Hasło" descr="Role's password" xml:lang="pl"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="pl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="pl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="pl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="pl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="pl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="pl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="pl">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="pl"></parameter>
+  </parameters>
+  <parameters xml:lang="pt" id="USER_DEF_P" name="Definição da função">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome da função" xml:lang="pt"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Senha" descr="Palavra passe da função" xml:lang="pt"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encriptar a palavra passe" descr="Controla se a palavra passe é guardada encriptada nos cátalogos do sistema. Se a palavra passe actual já estiver no formato encriptação-MD5, então é guardada encriptada como está." xml:lang="pt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Super-utilizador da base de dados" descr="Definir como verdadeiro se a função for super utilizador de bases de dados" xml:lang="pt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Pode criar bases de dados" descr="Definir como verdadeiro se for permitido à função criar bases de dados" xml:lang="pt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Pode criar funções" descr="Definir como verdadeiro se for permitido à função criar funções" xml:lang="pt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Herdar" descr="D" xml:lang="pt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Pode fazer login" descr="Definir como verdadeiro se for permitido à função iniciar sessão" xml:lang="pt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Limite de login" descr="Se a função é permitida a iniciar sessão, define o número de ligações paralelas que a função pode fazer (-1 ou omitido para ilimitadas)" xml:lang="pt">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Válido até" descr="Especifica uma altura para expiração da palavra passe apenas (não para a conta do utilizador per se: o contador de expiração não é iniciado quando a sessão é iniciada através de um método de autenticação que não se baseie em palavra passe)" xml:lang="pt"></parameter>
+  </parameters>
+  <parameters xml:lang="pt_BR" id="USER_DEF_P" name="Definição do cargo">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome do cargo" xml:lang="pt_BR"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Senha" descr="Senha do cargo" xml:lang="pt_BR"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Criptografar senha" descr="Controla se a senha é armazenada criptografada nos catálogos do sistema. Se o texto da senha fornecida já está em um formato de criptografia MD5, será armazenada como está." xml:lang="pt_BR">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Superusuário do banco de dados" descr="Defina como VERDADEIRO se o cargo é um superusuário do banco de dados" xml:lang="pt_BR">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Pode criar bancos de dados" descr="Defina como VERDADEIRO se o cargo tem permissão para criar bancos de dados" xml:lang="pt_BR">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Pode criar cargos" descr="Defina como VERDADEIRO se o cargo tem permissão para criar cargos" xml:lang="pt_BR">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Herdar" descr="Defina como VERDADEIRO se o cargo criado herda os privilégios de cargos a quem pertence" xml:lang="pt_BR">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Pode se autenticar" descr="Defina como VERDADEIRO se o cargo tem permissão para iniciar sessão (se autenticar)" xml:lang="pt_BR">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Limite de acessos" descr="Se o cargo está autorizado a iniciar sessão, define a quantidade de conexões concorrentes o cargo pode ter (-1 ou indefinido para ilimitado)" xml:lang="pt_BR">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Válida até" descr="Especifica um tempo de expiração para uma senha apenas (não para a conta do usuário em si: esse tempo não é considerado ao se autenticar usando um método baseado no não uso da senha)" xml:lang="pt_BR"></parameter>
+  </parameters>
+  <parameters xml:lang="ru" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Наименование" descr="Role's name" xml:lang="ru"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Пароль" descr="Role's password" xml:lang="ru"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ru">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="ru">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="ru">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="ru">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="ru">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="ru">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="ru">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ru"></parameter>
+  </parameters>
+  <parameters xml:lang="rw" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Izina" descr="Role's name" xml:lang="rw"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Ijambobanga" descr="Role's password" xml:lang="rw"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="rw">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="rw">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="rw">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="rw">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="rw">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="rw">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="rw">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="rw"></parameter>
+  </parameters>
+  <parameters xml:lang="sk" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Meno" descr="Role's name" xml:lang="sk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Heslo" descr="Role's password" xml:lang="sk"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="sk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="sk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="sk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="sk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="sk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="sk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="sk">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="sk"></parameter>
+  </parameters>
+  <parameters xml:lang="sl" id="USER_DEF_P" name="Določilo vloge">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="Ime vloge" xml:lang="sl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Geslo" descr="Geslo vloge" xml:lang="sl"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Šifriraj geslo" descr="Nadzira ali je geslo shranjeno v sistemu šifrirano ali ne. V kolikor je geslo že zapisano v MD5-šifriranem zapisu, potem je shranjeno tako kot je." xml:lang="sl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Nad-uporabnik podatkovne zbirke" descr="Izbrana možnost določa, da je vloga nad-uporabnik podatkovne zbirke" xml:lang="sl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Lahko ustvari podatkovne zbirke" descr="Izbrana možnost določa, da je z vlogo mogoče ustvarjati podatkovne zbirke" xml:lang="sl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Lahko ustvari vloge" descr="Izbrana možnost določa, da je z vlogo mogoče ustvarjati nove vloge" xml:lang="sl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Prevzemi" descr="Izbrana možnost določa, da ustvarjena vloga prevzame dovoljenja vlog, ki jim pripada" xml:lang="sl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Se lahko prijavi" descr="Izbrana možnost določa, da se je z vlogo mogoče prijaviti" xml:lang="sl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Omejitev prijave" descr="V kolikor vloga omogoča tudi prijavo, se določi število sočasnih povezav, ki jih je z vlogo mogoče ustvariti (vrednost -1 določa neomejeno število povezav)." xml:lang="sl">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Veljavno do" descr="Določa čas zapadlosti gesla (to ne velja za uporabniške račune: čas zapadlosti ne vsiljuje prijave  za overitev brez gesla)" xml:lang="sl"></parameter>
+  </parameters>
+  <parameters xml:lang="sq" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Emri" descr="Role's name" xml:lang="sq"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Fjalëkalimi" descr="Role's password" xml:lang="sq"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="sq">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="sq">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="sq">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="sq">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="sq">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="sq">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="sq">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="sq"></parameter>
+  </parameters>
+  <parameters xml:lang="sr" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Име" descr="Role's name" xml:lang="sr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Лозинка" descr="Role's password" xml:lang="sr"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="sr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="sr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="sr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="sr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="sr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="sr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="sr">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="sr"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="Role's name" xml:lang="sr@Latn"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Lozinka" descr="Role's password" xml:lang="sr@Latn"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="sr@Latn">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="sr@Latn">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="sr@Latn">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="sr@Latn">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="sr@Latn">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="sr@Latn">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="sr@Latn">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="sr@Latn"></parameter>
+  </parameters>
+  <parameters xml:lang="sv" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Namn" descr="Role's name" xml:lang="sv"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Lösenord" descr="Role's password" xml:lang="sv"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="sv">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="sv">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="sv">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="sv">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="sv">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="sv">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="sv">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="sv"></parameter>
+  </parameters>
+  <parameters xml:lang="tr" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="İsim" descr="Role's name" xml:lang="tr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="Role's password" xml:lang="tr"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="tr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="tr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="tr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="tr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="tr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="tr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="tr">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="tr"></parameter>
+  </parameters>
+  <parameters xml:lang="uk" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Назва" descr="Role's name" xml:lang="uk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Пароль" descr="Role's password" xml:lang="uk"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="uk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="uk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="uk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="uk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="uk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="uk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="uk">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="uk"></parameter>
+  </parameters>
+  <parameters xml:lang="vi" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Tên" descr="Role's name" xml:lang="vi"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Mật khẩu" descr="Role's password" xml:lang="vi"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="vi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="vi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="vi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="vi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="vi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="vi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="vi">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="vi"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_CN" id="USER_DEF_P" name="角色定义">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名称" descr="角色名称" xml:lang="zh_CN"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="口令" descr="角色的密码" xml:lang="zh_CN"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="加密密码" descr="控制密码是否以加密形式保存在系统目录中。如果已有的密码字符串已经是 MD5加密形式，它还会原样存储。" xml:lang="zh_CN">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="数据库超级用户" descr="如果该角色为数据库超级用户，设为 TRUE" xml:lang="zh_CN">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="可创建数据库" descr="如果允许该角色创建数据库，设为 TRUE" xml:lang="zh_CN">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="可创建角色" descr="如果允许该角色创建角色，设为 TRUE" xml:lang="zh_CN">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="继承" descr="如果创建的角色继承它作为成员的那些角色的权限，设为 TRUE" xml:lang="zh_CN">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="可以登录" descr="如果允许该角色登录，设为 TRUE" xml:lang="zh_CN">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="登录限制" descr="如果允许该角色登录，定义它的并发连接数(-1 或不设为不限制)" xml:lang="zh_CN">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="有效至" descr="只为密码指定过期时间(不是为用户账户自身：在使用不基于密码的认证方法登录时，这一时间是非强制的)" xml:lang="zh_CN"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_HK" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名稱" descr="Role's name" xml:lang="zh_HK"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="密碼" descr="Role's password" xml:lang="zh_HK"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="zh_HK">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="zh_HK">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="zh_HK">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="zh_HK">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="zh_HK">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="zh_HK">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="zh_HK">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="zh_HK"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_TW" id="USER_DEF_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名稱" descr="Role's name" xml:lang="zh_TW"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="密碼" descr="Role's password" xml:lang="zh_TW"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="zh_TW">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="CAP_SUPERUSER" gdatype="gboolean" name="Database superuser" descr="Set to TRUE if the role is a database superuser" xml:lang="zh_TW">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the role is allowed to create databases" xml:lang="zh_TW">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEROLE" gdatype="gboolean" name="Can create roles" descr="Set to TRUE if the role is allowed to create roles" xml:lang="zh_TW">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_INHERIT" gdatype="gboolean" name="Inherit" descr="Set to TRUE if the created role inherits the privileges of roles it is a member of" xml:lang="zh_TW">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_LOGIN" gdatype="gboolean" name="Can login" descr="Set to TRUE if the role is allowed to log in" xml:lang="zh_TW">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CNX_LIMIT" gdatype="gint" name="Login limit" descr="If the role is allowed to log in, defines the number of concurrent connections the role can make (-1 or unset for unlimited)" xml:lang="zh_TW">
+      <gda_value>-1</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="zh_TW"></parameter>
+  </parameters>
+
+  <sequence status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role"></parameter>
+  </sequence>
+  <sequence xml:lang="ar" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ar"></parameter>
+  </sequence>
+  <sequence xml:lang="az" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="az"></parameter>
+  </sequence>
+  <sequence xml:lang="ca" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ca"></parameter>
+  </sequence>
+  <sequence xml:lang="ca@valencia" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ca@valencia"></parameter>
+  </sequence>
+  <sequence xml:lang="cs" status="OPT" id="GROUPS_S" name="Členové" descr="Existující role, do které bude nová role ihned přidána, jako nový člen">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existující role" xml:lang="cs"></parameter>
+  </sequence>
+  <sequence xml:lang="da" status="OPT" id="GROUPS_S" name="Medlem af" descr="Eksisterende roller som den nye rolle umiddelbart vil blive tilføjet som et nyt medlem">
+    <parameter id="ROLE" gdatype="string" name="Rolle" descr="Eksisterende rolle" xml:lang="da"></parameter>
+  </sequence>
+  <sequence xml:lang="de" status="OPT" id="GROUPS_S" name="Mitglied von" descr="Bestehende Rollen, zu denen die neue Funktion sofort hinzugefügt wird">
+    <parameter id="ROLE" gdatype="string" name="Rolle" descr="Bestehende Rolle" xml:lang="de"></parameter>
+  </sequence>
+  <sequence xml:lang="dz" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="dz"></parameter>
+  </sequence>
+  <sequence xml:lang="el" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="el"></parameter>
+  </sequence>
+  <sequence xml:lang="en_CA" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="en_CA"></parameter>
+  </sequence>
+  <sequence xml:lang="en_GB" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="en_GB"></parameter>
+  </sequence>
+  <sequence xml:lang="eo" status="OPT" id="GROUPS_S" name="Membro de" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="eo"></parameter>
+  </sequence>
+  <sequence xml:lang="es" status="OPT" id="GROUPS_S" name="Miembro de" descr="Roles existentes a los que se añadirá inmediatamente el usuario como miembro nuevo">
+    <parameter id="ROLE" gdatype="string" name="Rol" descr="Rol existente" xml:lang="es"></parameter>
+  </sequence>
+  <sequence xml:lang="eu" status="OPT" id="GROUPS_S" name="Honen kide:" descr="Rol berria berehala gehituko da kide berri gisa existitzen diren rolei">
+    <parameter id="ROLE" gdatype="string" name="Rola" descr="Existitzen den rola" xml:lang="eu"></parameter>
+  </sequence>
+  <sequence xml:lang="fa" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="fa"></parameter>
+  </sequence>
+  <sequence xml:lang="fi" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="fi"></parameter>
+  </sequence>
+  <sequence xml:lang="fr" status="OPT" id="GROUPS_S" name="Membre de" descr="Les rôles existants auxquels le nouveau rôle est immédiatement ajouté comme nouveau membre">
+    <parameter id="ROLE" gdatype="string" name="Rôle" descr="Rôle existant" xml:lang="fr"></parameter>
+  </sequence>
+  <sequence xml:lang="ga" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ga"></parameter>
+  </sequence>
+  <sequence xml:lang="gl" status="OPT" id="GROUPS_S" name="Membro de" descr="Roles existentes nos que o novo rol vai ser engadido inmediatamente como un membro novo">
+    <parameter id="ROLE" gdatype="string" name="Rol" descr="Este rol xa existente" xml:lang="gl"></parameter>
+  </sequence>
+  <sequence xml:lang="hr" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="hr"></parameter>
+  </sequence>
+  <sequence xml:lang="hu" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="hu"></parameter>
+  </sequence>
+  <sequence xml:lang="id" status="OPT" id="GROUPS_S" name="Anggota dari" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Peran" descr="Peran yang ada" xml:lang="id"></parameter>
+  </sequence>
+  <sequence xml:lang="it" status="OPT" id="GROUPS_S" name="Membro di" descr="Ruoli esistenti ai quali il nuovo ruolo sarà immediatamente aggiunto come nuovo membro">
+    <parameter id="ROLE" gdatype="string" name="Ruolo" descr="Ruolo esistente" xml:lang="it"></parameter>
+  </sequence>
+  <sequence xml:lang="ja" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ja"></parameter>
+  </sequence>
+  <sequence xml:lang="ko" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ko"></parameter>
+  </sequence>
+  <sequence xml:lang="lt" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="lt"></parameter>
+  </sequence>
+  <sequence xml:lang="mk" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="mk"></parameter>
+  </sequence>
+  <sequence xml:lang="ml" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ml"></parameter>
+  </sequence>
+  <sequence xml:lang="ms" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ms"></parameter>
+  </sequence>
+  <sequence xml:lang="nb" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Rolle" descr="Eksisterende rolle" xml:lang="nb"></parameter>
+  </sequence>
+  <sequence xml:lang="ne" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ne"></parameter>
+  </sequence>
+  <sequence xml:lang="nl" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="nl"></parameter>
+  </sequence>
+  <sequence xml:lang="oc" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="oc"></parameter>
+  </sequence>
+  <sequence xml:lang="pa" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="pa"></parameter>
+  </sequence>
+  <sequence xml:lang="pl" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="pl"></parameter>
+  </sequence>
+  <sequence xml:lang="pt" status="OPT" id="GROUPS_S" name="Membro de" descr="Funções existentes para as quais a nova função irá ser adicionar como um novo membro">
+    <parameter id="ROLE" gdatype="string" name="Função" descr="Função existente" xml:lang="pt"></parameter>
+  </sequence>
+  <sequence xml:lang="pt_BR" status="OPT" id="GROUPS_S" name="Membro de" descr="Cargos existentes aos quais o novo cargo será imediatamente adicionado como novo membro">
+    <parameter id="ROLE" gdatype="string" name="Cargo" descr="Cargo existente" xml:lang="pt_BR"></parameter>
+  </sequence>
+  <sequence xml:lang="ru" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ru"></parameter>
+  </sequence>
+  <sequence xml:lang="rw" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="rw"></parameter>
+  </sequence>
+  <sequence xml:lang="sk" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sk"></parameter>
+  </sequence>
+  <sequence xml:lang="sl" status="OPT" id="GROUPS_S" name="Član skupine" descr="Obstoječe vloge h katerim je nova vloga takoj dodana kot nov član">
+    <parameter id="ROLE" gdatype="string" name="Vloga" descr="Obstoječa vloga" xml:lang="sl"></parameter>
+  </sequence>
+  <sequence xml:lang="sq" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sq"></parameter>
+  </sequence>
+  <sequence xml:lang="sr" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sr"></parameter>
+  </sequence>
+  <sequence xml:lang="sr@Latn" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sr@Latn"></parameter>
+  </sequence>
+  <sequence xml:lang="sv" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sv"></parameter>
+  </sequence>
+  <sequence xml:lang="tr" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="tr"></parameter>
+  </sequence>
+  <sequence xml:lang="uk" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="uk"></parameter>
+  </sequence>
+  <sequence xml:lang="vi" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="vi"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_CN" status="OPT" id="GROUPS_S" name="从属于" descr="现存的角色，新角色将立即作为新成员添加进去">
+    <parameter id="ROLE" gdatype="string" name="角色" descr="现有的角色" xml:lang="zh_CN"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_HK" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="zh_HK"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_TW" status="OPT" id="GROUPS_S" name="Member of" descr="Existing roles to which the new role will be immediately added as a new member">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="zh_TW"></parameter>
+  </sequence>
+
+  <sequence status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role"></parameter>
+  </sequence>
+  <sequence xml:lang="ar" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ar"></parameter>
+  </sequence>
+  <sequence xml:lang="az" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="az"></parameter>
+  </sequence>
+  <sequence xml:lang="ca" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ca"></parameter>
+  </sequence>
+  <sequence xml:lang="ca@valencia" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ca@valencia"></parameter>
+  </sequence>
+  <sequence xml:lang="cs" status="OPT" id="ROLES_S" name="Členové role" descr="Vypisuje jednu nebo více existujících rolí, které byly automaticky přidány jako členové nové role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existující role" xml:lang="cs"></parameter>
+  </sequence>
+  <sequence xml:lang="da" status="OPT" id="ROLES_S" name="Rollens medlemmer" descr="Viser en eller flere eksisterende roller som automatisk tilføjes som medlemmer af den nye rolle">
+    <parameter id="ROLE" gdatype="string" name="Rolle" descr="Eksisterende rolle" xml:lang="da"></parameter>
+  </sequence>
+  <sequence xml:lang="de" status="OPT" id="ROLES_S" name="Mitglieder der Rolle" descr="Listet eine oder mehrere bestehende Rollen auf, die automatisch Mitglied der neuen Rolle werden">
+    <parameter id="ROLE" gdatype="string" name="Rolle" descr="Bestehende Rolle" xml:lang="de"></parameter>
+  </sequence>
+  <sequence xml:lang="dz" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="dz"></parameter>
+  </sequence>
+  <sequence xml:lang="el" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="el"></parameter>
+  </sequence>
+  <sequence xml:lang="en_CA" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="en_CA"></parameter>
+  </sequence>
+  <sequence xml:lang="en_GB" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="en_GB"></parameter>
+  </sequence>
+  <sequence xml:lang="eo" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="eo"></parameter>
+  </sequence>
+  <sequence xml:lang="es" status="OPT" id="ROLES_S" name="Miembros del rol" descr="Lista uno o más roles existentes que se añaden automáticamente como miembros del nuevo rol">
+    <parameter id="ROLE" gdatype="string" name="Rol" descr="Rol existente" xml:lang="es"></parameter>
+  </sequence>
+  <sequence xml:lang="eu" status="OPT" id="ROLES_S" name="Rolaren kideak" descr="Rol berriaren kide gisa automatikoki gehitutako, eta existitzen diren, rol bat edo gehiago zerrendatzen du">
+    <parameter id="ROLE" gdatype="string" name="Rola" descr="Existitzen den rola" xml:lang="eu"></parameter>
+  </sequence>
+  <sequence xml:lang="fa" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="fa"></parameter>
+  </sequence>
+  <sequence xml:lang="fi" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="fi"></parameter>
+  </sequence>
+  <sequence xml:lang="fr" status="OPT" id="ROLES_S" name="Membres du rôle" descr="Affiche la liste du ou des rôles qui sont automatiquement ajoutés comme membres du nouveau rôle">
+    <parameter id="ROLE" gdatype="string" name="Rôle" descr="Rôle existant" xml:lang="fr"></parameter>
+  </sequence>
+  <sequence xml:lang="ga" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ga"></parameter>
+  </sequence>
+  <sequence xml:lang="gl" status="OPT" id="ROLES_S" name="Membros do rol" descr="Lista un ou máis roles existentes que son engadidos automaticamente como membros do novo rol">
+    <parameter id="ROLE" gdatype="string" name="Rol" descr="Este rol xa existente" xml:lang="gl"></parameter>
+  </sequence>
+  <sequence xml:lang="hr" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="hr"></parameter>
+  </sequence>
+  <sequence xml:lang="hu" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="hu"></parameter>
+  </sequence>
+  <sequence xml:lang="id" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Peran" descr="Peran yang ada" xml:lang="id"></parameter>
+  </sequence>
+  <sequence xml:lang="it" status="OPT" id="ROLES_S" name="Membri del ruolo" descr="Elenca uno o più ruoli esistenti automaticamente aggiunti come membri del nuovo ruolo">
+    <parameter id="ROLE" gdatype="string" name="Ruolo" descr="Ruolo esistente" xml:lang="it"></parameter>
+  </sequence>
+  <sequence xml:lang="ja" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ja"></parameter>
+  </sequence>
+  <sequence xml:lang="ko" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ko"></parameter>
+  </sequence>
+  <sequence xml:lang="lt" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="lt"></parameter>
+  </sequence>
+  <sequence xml:lang="mk" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="mk"></parameter>
+  </sequence>
+  <sequence xml:lang="ml" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ml"></parameter>
+  </sequence>
+  <sequence xml:lang="ms" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ms"></parameter>
+  </sequence>
+  <sequence xml:lang="nb" status="OPT" id="ROLES_S" name="Rollens medlemmer" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Rolle" descr="Eksisterende rolle" xml:lang="nb"></parameter>
+  </sequence>
+  <sequence xml:lang="ne" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ne"></parameter>
+  </sequence>
+  <sequence xml:lang="nl" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="nl"></parameter>
+  </sequence>
+  <sequence xml:lang="oc" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="oc"></parameter>
+  </sequence>
+  <sequence xml:lang="pa" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="pa"></parameter>
+  </sequence>
+  <sequence xml:lang="pl" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="pl"></parameter>
+  </sequence>
+  <sequence xml:lang="pt" status="OPT" id="ROLES_S" name="Membros da função" descr="Lista uma ou mais funções existentes que serão adicionadas automaticamente como membros da nova função">
+    <parameter id="ROLE" gdatype="string" name="Função" descr="Função existente" xml:lang="pt"></parameter>
+  </sequence>
+  <sequence xml:lang="pt_BR" status="OPT" id="ROLES_S" name="Membros do cargo" descr="Lista um ou mais cargos existentes que são automaticamente adicionados como membros do novo cargo">
+    <parameter id="ROLE" gdatype="string" name="Cargo" descr="Cargo existente" xml:lang="pt_BR"></parameter>
+  </sequence>
+  <sequence xml:lang="ru" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ru"></parameter>
+  </sequence>
+  <sequence xml:lang="rw" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="rw"></parameter>
+  </sequence>
+  <sequence xml:lang="sk" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sk"></parameter>
+  </sequence>
+  <sequence xml:lang="sl" status="OPT" id="ROLES_S" name="Člani vloge" descr="Izpiše eno ali več obstoječih vlog, ki so samodejno dodane kot člani nove vloge">
+    <parameter id="ROLE" gdatype="string" name="Vloga" descr="Obstoječa vloga" xml:lang="sl"></parameter>
+  </sequence>
+  <sequence xml:lang="sq" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sq"></parameter>
+  </sequence>
+  <sequence xml:lang="sr" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sr"></parameter>
+  </sequence>
+  <sequence xml:lang="sr@Latn" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sr@Latn"></parameter>
+  </sequence>
+  <sequence xml:lang="sv" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sv"></parameter>
+  </sequence>
+  <sequence xml:lang="tr" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="tr"></parameter>
+  </sequence>
+  <sequence xml:lang="uk" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="uk"></parameter>
+  </sequence>
+  <sequence xml:lang="vi" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="vi"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_CN" status="OPT" id="ROLES_S" name="角色的成员" descr="列举已存在的一个或更多将自动作为新角色添加为新成员的角色">
+    <parameter id="ROLE" gdatype="string" name="角色" descr="现有的角色" xml:lang="zh_CN"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_HK" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="zh_HK"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_TW" status="OPT" id="ROLES_S" name="Role's members" descr="Lists one or more existing roles which are automatically added as members of the new role">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="zh_TW"></parameter>
+  </sequence>
+
+  <sequence status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role"></parameter>
+  </sequence>
+  <sequence xml:lang="ar" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ar"></parameter>
+  </sequence>
+  <sequence xml:lang="az" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="az"></parameter>
+  </sequence>
+  <sequence xml:lang="ca" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ca"></parameter>
+  </sequence>
+  <sequence xml:lang="ca@valencia" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ca@valencia"></parameter>
+  </sequence>
+  <sequence xml:lang="cs" status="OPT" id="ADMINS_S" name="Správci role" descr="Vypisuje jednu nebo více existujících rolí, které byly automaticky přidány jako členové nové role, která jim dává práva udělovat členství v této roli ostatním">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existující role" xml:lang="cs"></parameter>
+  </sequence>
+  <sequence xml:lang="da" status="OPT" id="ADMINS_S" name="Rollens administratorer" descr="Viser en eller flere eksisterende roller som automatisk tilføjes som medlemmer af den nye rolle, hvilket giver dem rettigheder til at tildele medlemskab i denne rolle til andre">
+    <parameter id="ROLE" gdatype="string" name="Rolle" descr="Eksisterende rolle" xml:lang="da"></parameter>
+  </sequence>
+  <sequence xml:lang="de" status="OPT" id="ADMINS_S" name="Administration der Rolle" descr="Listet eine oder mehrere bestehende Rollen auf, die automatisch Mitglied der neuen Rolle werden und die Befugnisse haben, andere in die Mitgliedschaft dieser Rolle aufzunehmen">
+    <parameter id="ROLE" gdatype="string" name="Rolle" descr="Bestehende Rolle" xml:lang="de"></parameter>
+  </sequence>
+  <sequence xml:lang="dz" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="dz"></parameter>
+  </sequence>
+  <sequence xml:lang="el" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="el"></parameter>
+  </sequence>
+  <sequence xml:lang="en_CA" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="en_CA"></parameter>
+  </sequence>
+  <sequence xml:lang="en_GB" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="en_GB"></parameter>
+  </sequence>
+  <sequence xml:lang="eo" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="eo"></parameter>
+  </sequence>
+  <sequence xml:lang="es" status="OPT" id="ADMINS_S" name="Administrador del rol" descr="Lista uno o más roles existentes que se añaden automáticamente como miembros del nuevo rol, proporcionándoles el derecho de conceder membresía en este rol a otros">
+    <parameter id="ROLE" gdatype="string" name="Rol" descr="Rol existente" xml:lang="es"></parameter>
+  </sequence>
+  <sequence xml:lang="eu" status="OPT" id="ADMINS_S" name="Rolaren administratzaileak" descr="Rol berriaren kide gisa automatikoki gehitutako, eta existitzen diren, rol bat edo gehiago zerrendatzen du. Hauei eskubidea ematez besteei rol honetan kide izateko baimena emateko">
+    <parameter id="ROLE" gdatype="string" name="Rola" descr="Existitzen den rola" xml:lang="eu"></parameter>
+  </sequence>
+  <sequence xml:lang="fa" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="fa"></parameter>
+  </sequence>
+  <sequence xml:lang="fi" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="fi"></parameter>
+  </sequence>
+  <sequence xml:lang="fr" status="OPT" id="ADMINS_S" name="Administrateurs du rôle" descr="Affiche la liste du ou des rôles qui sont automatiquement ajoutés comme membres du nouveau rôle, ce qui leur permet d&apos;attribuer le statut de membre de ce rôle à d&apos;autres">
+    <parameter id="ROLE" gdatype="string" name="Rôle" descr="Rôle existant" xml:lang="fr"></parameter>
+  </sequence>
+  <sequence xml:lang="ga" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ga"></parameter>
+  </sequence>
+  <sequence xml:lang="gl" status="OPT" id="ADMINS_S" name="Administrador de rol" descr="Lista un ou máis roles existentes que son engadidos automaticamente como membros do novo rol, dándolle o dereito a permitir a pertenza neste rol a outros.">
+    <parameter id="ROLE" gdatype="string" name="Rol" descr="Este rol xa existente" xml:lang="gl"></parameter>
+  </sequence>
+  <sequence xml:lang="hr" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="hr"></parameter>
+  </sequence>
+  <sequence xml:lang="hu" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="hu"></parameter>
+  </sequence>
+  <sequence xml:lang="id" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Peran" descr="Peran yang ada" xml:lang="id"></parameter>
+  </sequence>
+  <sequence xml:lang="it" status="OPT" id="ADMINS_S" name="Amministratori di ruoli" descr="Elenca uno o più ruoli esistenti automaticamente aggiunti come membri del nuovo ruolo, dando a loro volta il diritto di rendere membri di questo ruolo altri membri">
+    <parameter id="ROLE" gdatype="string" name="Ruolo" descr="Ruolo esistente" xml:lang="it"></parameter>
+  </sequence>
+  <sequence xml:lang="ja" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ja"></parameter>
+  </sequence>
+  <sequence xml:lang="ko" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ko"></parameter>
+  </sequence>
+  <sequence xml:lang="lt" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="lt"></parameter>
+  </sequence>
+  <sequence xml:lang="mk" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="mk"></parameter>
+  </sequence>
+  <sequence xml:lang="ml" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ml"></parameter>
+  </sequence>
+  <sequence xml:lang="ms" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ms"></parameter>
+  </sequence>
+  <sequence xml:lang="nb" status="OPT" id="ADMINS_S" name="Rollens administratorer" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Rolle" descr="Eksisterende rolle" xml:lang="nb"></parameter>
+  </sequence>
+  <sequence xml:lang="ne" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ne"></parameter>
+  </sequence>
+  <sequence xml:lang="nl" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="nl"></parameter>
+  </sequence>
+  <sequence xml:lang="oc" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="oc"></parameter>
+  </sequence>
+  <sequence xml:lang="pa" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="pa"></parameter>
+  </sequence>
+  <sequence xml:lang="pl" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="pl"></parameter>
+  </sequence>
+  <sequence xml:lang="pt" status="OPT" id="ADMINS_S" name="Administradores da função" descr="Lista uma ou mais funções existentes que serão adicionadas automaticamente como membros da nova função, dando-lhes o direito a conceder pertença a esta função a outros">
+    <parameter id="ROLE" gdatype="string" name="Função" descr="Função existente" xml:lang="pt"></parameter>
+  </sequence>
+  <sequence xml:lang="pt_BR" status="OPT" id="ADMINS_S" name="Administradores do cargo" descr="Lista um ou mais cargos existentes que são automaticamente adicionados como membros do novo cargo, dando-lhes permissão de inscrever outros a este cargo">
+    <parameter id="ROLE" gdatype="string" name="Cargo" descr="Cargo existente" xml:lang="pt_BR"></parameter>
+  </sequence>
+  <sequence xml:lang="ru" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="ru"></parameter>
+  </sequence>
+  <sequence xml:lang="rw" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="rw"></parameter>
+  </sequence>
+  <sequence xml:lang="sk" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sk"></parameter>
+  </sequence>
+  <sequence xml:lang="sl" status="OPT" id="ADMINS_S" name="Skrbniki vloge" descr="Izpiše eno ali več obstoječih vlog, ki so samodejno dodane kot člani nove vloge in s tem omogoča dovoljenja za odobritev članstva te vloge za druge.">
+    <parameter id="ROLE" gdatype="string" name="Vloga" descr="Obstoječa vloga" xml:lang="sl"></parameter>
+  </sequence>
+  <sequence xml:lang="sq" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sq"></parameter>
+  </sequence>
+  <sequence xml:lang="sr" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sr"></parameter>
+  </sequence>
+  <sequence xml:lang="sr@Latn" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sr@Latn"></parameter>
+  </sequence>
+  <sequence xml:lang="sv" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="sv"></parameter>
+  </sequence>
+  <sequence xml:lang="tr" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="tr"></parameter>
+  </sequence>
+  <sequence xml:lang="uk" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="uk"></parameter>
+  </sequence>
+  <sequence xml:lang="vi" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="vi"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_CN" status="OPT" id="ADMINS_S" name="角色的管理者" descr="列出一个或多个将自动添加为新角色成员的现有角色，并给予它们在此角色中任命其他成员的权利">
+    <parameter id="ROLE" gdatype="string" name="角色" descr="现有的角色" xml:lang="zh_CN"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_HK" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="zh_HK"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_TW" status="OPT" id="ADMINS_S" name="Role's admins" descr="Lists one or more existing roles which are automatically added as members of the new role, giving them the right to grant membership in this role to others">
+    <parameter id="ROLE" gdatype="string" name="Role" descr="Existing role" xml:lang="zh_TW"></parameter>
+  </sequence>
+</serv_op>

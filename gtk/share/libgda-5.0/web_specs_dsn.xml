@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="ar" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="az" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="ca" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="ca@valencia" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="cs" nullok="FALSE" id="HOST" gdatype="gchararray" name="Název webového serveru" descr="Název webového serveru, ke kterému se proxy připojuje"></parameter>
+    <parameter xml:lang="da" nullok="FALSE" id="HOST" gdatype="gchararray" name="Internetservernavn" descr="Navnet på internetserveren som står for proxyforbindelser"></parameter>
+    <parameter xml:lang="de" nullok="FALSE" id="HOST" gdatype="gchararray" name="Name des Webservers" descr="Name des Webservers, der als Proxy für Verbindungen dienen soll"></parameter>
+    <parameter xml:lang="dz" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="el" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="en_CA" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="en_GB" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="eo" nullok="FALSE" id="HOST" gdatype="gchararray" name="Retservila nomo" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="es" nullok="FALSE" id="HOST" gdatype="gchararray" name="Nombre del servidor web" descr="El nombre del servidor web que enruta las conexiones"></parameter>
+    <parameter xml:lang="eu" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web zerbitzariaren izena" descr="Web zerbitzariaren izena (proxy-ak konektatzen dituena)"></parameter>
+    <parameter xml:lang="fa" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="fi" nullok="FALSE" id="HOST" gdatype="gchararray" name="Palvelinnimi" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="fr" nullok="FALSE" id="HOST" gdatype="gchararray" name="Nom du serveur Web" descr="Le nom du serveur Web qui joue le rôle de proxy pour les connexions"></parameter>
+    <parameter xml:lang="ga" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="gl" nullok="FALSE" id="HOST" gdatype="gchararray" name="Nome do servidor web" descr="O nome do servidor web con conexións de proxy"></parameter>
+    <parameter xml:lang="hr" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="hu" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="id" nullok="FALSE" id="HOST" gdatype="gchararray" name="Nama server web" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="it" nullok="FALSE" id="HOST" gdatype="gchararray" name="Nome server web" descr="Nome di un server web che faccia proxy alle connessioni"></parameter>
+    <parameter xml:lang="ja" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="ko" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="lt" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="mk" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="ml" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="ms" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="nb" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="ne" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="nl" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="oc" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="pa" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="pl" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="pt" nullok="FALSE" id="HOST" gdatype="gchararray" name="Nome do servidor web" descr="Nome do servidor web que faz de proxy para as ligações"></parameter>
+    <parameter xml:lang="pt_BR" nullok="FALSE" id="HOST" gdatype="gchararray" name="Nome do servidor web" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="ru" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="rw" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="sk" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="sl" nullok="FALSE" id="HOST" gdatype="gchararray" name="Ime spletnega strežnika" descr="Ime spletnega strežnika, ki posreduje povezave"></parameter>
+    <parameter xml:lang="sq" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="sr" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="sr@Latn" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="sv" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="tr" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="uk" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="vi" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="zh_CN" nullok="FALSE" id="HOST" gdatype="gchararray" name="网页服务器名" descr="代理连接的网页服务器名称"></parameter>
+    <parameter xml:lang="zh_HK" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter xml:lang="zh_TW" nullok="FALSE" id="HOST" gdatype="gchararray" name="Web server name" descr="The name of the web server which proxies connections"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="ar" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="az" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="ca" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="ca@valencia" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="cs" id="PORT" gdatype="gint" name="Port" descr="Port webového serveru (ponechte prázdné, pokud chcete použít výchozí hodnotu)"></parameter>
+    <parameter xml:lang="da" id="PORT" gdatype="gint" name="Port" descr="Internetserverport (lad dette felt stå tomt for at bruge standardværdi)"></parameter>
+    <parameter xml:lang="de" id="PORT" gdatype="gint" name="Port" descr="Port des Webservers (leer lassen, um Vorgabe zu verwenden)"></parameter>
+    <parameter xml:lang="dz" id="PORT" gdatype="gint" name="འདྲེན་ལམ།" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="el" id="PORT" gdatype="gint" name="Θύρα" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="en_CA" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="en_GB" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="eo" id="PORT" gdatype="gint" name="Pordo" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="es" id="PORT" gdatype="gint" name="Puerto" descr="Puerto del servidor web (déjelo vacío para el predeterminado)"></parameter>
+    <parameter xml:lang="eu" id="PORT" gdatype="gint" name="Ataka" descr="Web zerbitzariaren ataka (utzi hutsik eremu hau lehenetsiarentzako)"></parameter>
+    <parameter xml:lang="fa" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="fi" id="PORT" gdatype="gint" name="Portti" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="fr" id="PORT" gdatype="gint" name="Port" descr="Port du serveur Web (laissez le champ vide pour la valeur par défaut)"></parameter>
+    <parameter xml:lang="ga" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="gl" id="PORT" gdatype="gint" name="Porto" descr="Porto do servidor web (deixar este campo en branco de forma predeterminada)"></parameter>
+    <parameter xml:lang="hr" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="hu" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="id" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="it" id="PORT" gdatype="gint" name="Porta" descr="Port del server web (lasciare il campo vuoto per il valore predefinito)"></parameter>
+    <parameter xml:lang="ja" id="PORT" gdatype="gint" name="ポート" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="ko" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="lt" id="PORT" gdatype="gint" name="Prievadas" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="mk" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="ml" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="ms" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="nb" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="ne" id="PORT" gdatype="gint" name="पोर्ट" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="nl" id="PORT" gdatype="gint" name="Poort" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="oc" id="PORT" gdatype="gint" name="Pòrt" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="pa" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="pl" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="pt" id="PORT" gdatype="gint" name="Porto" descr="Porta do servidor web (deixe este campo vazio por omissão)"></parameter>
+    <parameter xml:lang="pt_BR" id="PORT" gdatype="gint" name="Porta" descr="Porta do servidor web (deixe este campo em branco na dúvida)"></parameter>
+    <parameter xml:lang="ru" id="PORT" gdatype="gint" name="Порт" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="rw" id="PORT" gdatype="gint" name="Umuyoboro" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="sk" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="sl" id="PORT" gdatype="gint" name="Vrata" descr="Vrata spletnega strežnika (prazno polje določa privzeto vrednost)"></parameter>
+    <parameter xml:lang="sq" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="sr" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="sr@Latn" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="sv" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="tr" id="PORT" gdatype="gint" name="Port" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="uk" id="PORT" gdatype="gint" name="Порт" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="vi" id="PORT" gdatype="gint" name="Cổng" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="zh_CN" id="PORT" gdatype="gint" name="端口" descr="网页服务器端口 (不填取默认值)"></parameter>
+    <parameter xml:lang="zh_HK" id="PORT" gdatype="gint" name="連接埠" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter xml:lang="zh_TW" id="PORT" gdatype="gint" name="連接埠" descr="Web server port (leave this field empty for default)"></parameter>
+    <parameter id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="ar" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="az" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="ca" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="ca@valencia" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="cs" id="PATH" gdatype="gchararray" name="Cesta ke skriptu PHP" descr="Cesta ke skriptu, který se má použít v případě, že služba není v kořeni webového serveru"></parameter>
+    <parameter xml:lang="da" id="PATH" gdatype="gchararray" name="Sti til PHP-skript" descr="Stien på skriptet der skal bruges hvis tjenesten ikke er på internetserverens rod (root)"></parameter>
+    <parameter xml:lang="de" id="PATH" gdatype="gchararray" name="Pfad zum PHP-Skript" descr="Der Pfad zum zu verwendenden Skript, falls sich der Dienst nicht im Basisordner des Webservers befindet"></parameter>
+    <parameter xml:lang="dz" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="el" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="en_CA" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="en_GB" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="eo" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="es" id="PATH" gdatype="gchararray" name="Ruta al script PHP" descr="La ruta al script que usar si el servicio no está en la raíz del servidor web"></parameter>
+    <parameter xml:lang="eu" id="PATH" gdatype="gchararray" name="PHP script-erako bide-izena" descr="Script-aren bide-izena zerbitzua ez badago web zerbitzariaren erroan"></parameter>
+    <parameter xml:lang="fa" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="fi" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="fr" id="PATH" gdatype="gchararray" name="Chemin vers le script PHP" descr="Le chemin du script à utiliser si le service n&apos;est pas à la racine du serveur Web"></parameter>
+    <parameter xml:lang="ga" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="gl" id="PATH" gdatype="gchararray" name="Ruta ao script PHP" descr="A ruta do script a usar se o servizo non está na raíz do servidor web"></parameter>
+    <parameter xml:lang="hr" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="hu" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="id" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="it" id="PATH" gdatype="gchararray" name="Path per lo script PHP" descr="Il percorso dello script da usare se il servizio non è alla root del server web"></parameter>
+    <parameter xml:lang="ja" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="ko" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="lt" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="mk" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="ml" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="ms" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="nb" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="ne" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="nl" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="oc" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="pa" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="pl" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="pt" id="PATH" gdatype="gchararray" name="Caminho para o script PHP" descr="O caminho do script a usar se o serviço não estiver na raíz do servidor web"></parameter>
+    <parameter xml:lang="pt_BR" id="PATH" gdatype="gchararray" name="Caminho para o script PHP" descr="O caminho do script a usar se o serviço não estiver na raiz do servidor web"></parameter>
+    <parameter xml:lang="ru" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="rw" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="sk" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="sl" id="PATH" gdatype="gchararray" name="Pot do PHP skripta" descr="Pod do skripta za uporabo, če ta ni na korenu spletnega strežnika"></parameter>
+    <parameter xml:lang="sq" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="sr" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="sr@Latn" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="sv" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="tr" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="uk" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="vi" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="zh_CN" id="PATH" gdatype="gchararray" name="到 PHP 脚本的路径" descr="如果服务不处于网页服务器的根时使用的脚本路径"></parameter>
+    <parameter xml:lang="zh_HK" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter xml:lang="zh_TW" id="PATH" gdatype="gchararray" name="Path to PHP script" descr="The path of the script to use if service is not at the web server's root"></parameter>
+    <parameter nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="ar" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="az" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="ca" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="ca@valencia" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="cs" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Klíč k serveru" descr="Klíč k serveru"></parameter>
+    <parameter xml:lang="da" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Serverhemmelighed" descr="Serverhemmelighed"></parameter>
+    <parameter xml:lang="de" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Geheimer Server" descr="Geheimer Server"></parameter>
+    <parameter xml:lang="dz" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="el" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="en_CA" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="en_GB" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="eo" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="es" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Secreto del servidor" descr="Secreto del servidor"></parameter>
+    <parameter xml:lang="eu" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Ezkutuko zerbitzaria" descr="Ezkutuko zerbitzaria"></parameter>
+    <parameter xml:lang="fa" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="fi" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="fr" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Secret du serveur" descr="Secret du serveur"></parameter>
+    <parameter xml:lang="ga" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="gl" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Servidor secreto" descr="Servidor secreto"></parameter>
+    <parameter xml:lang="hr" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="hu" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="id" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Rahasia server" descr="Rahasia server"></parameter>
+    <parameter xml:lang="it" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Secret del server" descr="Secret del server"></parameter>
+    <parameter xml:lang="ja" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="ko" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="lt" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="mk" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="ml" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="ms" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="nb" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="ne" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="nl" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="oc" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="pa" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="pl" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="pt" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Segredo do servidor " descr="Segredo do servidor "></parameter>
+    <parameter xml:lang="pt_BR" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Segredo do servidor" descr="Segredo do servidor"></parameter>
+    <parameter xml:lang="ru" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="rw" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="sk" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="sl" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Skrivnost strežnika" descr="Skrivnost strežnika"></parameter>
+    <parameter xml:lang="sq" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="sr" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="sr@Latn" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="sv" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="tr" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="uk" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="vi" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="zh_CN" nullok="FALSE" id="SECRET" gdatype="gchararray" name="服务器机密" descr="服务器机密"></parameter>
+    <parameter xml:lang="zh_HK" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter xml:lang="zh_TW" nullok="FALSE" id="SECRET" gdatype="gchararray" name="Server secret" descr="Server secret"></parameter>
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="ar" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="az" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="ca" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="ca@valencia" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="cs" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Název databáze" descr="Název databáze, která se má použít"></parameter>
+    <parameter xml:lang="da" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="Navnet på en database der skal bruges"></parameter>
+    <parameter xml:lang="de" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datenbankname" descr="Name der zu verwendenden Datenbank"></parameter>
+    <parameter xml:lang="dz" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་མིང་།" descr="ལག་ལེན་འཐབ་ནི་ཨིན་མི་གནས་སྡུད་གཞི་རྟེན་གྱི་མིང་འདི།"></parameter>
+    <parameter xml:lang="el" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="en_CA" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="en_GB" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="eo" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datumbaznomo" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="es" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nombre de la base de datos" descr="El nombre de la base de datos que usar"></parameter>
+    <parameter xml:lang="eu" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datu-basearen izena" descr="Datu-basearen izena erabiltzeko"></parameter>
+    <parameter xml:lang="fa" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="fi" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tietokannan nimi" descr="Käytettävän tietokannan nimi"></parameter>
+    <parameter xml:lang="fr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de données" descr="Nom de la base de données à utiliser"></parameter>
+    <parameter xml:lang="ga" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="gl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de datos" descr="O nome da base de datos a usar"></parameter>
+    <parameter xml:lang="hr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="hu" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Adatbázis neve" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="id" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nama basis data" descr="Nama basis data untuk dipakai"></parameter>
+    <parameter xml:lang="it" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome database" descr="Nome di un database da usare"></parameter>
+    <parameter xml:lang="ja" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="データベース名" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="ko" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="lt" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Duomenų bazės vardas" descr="Naudojamos duomenų bazės vardas"></parameter>
+    <parameter xml:lang="mk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="ml" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="ms" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="nb" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="ne" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="डाटाबेस नाम" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="nl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database naam" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="oc" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="pa" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="pl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="pt" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de dados" descr="Nome de uma base de dados a ser utilizada"></parameter>
+    <parameter xml:lang="pt_BR" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome do banco de dados" descr="O nome do banco de dados a ser utilizado"></parameter>
+    <parameter xml:lang="ru" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Название базы данных" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="rw" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="sk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="sl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Ime podatkovne zbirke" descr="Ime podatkovne zbirke za uporabo"></parameter>
+    <parameter xml:lang="sq" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="sr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="sr@Latn" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="sv" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasnamn" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="tr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="uk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Назва бази даних" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="vi" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tên cơ sở dữ liệu" descr="The name of a database to use"></parameter>
+    <parameter xml:lang="zh_CN" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="数据库名" descr="要使用的数据库名"></parameter>
+    <parameter xml:lang="zh_HK" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="要使用的資料庫的名稱"></parameter>
+    <parameter xml:lang="zh_TW" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="要使用的資料庫的名稱"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ar" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="az" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ca" id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ca@valencia" id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="cs" id="USE_SSL" gdatype="gboolean" name="Vyžadovat SSL" descr="Zda používat nebo nepoužívat SSL pro navázání spojení"></parameter>
+    <parameter xml:lang="da" id="USE_SSL" gdatype="gboolean" name="Kræv SSL" descr="Hvorvidt der skal bruges SSL for at etablere forbindelsen"></parameter>
+    <parameter xml:lang="de" id="USE_SSL" gdatype="gboolean" name="Erfordert SSL" descr="Legt fest, ob SSL für den Verbindungsaufbau verwendet werden soll"></parameter>
+    <parameter xml:lang="dz" id="USE_SSL" gdatype="gboolean" name="ཨེསི་ཨེསི་ཨེལ་དགོས་མཁོ་ཡོདཔ།" descr="མཐུད་ལམ་གཞི་བཙུགས་འབད་ནི་ཨེསི་ཨེསི་ཨེལ་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"></parameter>
+    <parameter xml:lang="el" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="en_CA" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="en_GB" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="eo" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="es" id="USE_SSL" gdatype="gboolean" name="Requiere SSL" descr="Indica si se debe usar o no SSL para establecer la conexión"></parameter>
+    <parameter xml:lang="eu" id="USE_SSL" gdatype="gboolean" name="SSL behar du" descr="Konexioak ezartzean SSL erabili edo ez"></parameter>
+    <parameter xml:lang="fa" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="fi" id="USE_SSL" gdatype="gboolean" name="Vaadi SSL:ää" descr="Käytetäänkö SSL-salausta yhteyden muodostamisessa"></parameter>
+    <parameter xml:lang="fr" id="USE_SSL" gdatype="gboolean" name="Utiliser une connexion sécurisée" descr="Indique si l&apos;on doit utiliser une connexion sécurisée par SSL"></parameter>
+    <parameter xml:lang="ga" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="gl" id="USE_SSL" gdatype="gboolean" name="Requirir SSL" descr="Usar ou non SSL para estabelecer a conexión"></parameter>
+    <parameter xml:lang="hr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="hu" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="id" id="USE_SSL" gdatype="gboolean" name="Perlu SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="it" id="USE_SSL" gdatype="gboolean" name="Richiede SSL" descr="Uso di SSL per l&apos;instaurazione della connessione"></parameter>
+    <parameter xml:lang="ja" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ko" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="lt" id="USE_SSL" gdatype="gboolean" name="Būtinas SSL" descr="Nustato, ar prisijungimo metu bus naudojamas SSL kodavimas"></parameter>
+    <parameter xml:lang="mk" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ml" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ms" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="nb" id="USE_SSL" gdatype="gboolean" name="Krev SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ne" id="USE_SSL" gdatype="gboolean" name="SSL आवश्यक पर्छ" descr="जडान स्थापानाका लागि SSL प्रयोग गर्न पर्छ वा पर्दैन"></parameter>
+    <parameter xml:lang="nl" id="USE_SSL" gdatype="gboolean" name="Vereist SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="oc" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pa" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pl" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pt" id="USE_SSL" gdatype="gboolean" name="Requerer SSL" descr="Utilizar ou não SSL para estabelecer ligação"></parameter>
+    <parameter xml:lang="pt_BR" id="USE_SSL" gdatype="gboolean" name="Exige SSL" descr="Se utiliza ou não SSL para estabelecer a conexão"></parameter>
+    <parameter xml:lang="ru" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="rw" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sk" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sl" id="USE_SSL" gdatype="gboolean" name="Zahtevan SSL" descr="Ali naj bo uporabljen SSL za ustvarjanje povezave"></parameter>
+    <parameter xml:lang="sq" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sr@Latn" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sv" id="USE_SSL" gdatype="gboolean" name="Kräver SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="tr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="uk" id="USE_SSL" gdatype="gboolean" name="Потребує SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="vi" id="USE_SSL" gdatype="gboolean" name="Cần thiết SSL" descr="Có nên dùng SSL để thiết lập kết nối hay không"></parameter>
+    <parameter xml:lang="zh_CN" id="USE_SSL" gdatype="gboolean" name="要求 SSL" descr="是否使用 SSL 创建连接"></parameter>
+    <parameter xml:lang="zh_HK" id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="是否要使用 SSL 建立連線"></parameter>
+    <parameter xml:lang="zh_TW" id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="是否要使用 SSL 建立連線"></parameter>
+  </parameters>
+</data-set-spec>

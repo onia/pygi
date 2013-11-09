@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/gtranslator/plugins/open-tran/" id="org.gnome.gtranslator.plugins.open-tran" gettext-domain="gtranslator">
+    <key type="s" name="search-code">
+      <default>'en'</default>
+      <summary>Search Code</summary>
+      <description>The language code to search for</description>
+    </key>
+    <key type="s" name="own-code">
+      <default>'gl'</default>
+      <summary>Own Code</summary>
+      <description>The language code in which you want the results</description>
+    </key>
+    <key type="b" name="use-mirror-server">
+      <default>false</default>
+      <summary>Use Mirror Server</summary>
+      <description>Use a local copy of the main Open-Tran server at open-tran.eu</description>
+    </key>
+    <key type="s" name="mirror-server-url">
+      <default>''</default>
+      <summary>Mirror Server URL</summary>
+      <description>URL of an Open-Tran mirror server</description>
+    </key>
+  </schema>
+</schemalist>

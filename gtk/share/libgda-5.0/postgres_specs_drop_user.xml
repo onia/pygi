@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists"></parameter>
+  </parameters>
+  <parameters xml:lang="ar" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name" xml:lang="ar"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="ar"></parameter>
+  </parameters>
+  <parameters xml:lang="az" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name" xml:lang="az"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="az"></parameter>
+  </parameters>
+  <parameters xml:lang="ca" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="User's name" xml:lang="ca"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="ca"></parameter>
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="User's name" xml:lang="ca@valencia"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="ca@valencia"></parameter>
+  </parameters>
+  <parameters xml:lang="cs" id="USER_DESC_P" name="Definice uživatele">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Název" descr="Jméno uživatele" xml:lang="cs"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Pokud existuje" descr="Odstranit uživatele, jen pokud existuje" xml:lang="cs"></parameter>
+  </parameters>
+  <parameters xml:lang="da" id="USER_DESC_P" name="Brugers definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Navn" descr="Brugers navn" xml:lang="da"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Hvis den findes" descr="Smid kun bruger hvis denne findes" xml:lang="da"></parameter>
+  </parameters>
+  <parameters xml:lang="de" id="USER_DESC_P" name="Benutzerbeschreibung">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Name des Benutzers" xml:lang="de"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Falls vorhanden" descr="Benutzer nur einfügen, wenn er existiert" xml:lang="de"></parameter>
+  </parameters>
+  <parameters xml:lang="dz" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="མིང་།" descr="User's name" xml:lang="dz"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="གནས་ཡོད་པ་ཅིན་" descr="Drop user only if it exists" xml:lang="dz"></parameter>
+  </parameters>
+  <parameters xml:lang="el" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Όνομα" descr="User's name" xml:lang="el"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="el"></parameter>
+  </parameters>
+  <parameters xml:lang="en_CA" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name" xml:lang="en_CA"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="en_CA"></parameter>
+  </parameters>
+  <parameters xml:lang="en_GB" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name" xml:lang="en_GB"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="en_GB"></parameter>
+  </parameters>
+  <parameters xml:lang="eo" id="USER_DESC_P" name="Difino de la uzanto">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nomo" descr="Nomo de la uzanto" xml:lang="eo"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Se ekzistas" descr="Drop user only if it exists" xml:lang="eo"></parameter>
+  </parameters>
+  <parameters xml:lang="es" id="USER_DESC_P" name="Definición del usuario">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nombre" descr="Nombre del usuario" xml:lang="es"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Si existe" descr="Eliminar el usuario sólo si existe" xml:lang="es"></parameter>
+  </parameters>
+  <parameters xml:lang="eu" id="USER_DESC_P" name="Erabiltzailearen definizioa">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Izena" descr="Erabiltzailearen izena" xml:lang="eu"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Existitzen bada" descr="Jaregin erabiltzailea aurrez existitzen bada soilik" xml:lang="eu"></parameter>
+  </parameters>
+  <parameters xml:lang="fa" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="نام" descr="User's name" xml:lang="fa"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="fa"></parameter>
+  </parameters>
+  <parameters xml:lang="fi" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nimi" descr="User's name" xml:lang="fi"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Jos olemassa" descr="Drop user only if it exists" xml:lang="fi"></parameter>
+  </parameters>
+  <parameters xml:lang="fr" id="USER_DESC_P" name="Définition de l&apos;utilisateur">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="Nom d&apos;utilisateur" xml:lang="fr"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Si existant" descr="Supprimer l&apos;utilisateur seulement s&apos;il existe" xml:lang="fr"></parameter>
+  </parameters>
+  <parameters xml:lang="ga" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ainm" descr="User's name" xml:lang="ga"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="ga"></parameter>
+  </parameters>
+  <parameters xml:lang="gl" id="USER_DESC_P" name="Definición de usuarios">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome de usuario" xml:lang="gl"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Se existe" descr="Eliminar o usuario só se existe" xml:lang="gl"></parameter>
+  </parameters>
+  <parameters xml:lang="hr" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="User's name" xml:lang="hr"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="hr"></parameter>
+  </parameters>
+  <parameters xml:lang="hu" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Név" descr="User's name" xml:lang="hu"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="hu"></parameter>
+  </parameters>
+  <parameters xml:lang="id" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nama" descr="Nama pengguna" xml:lang="id"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Bila ada" descr="Drop user only if it exists" xml:lang="id"></parameter>
+  </parameters>
+  <parameters xml:lang="it" id="USER_DESC_P" name="Definizione dell&apos;utente">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome utente" xml:lang="it"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Se esiste" descr="Elimina l&apos;utente solo se esiste" xml:lang="it"></parameter>
+  </parameters>
+  <parameters xml:lang="ja" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名前" descr="User's name" xml:lang="ja"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="ja"></parameter>
+  </parameters>
+  <parameters xml:lang="ko" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="이름" descr="User's name" xml:lang="ko"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="ko"></parameter>
+  </parameters>
+  <parameters xml:lang="lt" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Pavadinimas" descr="User's name" xml:lang="lt"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="lt"></parameter>
+  </parameters>
+  <parameters xml:lang="mk" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name" xml:lang="mk"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="mk"></parameter>
+  </parameters>
+  <parameters xml:lang="ml" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="പേര‍്" descr="User's name" xml:lang="ml"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="ml"></parameter>
+  </parameters>
+  <parameters xml:lang="ms" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nama" descr="User's name" xml:lang="ms"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="ms"></parameter>
+  </parameters>
+  <parameters xml:lang="nb" id="USER_DESC_P" name="Definisjon av bruker">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Navn" descr="Navn på bruker" xml:lang="nb"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="nb"></parameter>
+  </parameters>
+  <parameters xml:lang="ne" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="नाम" descr="User's name" xml:lang="ne"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="यदि अवस्थित छ भने" descr="Drop user only if it exists" xml:lang="ne"></parameter>
+  </parameters>
+  <parameters xml:lang="nl" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Naam" descr="User's name" xml:lang="nl"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="nl"></parameter>
+  </parameters>
+  <parameters xml:lang="oc" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="User's name" xml:lang="oc"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="oc"></parameter>
+  </parameters>
+  <parameters xml:lang="pa" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="ਨਾਮ" descr="User's name" xml:lang="pa"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="pa"></parameter>
+  </parameters>
+  <parameters xml:lang="pl" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nazwa" descr="User's name" xml:lang="pl"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="pl"></parameter>
+  </parameters>
+  <parameters xml:lang="pt" id="USER_DESC_P" name="Definição do utilizador">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome de utilizador" xml:lang="pt"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Se existir" descr="Descartar utilizador apenas se existir" xml:lang="pt"></parameter>
+  </parameters>
+  <parameters xml:lang="pt_BR" id="USER_DESC_P" name="Definição de usuário">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome do usuário" xml:lang="pt_BR"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Se existir" descr="Descarta o usuário somente se existir" xml:lang="pt_BR"></parameter>
+  </parameters>
+  <parameters xml:lang="ru" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Наименование" descr="User's name" xml:lang="ru"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="ru"></parameter>
+  </parameters>
+  <parameters xml:lang="rw" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Izina" descr="User's name" xml:lang="rw"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="rw"></parameter>
+  </parameters>
+  <parameters xml:lang="sk" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Meno" descr="User's name" xml:lang="sk"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="sk"></parameter>
+  </parameters>
+  <parameters xml:lang="sl" id="USER_DESC_P" name="Določilo uporabnika">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="Ime uporabnika" xml:lang="sl"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Če obstaja" descr="Spusti uporabnika le, če obstaja" xml:lang="sl"></parameter>
+  </parameters>
+  <parameters xml:lang="sq" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Emri" descr="User's name" xml:lang="sq"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="sq"></parameter>
+  </parameters>
+  <parameters xml:lang="sr" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Име" descr="User's name" xml:lang="sr"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="sr"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="User's name" xml:lang="sr@Latn"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="sr@Latn"></parameter>
+  </parameters>
+  <parameters xml:lang="sv" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Namn" descr="User's name" xml:lang="sv"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="sv"></parameter>
+  </parameters>
+  <parameters xml:lang="tr" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="İsim" descr="User's name" xml:lang="tr"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="tr"></parameter>
+  </parameters>
+  <parameters xml:lang="uk" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Назва" descr="User's name" xml:lang="uk"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="uk"></parameter>
+  </parameters>
+  <parameters xml:lang="vi" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Tên" descr="User's name" xml:lang="vi"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Nếu tồn tại" descr="Drop user only if it exists" xml:lang="vi"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_CN" id="USER_DESC_P" name="用户定义">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名称" descr="用户名" xml:lang="zh_CN"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="如果存在" descr="Drop user only if it exists" xml:lang="zh_CN"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_HK" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名稱" descr="User's name" xml:lang="zh_HK"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="zh_HK"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_TW" id="USER_DESC_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名稱" descr="User's name" xml:lang="zh_TW"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop user only if it exists" xml:lang="zh_TW"></parameter>
+  </parameters>
+</serv_op>

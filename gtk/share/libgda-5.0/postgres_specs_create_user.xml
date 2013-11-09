@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="User's password"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is.">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)"></parameter>
+
+  </parameters>
+  <parameters xml:lang="ar" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name" xml:lang="ar"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="User's password" xml:lang="ar"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ar">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="ar"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="ar">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="ar">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ar"></parameter>
+
+  </parameters>
+  <parameters xml:lang="az" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name" xml:lang="az"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="User's password" xml:lang="az"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="az">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="az"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="az">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="az">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="az"></parameter>
+
+  </parameters>
+  <parameters xml:lang="ca" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="User's name" xml:lang="ca"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Contrasenya" descr="User's password" xml:lang="ca"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ca">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="ca"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="ca">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="ca">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ca"></parameter>
+
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="User's name" xml:lang="ca@valencia"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Contrasenya" descr="User's password" xml:lang="ca@valencia"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ca@valencia">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="ca@valencia"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="ca@valencia">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="ca@valencia">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ca@valencia"></parameter>
+
+  </parameters>
+  <parameters xml:lang="cs" id="USER_DEF_P" name="Definice uživatele">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Název" descr="Jméno uživatele" xml:lang="cs"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Heslo" descr="Heslo uživatele" xml:lang="cs"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Šifrovat heslo" descr="Určuje, zda je heslo v systémovém katalogu uchované v šifrované podobě. Pokud je uvedené heslo již šifrované ve formátu MD5, pak bude uloženo šifrované tak, jak je." xml:lang="cs">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="ID uživatele" descr="Může být použito k výběru ID uživatele PostgreSQL pro nového uživatele" xml:lang="cs"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Nelze vytvořit databázi" descr="Nastavte na ZAPNUTO, pokud má mít uživatel povoleno vytvářet databáze" xml:lang="cs">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Může vytvářet uživatele" descr="Nastavte na ZAPNUTO, pokud má mít uživatel povoleno vytvářet uživatele" xml:lang="cs">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Platné do" descr="Určuje čas vypršení platnosti pouze pro heslo (ne pro celý uživatelský účet: tato doba platnosti není vynucována, když se používá při přihlašování ověření, které není založené na hesle)" xml:lang="cs"></parameter>
+
+  </parameters>
+  <parameters xml:lang="da" id="USER_DEF_P" name="Brugers definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Navn" descr="Brugers navn" xml:lang="da"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Adgangskode" descr="Brugers adgangskode" xml:lang="da"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Krypter adgangskode" descr="Kontrollerer hvorvidt adgangskoden er gemt krypteret i systemkatalogerne. Hvis den præsenterede adgangskodestreng allerede er i MD5-krypteret format, så gemmes den krypteret som den er." xml:lang="da">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="Bruger-id" descr="Kan bruges til at vælge PostgreSQL-bruger-id&apos;et på den nye bruger" xml:lang="da"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Kan oprette databaser" descr="Angiv som TRUE (SAND) hvis brugeren har tilladelse til at oprette databaser" xml:lang="da">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Kan oprette brugere" descr="Angiv som TRUE (SAND) hvis brugeren har tilladelse til at oprette brugere" xml:lang="da">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Gyldig indtil" descr="Angiver en udløbsdato for en adgangskode (gælder ikke for brugerkontoen: Udløbsdatoen iværksættes ikke når der logges ind med brug af en godkendelsesmetode der ikke er adgangskodebaseret)" xml:lang="da"></parameter>
+
+  </parameters>
+  <parameters xml:lang="de" id="USER_DEF_P" name="Benutzerbeschreibung">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Name des Benutzers" xml:lang="de"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Passwort" descr="Passwort des Benutzers" xml:lang="de"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Passwort verschlüsseln" descr="Legt fest, ob das Passwort in den Systemkatalogen verschlüsselt abgelegt wird. Falls die angegebene Passwortzeichenkette bereits im MD5-Format verschlüsselt ist, wird es wie vorliegend gespeichert." xml:lang="de">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="Benutzerkennung" descr="Kann zur Erstellung der PostgreSQL-Benutzerkennung für den neuen Benutzer verwendet werden" xml:lang="de"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Darf Datenbanken erstellen" descr="Auf »wahr« setzen, falls der Benutzer Datenbanken anlegen darf" xml:lang="de">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Darf Benutzer anlegen" descr="Auf »wahr« setzen, falls der Benutzer neue Benutzer anlegen darf" xml:lang="de">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Gültig bis" descr="Legt eine Ablaufzeit nur für das Passwort fest. Das Benutzerkonto an sich wird dadurch nicht beeinflusst. Die Ablaufzeit kommt nicht zur Anwendung, wenn sich ein Benutzer mittels einer nicht auf Passwörtern basierenden Legitimiertungsmethode anmeldet." xml:lang="de"></parameter>
+
+  </parameters>
+  <parameters xml:lang="dz" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="མིང་།" descr="User's name" xml:lang="dz"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="ཆོག་ཡིག" descr="User's password" xml:lang="dz"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="dz">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="dz"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="dz">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="dz">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="dz"></parameter>
+
+  </parameters>
+  <parameters xml:lang="el" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Όνομα" descr="User's name" xml:lang="el"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Κωδικός" descr="User's password" xml:lang="el"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="el">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="el"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="el">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="el">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="el"></parameter>
+
+  </parameters>
+  <parameters xml:lang="en_CA" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name" xml:lang="en_CA"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="User's password" xml:lang="en_CA"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="en_CA">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="en_CA"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="en_CA">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="en_CA">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="en_CA"></parameter>
+
+  </parameters>
+  <parameters xml:lang="en_GB" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name" xml:lang="en_GB"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="User's password" xml:lang="en_GB"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="en_GB">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="en_GB"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="en_GB">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="en_GB">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="en_GB"></parameter>
+
+  </parameters>
+  <parameters xml:lang="eo" id="USER_DEF_P" name="Difino de la uzanto">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nomo" descr="Nomo de la uzanto" xml:lang="eo"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Pasvorto" descr="Pasvorto de la uzanto" xml:lang="eo"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="eo">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="Uzanto-ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="eo"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="eo">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="eo">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="eo"></parameter>
+
+  </parameters>
+  <parameters xml:lang="es" id="USER_DEF_P" name="Definición del usuario">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nombre" descr="Nombre del usuario" xml:lang="es"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Contraseña" descr="Contraseña del usuario" xml:lang="es"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Cifrar contraseña" descr="Controla si la contraseña se almacena cifrada en los catálogos del sistema. Si la cadena de contraseña presentada ya está en el formato cifrado MD5, entonces se almacena cifrada como tal." xml:lang="es">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="ID del usuario" descr="Se puede usar para elegir un ID de usuario PostgreSQL o un nuevo usuario" xml:lang="es"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Puede crear bases de datos" descr="Establecer a cierto si el usuario puede crear bases de datos" xml:lang="es">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Crear usuarios" descr="Establecer a cierto si el usuario puede crear usuarios" xml:lang="es">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Válido hasta" descr="Especifica un tiempo de expiración para una contraseña (no para la cuenta de usuario en si: el tiempo de expiración no se refuerza al iniciar sesión usando un método de autenticación no basado en contraseña)" xml:lang="es"></parameter>
+
+  </parameters>
+  <parameters xml:lang="eu" id="USER_DEF_P" name="Erabiltzailearen definizioa">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Izena" descr="Erabiltzailearen izena" xml:lang="eu"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Pasahitza" descr="Erabiltzailearen pasahitza" xml:lang="eu"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Enkriptatu pasahitza" descr="Sistemako katalogoetan pasahitza enkriptatuta gordetzen den edo ez kontrolatzen du. Aurkeztutako pasahitzaren katea MD5 formatuan enkriptatuta egonez gero, dagoen bezala gordeko da." xml:lang="eu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="Erabiltzailearen IDa" descr="Erabiltzaile berriaren PostgreSQL-ko erabiltzailearen IDa aukeratzeko erabil daiteke" xml:lang="eu"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Datu-baseak sor ditzake" descr="Ezarri TRUE (egia) gisa erabiltzaile honek datu-baseak sortzeko baimenak baditu" xml:lang="eu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Erabiltzaileak sor ditzake" descr="Ezarri TRUE (egia) gisa erabiltzaile honek erabiltzaileak sortzeko baimenak baditu" xml:lang="eu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Noiz arte baliozkoa" descr="Pasahitz baten iraungitze-denbora zehazten du soilik (ez erabiltzailearen kontuarena: iraungitze-denbora ez da betearazten pasahitzik gabeko autentifikazio metodo bat erabiliz saioa hastean)" xml:lang="eu"></parameter>
+
+  </parameters>
+  <parameters xml:lang="fa" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="نام" descr="User's name" xml:lang="fa"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="گذرواژه" descr="User's password" xml:lang="fa"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="fa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="fa"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="fa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="fa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="fa"></parameter>
+
+  </parameters>
+  <parameters xml:lang="fi" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nimi" descr="User's name" xml:lang="fi"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Salasana" descr="User's password" xml:lang="fi"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="fi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="fi"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="fi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="fi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="fi"></parameter>
+
+  </parameters>
+  <parameters xml:lang="fr" id="USER_DEF_P" name="Définition de l&apos;utilisateur">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="Nom d&apos;utilisateur" xml:lang="fr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Mot de passe" descr="Mot de passe de l&apos;utilisateur" xml:lang="fr"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Chiffrer le mot de passe" descr="Contrôle si le mot de passe stocké dans les catalogues système est chiffré. Si le mot de passe présenté est déjà dans le format chiffré MD5, il est alors stocké tel quel." xml:lang="fr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="ID utilisateur" descr="Peut être utilisé pour choisir l&apos;ID utilisateur PostgreSQL du nouvel utilisateur" xml:lang="fr"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Peut créer des bases de données" descr="Définir à VRAI si l&apos;utilisateur a la permission de créer des bases de données" xml:lang="fr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Peut créer des utilisateurs" descr="Définir à VRAI si l&apos;utilisateur a la permission de créer des utilisateurs" xml:lang="fr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valide jusqu&apos;à" descr="Spécifie un temps d&apos;expiration seulement pour le mot de passe (pas pour le compte utilisateur en soi : le temps d&apos;expiration n&apos;est pas appliqué lorsque la connexion utilise un mode d&apos;authentification sans mot de passe)" xml:lang="fr"></parameter>
+
+  </parameters>
+  <parameters xml:lang="ga" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ainm" descr="User's name" xml:lang="ga"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="User's password" xml:lang="ga"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ga">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="ga"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="ga">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="ga">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ga"></parameter>
+
+  </parameters>
+  <parameters xml:lang="gl" id="USER_DEF_P" name="Definición de usuarios">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome de usuario" xml:lang="gl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Contrasinal" descr="Contrasinal de usuarios" xml:lang="gl"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Cifrar contrasinal" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="gl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="ID do usuario" descr="Podese usar para escoller o ID do usuario de PostgreSQL do novo usuario" xml:lang="gl"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Pode crear bases de datos" descr="Estabelecer a TRUE e o usuario pode crear bases de datos" xml:lang="gl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Pode crear usuarios" descr="Estabelecer a TRUE se o usuario pode crear usuarios" xml:lang="gl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Válido ata" descr="Especifica unha data de caducidade só para o contrasinal (non para a conta de usuario en si:  a data de caducidade non se aplica ao iniciar sesión cun método de autenticación no baseado en contrasinal" xml:lang="gl"></parameter>
+
+  </parameters>
+  <parameters xml:lang="hr" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="User's name" xml:lang="hr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Lozinka" descr="User's password" xml:lang="hr"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="hr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="hr"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="hr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="hr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="hr"></parameter>
+
+  </parameters>
+  <parameters xml:lang="hu" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Név" descr="User's name" xml:lang="hu"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Jelszó" descr="User's password" xml:lang="hu"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="hu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="hu"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="hu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="hu">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Érvényesség" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="hu"></parameter>
+
+  </parameters>
+  <parameters xml:lang="id" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nama" descr="Nama pengguna" xml:lang="id"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Kata Sandi" descr="Kata sandi" xml:lang="id"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Enkripsikan sandi" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="id">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="ID pengguna" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="id"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="id">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="id">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Berlaku hingga" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="id"></parameter>
+
+  </parameters>
+  <parameters xml:lang="it" id="USER_DEF_P" name="Definizione dell&apos;utente">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome utente" xml:lang="it"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="Password utente" xml:lang="it"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Cifra password" descr="Controlla se la password viene memorizzata codificata nelle strutture dati del sistema. Se la stringa di password presentata è già in formato codificato MD5, allora viene memorizzata così com&apos;è." xml:lang="it">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="ID utente" descr="Può essere usata per scegliere l&apos;ID utente PostgreSQL del nuovo utente" xml:lang="it"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Può creare database" descr="Impostato a TRUE se all&apos;utente è permesso creare database" xml:lang="it">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Può creare utenti" descr="Impostato a TRUE se all&apos;utente è permesso creare utenti" xml:lang="it">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valido fino a" descr="Specifica una data di scadenza solo per la password (non per l&apos;account dell&apos;utente: la scadenza non è efficace se si effettua il login usando un metodo di autenticazione diverso dalla password)" xml:lang="it"></parameter>
+
+  </parameters>
+  <parameters xml:lang="ja" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名前" descr="User's name" xml:lang="ja"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="パスワード" descr="User's password" xml:lang="ja"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ja">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="ja"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="ja">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="ja">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ja"></parameter>
+
+  </parameters>
+  <parameters xml:lang="ko" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="이름" descr="User's name" xml:lang="ko"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="비밀번호" descr="User's password" xml:lang="ko"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ko">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="ko"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="ko">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="ko">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ko"></parameter>
+
+  </parameters>
+  <parameters xml:lang="lt" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Pavadinimas" descr="User's name" xml:lang="lt"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Slaptažodis" descr="User's password" xml:lang="lt"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="lt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="lt"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="lt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="lt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="lt"></parameter>
+
+  </parameters>
+  <parameters xml:lang="mk" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="User's name" xml:lang="mk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="User's password" xml:lang="mk"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="mk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="mk"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="mk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="mk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="mk"></parameter>
+
+  </parameters>
+  <parameters xml:lang="ml" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="പേര‍്" descr="User's name" xml:lang="ml"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="അടയാളവാക്യം" descr="User's password" xml:lang="ml"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ml">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="ml"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="ml">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="ml">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ml"></parameter>
+
+  </parameters>
+  <parameters xml:lang="ms" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nama" descr="User's name" xml:lang="ms"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Katalaluan" descr="User's password" xml:lang="ms"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ms">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="ms"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="ms">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="ms">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ms"></parameter>
+
+  </parameters>
+  <parameters xml:lang="nb" id="USER_DEF_P" name="Definisjon av bruker">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Navn" descr="Navn på bruker" xml:lang="nb"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Passord" descr="Passord for bruker" xml:lang="nb"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Krypter passord" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="nb">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="Bruker-ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="nb"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Kan lage databaser" descr="Set to TRUE if the user is allowed to create databases" xml:lang="nb">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Kan lage brukere" descr="Set to TRUE if the user is allowed to create users" xml:lang="nb">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="nb"></parameter>
+
+  </parameters>
+  <parameters xml:lang="ne" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="नाम" descr="User's name" xml:lang="ne"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="पासवर्ड" descr="User's password" xml:lang="ne"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ne">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="ne"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="ne">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="ne">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ne"></parameter>
+
+  </parameters>
+  <parameters xml:lang="nl" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Naam" descr="User's name" xml:lang="nl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Wachtwoord" descr="User's password" xml:lang="nl"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="nl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="nl"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="nl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="nl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="nl"></parameter>
+
+  </parameters>
+  <parameters xml:lang="oc" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="User's name" xml:lang="oc"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Mot de pas" descr="User's password" xml:lang="oc"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="oc">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="oc"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="oc">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="oc">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="oc"></parameter>
+
+  </parameters>
+  <parameters xml:lang="pa" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="ਨਾਮ" descr="User's name" xml:lang="pa"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="ਗੁਪਤ-ਕੋਡ" descr="User's password" xml:lang="pa"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="pa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="pa"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="pa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="pa">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="pa"></parameter>
+
+  </parameters>
+  <parameters xml:lang="pl" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nazwa" descr="User's name" xml:lang="pl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Hasło" descr="User's password" xml:lang="pl"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="pl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="pl"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="pl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="pl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="pl"></parameter>
+
+  </parameters>
+  <parameters xml:lang="pt" id="USER_DEF_P" name="Definição do utilizador">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome de utilizador" xml:lang="pt"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Senha" descr="A senha do utilizador" xml:lang="pt"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encriptar a palavra passe" descr="Controla se a palavra passe é guardada encriptada nos cátalogos do sistema. Se a palavra passe actual já estiver no formato encriptação-MD5, então é guardada encriptada como está." xml:lang="pt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="ID de utilizador" descr="Pode ser usado para escolher a indentificação de utilizador PostgreSQL do novo utilizador" xml:lang="pt"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Pode criar bases de dados" descr="Definir como verdadeiro se for permitido ao utilizador criar bases de dados" xml:lang="pt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Pode criar utilizadores" descr="Definir como verdadeiro se for permitido ao utilizador criar utilizadores" xml:lang="pt">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Válido até" descr="Especifica uma altura para expiração da palavra passe apenas (não para a conta do utilizador per se: o contador de expiração não é iniciado quando a sessão é iniciada através de um método de autenticação que não se baseie em palavra passe)" xml:lang="pt"></parameter>
+
+  </parameters>
+  <parameters xml:lang="pt_BR" id="USER_DEF_P" name="Definição de usuário">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome do usuário" xml:lang="pt_BR"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Senha" descr="Senha do usuário" xml:lang="pt_BR"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Criptografar senha" descr="Controla se a senha é armazenada criptografada nos catálogos do sistema. Se o texto da senha fornecida já está em um formato de criptografia MD5, será armazenada como está." xml:lang="pt_BR">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="ID de usuário" descr="Pode ser usado para escolher o ID de usuário PostgreSQL do novo usuário" xml:lang="pt_BR"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Pode criar bancos de dados" descr="Defina como VERDADEIRO se o usuário tem permissão para criar bancos de dados" xml:lang="pt_BR">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Pode criar usuários" descr="Defina como VERDADEIRO se o usuário tem permissão para criar usuários" xml:lang="pt_BR">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Válida até" descr="Especifica um tempo de expiração para uma senha apenas (não para a conta do usuário em si: esse tempo não é considerado ao se autenticar usando um método baseado no não uso da senha)" xml:lang="pt_BR"></parameter>
+
+  </parameters>
+  <parameters xml:lang="ru" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Наименование" descr="User's name" xml:lang="ru"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Пароль" descr="User's password" xml:lang="ru"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="ru">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="ru"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="ru">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="ru">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="ru"></parameter>
+
+  </parameters>
+  <parameters xml:lang="rw" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Izina" descr="User's name" xml:lang="rw"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Ijambobanga" descr="User's password" xml:lang="rw"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="rw">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="rw"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="rw">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="rw">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="rw"></parameter>
+
+  </parameters>
+  <parameters xml:lang="sk" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Meno" descr="User's name" xml:lang="sk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Heslo" descr="User's password" xml:lang="sk"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="sk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="sk"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="sk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="sk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="sk"></parameter>
+
+  </parameters>
+  <parameters xml:lang="sl" id="USER_DEF_P" name="Določilo uporabnika">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="Ime uporabnika" xml:lang="sl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Geslo" descr="Geslo uporabnika" xml:lang="sl"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Šifriraj geslo" descr="Nadzira ali je geslo shranjeno v sistemu šifrirano ali ne. V kolikor je geslo že zapisano v MD5-šifriranem zapisu, potem je shranjeno tako kot je." xml:lang="sl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="ID uporabnika" descr="Omogoča izbiro PostgreSQL ID uporabnika novega uporabnika" xml:lang="sl"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Lahko ustvari podatkovne zbirke" descr="Izbrana možnost določa, da uporabnik lahko ustvarja nove podatkovne zbirke" xml:lang="sl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Lahko ustvari uporabnike" descr="Izbrana možnost določa, da uporabnik lahko ustvarja nove uporabnike" xml:lang="sl">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Veljavno do" descr="Določa čas zapadlosti gesla (to ne velja za uporabniške račune: čas zapadlosti ne vsiljuje prijave  za overitev brez gesla)" xml:lang="sl"></parameter>
+
+  </parameters>
+  <parameters xml:lang="sq" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Emri" descr="User's name" xml:lang="sq"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Fjalëkalimi" descr="User's password" xml:lang="sq"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="sq">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="sq"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="sq">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="sq">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="sq"></parameter>
+
+  </parameters>
+  <parameters xml:lang="sr" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Име" descr="User's name" xml:lang="sr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Лозинка" descr="User's password" xml:lang="sr"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="sr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="sr"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="sr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="sr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="sr"></parameter>
+
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="User's name" xml:lang="sr@Latn"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Lozinka" descr="User's password" xml:lang="sr@Latn"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="sr@Latn">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="sr@Latn"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="sr@Latn">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="sr@Latn">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="sr@Latn"></parameter>
+
+  </parameters>
+  <parameters xml:lang="sv" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Namn" descr="User's name" xml:lang="sv"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Lösenord" descr="User's password" xml:lang="sv"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="sv">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="sv"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="sv">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="sv">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="sv"></parameter>
+
+  </parameters>
+  <parameters xml:lang="tr" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="İsim" descr="User's name" xml:lang="tr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Password" descr="User's password" xml:lang="tr"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="tr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="tr"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="tr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="tr">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="tr"></parameter>
+
+  </parameters>
+  <parameters xml:lang="uk" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Назва" descr="User's name" xml:lang="uk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Пароль" descr="User's password" xml:lang="uk"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="uk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="uk"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="uk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="uk">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="uk"></parameter>
+
+  </parameters>
+  <parameters xml:lang="vi" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Tên" descr="User's name" xml:lang="vi"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="Mật khẩu" descr="User's password" xml:lang="vi"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="vi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="vi"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="vi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="vi">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="vi"></parameter>
+
+  </parameters>
+  <parameters xml:lang="zh_CN" id="USER_DEF_P" name="用户定义">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名称" descr="用户名" xml:lang="zh_CN"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="口令" descr="用户密码" xml:lang="zh_CN"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="加密密码" descr="控制密码是否以加密形式保存在系统目录中。如果已有的密码字符串已经是 MD5加密形式，它还会原样存储。" xml:lang="zh_CN">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="用户标识" descr="可用于选择新用户的 PostgreSQL 用户 ID" xml:lang="zh_CN"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="可创建数据库" descr="如果允许该用户创建数据库，设为 TRUE" xml:lang="zh_CN">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="可创建用户" descr="如果允许该用户创建用户，设为 TRUE" xml:lang="zh_CN">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="有效至" descr="只为密码指定过期时间(不是为用户账户自身：在使用不基于密码的认证方法登录时，这一时间是非强制的)" xml:lang="zh_CN"></parameter>
+
+  </parameters>
+  <parameters xml:lang="zh_HK" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名稱" descr="User's name" xml:lang="zh_HK"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="密碼" descr="User's password" xml:lang="zh_HK"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="zh_HK">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="zh_HK"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="zh_HK">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="zh_HK">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="zh_HK"></parameter>
+
+  </parameters>
+  <parameters xml:lang="zh_TW" id="USER_DEF_P" name="User's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名稱" descr="User's name" xml:lang="zh_TW"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="PASSWORD" gdatype="gchararray" name="密碼" descr="User's password" xml:lang="zh_TW"></parameter>
+    <parameter id="PASSWORD_ENCRYPTED" gdatype="gboolean" name="Encrypt password" descr="Controls whether the password is stored encrypted in the system catalogs. If the presented password string is already in MD5-encrypted format, then it is stored encrypted as-is." xml:lang="zh_TW">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="UID" gdatype="guint" name="User ID" descr="Can be used to choose the PostgreSQL user ID of the new user" xml:lang="zh_TW"></parameter>
+    <parameter id="CAP_CREATEDB" gdatype="gboolean" name="Can create databases" descr="Set to TRUE if the user is allowed to create databases" xml:lang="zh_TW">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+    <parameter id="CAP_CREATEUSER" gdatype="gboolean" name="Can create users" descr="Set to TRUE if the user is allowed to create users" xml:lang="zh_TW">
+      <gda_value>FALSE</gda_value>
+    </parameter>
+
+    <parameter id="VALIDITY" gdatype="timestamp" name="Valid until" descr="Specifies an expiration time for a password only (not for the user account per se: the expiration time is not enforced when logging in using a non-password-based authentication method)" xml:lang="zh_TW"></parameter>
+
+  </parameters>
+
+  <sequence status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user"></parameter>
+  </sequence>
+  <sequence xml:lang="ar" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="ar"></parameter>
+  </sequence>
+  <sequence xml:lang="az" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="az"></parameter>
+  </sequence>
+  <sequence xml:lang="ca" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="ca"></parameter>
+  </sequence>
+  <sequence xml:lang="ca@valencia" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="ca@valencia"></parameter>
+  </sequence>
+  <sequence xml:lang="cs" status="OPT" id="GROUPS_S" name="Členové" descr="Existující skupiny, do kterých bude nový uživatel ihned přidán jako nový člen">
+    <parameter id="USER" gdatype="string" name="Uživatel" descr="Existující uživatel" xml:lang="cs"></parameter>
+  </sequence>
+  <sequence xml:lang="da" status="OPT" id="GROUPS_S" name="Medlem af" descr="Eksisterende grupper som en ny bruger umiddelbart vil blive tilføjet til som et nyt medlem">
+    <parameter id="USER" gdatype="string" name="Bruger" descr="Eksisterende bruger" xml:lang="da"></parameter>
+  </sequence>
+  <sequence xml:lang="de" status="OPT" id="GROUPS_S" name="Mitglied von" descr="Vorhandene Gruppen, zu denen der neue Benutzer unmittelbar als Mitglied hinzugefügt wird">
+    <parameter id="USER" gdatype="string" name="Benutzer" descr="Vorhandener Benutzer" xml:lang="de"></parameter>
+  </sequence>
+  <sequence xml:lang="dz" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="ལག་ལེན་པ།" descr="Existing user" xml:lang="dz"></parameter>
+  </sequence>
+  <sequence xml:lang="el" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Χρήστης" descr="Existing user" xml:lang="el"></parameter>
+  </sequence>
+  <sequence xml:lang="en_CA" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="en_CA"></parameter>
+  </sequence>
+  <sequence xml:lang="en_GB" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="en_GB"></parameter>
+  </sequence>
+  <sequence xml:lang="eo" status="OPT" id="GROUPS_S" name="Membro de" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Uzanto" descr="Existing user" xml:lang="eo"></parameter>
+  </sequence>
+  <sequence xml:lang="es" status="OPT" id="GROUPS_S" name="Miembro de" descr="Grupos existentes a los que se añadirá inmediatamente el usuario como miembro nuevo">
+    <parameter id="USER" gdatype="string" name="Usuario" descr="Usuario existente" xml:lang="es"></parameter>
+  </sequence>
+  <sequence xml:lang="eu" status="OPT" id="GROUPS_S" name="Honen kide:" descr="Badaude taldeak erabiltzaile berria berehala kide berri gisa gehitzeko">
+    <parameter id="USER" gdatype="string" name="Erabiltzailea" descr="Existitzen den erabiltzailea" xml:lang="eu"></parameter>
+  </sequence>
+  <sequence xml:lang="fa" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="fa"></parameter>
+  </sequence>
+  <sequence xml:lang="fi" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Käyttäjä" descr="Existing user" xml:lang="fi"></parameter>
+  </sequence>
+  <sequence xml:lang="fr" status="OPT" id="GROUPS_S" name="Membre de" descr="Les groupes existants auxquels le nouvel utilisateur est immédiatement ajouté comme nouveau membre">
+    <parameter id="USER" gdatype="string" name="Utilisateur" descr="Utilisateur existant" xml:lang="fr"></parameter>
+  </sequence>
+  <sequence xml:lang="ga" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="ga"></parameter>
+  </sequence>
+  <sequence xml:lang="gl" status="OPT" id="GROUPS_S" name="Membro de" descr="Os grupos existentes aos que o novo usuario vai será engadido inmediatamente como un novo membro">
+    <parameter id="USER" gdatype="string" name="Usuario" descr="Este usuario xa exiete" xml:lang="gl"></parameter>
+  </sequence>
+  <sequence xml:lang="hr" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="hr"></parameter>
+  </sequence>
+  <sequence xml:lang="hu" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="hu"></parameter>
+  </sequence>
+  <sequence xml:lang="id" status="OPT" id="GROUPS_S" name="Anggota dari" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Pengguna" descr="Pengguna yang telah ada" xml:lang="id"></parameter>
+  </sequence>
+  <sequence xml:lang="it" status="OPT" id="GROUPS_S" name="Membro di" descr="Gruppi esistenti ai quali il nuovo utente verrà immediatamente aggiunto come nuovo membro">
+    <parameter id="USER" gdatype="string" name="Utente" descr="Utente esistente" xml:lang="it"></parameter>
+  </sequence>
+  <sequence xml:lang="ja" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="ユーザー" descr="Existing user" xml:lang="ja"></parameter>
+  </sequence>
+  <sequence xml:lang="ko" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="ko"></parameter>
+  </sequence>
+  <sequence xml:lang="lt" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Vartotojas" descr="Existing user" xml:lang="lt"></parameter>
+  </sequence>
+  <sequence xml:lang="mk" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="mk"></parameter>
+  </sequence>
+  <sequence xml:lang="ml" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="ml"></parameter>
+  </sequence>
+  <sequence xml:lang="ms" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="ms"></parameter>
+  </sequence>
+  <sequence xml:lang="nb" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Bruker" descr="Eksisterende bruker" xml:lang="nb"></parameter>
+  </sequence>
+  <sequence xml:lang="ne" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="प्रयोगकर्ता" descr="Existing user" xml:lang="ne"></parameter>
+  </sequence>
+  <sequence xml:lang="nl" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Gebruiker" descr="Existing user" xml:lang="nl"></parameter>
+  </sequence>
+  <sequence xml:lang="oc" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Utilizaire" descr="Existing user" xml:lang="oc"></parameter>
+  </sequence>
+  <sequence xml:lang="pa" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="pa"></parameter>
+  </sequence>
+  <sequence xml:lang="pl" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="pl"></parameter>
+  </sequence>
+  <sequence xml:lang="pt" status="OPT" id="GROUPS_S" name="Membro de" descr="Grupos existentes aos quais o novo utilizador vai ser adicionado automaticamente como novo membro">
+    <parameter id="USER" gdatype="string" name="Utilizador" descr="Utilizador já existente" xml:lang="pt"></parameter>
+  </sequence>
+  <sequence xml:lang="pt_BR" status="OPT" id="GROUPS_S" name="Membro de" descr="Grupos existentes aos quais o novo usuário será adicionado automaticamente como membro">
+    <parameter id="USER" gdatype="string" name="Usuário" descr="Usuário existente" xml:lang="pt_BR"></parameter>
+  </sequence>
+  <sequence xml:lang="ru" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Пользователь" descr="Existing user" xml:lang="ru"></parameter>
+  </sequence>
+  <sequence xml:lang="rw" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="rw"></parameter>
+  </sequence>
+  <sequence xml:lang="sk" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="sk"></parameter>
+  </sequence>
+  <sequence xml:lang="sl" status="OPT" id="GROUPS_S" name="Član skupine" descr="Obstoječe skupine h katerim je uporabnik takoj dodan kot nov član">
+    <parameter id="USER" gdatype="string" name="Uporabnik" descr="Obstoječi uporabnik" xml:lang="sl"></parameter>
+  </sequence>
+  <sequence xml:lang="sq" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="sq"></parameter>
+  </sequence>
+  <sequence xml:lang="sr" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="sr"></parameter>
+  </sequence>
+  <sequence xml:lang="sr@Latn" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="sr@Latn"></parameter>
+  </sequence>
+  <sequence xml:lang="sv" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Användare" descr="Existing user" xml:lang="sv"></parameter>
+  </sequence>
+  <sequence xml:lang="tr" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="tr"></parameter>
+  </sequence>
+  <sequence xml:lang="uk" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="User" descr="Existing user" xml:lang="uk"></parameter>
+  </sequence>
+  <sequence xml:lang="vi" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="Người dùng" descr="Existing user" xml:lang="vi"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_CN" status="OPT" id="GROUPS_S" name="从属于" descr="新用户将立即作为新成员加入的现有组">
+    <parameter id="USER" gdatype="string" name="用户" descr="现有的用户" xml:lang="zh_CN"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_HK" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="使用者" descr="Existing user" xml:lang="zh_HK"></parameter>
+  </sequence>
+  <sequence xml:lang="zh_TW" status="OPT" id="GROUPS_S" name="Member of" descr="Existing groups to which the new user will be immediately added as a new member">
+    <parameter id="USER" gdatype="string" name="使用者" descr="Existing user" xml:lang="zh_TW"></parameter>
+  </sequence>
+
+</serv_op>

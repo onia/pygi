@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/gnome/gtranslator/plugins/codeview/" id="org.gnome.gtranslator.plugins.codeview" gettext-domain="gtranslator">
+    <key type="b" name="use-editor">
+      <default>false</default>
+      <summary>Use the System Editor</summary>
+      <description>Whether use the system editor to show the source code</description>
+    </key>
+    <key type="s" name="program-cmd">
+      <default>'gedit'</default>
+      <summary>The Editor to Launch</summary>
+      <description>The command to launch the editor you want to use</description>
+    </key>
+    <key type="s" name="line-cmd">
+      <default>'+'</default>
+      <summary>Arguments for the Command</summary>
+      <description>Arguments to pass to the program command line to select the line</description>
+    </key>
+  </schema>
+</schemalist>

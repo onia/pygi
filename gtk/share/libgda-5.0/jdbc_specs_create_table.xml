@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Name" descr="Table's name">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ar" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Name" descr="Table's name" xml:lang="ar">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="az" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Name" descr="Table's name" xml:lang="az">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ca" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nom" descr="Table's name" xml:lang="ca">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nom" descr="Table's name" xml:lang="ca@valencia">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="cs" id="TABLE_DEF_P" name="Popis tabulky">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Název" descr="Název tabulky" xml:lang="cs">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="da" id="TABLE_DEF_P" name="Tabellens beskrivelse">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Navn" descr="Tabellens navn" xml:lang="da">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="de" id="TABLE_DEF_P" name="Beschreibung der Tabelle">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Name" descr="Tabellenname" xml:lang="de">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="dz" id="TABLE_DEF_P" name="ཐིག་ཁྲམ་གྱི་འགྲེལ་བཤད།">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="མིང་།" descr="ཐིག་ཁྲམ་གྱི་མིང་།" xml:lang="dz">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="el" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Όνομα" descr="Table's name" xml:lang="el">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="en_CA" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Name" descr="Table's name" xml:lang="en_CA">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="en_GB" id="TABLE_DEF_P" name="Table&apos;s description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Name" descr="Table&apos;s name" xml:lang="en_GB">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="eo" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nomo" descr="Table's name" xml:lang="eo">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="es" id="TABLE_DEF_P" name="Descripción de la tabla">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nombre" descr="Nombre de la tabla" xml:lang="es">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="eu" id="TABLE_DEF_P" name="Taularen azalpena">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Izena" descr="Taularen izena" xml:lang="eu">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="fa" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="نام" descr="Table's name" xml:lang="fa">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="fi" id="TABLE_DEF_P" name="Taulun kuvaus">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nimi" descr="Taulun nimi" xml:lang="fi">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="fr" id="TABLE_DEF_P" name="Description de la table">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nom" descr="Nom de la base" xml:lang="fr">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ga" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Ainm" descr="Table's name" xml:lang="ga">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="gl" id="TABLE_DEF_P" name="Descrición da táboa">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nome" descr="Nome da táboa" xml:lang="gl">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="hr" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Ime" descr="Table's name" xml:lang="hr">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="hu" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Név" descr="Table's name" xml:lang="hu">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="id" id="TABLE_DEF_P" name="Deskripsi tabel">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nama" descr="Nama tabel" xml:lang="id">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="it" id="TABLE_DEF_P" name="Descrizione tabella">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nome" descr="Nome tabella" xml:lang="it">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ja" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="名前" descr="テーブル名" xml:lang="ja">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ko" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="이름" descr="Table's name" xml:lang="ko">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="lt" id="TABLE_DEF_P" name="Lentelės aprašymas">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Pavadinimas" descr="Lentelės vardas" xml:lang="lt">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="mk" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Name" descr="Table's name" xml:lang="mk">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ml" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="പേര‍്" descr="Table's name" xml:lang="ml">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ms" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nama" descr="Table's name" xml:lang="ms">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="nb" id="TABLE_DEF_P" name="Beskrivelse av tabell">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Navn" descr="Navn på tabell" xml:lang="nb">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ne" id="TABLE_DEF_P" name="तालिकाको वर्णन">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="नाम" descr="तालिको नाम" xml:lang="ne">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="nl" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Naam" descr="Table's name" xml:lang="nl">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="oc" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nom" descr="Table's name" xml:lang="oc">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="pa" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="ਨਾਮ" descr="Table's name" xml:lang="pa">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="pl" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nazwa" descr="Table's name" xml:lang="pl">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="pt" id="TABLE_DEF_P" name="Descrição da tabela">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nome" descr="Nome da tabela" xml:lang="pt">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="pt_BR" id="TABLE_DEF_P" name="Descrição da tabela">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Nome" descr="Nome da tabela" xml:lang="pt_BR">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ru" id="TABLE_DEF_P" name="Описание таблицы">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Наименование" descr="Название таблицы" xml:lang="ru">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="rw" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Izina" descr="Table's name" xml:lang="rw">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sk" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Meno" descr="Table's name" xml:lang="sk">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sl" id="TABLE_DEF_P" name="Opis razpredelnice">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Ime" descr="Ime razpredelnice" xml:lang="sl">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sq" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Emri" descr="Table's name" xml:lang="sq">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sr" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Име" descr="Table's name" xml:lang="sr">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Ime" descr="Table's name" xml:lang="sr@Latn">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sv" id="TABLE_DEF_P" name="Tabellens beskrivning">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Namn" descr="Tabellnamn" xml:lang="sv">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="tr" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="İsim" descr="Table's name" xml:lang="tr">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="uk" id="TABLE_DEF_P" name="Table's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Назва" descr="Table's name" xml:lang="uk">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="vi" id="TABLE_DEF_P" name="Mô tả của bảng">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tên" descr="Tên của bảng" xml:lang="vi">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="zh_CN" id="TABLE_DEF_P" name="表的描述">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="名称" descr="表名" xml:lang="zh_CN">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="zh_HK" id="TABLE_DEF_P" name="表格的說明">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="名稱" descr="表格的名稱" xml:lang="zh_HK">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="zh_TW" id="TABLE_DEF_P" name="表格的說明">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="名稱" descr="表格的名稱" xml:lang="zh_TW">
+      <gda_value>table_name</gda_value>
+    </parameter>
+  </parameters>
+
+  
+  <gda_array id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="ar" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="ar"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="ar"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="ar"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="ar"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="ar"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value" xml:lang="ar"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="ar"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="az" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="az"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="az"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="az"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="az"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="az"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value" xml:lang="az"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="az"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="ca" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom del camp" xml:lang="ca"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Tipus de dada" xml:lang="ca"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="ca"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="ca"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="ca"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Valor per defecte" xml:lang="ca"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="ca"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="ca@valencia" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom del camp" xml:lang="ca@valencia"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Tipus de dada" xml:lang="ca@valencia"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="ca@valencia"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="ca@valencia"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="ca@valencia"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Valor per defecte" xml:lang="ca@valencia"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="ca@valencia"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="cs" id="FIELDS_A" name="Sloupce tabulky">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Název pole" xml:lang="cs"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Datový typ" xml:lang="cs"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Neprázdné" xml:lang="cs"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Jedinečný" xml:lang="cs"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primární klíč" xml:lang="cs"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Výchozí" descr="Výchozí hodnota" xml:lang="cs"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Kontrola" descr="Omezení kontrolou" xml:lang="cs"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="da" id="FIELDS_A" name="Tabellens kolonner">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Feltnavn" xml:lang="da"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Datatype" xml:lang="da"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Ikke NULL" xml:lang="da"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unik" xml:lang="da"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primær nøgle" xml:lang="da"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Standard" descr="Standardværdi" xml:lang="da"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Tjek" descr="Tjek begrænsning" xml:lang="da"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="de" id="FIELDS_A" name="Tabellenspalten">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Feldname" xml:lang="de"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Daten-Typ" xml:lang="de"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Nicht NULL" xml:lang="de"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Eindeutig" xml:lang="de"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primärschlüssel" xml:lang="de"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Vorgabe" descr="Vorgabe-Wert" xml:lang="de"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Überprüfen" descr="Beschränkungen überprüfen" xml:lang="de"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="dz" id="FIELDS_A" name="ཐིག་ཁྲམ་གྱི་ཀེར་ཐིག་ཚུ།">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="ས་སྒོའི་མིང་" xml:lang="dz"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="གནས་སྡུད་དབྱེ་བ།" xml:lang="dz"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="སྟོང་ཆ་མེདཔ།" xml:lang="dz"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="མཐུན་མོང་མ་ཡིད་པ།" xml:lang="dz"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="གཞི་རིམ་ལྡེ་མིག" xml:lang="dz"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="སྔོན་སྒྲིག" descr="སྔོན་སྒྲིག་གནས་གོང་།" xml:lang="dz"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="བལྟ་ཞིབ།" descr="བར་ཆད་བལྟ་ཞིབ་འབད།" xml:lang="dz"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="el" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Όνομα πεδίου" xml:lang="el"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Τύπος δεδομένων" xml:lang="el"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="el"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="el"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="el"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Προεπιλεγμένη τιμή" xml:lang="el"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="el"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="en_CA" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="en_CA"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="en_CA"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="en_CA"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="en_CA"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="en_CA"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value" xml:lang="en_CA"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="en_CA"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="en_GB" id="FIELDS_A" name="Table&apos;s columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="en_GB"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="en_GB"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="en_GB"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="en_GB"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="en_GB"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value" xml:lang="en_GB"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="en_GB"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="eo" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Kamponomo" xml:lang="eo"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Datumtipo" xml:lang="eo"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="eo"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="eo"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Ĉefŝlosilo" xml:lang="eo"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Defaŭlte" descr="Defaŭlta valoro" xml:lang="eo"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="eo"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="es" id="FIELDS_A" name="Columnas de la tabla">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nombre del campo" xml:lang="es"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Tipo de dato" xml:lang="es"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="No nulo" xml:lang="es"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Único" xml:lang="es"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Clave primaria" xml:lang="es"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Predeterminado" descr="Valor predeterminado" xml:lang="es"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Comprobar" descr="Comprobar restricción" xml:lang="es"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="eu" id="FIELDS_A" name="Taularen zutabeak">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Eremu-izena" xml:lang="eu"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Datu mota" xml:lang="eu"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Ez NULL" xml:lang="eu"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Bakarra" xml:lang="eu"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Lehen mailako gakoa" xml:lang="eu"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Lehenetsia" descr="Balio lehenetsia" xml:lang="eu"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Egiaztatu" descr="Egiaztatu murriztapena" xml:lang="eu"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="fa" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="نام فیلد" xml:lang="fa"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="نوع داده" xml:lang="fa"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="fa"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="fa"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="fa"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="پیش‌فرض" descr="مقدار پیش‌فرض" xml:lang="fa"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="fa"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="fi" id="FIELDS_A" name="Taulun sarakkeet">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Kentän nimi" xml:lang="fi"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Tietotyyppi" xml:lang="fi"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Ei NULL" xml:lang="fi"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Yksikäsitteinen" xml:lang="fi"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Pääavain" xml:lang="fi"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Oletus" descr="Oletusarvo" xml:lang="fi"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Tarkista" descr="Tarkista rajoite" xml:lang="fi"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="fr" id="FIELDS_A" name="Colonnes de la table">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom du champ" xml:lang="fr"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Type de donnée" xml:lang="fr"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Non nul" xml:lang="fr"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="fr"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Clé primaire" xml:lang="fr"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Valeur par défaut" descr="Valeur par défaut" xml:lang="fr"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Vérification" descr="Vérification de contrainte" xml:lang="fr"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="ga" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="ga"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="ga"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="ga"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="ga"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="ga"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value" xml:lang="ga"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="ga"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="gl" id="FIELDS_A" name="Columnas da táboa">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome do campo" xml:lang="gl"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Tipo de datos" xml:lang="gl"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="non NULL" xml:lang="gl"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Única" xml:lang="gl"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Clave primaria" xml:lang="gl"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Predefinido" descr="Valor predefinido" xml:lang="gl"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Comprobar" descr="Comprobar a restrición" xml:lang="gl"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="hr" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Naziv polja" xml:lang="hr"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Vrsta podataka" xml:lang="hr"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="hr"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="hr"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="hr"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Uobičajena vrijednost" xml:lang="hr"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="hr"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="hu" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="hu"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="hu"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="hu"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="hu"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="hu"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value" xml:lang="hu"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="hu"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="id" id="FIELDS_A" name="Kolom tabel">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nama ruas" xml:lang="id"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Jenis data" xml:lang="id"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="id"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unik" xml:lang="id"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Kunci primer" xml:lang="id"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Baku" descr="Nilai baku" xml:lang="id"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Centang" descr="Periksa kendala" xml:lang="id"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="it" id="FIELDS_A" name="Colonne tabella">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome campo" xml:lang="it"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Tipo dati" xml:lang="it"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Non NULL" xml:lang="it"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Univoco" xml:lang="it"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Chiave primaria" xml:lang="it"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Predefinito" descr="Valore predefinito" xml:lang="it"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Controllo" descr="Controllo vincoli" xml:lang="it"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="ja" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="フィールド名" xml:lang="ja"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="データ型" xml:lang="ja"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="NULL でない" xml:lang="ja"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="ja"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="主キー" xml:lang="ja"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="デフォルト値" descr="デフォルトの値" xml:lang="ja"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="ja"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="ko" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="필드 이름" xml:lang="ko"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="데이터 형식" xml:lang="ko"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="ko"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="ko"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="ko"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value" xml:lang="ko"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="ko"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="lt" id="FIELDS_A" name="Lentelės stulpeliai">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Lauko vardas" xml:lang="lt"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Duomenų tipas" xml:lang="lt"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Ne NULL" xml:lang="lt"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unikalus" xml:lang="lt"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Pirminis raktas" xml:lang="lt"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Standartinė reikšmė" xml:lang="lt"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="lt"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="mk" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="mk"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="mk"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="mk"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="mk"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="mk"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value" xml:lang="mk"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="mk"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="ml" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="ml"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="ml"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="ml"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="ml"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="ml"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="സ്വതേ" descr="Default value" xml:lang="ml"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="ml"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="ms" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nama Medan" xml:lang="ms"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Jenis data" xml:lang="ms"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="ms"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="ms"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="ms"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Nilai Default" xml:lang="ms"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="ms"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="nb" id="FIELDS_A" name="Tabellens kolonner">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Feltnavn" xml:lang="nb"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Datatype" xml:lang="nb"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Ikke NULL" xml:lang="nb"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unik" xml:lang="nb"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primærnøkkel" xml:lang="nb"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Forvalg" descr="Forvalgt verdi" xml:lang="nb"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Sjekk" descr="Sjekk begrensning" xml:lang="nb"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="ne" id="FIELDS_A" name="तालिकाको सूचि">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="क्षेत्रको नाम" xml:lang="ne"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="डेटा प्रकार" xml:lang="ne"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="शून्य होइन" xml:lang="ne"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="अद्वितीय" xml:lang="ne"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="प्राथमिक कुञ्जी" xml:lang="ne"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="पूर्वनिर्धारित" descr="पूर्वनिर्धारित मान" xml:lang="ne"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="जाँच गर्नुहोस्" descr="अवरोध जाँच गर्नुहोस्" xml:lang="ne"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="nl" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Veld naam" xml:lang="nl"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Gegevens type" xml:lang="nl"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="nl"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="nl"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="nl"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Standaardwaarde" xml:lang="nl"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="nl"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="oc" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom del camp" xml:lang="oc"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="oc"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="oc"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="oc"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="oc"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Defaut" descr="Valor per defaut" xml:lang="oc"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="oc"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="pa" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="ਖੇਤਰ ਨਾਉ" xml:lang="pa"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="ਡਾਟਾ ਕਿਸਮ" xml:lang="pa"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="pa"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="pa"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="pa"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="ਮੂਲ ਮੁੱਲ" xml:lang="pa"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="pa"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="pl" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nazwa pola" xml:lang="pl"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Typ danych" xml:lang="pl"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="pl"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="pl"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="pl"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Domyślna wartość" xml:lang="pl"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="pl"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="pt" id="FIELDS_A" name="Colunas da tabela">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome do campo" xml:lang="pt"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Tipo de dados" xml:lang="pt"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Não NULO" xml:lang="pt"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Único" xml:lang="pt"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Chave primária" xml:lang="pt"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Por omissão" descr="Valor por omissão" xml:lang="pt"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Verificar" descr="Verificar restrição" xml:lang="pt"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="pt_BR" id="FIELDS_A" name="Colunas da tabela">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome do campo" xml:lang="pt_BR"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Tipo de dados" xml:lang="pt_BR"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Não nulo" xml:lang="pt_BR"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Único" xml:lang="pt_BR"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Chave primária" xml:lang="pt_BR"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Padrão" descr="Valor padrão" xml:lang="pt_BR"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Conferir" descr="Confere as restrições" xml:lang="pt_BR"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="ru" id="FIELDS_A" name="Столбцы таблицы">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Имя поля" xml:lang="ru"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Тип данных" xml:lang="ru"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="ru"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="ru"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Первичный ключ" xml:lang="ru"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Исходное значение" descr="Исходное значение" xml:lang="ru"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Проверить ограничения" xml:lang="ru"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="rw" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Izina ry&apos;umwanya" xml:lang="rw"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="rw"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="rw"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="rw"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="rw"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Agaciro mburabuzi" xml:lang="rw"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="rw"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="sk" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Meno poľa" xml:lang="sk"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Typ dát" xml:lang="sk"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="sk"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="sk"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="sk"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Štandardná hodnota" xml:lang="sk"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="sk"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="sl" id="FIELDS_A" name="Stolpci razpredelnice">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Ime polja" xml:lang="sl"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Podatkovna vrsta" xml:lang="sl"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Vrednost ni NULL" xml:lang="sl"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Enoznačno" xml:lang="sl"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Osnovni ključ" xml:lang="sl"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Privzeto" descr="Privzeta vrednost" xml:lang="sl"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Preveri" descr="Preveri omejitev" xml:lang="sl"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="sq" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="sq"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="sq"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="sq"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="sq"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="sq"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value" xml:lang="sq"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="sq"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="sr" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Назив поља" xml:lang="sr"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Врста податка" xml:lang="sr"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="sr"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="sr"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="sr"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Подразумевано" descr="Уобичајена вредност" xml:lang="sr"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="sr"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="sr@Latn" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Naziv polja" xml:lang="sr@Latn"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Vrsta podatka" xml:lang="sr@Latn"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="sr@Latn"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="sr@Latn"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="sr@Latn"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Podrazumevano" descr="Uobičajena vrednost" xml:lang="sr@Latn"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="sr@Latn"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="sv" id="FIELDS_A" name="Tabellens kolumner">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Fältnamn" xml:lang="sv"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Datatyp" xml:lang="sv"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Inte NULL" xml:lang="sv"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unik" xml:lang="sv"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primärnyckel" xml:lang="sv"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Standard" descr="Standardvärde" xml:lang="sv"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="sv"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="tr" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="tr"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Data type" xml:lang="tr"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="tr"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="tr"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="tr"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Default value" xml:lang="tr"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="tr"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="uk" id="FIELDS_A" name="Table's columns">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Назва поля" xml:lang="uk"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Тип даних" xml:lang="uk"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Not NULL" xml:lang="uk"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Unique" xml:lang="uk"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Primary key" xml:lang="uk"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Default" descr="Значення без обумовлення" xml:lang="uk"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Check" descr="Check constraint" xml:lang="uk"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="vi" id="FIELDS_A" name="Các cột của bảng">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Tên trường" xml:lang="vi"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="Kiểu dữ liệu" xml:lang="vi"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="Khác NULL (vô giá trị)" xml:lang="vi"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="Duy nhất" xml:lang="vi"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="Khóa chính" xml:lang="vi"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="Mặc định" descr="Giá trị mặc định" xml:lang="vi"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="Kiểm tra" descr="Ràng buộc kiểm tra" xml:lang="vi"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="zh_CN" id="FIELDS_A" name="表列">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="字段名" xml:lang="zh_CN"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="数据类型" xml:lang="zh_CN"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="非 NULL" xml:lang="zh_CN"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="唯一" xml:lang="zh_CN"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="主键" xml:lang="zh_CN"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="默认" descr="默认值" xml:lang="zh_CN"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="检查" descr="检查约束" xml:lang="zh_CN"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="zh_HK" id="FIELDS_A" name="表格的直行">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="欄位名稱" xml:lang="zh_HK"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="資料類型" xml:lang="zh_HK"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="非 NULL" xml:lang="zh_HK"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="唯一" xml:lang="zh_HK"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="主鍵" xml:lang="zh_HK"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="預設" descr="預設值" xml:lang="zh_HK"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="檢查" descr="檢查限制" xml:lang="zh_HK"></gda_array_field>
+  </gda_array>
+  <gda_array xml:lang="zh_TW" id="FIELDS_A" name="表格的直行">
+    <gda_array_field nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="欄位名稱" xml:lang="zh_TW"></gda_array_field>
+    <gda_array_field nullok="FALSE" id="COLUMN_TYPE" hint="datatype" gdatype="gchararray" name="資料類型" xml:lang="zh_TW"></gda_array_field>
+    <gda_array_field id="COLUMN_NNUL" gdatype="gboolean" name="非 NULL" xml:lang="zh_TW"></gda_array_field>
+    <gda_array_field id="COLUMN_UNIQUE" gdatype="gboolean" name="唯一" xml:lang="zh_TW"></gda_array_field>
+    <gda_array_field id="COLUMN_PKEY" gdatype="gboolean" name="主鍵" xml:lang="zh_TW"></gda_array_field>
+    <gda_array_field id="COLUMN_DEFAULT" gdatype="gchararray" name="預設" descr="預設值" xml:lang="zh_TW"></gda_array_field>
+    <gda_array_field id="COLUMN_CHECK" gdatype="gchararray" name="檢查" descr="檢查限制" xml:lang="zh_TW"></gda_array_field>
+  </gda_array>
+
+  
+  <sequence id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="ar" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="az" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="ca" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="ca@valencia" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="cs" id="TABLE_CONSTRAINTS_S" name="Globální omezení">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="da" id="TABLE_CONSTRAINTS_S" name="Globale begrænsninger">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="de" id="TABLE_CONSTRAINTS_S" name="Globale Einschränkungen">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="dz" id="TABLE_CONSTRAINTS_S" name="སྤྱི་ཁྱབ་བར་ཆད་ཚུ།">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="el" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="en_CA" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="en_GB" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="eo" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="es" id="TABLE_CONSTRAINTS_S" name="Restricciones globales">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="eu" id="TABLE_CONSTRAINTS_S" name="Murriztapen globalak">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="fa" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="fi" id="TABLE_CONSTRAINTS_S" name="Yleiset rajoitteet">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="fr" id="TABLE_CONSTRAINTS_S" name="Contraintes globales">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="ga" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="gl" id="TABLE_CONSTRAINTS_S" name="Restricións globais">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="hr" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="hu" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="id" id="TABLE_CONSTRAINTS_S" name="Kendala global">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="it" id="TABLE_CONSTRAINTS_S" name="Vincoli globali">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="ja" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="ko" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="lt" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="mk" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="ml" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="ms" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="nb" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="ne" id="TABLE_CONSTRAINTS_S" name="विश्वव्यापि अवरोध">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="nl" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="oc" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="pa" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="pl" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="pt" id="TABLE_CONSTRAINTS_S" name="Restrições globais">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="pt_BR" id="TABLE_CONSTRAINTS_S" name="Restrições globais">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="ru" id="TABLE_CONSTRAINTS_S" name="Глобальные ограничения">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="rw" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="sk" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="sl" id="TABLE_CONSTRAINTS_S" name="Splošne omejitve">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="sq" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="sr" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="sr@Latn" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="sv" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="tr" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="uk" id="TABLE_CONSTRAINTS_S" name="Global constraints">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="vi" id="TABLE_CONSTRAINTS_S" name="Ràng buộc toàn cục">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="zh_CN" id="TABLE_CONSTRAINTS_S" name="全局限制">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="zh_HK" id="TABLE_CONSTRAINTS_S" name="全域限制">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+  <sequence xml:lang="zh_TW" id="TABLE_CONSTRAINTS_S" name="全域限制">
+    <parameter name="Constraint" id="CONSTRAINT_STRING" gdatype="gchararray">
+      <gda_value>CHECK (column &gt; 0)</gda_value>
+    </parameter>
+  </sequence>
+</serv_op>

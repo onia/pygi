@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ar" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="az" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ca" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ca@valencia" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="cs" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Název databáze" descr="Název databáze, ke které se má připojit"></parameter>
+    <parameter xml:lang="da" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="Navnet på databasen der skal forbindes til"></parameter>
+    <parameter xml:lang="de" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datenbankname" descr="Name der Datenbank, zu der verbunden werden soll"></parameter>
+    <parameter xml:lang="dz" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་མིང་།" descr="ལུ་མཐུད་ལམ་མཐུད་ནི་གནས་སྡུད་གཞི་རྟེན་ཅིག་གི་མིང་འདི།"></parameter>
+    <parameter xml:lang="el" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="en_CA" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="en_GB" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="eo" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datumbaznomo" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="es" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nombre de la base de datos" descr="El nombre de una base de datos a la que conectarse"></parameter>
+    <parameter xml:lang="eu" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datu-basearen izena" descr="Datu-basearen izena berarekin konektatzeko"></parameter>
+    <parameter xml:lang="fa" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="fi" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tietokannan nimi" descr="Nimi tietokannalle, johon otetaan yhteys"></parameter>
+    <parameter xml:lang="fr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de données" descr="Le nom d&apos;une base de données à laquelle se connecter"></parameter>
+    <parameter xml:lang="ga" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="gl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de datos" descr="O nome da base de datos á que se conectar"></parameter>
+    <parameter xml:lang="hr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="hu" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Adatbázis neve" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="id" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nama basis data" descr="Nama basis data untuk dihubungi"></parameter>
+    <parameter xml:lang="it" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome database" descr="Nome di un database a cui connettersi"></parameter>
+    <parameter xml:lang="ja" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="データベース名" descr="接続するデータベース名"></parameter>
+    <parameter xml:lang="ko" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="lt" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Duomenų bazės vardas" descr="Duomenų bazės vardas naudojamas prisijungimo metu"></parameter>
+    <parameter xml:lang="mk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ml" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ms" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="nb" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ne" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="डाटाबेस नाम" descr="जडान गर्नका लागि डाटाबेसको नाम"></parameter>
+    <parameter xml:lang="nl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database naam" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="oc" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="pa" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="pl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="pt" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de dados" descr="Nome da base de dados à qual se vai estabelecer ligação"></parameter>
+    <parameter xml:lang="pt_BR" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome do banco de dados" descr="O nome do banco de dados ao qual se conectar"></parameter>
+    <parameter xml:lang="ru" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Название базы данных" descr="Название базы данных используемое для соединения"></parameter>
+    <parameter xml:lang="rw" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="sk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="sl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Ime podatkovne zbirke" descr="Ime podatkovne zbirke za povezovanje"></parameter>
+    <parameter xml:lang="sq" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="sr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="sr@Latn" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="sv" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasnamn" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="tr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="uk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Назва бази даних" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="vi" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tên cơ sở dữ liệu" descr="Tên của cơ sở dữ liệu đến đó cần kết nối"></parameter>
+    <parameter xml:lang="zh_CN" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="数据库名" descr="要连接到的数据库的名称"></parameter>
+    <parameter xml:lang="zh_HK" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="要連接的資料庫名稱"></parameter>
+    <parameter xml:lang="zh_TW" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="要連接的資料庫名稱"></parameter>
+    <parameter id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="ar" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="az" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="ca" id="SEARCHPATH" gdatype="gchararray" name="Camí de cerca" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="ca@valencia" id="SEARCHPATH" gdatype="gchararray" name="Camí de cerca" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="cs" id="SEARCHPATH" gdatype="gchararray" name="Cesta hledání" descr="Cesta hledání v databázových schématech (proměnná „search_path“)"></parameter>
+    <parameter xml:lang="da" id="SEARCHPATH" gdatype="gchararray" name="Søgesti" descr="Søgesti hos databasernes skemaer (variablen &apos;search_path&apos;)"></parameter>
+    <parameter xml:lang="de" id="SEARCHPATH" gdatype="gchararray" name="Suchpfad" descr="Pfad in Datenbank-Schemata suchen (Variable »search_path«)"></parameter>
+    <parameter xml:lang="dz" id="SEARCHPATH" gdatype="gchararray" name="འཚོལ་ཞིབ་འགྲུལ་ལམ།" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="el" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="en_CA" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="en_GB" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="eo" id="SEARCHPATH" gdatype="gchararray" name="Serĉvojo" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="es" id="SEARCHPATH" gdatype="gchararray" name="Ruta de búsqueda" descr="Ruta de búsqueda entre los esquemas de la base de datos (variable «search_path»)"></parameter>
+    <parameter xml:lang="eu" id="SEARCHPATH" gdatype="gchararray" name="Bilaketaren bide-izena" descr="Bilaketarako bide-izena datu-baseko eskemetan zehar (&apos;search_path&apos; aldagaia)"></parameter>
+    <parameter xml:lang="fa" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="fi" id="SEARCHPATH" gdatype="gchararray" name="Hakupolku" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="fr" id="SEARCHPATH" gdatype="gchararray" name="Chemin de recherche" descr="Chemin de recherche dans les schémas de la base de données (variable « search_path »)"></parameter>
+    <parameter xml:lang="ga" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="gl" id="SEARCHPATH" gdatype="gchararray" name="Ruta de busca" descr="Ruta de busca dentro dos esquemas da base de datos (variábel «search_path»)"></parameter>
+    <parameter xml:lang="hr" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="hu" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="id" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="it" id="SEARCHPATH" gdatype="gchararray" name="Percorso di ricerca" descr="Percorso di ricerca negli schemi del database (variabile &quot;search_path&quot;)"></parameter>
+    <parameter xml:lang="ja" id="SEARCHPATH" gdatype="gchararray" name="検索パス" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="ko" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="lt" id="SEARCHPATH" gdatype="gchararray" name="Paieškos kelias" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="mk" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="ml" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="ms" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="nb" id="SEARCHPATH" gdatype="gchararray" name="Søkesti" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="ne" id="SEARCHPATH" gdatype="gchararray" name="मार्ग खोजी गर्नुहोस्" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="nl" id="SEARCHPATH" gdatype="gchararray" name="Zoekpad" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="oc" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="pa" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="pl" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="pt" id="SEARCHPATH" gdatype="gchararray" name="Caminho da Procura" descr="Caminho de procura entre os esquemas da base de dados (variável &apos;search_path&apos;)"></parameter>
+    <parameter xml:lang="pt_BR" id="SEARCHPATH" gdatype="gchararray" name="Caminho de busca" descr="O caminho de busca em meio aos esquemas do banco de dados (variável &quot;search_path&quot;)"></parameter>
+    <parameter xml:lang="ru" id="SEARCHPATH" gdatype="gchararray" name="Путь для поиска" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="rw" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="sk" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="sl" id="SEARCHPATH" gdatype="gchararray" name="Pot iskanja" descr="Iskalna pot med shemami podatkovne zbirke (spremenljivka &apos;iskalna_pot&apos;)"></parameter>
+    <parameter xml:lang="sq" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="sr" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="sr@Latn" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="sv" id="SEARCHPATH" gdatype="gchararray" name="Sökväg" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="tr" id="SEARCHPATH" gdatype="gchararray" name="Search Path" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="uk" id="SEARCHPATH" gdatype="gchararray" name="Шлях пошуку" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="vi" id="SEARCHPATH" gdatype="gchararray" name="Đường dẫn tìm kiếm" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="zh_CN" id="SEARCHPATH" gdatype="gchararray" name="搜索路径" descr="数据库方案中的搜索路径 (&apos;search_path&apos; 变量)"></parameter>
+    <parameter xml:lang="zh_HK" id="SEARCHPATH" gdatype="gchararray" name="搜尋路徑" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter xml:lang="zh_TW" id="SEARCHPATH" gdatype="gchararray" name="搜尋路徑" descr="Search path among database's schemas ('search_path' variable)"></parameter>
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="ar" id="HOST" gdatype="gchararray" name="خادم قاعدة بيانات" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="az" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="ca" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="ca@valencia" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="cs" id="HOST" gdatype="gchararray" name="Databázový server" descr="Hostitel, na kterém databázový server běží (pro servery běžící na soketu unixové domény zadejte cestu k soketu (obvykle /tmp) nebo ponechte toto pole prázdné)"></parameter>
+    <parameter xml:lang="da" id="HOST" gdatype="gchararray" name="Databaseserver" descr="Vært hvorpå databaseserveren kører (for servere der kører domænesokler til unix indtastes soklens sti (normalt /tmp), eller feltet efterlades tomt)"></parameter>
+    <parameter xml:lang="de" id="HOST" gdatype="gchararray" name="Datenbankserver" descr="Rechner, auf dem der Datenbankserver läuft. Für Server, die auf einem UNIX-Domain-Socket laufen,geben Sie den Pfad des Sockets ein (üblicherweise /tmp) oder lassen Sie dieses Feld leer"></parameter>
+    <parameter xml:lang="dz" id="HOST" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་སར་བར།" descr="གནས་སྡུད་གཞི་རྟེན་སར་བར་འདི་གུ་ཧོསིཊི་འདི་གཡོག་བཀོལ་དོ(ཡུ་ནིགསི་ཌོ་མེན་སོ་ཀེཊིསི་གུ་སར་བར་ཚུ་གཡོག་བཀོལ་མི་གི་དོན་ལུ་ སོ་ཀེཊི་གི་འགྲུལ་ལམ་འདི་བཙུགས(སྤྱིར་བཏང་/གནས་སྐབས)ཡང་ན་ས་སྒོ་འདི་སྟོངམ་བཞག)།"></parameter>
+    <parameter xml:lang="el" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="en_CA" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="en_GB" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket&apos;s path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="eo" id="HOST" gdatype="gchararray" name="Datumbaza servilo" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="es" id="HOST" gdatype="gchararray" name="Servidor de bases de datos" descr="El equipo en el que se está ejecutando la base de datos (para los servidores ejecutándose bajo sockets de dominio UNIX, introduzca la ruta del socket (generalmente /tmp), o deje este campo vacío)"></parameter>
+    <parameter xml:lang="eu" id="HOST" gdatype="gchararray" name="Datu-base zerbitzaria" descr="Ostalaria, datu-basearen zerbitzaria exekutatzen ari dena (unix domeinuko socket-ean exekutatzen diren zerbitzarien socket-en bide-izena idatzi, normalean /tmp, edo eremu hau hutsi utzi)"></parameter>
+    <parameter xml:lang="fa" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="fi" id="HOST" gdatype="gchararray" name="Tietokantapalvelin" descr="Tietokantapalvelimen verkkonimi. UNIX-pistoketta käyttäville palvelimille anna pistokkeen polku (yleensä /tmp), tai jätä kenttä tyhjäksi."></parameter>
+    <parameter xml:lang="fr" id="HOST" gdatype="gchararray" name="Serveur de base de données" descr="Hôte sur lequel fonctionne le serveur de base de données (pour les serveurs fonctionnant avec les sockets de domaine Unix, saisissez le chemin du socket (généralement /tmp) ou laissez le champ vide)"></parameter>
+    <parameter xml:lang="ga" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="gl" id="HOST" gdatype="gchararray" name="Servidor de bases de datos" descr="O equipo anfitrión no que o servidor da base de datos está a executarse (para servidores executándose sobre conectadores de dominio UNIX, introduza a ruta do conectador (usualmente /tmp), ou deixe este campo baleiro)"></parameter>
+    <parameter xml:lang="hr" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="hu" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="id" id="HOST" gdatype="gchararray" name="Server basis data" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="it" id="HOST" gdatype="gchararray" name="Server database" descr="Host sul quale funzioni il server del database (per i server che funzionino su socket in dominio Unix, inserire il percorso del socket, normalmente /tmp, o lasciare questo campo vuoto)"></parameter>
+    <parameter xml:lang="ja" id="HOST" gdatype="gchararray" name="データベース・サーバー" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="ko" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="lt" id="HOST" gdatype="gchararray" name="Duomenų bazės serveris" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="mk" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="ml" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="ms" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="nb" id="HOST" gdatype="gchararray" name="Databasetjener" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="ne" id="HOST" gdatype="gchararray" name="डाटाबेस सर्भर" descr="होस्ट जसको डाटाबेस सर्भर चलिरहेको छ ( युनिक्स डोमेन सकेटहरूमा सर्भरहरू चलाउन, सकेट मार्ग(प्राय /tmp) प्रविष्ट गर्नुहोस्), वा यो फिन्ड छोड्नुहोस्)"></parameter>
+    <parameter xml:lang="nl" id="HOST" gdatype="gchararray" name="Databaseserver" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="oc" id="HOST" gdatype="gchararray" name="Servidor de basa de donadas" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="pa" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="pl" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="pt" id="HOST" gdatype="gchararray" name="Servidor de base de dados" descr="Host no qual o servidor da base de dados está a correr (para servidores a correr em sockets de domínio unix, digite o caminho para o socket (normalmente /tmp), ou deixe este campo vazio)"></parameter>
+    <parameter xml:lang="pt_BR" id="HOST" gdatype="gchararray" name="Servidor de banco de dados" descr="A máquina na qual o servidor de banco de dados está executando (para servidores operando em soquetes de domínio Unix, informe o caminho do soquete (normalmente /tmp) ou deixe este campo em branco)"></parameter>
+    <parameter xml:lang="ru" id="HOST" gdatype="gchararray" name="Сервер баз данных" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="rw" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="sk" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="sl" id="HOST" gdatype="gchararray" name="Strežnik podatkovnih zbirk" descr="Gostitelj na katerem teče podatkovni strežnik (za strežnike ki so zagnani na unix domeni vtiča, je treba vnesti pot vtiča (običajno /tmp), ali pa je treba polje pustiti prazno)"></parameter>
+    <parameter xml:lang="sq" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="sr" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="sr@Latn" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="sv" id="HOST" gdatype="gchararray" name="Databasserver" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="tr" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="uk" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter xml:lang="vi" id="HOST" gdatype="gchararray" name="Máy phục vụ cơ sở dữ liệu" descr="Máy trên đó chạy trình phục vụ cơ sở dữ liệu (đối với máy phục vụ chạy trên ổ cắm miền UNIX, hãy nhập vào đường dẫn của ổ cắm [thường là « /tmp »], hoặc bỏ rỗng trường này)"></parameter>
+    <parameter xml:lang="zh_CN" id="HOST" gdatype="gchararray" name="数据库服务器" descr="正在运行数据库服务器的主机 (对于运行在 Unix 域套接字上的服务器，输入套接字的路径 (通常为 /tmp)，或留此字段为空)"></parameter>
+    <parameter xml:lang="zh_HK" id="HOST" gdatype="gchararray" name="資料庫伺服器" descr="運行資料庫伺服器的主機（對於運行於 unix domain socket 的伺服器，輸入 socket 的路徑（通常是 /tmp），或將欄位留空）"></parameter>
+    <parameter xml:lang="zh_TW" id="HOST" gdatype="gchararray" name="資料庫伺服器" descr="運行資料庫伺服器的主機（對於運行於 unix domain socket 的伺服器，輸入 socket 的路徑（通常是 /tmp），或將欄位留空）"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="ar" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="az" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="ca" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="ca@valencia" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="cs" id="PORT" gdatype="gint" name="Port" descr="Port databázového portu (pro servery běžící na soketu unixové domény zadejte příponu názvu souboru soketu (obvykle 5432) nebo ponechte toto pole prázdné)"></parameter>
+    <parameter xml:lang="da" id="PORT" gdatype="gint" name="Port" descr="Databaseserverport (for servere der kører på unixdomænesokler indtastes soklens filnavnsendelse (normalt 5432), eller feltet efterlades tomt)"></parameter>
+    <parameter xml:lang="de" id="PORT" gdatype="gint" name="Port" descr="Port des Datenbankservers. Für Server, die auf einem UNIX-Domain-Socket laufen,geben Sie die Erweiterung des Namens der Socket-Datei ein (üblicherweise 5432) oder lassen Sie dieses Feld leer"></parameter>
+    <parameter xml:lang="dz" id="PORT" gdatype="gint" name="འདྲེན་ལམ།" descr="གནས་སྡུད་གཞི་རྟེན་སར་བར་འདྲེན་ལམ་(ཡུ་ནིགསི་ཌོ་མེན་སོ་ཀེཊིསི་གུ་སར་་བརཚུ་གཡོག་བཀོལ་མི་གི་དོན་ལུ་སོ་ཀེཊི་གི་ཡིག་སྣོད་མིང་རྒྱ་བསྐྱེད་བཙུགས(སྤྱིར་་བཏང་༥༤༣༢)ཡང་ན་ས་སྒོ་འདི་སྟོངམ་བཞག)།"></parameter>
+    <parameter xml:lang="el" id="PORT" gdatype="gint" name="Θύρα" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="en_CA" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="en_GB" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket&apos;s file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="eo" id="PORT" gdatype="gint" name="Pordo" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="es" id="PORT" gdatype="gint" name="Puerto" descr="El puerto del servidor de la base de datos (para los servidores ejecutándose bajo sockets de dominio UNIX, introduzca la extensión del nombre del socket (generalmente 5432), o deje este campo vacío)"></parameter>
+    <parameter xml:lang="eu" id="PORT" gdatype="gint" name="Ataka" descr="Datu-base zerbitzariaren ataka (unix domeinuko socket-etan exekutatzen diren zerbitzarien socket-en fitxategi-luzapena idatzi, normalean 5432, edo eremu hau hutsik utzi)"></parameter>
+    <parameter xml:lang="fa" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="fi" id="PORT" gdatype="gint" name="Portti" descr="Tietokantapalvelimen portti. UNIX-pistoketta käyttäville palvelimille anna pistokkeen tiedostopääte (yleensä 5432), tai jätä kenttä tyhjäksi."></parameter>
+    <parameter xml:lang="fr" id="PORT" gdatype="gint" name="Port" descr="Port du serveur de base de données (pour les serveurs fonctionnant avec les sockets de domaine Unix, saisissez l&apos;extension du nom de fichier du socket (généralement 5432) ou laissez le champ vide)"></parameter>
+    <parameter xml:lang="ga" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="gl" id="PORT" gdatype="gint" name="Porto" descr="Porto do servidor da base de datos (para servidores executándose sobre conectadores de dominio UNIX, introduza a extensión do nome do conectador do ficheiro (usualmente 5432), ou deixe este campo baleiro)"></parameter>
+    <parameter xml:lang="hr" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="hu" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="id" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="it" id="PORT" gdatype="gint" name="Porta" descr="Porta del database server (per i server che funzionino su socket in dominio Unix, inserire l&apos;estensione del nome file del socket, normalmente 5432, o lasciare questo campo vuoto)"></parameter>
+    <parameter xml:lang="ja" id="PORT" gdatype="gint" name="ポート" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="ko" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="lt" id="PORT" gdatype="gint" name="Prievadas" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="mk" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="ml" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="ms" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="nb" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="ne" id="PORT" gdatype="gint" name="पोर्ट" descr="डाटाबेस सर्भर पोर्ट ( युनिक्स डोमेन सकेटहरूमा सर्भरहरू चलाउन, सकेटको फाइलनाम विस्तार प्रविष्ट गर्नुहोस् (प्राय ५४३२), वा यो फिन्ड खाली गर्नुहोस् )"></parameter>
+    <parameter xml:lang="nl" id="PORT" gdatype="gint" name="Poort" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="oc" id="PORT" gdatype="gint" name="Pòrt" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="pa" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="pl" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="pt" id="PORT" gdatype="gint" name="Porto" descr="Porta do servidor da base de dados (para servidores a correr em sockets de domínio unix, digite a extensão do nome do ficheiro do socket (normalmente 5432), ou deixe este campo vazio)"></parameter>
+    <parameter xml:lang="pt_BR" id="PORT" gdatype="gint" name="Porta" descr="A porta do servidor do banco de dados (para servidores operando em soquetes de domínio Unix, informe a extensão do nome de arquivo do soquete (normalmente 5432) ou deixe este campo em branco)"></parameter>
+    <parameter xml:lang="ru" id="PORT" gdatype="gint" name="Порт" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="rw" id="PORT" gdatype="gint" name="Umuyoboro" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="sk" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="sl" id="PORT" gdatype="gint" name="Vrata" descr="Vrata strežnika podatkovne zbirke (za strežnike ki so zagnani na unix domeni vtiča, je treba vnesti pripono datoteke vtiča (običajno 5432), ali pa je treba polje pustiti prazno)"></parameter>
+    <parameter xml:lang="sq" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="sr" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="sr@Latn" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="sv" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="tr" id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="uk" id="PORT" gdatype="gint" name="Порт" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter xml:lang="vi" id="PORT" gdatype="gint" name="Cổng" descr="Cổng máy phục vụ cơ sở dữ liệu (đối với máy phục vụ chạy trên ổ cắm miền UNIX, hãy nhập vào phần mở rộng tên tập tin của ổ cắm [thường là 5342], hoặc bỏ rỗng trường này)"></parameter>
+    <parameter xml:lang="zh_CN" id="PORT" gdatype="gint" name="端口" descr="数据库服务器端口 (对于运行在 Unix 域套接字上的服务器，输入套接字文件名的扩展名 (通常为 5432)，或留此字段为空)"></parameter>
+    <parameter xml:lang="zh_HK" id="PORT" gdatype="gint" name="連接埠" descr="資料庫伺服器連接埠（對於運行於 unix domain socket 的伺服器，輸入 socket 的檔案延伸名稱（通常是 5432），或將欄位留空）"></parameter>
+    <parameter xml:lang="zh_TW" id="PORT" gdatype="gint" name="連接埠" descr="資料庫伺服器連接埠（對於運行於 unix domain socket 的伺服器，輸入 socket 的檔案延伸名稱（通常是 5432），或將欄位留空）"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="ar" id="OPTIONS" gdatype="gchararray" name="خيارات" descr="Extra connection options"></parameter>
+    <parameter xml:lang="az" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="ca" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="ca@valencia" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="cs" id="OPTIONS" gdatype="gchararray" name="Volby" descr="Doplňující volby připojení"></parameter>
+    <parameter xml:lang="da" id="OPTIONS" gdatype="gchararray" name="Indstillinger" descr="Ekstra forbindelsestilvalg"></parameter>
+    <parameter xml:lang="de" id="OPTIONS" gdatype="gchararray" name="Optionen" descr="Weitere Verbindungsoptionen"></parameter>
+    <parameter xml:lang="dz" id="OPTIONS" gdatype="gchararray" name="གདམ་ཁ་ཚུ།" descr="མཐུད་ལམ་གདམ་ཚུ་ཐེབས་ཚུ།"></parameter>
+    <parameter xml:lang="el" id="OPTIONS" gdatype="gchararray" name="Επιλογές" descr="Extra connection options"></parameter>
+    <parameter xml:lang="en_CA" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="en_GB" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="eo" id="OPTIONS" gdatype="gchararray" name="Agordoj" descr="Extra connection options"></parameter>
+    <parameter xml:lang="es" id="OPTIONS" gdatype="gchararray" name="Opciones" descr="Opciones de conexión adicionales"></parameter>
+    <parameter xml:lang="eu" id="OPTIONS" gdatype="gchararray" name="Aukerak" descr="Konexio-aukera gehigarriak"></parameter>
+    <parameter xml:lang="fa" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="fi" id="OPTIONS" gdatype="gchararray" name="Valinnat" descr="Yhteyden lisävalinnat"></parameter>
+    <parameter xml:lang="fr" id="OPTIONS" gdatype="gchararray" name="Options" descr="Options de connexion supplémentaires"></parameter>
+    <parameter xml:lang="ga" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="gl" id="OPTIONS" gdatype="gchararray" name="Opcións" descr="Opcións adicionais de conexión"></parameter>
+    <parameter xml:lang="hr" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="hu" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="id" id="OPTIONS" gdatype="gchararray" name="Opsi" descr="Opsi koneksi ekstra"></parameter>
+    <parameter xml:lang="it" id="OPTIONS" gdatype="gchararray" name="Opzioni" descr="Opzioni di connessione extra"></parameter>
+    <parameter xml:lang="ja" id="OPTIONS" gdatype="gchararray" name="オプション" descr="追加接続オプション"></parameter>
+    <parameter xml:lang="ko" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="lt" id="OPTIONS" gdatype="gchararray" name="Nustatymai" descr="Papildomi prisijungimo nustatymai"></parameter>
+    <parameter xml:lang="mk" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="ml" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="ms" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="nb" id="OPTIONS" gdatype="gchararray" name="Alternativer" descr="Ekstra alternativer for tilkobling"></parameter>
+    <parameter xml:lang="ne" id="OPTIONS" gdatype="gchararray" name="विकल्पहरू" descr="अतिरिक्त जडान विकल्पहरू"></parameter>
+    <parameter xml:lang="nl" id="OPTIONS" gdatype="gchararray" name="Opties" descr="Extra connection options"></parameter>
+    <parameter xml:lang="oc" id="OPTIONS" gdatype="gchararray" name="Opcions" descr="Extra connection options"></parameter>
+    <parameter xml:lang="pa" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="pl" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="pt" id="OPTIONS" gdatype="gchararray" name="Opções" descr="Opções extra de ligação"></parameter>
+    <parameter xml:lang="pt_BR" id="OPTIONS" gdatype="gchararray" name="Opções" descr="Opções extras de conexão"></parameter>
+    <parameter xml:lang="ru" id="OPTIONS" gdatype="gchararray" name="Параметры" descr="Дополнительные параметры соединения"></parameter>
+    <parameter xml:lang="rw" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="sk" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="sl" id="OPTIONS" gdatype="gchararray" name="Možnosti" descr="Dodatne možnosti povezave"></parameter>
+    <parameter xml:lang="sq" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="sr" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="sr@Latn" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="sv" id="OPTIONS" gdatype="gchararray" name="Alternativ" descr="Extra connection options"></parameter>
+    <parameter xml:lang="tr" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="uk" id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter xml:lang="vi" id="OPTIONS" gdatype="gchararray" name="Tùy chọn" descr="Tùy chọn kết nối thêm"></parameter>
+    <parameter xml:lang="zh_CN" id="OPTIONS" gdatype="gchararray" name="选项" descr="额外连接选项"></parameter>
+    <parameter xml:lang="zh_HK" id="OPTIONS" gdatype="gchararray" name="選項" descr="額外連線選項"></parameter>
+    <parameter xml:lang="zh_TW" id="OPTIONS" gdatype="gchararray" name="選項" descr="額外連線選項"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ar" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="az" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ca" id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ca@valencia" id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="cs" id="USE_SSL" gdatype="gboolean" name="Vyžadovat SSL" descr="Zda používat nebo nepoužívat SSL pro navázání spojení"></parameter>
+    <parameter xml:lang="da" id="USE_SSL" gdatype="gboolean" name="Kræv SSL" descr="Hvorvidt der skal bruges SSL for at etablere forbindelsen"></parameter>
+    <parameter xml:lang="de" id="USE_SSL" gdatype="gboolean" name="Erfordert SSL" descr="Legt fest, ob SSL für den Verbindungsaufbau verwendet werden soll"></parameter>
+    <parameter xml:lang="dz" id="USE_SSL" gdatype="gboolean" name="ཨེསི་ཨེསི་ཨེལ་དགོས་མཁོ་ཡོདཔ།" descr="མཐུད་ལམ་གཞི་བཙུགས་འབད་ནི་ཨེསི་ཨེསི་ཨེལ་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"></parameter>
+    <parameter xml:lang="el" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="en_CA" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="en_GB" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="eo" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="es" id="USE_SSL" gdatype="gboolean" name="Requiere SSL" descr="Indica si se debe usar o no SSL para establecer la conexión"></parameter>
+    <parameter xml:lang="eu" id="USE_SSL" gdatype="gboolean" name="SSL behar du" descr="Konexioak ezartzean SSL erabili edo ez"></parameter>
+    <parameter xml:lang="fa" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="fi" id="USE_SSL" gdatype="gboolean" name="Vaadi SSL:ää" descr="Käytetäänkö SSL-salausta yhteyden muodostamisessa"></parameter>
+    <parameter xml:lang="fr" id="USE_SSL" gdatype="gboolean" name="Utiliser une connexion sécurisée" descr="Indique si l&apos;on doit utiliser une connexion sécurisée par SSL"></parameter>
+    <parameter xml:lang="ga" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="gl" id="USE_SSL" gdatype="gboolean" name="Requirir SSL" descr="Usar ou non SSL para estabelecer a conexión"></parameter>
+    <parameter xml:lang="hr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="hu" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="id" id="USE_SSL" gdatype="gboolean" name="Perlu SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="it" id="USE_SSL" gdatype="gboolean" name="Richiede SSL" descr="Uso di SSL per l&apos;instaurazione della connessione"></parameter>
+    <parameter xml:lang="ja" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ko" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="lt" id="USE_SSL" gdatype="gboolean" name="Būtinas SSL" descr="Nustato, ar prisijungimo metu bus naudojamas SSL kodavimas"></parameter>
+    <parameter xml:lang="mk" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ml" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ms" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="nb" id="USE_SSL" gdatype="gboolean" name="Krev SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ne" id="USE_SSL" gdatype="gboolean" name="SSL आवश्यक पर्छ" descr="जडान स्थापानाका लागि SSL प्रयोग गर्न पर्छ वा पर्दैन"></parameter>
+    <parameter xml:lang="nl" id="USE_SSL" gdatype="gboolean" name="Vereist SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="oc" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pa" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pl" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pt" id="USE_SSL" gdatype="gboolean" name="Requerer SSL" descr="Utilizar ou não SSL para estabelecer ligação"></parameter>
+    <parameter xml:lang="pt_BR" id="USE_SSL" gdatype="gboolean" name="Exige SSL" descr="Se utiliza ou não SSL para estabelecer a conexão"></parameter>
+    <parameter xml:lang="ru" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="rw" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sk" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sl" id="USE_SSL" gdatype="gboolean" name="Zahtevan SSL" descr="Ali naj bo uporabljen SSL za ustvarjanje povezave"></parameter>
+    <parameter xml:lang="sq" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sr@Latn" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sv" id="USE_SSL" gdatype="gboolean" name="Kräver SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="tr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="uk" id="USE_SSL" gdatype="gboolean" name="Потребує SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="vi" id="USE_SSL" gdatype="gboolean" name="Cần thiết SSL" descr="Có nên dùng SSL để thiết lập kết nối hay không"></parameter>
+    <parameter xml:lang="zh_CN" id="USE_SSL" gdatype="gboolean" name="要求 SSL" descr="是否使用 SSL 创建连接"></parameter>
+    <parameter xml:lang="zh_HK" id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="是否要使用 SSL 建立連線"></parameter>
+    <parameter xml:lang="zh_TW" id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="是否要使用 SSL 建立連線"></parameter>
+  </parameters>
+</data-set-spec>

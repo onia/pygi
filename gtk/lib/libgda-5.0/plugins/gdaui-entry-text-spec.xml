@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="ar" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="az" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="ca" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="ca@valencia" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="cs" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Zalamování řádků" descr="Určuje, jak se mají zalamovat dlouhé řádky"></parameter>
+    <parameter xml:lang="da" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Linjeombrydning" descr="Definerer hvordan lange linjer ombrydes"></parameter>
+    <parameter xml:lang="de" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Zeilenumbruch" descr="Legt fest, wie lang Zeilen bis zum Umbruch sind"></parameter>
+    <parameter xml:lang="dz" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="el" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="en_CA" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="en_GB" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="eo" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="es" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Ajuste de líneas" descr="Define cómo se ajustan las líneas"></parameter>
+    <parameter xml:lang="eu" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lerroak itzulbiratzea" descr="Zer luzeratako lerroak itzulbiratzen diren definitzen du"></parameter>
+    <parameter xml:lang="fa" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="fi" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="fr" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Retour à la ligne" descr="Définit le mode de césure des lignes longues"></parameter>
+    <parameter xml:lang="ga" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="gl" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Corte de liñas" descr="Definir a lonxitude de corte das liñas"></parameter>
+    <parameter xml:lang="hr" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="hu" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="id" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="it" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Capolinee" descr="Definisce a quanto sarà lungo il ritorno a capo delle righe"></parameter>
+    <parameter xml:lang="ja" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="ko" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="lt" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="mk" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="ml" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="ms" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="nb" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Linjebryting" descr="Definer hvordan lange linjer brytes"></parameter>
+    <parameter xml:lang="ne" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="nl" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="oc" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="pa" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="pl" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="pt" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="pt_BR" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Quebra de linhas" descr="Define como linhas longas serão quebradas"></parameter>
+    <parameter xml:lang="ru" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="rw" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="sk" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="sl" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Prelom vrstic" descr="Določi, kako dolga je prelomljena vrstica"></parameter>
+    <parameter xml:lang="sq" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="sr" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="sr@Latn" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="sv" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="tr" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="uk" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="vi" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="zh_CN" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="折行" descr="定义长行如何折行"></parameter>
+    <parameter xml:lang="zh_HK" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter xml:lang="zh_TW" source="wrappermodes:0" id="WRAP_MODE" gdatype="string" name="Lines wrapping" descr="Defines how long lines are wrapped"></parameter>
+    <parameter source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="ar" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="az" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="ca" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="ca@valencia" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="cs" source="langs:0" id="PROG_LANG" gdatype="string" name="Programovací jazyk" descr="Definuje se pro zprovoznění obarvování syntaxe"></parameter>
+    <parameter xml:lang="da" source="langs:0" id="PROG_LANG" gdatype="string" name="Programmeringssprog" descr="Definer aktivering af syntaktisk farvelæggelse"></parameter>
+    <parameter xml:lang="de" source="langs:0" id="PROG_LANG" gdatype="string" name="Programmiersprache" descr="Festlegen, um die farbliche Syntax-Hervorhebung zu aktivieren"></parameter>
+    <parameter xml:lang="dz" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="el" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="en_CA" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="en_GB" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="eo" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="es" source="langs:0" id="PROG_LANG" gdatype="string" name="Lenguaje de programación" descr="Definir para activar la coloración sintáctica"></parameter>
+    <parameter xml:lang="eu" source="langs:0" id="PROG_LANG" gdatype="string" name="Programazioko lengoaia" descr="Definitu koloreztatze sintaktikoa gaitzeko"></parameter>
+    <parameter xml:lang="fa" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="fi" source="langs:0" id="PROG_LANG" gdatype="string" name="Ohjelmointikieli" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="fr" source="langs:0" id="PROG_LANG" gdatype="string" name="Langage de programmation" descr="Définir pour activer la coloration syntaxique"></parameter>
+    <parameter xml:lang="ga" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="gl" source="langs:0" id="PROG_LANG" gdatype="string" name="Linguaxe de programación" descr="Define a activación de coloreado sintáctico"></parameter>
+    <parameter xml:lang="hr" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="hu" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="id" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="it" source="langs:0" id="PROG_LANG" gdatype="string" name="Linguaggio di programmazione" descr="Da definire per abilitare la colorazione della sintassi"></parameter>
+    <parameter xml:lang="ja" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="ko" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="lt" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="mk" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="ml" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="ms" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="nb" source="langs:0" id="PROG_LANG" gdatype="string" name="Programmeringsspråk" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="ne" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="nl" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="oc" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="pa" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="pl" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="pt" source="langs:0" id="PROG_LANG" gdatype="string" name="Linguagem programação" descr="Definir para activar cores da syntaxe"></parameter>
+    <parameter xml:lang="pt_BR" source="langs:0" id="PROG_LANG" gdatype="string" name="Linguagem de programação" descr="Defina para habilitar a colorização sintática"></parameter>
+    <parameter xml:lang="ru" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="rw" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="sk" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="sl" source="langs:0" id="PROG_LANG" gdatype="string" name="Programski jezik" descr="Določi skladenjsko obarvanje"></parameter>
+    <parameter xml:lang="sq" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="sr" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="sr@Latn" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="sv" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="tr" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="uk" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="vi" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="zh_CN" source="langs:0" id="PROG_LANG" gdatype="string" name="编程语言" descr="定义以启用语法高亮"></parameter>
+    <parameter xml:lang="zh_HK" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+    <parameter xml:lang="zh_TW" source="langs:0" id="PROG_LANG" gdatype="string" name="Programming language" descr="Define to enable syntactical colourisation"></parameter>
+  </parameters>
+  <sources>
+    <gda_array name="langs">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="name" gdatype="gchararray"/>
+      <gda_array_data/>
+    </gda_array>
+
+    <gda_array name="wrappermodes">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="name" gdatype="gchararray"/>
+      <gda_array_data>
+	<gda_array_row>
+          <gda_value>NONE</gda_value>
+          <gda_value>Do not wrap lines</gda_value>
+          <gda_value xml:lang="cs">Nezalamovat řádky</gda_value>
+          <gda_value xml:lang="da">Ombryd ikke linjer</gda_value>
+          <gda_value xml:lang="de">Zeilen nicht umbrechen</gda_value>
+          <gda_value xml:lang="es">No ajustar líneas</gda_value>
+          <gda_value xml:lang="eu">Ez itzulbiratu lerroak</gda_value>
+          <gda_value xml:lang="fr">Pas de retour à la ligne</gda_value>
+          <gda_value xml:lang="gl">Non cortar liñas</gda_value>
+          <gda_value xml:lang="it">Non mandare a capo le righe</gda_value>
+          <gda_value xml:lang="nb">Ikke bryt linjer</gda_value>
+          <gda_value xml:lang="pt_BR">Não quebrar linhas</gda_value>
+          <gda_value xml:lang="sl">Ne prelomi vrstic</gda_value>
+          <gda_value xml:lang="zh_CN">不折行</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+          <gda_value>CHAR</gda_value>
+          <gda_value>break lines anywhere the cursor can appear</gda_value>
+          <gda_value xml:lang="cs">zalamovat řádky kdekoliv se nachází kurzor</gda_value>
+          <gda_value xml:lang="da">ombryd linjer overalt hvor markøren kan fremkomme</gda_value>
+          <gda_value xml:lang="de">Zeilen beliebig umbrechen, wo die EIngabemarke erscheinen kann</gda_value>
+          <gda_value xml:lang="es">Saltar líneas siempre que pueda aparecer el cursor</gda_value>
+          <gda_value xml:lang="eu">hautsi lerroak kurtsorea ager daitekeen edozer kokalekuan</gda_value>
+          <gda_value xml:lang="fr">Sauts de ligne à n'importe quel endroit où le curseur peut être affiché</gda_value>
+          <gda_value xml:lang="gl">quebra as liñas en calquera posición na que apareza o cursor</gda_value>
+          <gda_value xml:lang="it">interrompere le righe dovunque possa apparire il cursore</gda_value>
+          <gda_value xml:lang="pt_BR">quebrar linhas onde quer que o cursor possa aparecer</gda_value>
+          <gda_value xml:lang="sl">prelomi vrstice kjerkoli je mogoče postaviti kazalko</gda_value>
+          <gda_value xml:lang="zh_CN">在光标可出现的任意位置断行</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+          <gda_value>WORD</gda_value>
+          <gda_value>Break lines in between words</gda_value>
+          <gda_value xml:lang="cs">Zalamovat řádky mezi slovy</gda_value>
+          <gda_value xml:lang="da">Ombryd linjer mellem ord</gda_value>
+          <gda_value xml:lang="de">Zeilen zwischen Wörtern umbrechen</gda_value>
+          <gda_value xml:lang="es">Saltar líneas entre palabras</gda_value>
+          <gda_value xml:lang="eu">Hautsi lerroak hitzen artean</gda_value>
+          <gda_value xml:lang="fr">Sauts de ligne entre les mots</gda_value>
+          <gda_value xml:lang="gl">Quebra liñas entre palabras</gda_value>
+          <gda_value xml:lang="it">Interruzioni di riga tra parole</gda_value>
+          <gda_value xml:lang="nb">Bryt linjer mellom ord</gda_value>
+          <gda_value xml:lang="pt_BR">Quebrar linhas entre palavras</gda_value>
+          <gda_value xml:lang="sl">Prelomi vrstice med besedami</gda_value>
+          <gda_value xml:lang="zh_CN">在单词之间断行</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+          <gda_value>D_CHAR</gda_value>
+          <gda_value>Break lines in between words or graphemes</gda_value>
+          <gda_value xml:lang="cs">Zalamovat řádky mezi slovy nebo grafémy</gda_value>
+          <gda_value xml:lang="da">Ombryd linjer mellem ord eller grafemer</gda_value>
+          <gda_value xml:lang="de">Zeilen zwischen Wörtern oder Grafemen umbrechen</gda_value>
+          <gda_value xml:lang="es">Salta líneas entre palabras o grafemas</gda_value>
+          <gda_value xml:lang="eu">Hautsi lerroak hitz edo grafemen artean</gda_value>
+          <gda_value xml:lang="fr">Sauts de lignes entre les mots ou les graphèmes</gda_value>
+          <gda_value xml:lang="gl">Quebra liñas entre palabras ou grafemas</gda_value>
+          <gda_value xml:lang="it">Interruzioe di righe tra parole o grafemi</gda_value>
+          <gda_value xml:lang="pt_BR">Quebrar linhas entre palavras ou grafemas</gda_value>
+          <gda_value xml:lang="sl">Prelomi vrstice med besedami ali grafemi</gda_value>
+        </gda_array_row>
+      </gda_array_data>
+    </gda_array>
+  </sources>
+</data-set-spec>

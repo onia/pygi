@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="ar" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="az" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="ca" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="ca@valencia" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="cs" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Model výběru" descr="Určuje, co bude uživateli dovoleno vybírat">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="da" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Udvælgelsesmodel" descr="Angiver hvad brugeren vil få lov til at vælge">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="de" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Auswahlmodell" descr="Legt fest, was der Benutzer auswählen darf">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="dz" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="el" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="en_CA" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="en_GB" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="eo" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="es" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Modelo de selección" descr="Especifica qué se le permite seleccionar al usuario">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="eu" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Hautapen-modeloa" descr="Erabiltzaileak zer hauta dezaken zehazten du">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="fa" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="fi" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Valintamalli" descr="Määrittää, mitä käyttäjän sallitaan valita">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="fr" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Modèle de sélection" descr="Indique ce que l&apos;utilisateur sera autorisé à sélectionner">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="ga" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="gl" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Modelo de selección" descr="Especifica que se lle permite seleccionar ao usuario">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="hr" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="hu" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="id" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Model pilihan" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="it" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Modello selezione" descr="Specifica cosa l&apos;utente sarà autorizzato a selezionare">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="ja" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="ko" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="lt" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="mk" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="ml" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="ms" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="nb" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Utvalgsmodell" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="ne" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="nl" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="oc" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="pa" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="pl" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="pt" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Modelo de selecção" descr="Especifica o que irá ser permitido a escolher ao utilzador">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="pt_BR" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Modelo de seleção" descr="Especifica o que o usuário pode selecionar">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="ru" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="rw" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="sk" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="sl" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Način izbire" descr="Določa kaj uporabnik lahko izbere">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="sq" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="sr" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="sr@Latn" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="sv" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="tr" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="uk" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="vi" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_CN" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="选择模型" descr="指定允许用户选择什么内容">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_HK" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_TW" source="modes:0" nullok="FALSE" id="MODE" gdatype="gchararray" name="Selection model" descr="Specifies what the user will be allowed to select">
+      <gda_value>OPEN</gda_value>
+    </parameter>
+  </parameters>
+  <sources>
+    <gda_array name="modes">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="text" gdatype="gchararray"/>
+      <gda_array_data>
+        <gda_array_row>
+          <gda_value>OPEN</gda_value>
+          <gda_value>Only let the user pick an existing file</gda_value>
+          <gda_value xml:lang="cs">Uživateli umožnit pouze zvolit existující soubor</gda_value>
+          <gda_value xml:lang="da">Lad kun brugeren vælge en eksisterende fil</gda_value>
+          <gda_value xml:lang="de">Nur vorhandene Datei durch Benutzer auswählen lassen</gda_value>
+          <gda_value xml:lang="es">Sólo dejar al usuario escoger un archivo existente</gda_value>
+          <gda_value xml:lang="eu">Soilik existitzen den karpeta hauta dezake erabiltzaileak</gda_value>
+          <gda_value xml:lang="fi">Anna käyttäjän vain valita olemassaoleva tiedosto</gda_value>
+          <gda_value xml:lang="fr">Seulement permettre à l'utilisateur de choisir un fichier existant</gda_value>
+          <gda_value xml:lang="gl">Deixar que o usuario só seleccione un ficheiro existente</gda_value>
+          <gda_value xml:lang="it">Permettere all'utente di usare solo un file preesistente</gda_value>
+          <gda_value xml:lang="pt">Apenas deixar o utilizador escolher um ficheiro já existente</gda_value>
+          <gda_value xml:lang="pt_BR">Só permite o usuário escolher um arquivo existente</gda_value>
+          <gda_value xml:lang="sl">Dovoli uporabniku le izbrati obstoječo datoteko</gda_value>
+          <gda_value xml:lang="zh_CN">只让用户选择一个现有的文件</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>SAVE</gda_value>
+          <gda_value>Let the user pick an existing file, or type in a new filename</gda_value>
+          <gda_value xml:lang="cs">Uživateli umožnit zvolit existující soubor nebo napsat název nového</gda_value>
+          <gda_value xml:lang="da">Lad brugeren vælge en eksisterende fil, eller indtast et nyt filnavn</gda_value>
+          <gda_value xml:lang="de">Vorhandene Datei durch Benutzer auswählen lassen, oder Eingabe eines neuen Dateinamens erlauben</gda_value>
+          <gda_value xml:lang="es">Dejar al usuario escoger un archivo existente, o teclear un nombre de archivo nuevo</gda_value>
+          <gda_value xml:lang="eu">Erabiltzaileak existitzen den fitxategia hautatu edo fitxategi berriaren izena idatz dezake</gda_value>
+          <gda_value xml:lang="fi">Anna käyttäjän valita olemassaoleva tiedosto tai kirjoittaa uuden nimi</gda_value>
+          <gda_value xml:lang="fr">Permettre à l'utilisateur de choisir un fichier existant, ou de saisir un nouveau nom de fichier</gda_value>
+          <gda_value xml:lang="it">Permettere all'utente di usare un file esistente o inserire un nuovo nomefile</gda_value>
+          <gda_value xml:lang="pt">Deixar o utilizador escolher um ficheiro já existente, ou digitar um novo nome de ficheiro</gda_value>
+          <gda_value xml:lang="pt_BR">Deixa o usuário escolher um arquivo existente ou digitar o nome para um novo</gda_value>
+          <gda_value xml:lang="sl">Dovoli uporabniku izbrati obstoječo datoteko, oziroma vtipkati novo ime datoteke</gda_value>
+          <gda_value xml:lang="zh_CN">让用户选择一个现有的文件或输入一个新的文件名</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>PICKFOLDER</gda_value>
+          <gda_value>Let the user pick an existing folder</gda_value>
+          <gda_value xml:lang="cs">Uživateli umožnit zvolit existující složku</gda_value>
+          <gda_value xml:lang="da">Lad brugeren vælge en eksisterende mappe</gda_value>
+          <gda_value xml:lang="de">Vorhandenen Ordner durch Benutzer auswählen lassen</gda_value>
+          <gda_value xml:lang="es">Dejar al usuario escoger una carpeta existente</gda_value>
+          <gda_value xml:lang="eu">Existitzen den karpeta hauta dezake erabiltzaileak</gda_value>
+          <gda_value xml:lang="fi">Anna käyttäjän valita olemassaoleva kansio</gda_value>
+          <gda_value xml:lang="fr">Permettre à l'utilisateur de choisir un dossier existant</gda_value>
+          <gda_value xml:lang="gl">Permitirlle ao usuario seleccionar un cartafol existente</gda_value>
+          <gda_value xml:lang="it">Permettere all'utente di usare una cartella esistente</gda_value>
+          <gda_value xml:lang="pt">Deixar o utilizador escolher uma directoria já existente</gda_value>
+          <gda_value xml:lang="pt_BR">Deixa o usuário escolher uma pasta já existente</gda_value>
+          <gda_value xml:lang="sl">Dovoli uporabniku izbrati obstoječo mapo</gda_value>
+          <gda_value xml:lang="zh_CN">让用户选择一个现有的文件夹</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>NAMEFOLDER</gda_value>
+          <gda_value>Let the user name an existing or new folder</gda_value>
+          <gda_value xml:lang="cs">Uživateli umožnit zadat název existující nebo nové složky</gda_value>
+          <gda_value xml:lang="da">Lad brugeren navngive en eksisterende eller ny mappe</gda_value>
+          <gda_value xml:lang="de">Vorhandenen oder neuen Ordner durch Benutzer benennen lassen</gda_value>
+          <gda_value xml:lang="es">Dejar al usuario nombrar una carpeta existente o una nueva</gda_value>
+          <gda_value xml:lang="eu">Erabiltzaileak karpeta berriaren edo existitzen denaren izena ezar dezake</gda_value>
+          <gda_value xml:lang="fi">Anna käyttäjän nimetä olemassaoleva tai uusi kansio</gda_value>
+          <gda_value xml:lang="fr">Permettre à l'utilisateur de nommer un dossier existant ou nouveau</gda_value>
+          <gda_value xml:lang="it">Permettere all'utente di nominare una cartella esistente o nuova</gda_value>
+          <gda_value xml:lang="nb">La bruker gi navn til en eksisterende eller ny mappe</gda_value>
+          <gda_value xml:lang="pt">Deixar o utilizador nomear uma directoria nova ou uma já existente</gda_value>
+          <gda_value xml:lang="pt_BR">Deixa o usuário nomear uma pasta nova ou uma já existente</gda_value>
+          <gda_value xml:lang="sl">Dovoli uporabniku poimenovati obstoječo ali novo mapo</gda_value>
+          <gda_value xml:lang="zh_CN">让用户命名现有的或新的文件夹</gda_value>
+        </gda_array_row>
+      </gda_array_data>
+    </gda_array>
+  </sources>
+</data-set-spec>

@@ -1,0 +1,2690 @@
+<?xml version="1.0"?>
+<!-- This file was automatically generated from C sources - DO NOT EDIT!
+To affect the contents of this file, edit the original C definitions,
+and/or use gtk-doc annotations.  -->
+<repository version="1.2"
+            xmlns="http://www.gtk.org/introspection/core/1.0"
+            xmlns:c="http://www.gtk.org/introspection/c/1.0"
+            xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <include name="Atk" version="1.0"/>
+  <include name="GLib" version="2.0"/>
+  <include name="GModule" version="2.0"/>
+  <include name="GObject" version="2.0"/>
+  <include name="Gdk" version="3.0"/>
+  <include name="GdkPixbuf" version="2.0"/>
+  <include name="Gio" version="2.0"/>
+  <include name="Gtk" version="3.0"/>
+  <include name="GtkSource" version="3.0"/>
+  <include name="Pango" version="1.0"/>
+  <include name="cairo" version="1.0"/>
+  <namespace name="Gtranslator"
+             version="3.0"
+             shared-library="libgtranslator-3.0-0.dll"
+             c:identifier-prefixes="Gtr"
+             c:symbol-prefixes="gtr">
+    <class name="Application"
+           c:symbol-prefix="application"
+           c:type="GtrApplication"
+           parent="Gtk.Application"
+           glib:type-name="GtrApplication"
+           glib:get-type="gtr_application_get_type"
+           glib:type-struct="ApplicationClass">
+      <implements name="Gio.ActionGroup"/>
+      <implements name="Gio.ActionMap"/>
+      <method name="create_window"
+              c:identifier="gtr_application_create_window">
+        <doc xml:whitespace="preserve">Creates a new #GtrWindow and shows it.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the #GtrWindow to be opened</doc>
+          <type name="Window" c:type="GtrWindow*"/>
+        </return-value>
+      </method>
+      <method name="get_active_window"
+              c:identifier="gtr_application_get_active_window">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the active #GtrWindow</doc>
+          <type name="Window" c:type="GtrWindow*"/>
+        </return-value>
+      </method>
+      <method name="get_views" c:identifier="gtr_application_get_views">
+        <doc xml:whitespace="preserve">Returns all the views currently present in #GtranslationApplication.</doc>
+        <return-value transfer-ownership="container">
+          <doc xml:whitespace="preserve">a newly allocated list of #GtranslationApplication objects</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="View"/>
+          </type>
+        </return-value>
+        <parameters>
+          <parameter name="original" transfer-ownership="none">
+            <doc xml:whitespace="preserve">TRUE if you want original TextViews.</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+          <parameter name="translated" transfer-ownership="none">
+            <doc xml:whitespace="preserve">TRUE if you want translated TextViews.</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="register_icon"
+              c:identifier="gtr_application_register_icon">
+        <doc xml:whitespace="preserve">Registers a new @icon with the @stock_id.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="icon" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the name of the icon</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="stock_id" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the stock id for the new icon</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <field name="base_instance">
+        <type name="Gtk.Application" c:type="GtkApplication"/>
+      </field>
+      <field name="priv" readable="0" private="1">
+        <type name="ApplicationPrivate" c:type="GtrApplicationPrivate*"/>
+      </field>
+    </class>
+    <record name="ApplicationClass"
+            c:type="GtrApplicationClass"
+            glib:is-gtype-struct-for="Application">
+      <field name="parent_class">
+        <type name="Gtk.ApplicationClass" c:type="GtkApplicationClass"/>
+      </field>
+    </record>
+    <record name="ApplicationPrivate"
+            c:type="GtrApplicationPrivate"
+            disguised="1">
+    </record>
+    <class name="ContextPanel"
+           c:symbol-prefix="context_panel"
+           c:type="GtrContextPanel"
+           parent="Gtk.Box"
+           glib:type-name="GtrContextPanel"
+           glib:get-type="gtr_context_panel_get_type"
+           glib:type-struct="ContextPanelClass">
+      <implements name="Atk.ImplementorIface"/>
+      <implements name="Gtk.Buildable"/>
+      <implements name="Gtk.Orientable"/>
+      <constructor name="new" c:identifier="gtr_context_panel_new">
+        <doc xml:whitespace="preserve">Creates a new #GtrContextPanel object.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a new #GtrContextPanel object</doc>
+          <type name="Gtk.Widget" c:type="GtkWidget*"/>
+        </return-value>
+        <parameters>
+          <parameter name="tab" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrTab</doc>
+            <type name="Gtk.Widget" c:type="GtkWidget*"/>
+          </parameter>
+        </parameters>
+      </constructor>
+      <virtual-method name="reloaded">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="msg" transfer-ownership="none">
+            <type name="Msg" c:type="GtrMsg*"/>
+          </parameter>
+        </parameters>
+      </virtual-method>
+      <method name="get_context_text_view"
+              c:identifier="gtr_context_panel_get_context_text_view">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the context #GtkTextView</doc>
+          <type name="Gtk.TextView" c:type="GtkTextView*"/>
+        </return-value>
+      </method>
+      <property name="tab"
+                writable="1"
+                construct-only="1"
+                transfer-ownership="none">
+        <type name="Tab"/>
+      </property>
+      <field name="parent_instance">
+        <type name="Gtk.Box" c:type="GtkBox"/>
+      </field>
+      <field name="priv" readable="0" private="1">
+        <type name="ContextPanelPrivate" c:type="GtrContextPanelPrivate*"/>
+      </field>
+      <glib:signal name="reloaded" when="last">
+        <return-value transfer-ownership="none">
+          <type name="none"/>
+        </return-value>
+        <parameters>
+          <parameter name="object" transfer-ownership="none">
+            <type name="Msg"/>
+          </parameter>
+        </parameters>
+      </glib:signal>
+    </class>
+    <record name="ContextPanelClass"
+            c:type="GtrContextPanelClass"
+            glib:is-gtype-struct-for="ContextPanel">
+      <field name="parent_class">
+        <type name="Gtk.BoxClass" c:type="GtkBoxClass"/>
+      </field>
+      <field name="reloaded">
+        <callback name="reloaded">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="panel" transfer-ownership="none">
+              <type name="ContextPanel" c:type="GtrContextPanel*"/>
+            </parameter>
+            <parameter name="msg" transfer-ownership="none">
+              <type name="Msg" c:type="GtrMsg*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+    </record>
+    <record name="ContextPanelPrivate"
+            c:type="GtrContextPanelPrivate"
+            disguised="1">
+    </record>
+    <class name="Header"
+           c:symbol-prefix="header"
+           c:type="GtrHeader"
+           parent="Msg"
+           glib:type-name="GtrHeader"
+           glib:get-type="gtr_header_get_type"
+           glib:type-struct="HeaderClass">
+      <constructor name="new" c:identifier="gtr_header_new" introspectable="0">
+        <return-value transfer-ownership="full">
+          <type name="Header" c:type="GtrHeader*"/>
+        </return-value>
+        <parameters>
+          <parameter name="iter" transfer-ownership="none">
+            <type c:type="po_message_iterator_t"/>
+          </parameter>
+          <parameter name="message" transfer-ownership="none">
+            <type c:type="po_message_t"/>
+          </parameter>
+        </parameters>
+      </constructor>
+      <method name="get_charset" c:identifier="gtr_header_get_charset">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_comments" c:identifier="gtr_header_get_comments">
+        <doc xml:whitespace="preserve">Gets the comments of the header.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the comments of the header.</doc>
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_encoding" c:identifier="gtr_header_get_encoding">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_language" c:identifier="gtr_header_get_language">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_lg_email" c:identifier="gtr_header_get_lg_email">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_mime_version"
+              c:identifier="gtr_header_get_mime_version">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_nplurals" c:identifier="gtr_header_get_nplurals">
+        <return-value transfer-ownership="none">
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </method>
+      <method name="get_plural_forms"
+              c:identifier="gtr_header_get_plural_forms">
+        <return-value transfer-ownership="full">
+          <doc xml:whitespace="preserve">a new allocated string with the plural form of the po file.</doc>
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_po_date" c:identifier="gtr_header_get_po_date">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_pot_date" c:identifier="gtr_header_get_pot_date">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_prj_id_version"
+              c:identifier="gtr_header_get_prj_id_version">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_profile" c:identifier="gtr_header_get_profile">
+        <doc xml:whitespace="preserve">Gets the profile of the header</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the profile of the header.</doc>
+          <type name="Profile" c:type="GtrProfile*"/>
+        </return-value>
+      </method>
+      <method name="get_rmbt" c:identifier="gtr_header_get_rmbt">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_tr_email" c:identifier="gtr_header_get_tr_email">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_translator" c:identifier="gtr_header_get_translator">
+        <return-value transfer-ownership="full">
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="set_charset" c:identifier="gtr_header_set_charset">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="charset" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_comments" c:identifier="gtr_header_set_comments">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="comments" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_encoding" c:identifier="gtr_header_set_encoding">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="encoding" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_language" c:identifier="gtr_header_set_language">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="language" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="email" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_mime_version"
+              c:identifier="gtr_header_set_mime_version">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="mime_version" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_plural_forms"
+              c:identifier="gtr_header_set_plural_forms">
+        <doc xml:whitespace="preserve">Sets the plural form string in the @header and it sets the number of plurals.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="plural_forms" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the plural forms string.</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_po_date" c:identifier="gtr_header_set_po_date">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="po_date" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_pot_date" c:identifier="gtr_header_set_pot_date">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="pot_date" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_prj_id_version"
+              c:identifier="gtr_header_set_prj_id_version">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="prj_id_version" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_profile" c:identifier="gtr_header_set_profile">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="profile" transfer-ownership="none">
+            <type name="Profile" c:type="GtrProfile*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_rmbt" c:identifier="gtr_header_set_rmbt">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="rmbt" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_translator" c:identifier="gtr_header_set_translator">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="name" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="email" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="update_header" c:identifier="gtr_header_update_header">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <field name="parent_instance">
+        <type name="Msg" c:type="GtrMsg"/>
+      </field>
+      <field name="priv" readable="0" private="1">
+        <type name="HeaderPrivate" c:type="GtrHeaderPrivate*"/>
+      </field>
+    </class>
+    <record name="HeaderClass"
+            c:type="GtrHeaderClass"
+            glib:is-gtype-struct-for="Header">
+      <field name="parent_class">
+        <type name="MsgClass" c:type="GtrMsgClass"/>
+      </field>
+    </record>
+    <record name="HeaderPrivate" c:type="GtrHeaderPrivate" disguised="1">
+    </record>
+    <interface name="MessageContainer"
+               c:symbol-prefix="message_container"
+               c:type="GtrMessageContainer"
+               glib:type-name="GtrMessageContainer"
+               glib:get-type="gtr_message_container_get_type"
+               glib:type-struct="MessageContainerInterface">
+      <virtual-method name="get_count" invoker="get_count">
+        <return-value transfer-ownership="none">
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </virtual-method>
+      <virtual-method name="get_message" invoker="get_message">
+        <return-value transfer-ownership="none">
+          <type name="Msg" c:type="GtrMsg*"/>
+        </return-value>
+        <parameters>
+          <parameter name="number" transfer-ownership="none">
+            <type name="gint" c:type="gint"/>
+          </parameter>
+        </parameters>
+      </virtual-method>
+      <virtual-method name="get_message_number" invoker="get_message_number">
+        <return-value transfer-ownership="none">
+          <type name="gint" c:type="gint"/>
+        </return-value>
+        <parameters>
+          <parameter name="msg" transfer-ownership="none">
+            <type name="Msg" c:type="GtrMsg*"/>
+          </parameter>
+        </parameters>
+      </virtual-method>
+      <method name="get_count" c:identifier="gtr_message_container_get_count">
+        <return-value transfer-ownership="none">
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </method>
+      <method name="get_message"
+              c:identifier="gtr_message_container_get_message">
+        <return-value transfer-ownership="none">
+          <type name="Msg" c:type="GtrMsg*"/>
+        </return-value>
+        <parameters>
+          <parameter name="number" transfer-ownership="none">
+            <type name="gint" c:type="gint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_message_number"
+              c:identifier="gtr_message_container_get_message_number">
+        <return-value transfer-ownership="none">
+          <type name="gint" c:type="gint"/>
+        </return-value>
+        <parameters>
+          <parameter name="msg" transfer-ownership="none">
+            <type name="Msg" c:type="GtrMsg*"/>
+          </parameter>
+        </parameters>
+      </method>
+    </interface>
+    <record name="MessageContainerInterface"
+            c:type="GtrMessageContainerInterface"
+            glib:is-gtype-struct-for="MessageContainer">
+      <field name="g_iface">
+        <type name="GObject.TypeInterface" c:type="GTypeInterface"/>
+      </field>
+      <field name="get_message">
+        <callback name="get_message">
+          <return-value transfer-ownership="none">
+            <type name="Msg" c:type="GtrMsg*"/>
+          </return-value>
+          <parameters>
+            <parameter name="container" transfer-ownership="none">
+              <type name="MessageContainer" c:type="GtrMessageContainer*"/>
+            </parameter>
+            <parameter name="number" transfer-ownership="none">
+              <type name="gint" c:type="gint"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+      <field name="get_message_number">
+        <callback name="get_message_number">
+          <return-value transfer-ownership="none">
+            <type name="gint" c:type="gint"/>
+          </return-value>
+          <parameters>
+            <parameter name="container" transfer-ownership="none">
+              <type name="MessageContainer" c:type="GtrMessageContainer*"/>
+            </parameter>
+            <parameter name="msg" transfer-ownership="none">
+              <type name="Msg" c:type="GtrMsg*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+      <field name="get_count">
+        <callback name="get_count">
+          <return-value transfer-ownership="none">
+            <type name="gint" c:type="gint"/>
+          </return-value>
+          <parameters>
+            <parameter name="container" transfer-ownership="none">
+              <type name="MessageContainer" c:type="GtrMessageContainer*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+    </record>
+    <class name="MessageTable"
+           c:symbol-prefix="message_table"
+           c:type="GtrMessageTable"
+           parent="Gtk.Box"
+           glib:type-name="GtrMessageTable"
+           glib:get-type="gtr_message_table_get_type"
+           glib:type-struct="MessageTableClass">
+      <implements name="Atk.ImplementorIface"/>
+      <implements name="Gtk.Buildable"/>
+      <implements name="Gtk.Orientable"/>
+      <constructor name="new" c:identifier="gtr_message_table_new">
+        <doc xml:whitespace="preserve">Creates a new #GtrMessageTable object.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the newly created #GtrMessageTable</doc>
+          <type name="Gtk.Widget" c:type="GtkWidget*"/>
+        </return-value>
+        <parameters>
+          <parameter name="tab" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrTab</doc>
+            <type name="Gtk.Widget" c:type="GtkWidget*"/>
+          </parameter>
+        </parameters>
+      </constructor>
+      <function name="register_type"
+                c:identifier="gtr_message_table_register_type">
+        <return-value transfer-ownership="none">
+          <type name="GType" c:type="GType"/>
+        </return-value>
+        <parameters>
+          <parameter name="module" transfer-ownership="none">
+            <type name="GObject.TypeModule" c:type="GTypeModule*"/>
+          </parameter>
+        </parameters>
+      </function>
+      <method name="navigate" c:identifier="gtr_message_table_navigate">
+        <return-value transfer-ownership="none">
+          <type name="Msg" c:type="GtrMsg*"/>
+        </return-value>
+        <parameters>
+          <parameter name="navigation" transfer-ownership="none">
+            <type name="MessageTableNavigation"
+                  c:type="GtrMessageTableNavigation"/>
+          </parameter>
+          <parameter name="func" transfer-ownership="none" scope="call">
+            <type name="MessageTableNavigationFunc"
+                  c:type="GtrMessageTableNavigationFunc"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="populate" c:identifier="gtr_message_table_populate">
+        <doc xml:whitespace="preserve">Populates the #GtrMessageTable with the list of #GtrMsg and
+sort them.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="container" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a list of #GtrMsg</doc>
+            <type name="MessageContainer" c:type="GtrMessageContainer*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="update_translation"
+              c:identifier="gtr_message_table_update_translation">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="msg" transfer-ownership="none">
+            <type name="Msg" c:type="GtrMsg*"/>
+          </parameter>
+          <parameter name="translation" transfer-ownership="none">
+            <type name="utf8" c:type="gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <field name="parent_instance">
+        <type name="Gtk.Box" c:type="GtkBox"/>
+      </field>
+      <field name="priv" readable="0" private="1">
+        <type name="MessageTablePrivate" c:type="GtrMessageTablePrivate*"/>
+      </field>
+    </class>
+    <record name="MessageTableClass"
+            c:type="GtrMessageTableClass"
+            glib:is-gtype-struct-for="MessageTable">
+      <field name="parent_class">
+        <type name="Gtk.BoxClass" c:type="GtkBoxClass"/>
+      </field>
+    </record>
+    <enumeration name="MessageTableNavigation"
+                 c:type="GtrMessageTableNavigation">
+      <member name="prev" value="0" c:identifier="GTR_NAVIGATE_PREV"/>
+      <member name="next" value="1" c:identifier="GTR_NAVIGATE_NEXT"/>
+      <member name="first" value="2" c:identifier="GTR_NAVIGATE_FIRST"/>
+      <member name="last" value="3" c:identifier="GTR_NAVIGATE_LAST"/>
+    </enumeration>
+    <callback name="MessageTableNavigationFunc"
+              c:type="GtrMessageTableNavigationFunc">
+      <return-value transfer-ownership="none">
+        <type name="gboolean" c:type="gboolean"/>
+      </return-value>
+      <parameters>
+        <parameter name="msg" transfer-ownership="none">
+          <type name="Msg" c:type="GtrMsg*"/>
+        </parameter>
+      </parameters>
+    </callback>
+    <record name="MessageTablePrivate"
+            c:type="GtrMessageTablePrivate"
+            disguised="1">
+    </record>
+    <class name="Msg"
+           c:symbol-prefix="msg"
+           c:type="GtrMsg"
+           parent="GObject.Object"
+           glib:type-name="GtrMsg"
+           glib:get-type="gtr_msg_get_type"
+           glib:type-struct="MsgClass">
+      <method name="check" c:identifier="gtr_msg_check">
+        <doc xml:whitespace="preserve">Test whether the message translation is a valid format string if the message
+is marked as being a format string.</doc>
+        <return-value transfer-ownership="full">
+          <doc xml:whitespace="preserve">the message error or NULL if there is not any error. Must be freed with g_free.</doc>
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_comment" c:identifier="gtr_msg_get_comment">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the comments for a message.</doc>
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_extracted_comments"
+              c:identifier="gtr_msg_get_extracted_comments">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the extracted comments for a message.</doc>
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_file_line" c:identifier="gtr_msg_get_file_line">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the i-th file line for a message, or NULL if @i is out of range.</doc>
+          <type name="gint" c:type="gint*"/>
+        </return-value>
+        <parameters>
+          <parameter name="i" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the i-th file for a message.</doc>
+            <type name="gint" c:type="gint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_filename" c:identifier="gtr_msg_get_filename">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the i-th filename for a message, or NULL if @i is out of range.</doc>
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+        <parameters>
+          <parameter name="i" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the i-th file for a message.</doc>
+            <type name="gint" c:type="gint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_format" c:identifier="gtr_msg_get_format">
+        <doc xml:whitespace="preserve">Return the pretty name associated with a format type.
+For example, for "csharp-format", return "C#".
+Return NULL if the are no format type in the message.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the pretty name associated with a format type or NULL if the message hasn't any format type.</doc>
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_msgctxt" c:identifier="gtr_msg_get_msgctxt">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the context of a message, or NULL for a message not restricted to a context.</doc>
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_msgid" c:identifier="gtr_msg_get_msgid">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the msgid (untranslated English string) of a message.</doc>
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_msgid_plural" c:identifier="gtr_msg_get_msgid_plural">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the msgid_plural (untranslated English plural string) of a message, or NULL for a message without plural.</doc>
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_msgstr" c:identifier="gtr_msg_get_msgstr">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the msgstr (translation) of a message. Return the empty string for an untranslated message.</doc>
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_msgstr_plural"
+              c:identifier="gtr_msg_get_msgstr_plural">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the msgstr[index] for a message with plural handling, or NULL when the index is out of range or for a message without plural.</doc>
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+        <parameters>
+          <parameter name="index" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the index of the plural array</doc>
+            <type name="gint" c:type="gint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_po_position" c:identifier="gtr_msg_get_po_position">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the position of the message.  Gets the position of this message in the PO file in relation to the other messages.</doc>
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </method>
+      <method name="get_status" c:identifier="gtr_msg_get_status">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the message's status.</doc>
+          <type name="MsgStatus" c:type="GtrMsgStatus"/>
+        </return-value>
+      </method>
+      <method name="is_fuzzy" c:identifier="gtr_msg_is_fuzzy">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">TRUE if the message is fuzzy</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="is_translated" c:identifier="gtr_msg_is_translated">
+        <doc xml:whitespace="preserve">Gets whether or not the message is translated. See that a fuzzy message
+is also counted as translated so it must be checked first that the message
+is fuzzy.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">%TRUE if the message is translated</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="set_comment" c:identifier="gtr_msg_set_comment">
+        <doc xml:whitespace="preserve">Change the comments for a message.
+comments should be a multiline string, 
+ending in a newline, or empty.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="comment" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the comment to set for a message</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_fuzzy" c:identifier="gtr_msg_set_fuzzy">
+        <doc xml:whitespace="preserve">Change the fuzzy mark of a message.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="fuzzy" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the fuzzy value to set to the message</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_msgstr" c:identifier="gtr_msg_set_msgstr">
+        <doc xml:whitespace="preserve">Change the msgstr (translation) of a message.
+Use an empty string to denote an untranslated message.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="msgstr" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the string to set in the @msg</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_msgstr_plural"
+              c:identifier="gtr_msg_set_msgstr_plural">
+        <doc xml:whitespace="preserve">Change the msgstr[index] for a message with plural handling.
+Use a NULL value at the end to reduce the number of plural forms.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="index" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the index where to set the msgstr</doc>
+            <type name="gint" c:type="gint"/>
+          </parameter>
+          <parameter name="msgstr" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the message to set in the msg</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_po_position" c:identifier="gtr_msg_set_po_position">
+        <doc xml:whitespace="preserve">Sets the numerical position of this message in relation to other messages.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="po_position" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the numerical position of the message.</doc>
+            <type name="gint" c:type="gint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_status" c:identifier="gtr_msg_set_status">
+        <doc xml:whitespace="preserve">Sets the status for a message.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="status" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrMsgStatus</doc>
+            <type name="MsgStatus" c:type="GtrMsgStatus"/>
+          </parameter>
+        </parameters>
+      </method>
+      <field name="parent_instance">
+        <type name="GObject.Object" c:type="GObject"/>
+      </field>
+      <field name="priv" readable="0" private="1">
+        <type name="MsgPrivate" c:type="GtrMsgPrivate*"/>
+      </field>
+    </class>
+    <record name="MsgClass"
+            c:type="GtrMsgClass"
+            glib:is-gtype-struct-for="Msg">
+      <field name="parent_class">
+        <type name="GObject.ObjectClass" c:type="GObjectClass"/>
+      </field>
+    </record>
+    <record name="MsgPrivate" c:type="GtrMsgPrivate" disguised="1">
+    </record>
+    <enumeration name="MsgStatus" c:type="GtrMsgStatus">
+      <member name="untranslated"
+              value="0"
+              c:identifier="GTR_MSG_STATUS_UNTRANSLATED"/>
+      <member name="fuzzy" value="1" c:identifier="GTR_MSG_STATUS_FUZZY"/>
+      <member name="translated"
+              value="2"
+              c:identifier="GTR_MSG_STATUS_TRANSLATED"/>
+    </enumeration>
+    <class name="Notebook"
+           c:symbol-prefix="notebook"
+           c:type="GtrNotebook"
+           parent="Gtk.Notebook"
+           glib:type-name="GtrNotebook"
+           glib:get-type="gtr_notebook_get_type"
+           glib:type-struct="NotebookClass">
+      <implements name="Atk.ImplementorIface"/>
+      <implements name="Gtk.Buildable"/>
+      <constructor name="new" c:identifier="gtr_notebook_new">
+        <doc xml:whitespace="preserve">Creates a new #GtrNotebook.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a new #GtrNotebook object</doc>
+          <type name="Gtk.Widget" c:type="GtkWidget*"/>
+        </return-value>
+      </constructor>
+      <virtual-method name="tab_close_request">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="tab" transfer-ownership="none">
+            <type name="Tab" c:type="GtrTab*"/>
+          </parameter>
+        </parameters>
+      </virtual-method>
+      <method name="add_page" c:identifier="gtr_notebook_add_page">
+        <doc xml:whitespace="preserve">Adds a new #GtrTab to @notebook.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="tab" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrTab</doc>
+            <type name="Tab" c:type="GtrTab*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_page" c:identifier="gtr_notebook_get_page">
+        <doc xml:whitespace="preserve">Gets the selected page in the #GtrNotebook.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the selected page in the @notebook</doc>
+          <type name="Tab" c:type="GtrTab*"/>
+        </return-value>
+      </method>
+      <method name="remove_all_pages"
+              c:identifier="gtr_notebook_remove_all_pages">
+        <doc xml:whitespace="preserve">Removes all tabs from from @notebook</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="remove_page" c:identifier="gtr_notebook_remove_page">
+        <doc xml:whitespace="preserve">Removes a page from the notebook given its index in the notebook.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="page_num" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the index of a notebook page, starting from 0.</doc>
+            <type name="gint" c:type="gint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <field name="parent_instance">
+        <type name="Gtk.Notebook" c:type="GtkNotebook"/>
+      </field>
+      <glib:signal name="tab-close-request" when="last">
+        <return-value transfer-ownership="none">
+          <type name="none"/>
+        </return-value>
+        <parameters>
+          <parameter name="object" transfer-ownership="none">
+            <type name="Tab"/>
+          </parameter>
+        </parameters>
+      </glib:signal>
+    </class>
+    <record name="NotebookClass"
+            c:type="GtrNotebookClass"
+            glib:is-gtype-struct-for="Notebook">
+      <field name="parent_class">
+        <type name="Gtk.NotebookClass" c:type="GtkNotebookClass"/>
+      </field>
+      <field name="tab_close_request">
+        <callback name="tab_close_request">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="notebook" transfer-ownership="none">
+              <type name="Notebook" c:type="GtrNotebook*"/>
+            </parameter>
+            <parameter name="tab" transfer-ownership="none">
+              <type name="Tab" c:type="GtrTab*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+    </record>
+    <class name="Po"
+           c:symbol-prefix="po"
+           c:type="GtrPo"
+           parent="GObject.Object"
+           glib:type-name="GtrPo"
+           glib:get-type="gtr_po_get_type"
+           glib:type-struct="PoClass">
+      <implements name="MessageContainer"/>
+      <constructor name="new" c:identifier="gtr_po_new">
+        <doc xml:whitespace="preserve">Creates a new #GtrPo.</doc>
+        <return-value transfer-ownership="full">
+          <doc xml:whitespace="preserve">a new #GtrPo object</doc>
+          <type name="Po" c:type="GtrPo*"/>
+        </return-value>
+      </constructor>
+      <function name="error_quark" c:identifier="gtr_po_error_quark">
+        <return-value transfer-ownership="none">
+          <type name="GLib.Quark" c:type="GQuark"/>
+        </return-value>
+      </function>
+      <function name="register_type" c:identifier="gtr_po_register_type">
+        <return-value transfer-ownership="none">
+          <type name="GType" c:type="GType"/>
+        </return-value>
+        <parameters>
+          <parameter name="module" transfer-ownership="none">
+            <type name="GObject.TypeModule" c:type="GTypeModule*"/>
+          </parameter>
+        </parameters>
+      </function>
+      <method name="check_po_file" c:identifier="gtr_po_check_po_file">
+        <doc xml:whitespace="preserve">Test whether an entire PO file is valid, like msgfmt does it.</doc>
+        <return-value transfer-ownership="full">
+          <doc xml:whitespace="preserve">If it is invalid, returns the error. The return value must be freed with g_free.</doc>
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_current_message"
+              c:identifier="gtr_po_get_current_message">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a pointer to the current message</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="Msg"/>
+          </type>
+        </return-value>
+      </method>
+      <method name="get_domains" c:identifier="gtr_po_get_domains">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a pointer to the domains list</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="utf8"/>
+          </type>
+        </return-value>
+      </method>
+      <method name="get_fuzzy_count" c:identifier="gtr_po_get_fuzzy_count">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the count of the fuzzy messages.</doc>
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </method>
+      <method name="get_header" c:identifier="gtr_po_get_header">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">The #GtrHeader of the @po.</doc>
+          <type name="Header" c:type="GtrHeader*"/>
+        </return-value>
+      </method>
+      <method name="get_location" c:identifier="gtr_po_get_location">
+        <doc xml:whitespace="preserve">Gets the GFile of the po file.</doc>
+        <return-value transfer-ownership="full">
+          <doc xml:whitespace="preserve">the GFile associated with the @po. The returned location must be freed with g_object_unref.</doc>
+          <type name="Gio.File" c:type="GFile*"/>
+        </return-value>
+      </method>
+      <method name="get_message_position"
+              c:identifier="gtr_po_get_message_position">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the number of the current message.</doc>
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </method>
+      <method name="get_messages" c:identifier="gtr_po_get_messages">
+        <return-value transfer-ownership="container">
+          <doc xml:whitespace="preserve">a pointer to the messages list</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="Msg"/>
+          </type>
+        </return-value>
+      </method>
+      <method name="get_messages_count"
+              c:identifier="gtr_po_get_messages_count">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the number of messages messages.</doc>
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </method>
+      <method name="get_msg_from_number"
+              c:identifier="gtr_po_get_msg_from_number">
+        <doc xml:whitespace="preserve">Gets the message at the given position.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the message at the given position.</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="Msg"/>
+          </type>
+        </return-value>
+        <parameters>
+          <parameter name="number" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the message to jump</doc>
+            <type name="gint" c:type="gint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_next_fuzzy" c:identifier="gtr_po_get_next_fuzzy">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a pointer to the next fuzzy message</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="Msg"/>
+          </type>
+        </return-value>
+      </method>
+      <method name="get_next_fuzzy_or_untrans"
+              c:identifier="gtr_po_get_next_fuzzy_or_untrans">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a pointer to the next fuzzy or untranslated message or NULL if there is not next fuzzy or untranslated message.</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="Msg"/>
+          </type>
+        </return-value>
+      </method>
+      <method name="get_next_untrans" c:identifier="gtr_po_get_next_untrans">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a pointer to the next untranslated message</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="Msg"/>
+          </type>
+        </return-value>
+      </method>
+      <method name="get_po_file"
+              c:identifier="gtr_po_get_po_file"
+              introspectable="0">
+        <doc xml:whitespace="preserve">Gets the gettext file.</doc>
+        <return-value>
+          <doc xml:whitespace="preserve">the gettext file</doc>
+          <type c:type="po_file_t"/>
+        </return-value>
+      </method>
+      <method name="get_prev_fuzzy" c:identifier="gtr_po_get_prev_fuzzy">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a pointer to the previously fuzzy message</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="Msg"/>
+          </type>
+        </return-value>
+      </method>
+      <method name="get_prev_fuzzy_or_untrans"
+              c:identifier="gtr_po_get_prev_fuzzy_or_untrans">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a pointer to the previously fuzzy or untranslated message or NULL if there is not previously fuzzy or untranslated message.</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="Msg"/>
+          </type>
+        </return-value>
+      </method>
+      <method name="get_prev_untrans" c:identifier="gtr_po_get_prev_untrans">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a pointer to the previously untranslated message or NULL if there are not previously untranslated message.</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="Msg"/>
+          </type>
+        </return-value>
+      </method>
+      <method name="get_state" c:identifier="gtr_po_get_state">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the #GtrPoState value of the @po.</doc>
+          <type name="PoState" c:type="GtrPoState"/>
+        </return-value>
+      </method>
+      <method name="get_translated_count"
+              c:identifier="gtr_po_get_translated_count">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the count of the translated messages.</doc>
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </method>
+      <method name="get_untranslated_count"
+              c:identifier="gtr_po_get_untranslated_count">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the count of the untranslated messages.</doc>
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </method>
+      <method name="get_write_perms" c:identifier="gtr_po_get_write_perms">
+        <return-value transfer-ownership="none">
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="parse" c:identifier="gtr_po_parse" throws="1">
+        <doc xml:whitespace="preserve">Parses all things related to the #GtrPo and initilizes all neccessary
+variables.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="location" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the file to open</doc>
+            <type name="Gio.File" c:type="GFile*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="save_file" c:identifier="gtr_po_save_file" throws="1">
+        <doc xml:whitespace="preserve">It saves the po file and if there are any problem it stores the error
+in @error.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="save_header_in_msg"
+              c:identifier="gtr_po_save_header_in_msg">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="header" transfer-ownership="none">
+            <type name="Header" c:type="GtrHeader*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_location" c:identifier="gtr_po_set_location">
+        <doc xml:whitespace="preserve">Sets the GFile location within the #GtrPo object.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="location" transfer-ownership="none">
+            <doc xml:whitespace="preserve">The GFile to set to the #GtrPo</doc>
+            <type name="Gio.File" c:type="GFile*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_messages" c:identifier="gtr_po_set_messages">
+        <doc xml:whitespace="preserve">Sets an updated list of messages.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="messages" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a pointer to a new messages list.</doc>
+            <type name="GLib.List" c:type="GList*">
+              <type name="Msg"/>
+            </type>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_state" c:identifier="gtr_po_set_state">
+        <doc xml:whitespace="preserve">Sets the state for a #GtrPo</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="state" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrPoState</doc>
+            <type name="PoState" c:type="GtrPoState"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="update_current_message"
+              c:identifier="gtr_po_update_current_message">
+        <doc xml:whitespace="preserve">Sets the new current message to the message that is passed in
+the argument.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="msg" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the message where should point the current message.</doc>
+            <type name="Msg" c:type="GtrMsg*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <property name="location" writable="1" transfer-ownership="none">
+        <type name="Gio.File"/>
+      </property>
+      <property name="state" introspectable="0" transfer-ownership="none">
+        <type/>
+      </property>
+      <field name="parent_instance">
+        <type name="GObject.Object" c:type="GObject"/>
+      </field>
+      <field name="priv" readable="0" private="1">
+        <type name="PoPrivate" c:type="GtrPoPrivate*"/>
+      </field>
+    </class>
+    <record name="PoClass" c:type="GtrPoClass" glib:is-gtype-struct-for="Po">
+      <field name="parent_class">
+        <type name="GObject.ObjectClass" c:type="GObjectClass"/>
+      </field>
+    </record>
+    <record name="PoPrivate" c:type="GtrPoPrivate" disguised="1">
+    </record>
+    <enumeration name="PoState" c:type="GtrPoState">
+      <member name="saved" value="0" c:identifier="GTR_PO_STATE_SAVED"/>
+      <member name="modified" value="1" c:identifier="GTR_PO_STATE_MODIFIED"/>
+    </enumeration>
+    <class name="Profile"
+           c:symbol-prefix="profile"
+           c:type="GtrProfile"
+           parent="GObject.Object"
+           glib:type-name="GtrProfile"
+           glib:get-type="gtr_profile_get_type"
+           glib:type-struct="ProfileClass">
+      <constructor name="new" c:identifier="gtr_profile_new">
+        <return-value transfer-ownership="full">
+          <type name="Profile" c:type="GtrProfile*"/>
+        </return-value>
+      </constructor>
+      <method name="get_author_email"
+              c:identifier="gtr_profile_get_author_email">
+        <return-value transfer-ownership="none">
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_author_name"
+              c:identifier="gtr_profile_get_author_name">
+        <return-value transfer-ownership="none">
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_charset" c:identifier="gtr_profile_get_charset">
+        <return-value transfer-ownership="none">
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_encoding" c:identifier="gtr_profile_get_encoding">
+        <return-value transfer-ownership="none">
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_group_email"
+              c:identifier="gtr_profile_get_group_email">
+        <return-value transfer-ownership="none">
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_language_code"
+              c:identifier="gtr_profile_get_language_code">
+        <return-value transfer-ownership="none">
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_language_name"
+              c:identifier="gtr_profile_get_language_name">
+        <return-value transfer-ownership="none">
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_name" c:identifier="gtr_profile_get_name">
+        <return-value transfer-ownership="none">
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="get_plural_forms"
+              c:identifier="gtr_profile_get_plural_forms">
+        <return-value transfer-ownership="none">
+          <type name="utf8" c:type="const gchar*"/>
+        </return-value>
+      </method>
+      <method name="set_author_email"
+              c:identifier="gtr_profile_set_author_email">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="data" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_author_name"
+              c:identifier="gtr_profile_set_author_name">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="data" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_charset" c:identifier="gtr_profile_set_charset">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="data" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_encoding" c:identifier="gtr_profile_set_encoding">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="data" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_group_email"
+              c:identifier="gtr_profile_set_group_email">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="data" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_language_code"
+              c:identifier="gtr_profile_set_language_code">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="data" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_language_name"
+              c:identifier="gtr_profile_set_language_name">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="data" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_name" c:identifier="gtr_profile_set_name">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="data" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_plural_forms"
+              c:identifier="gtr_profile_set_plural_forms">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="data" transfer-ownership="none">
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <field name="parent_instance">
+        <type name="GObject.Object" c:type="GObject"/>
+      </field>
+      <field name="priv" readable="0" private="1">
+        <type name="ProfilePrivate" c:type="GtrProfilePrivate*"/>
+      </field>
+    </class>
+    <record name="ProfileClass"
+            c:type="GtrProfileClass"
+            glib:is-gtype-struct-for="Profile">
+      <field name="parent_class">
+        <type name="GObject.ObjectClass" c:type="GObjectClass"/>
+      </field>
+    </record>
+    <record name="ProfilePrivate" c:type="GtrProfilePrivate" disguised="1">
+    </record>
+    <bitfield name="SearchFlags" c:type="GtrSearchFlags">
+      <member name="dont_set_flags"
+              value="1"
+              c:identifier="GTR_SEARCH_DONT_SET_FLAGS"/>
+      <member name="entire_word"
+              value="2"
+              c:identifier="GTR_SEARCH_ENTIRE_WORD"/>
+      <member name="case_sensitive"
+              value="4"
+              c:identifier="GTR_SEARCH_CASE_SENSITIVE"/>
+    </bitfield>
+    <class name="Statusbar"
+           c:symbol-prefix="statusbar"
+           c:type="GtrStatusbar"
+           parent="Gtk.Box"
+           glib:type-name="GtrStatusbar"
+           glib:get-type="gtr_statusbar_get_type"
+           glib:type-struct="StatusbarClass">
+      <implements name="Atk.ImplementorIface"/>
+      <implements name="Gtk.Buildable"/>
+      <implements name="Gtk.Orientable"/>
+      <constructor name="new" c:identifier="gtr_statusbar_new">
+        <doc xml:whitespace="preserve">Creates a new #GtrStatusbar.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the new #GtrStatusbar object</doc>
+          <type name="Gtk.Widget" c:type="GtkWidget*"/>
+        </return-value>
+      </constructor>
+      <method name="clear_overwrite"
+              c:identifier="gtr_statusbar_clear_overwrite">
+        <doc xml:whitespace="preserve">Clears the statusbar overwrite label.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="clear_progress_bar"
+              c:identifier="gtr_statusbar_clear_progress_bar">
+        <doc xml:whitespace="preserve">Clear the progress bar</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="flash_message"
+              c:identifier="gtr_statusbar_flash_message"
+              introspectable="0">
+        <doc xml:whitespace="preserve">Flash a temporary message on the statusbar.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="context_id" transfer-ownership="none">
+            <doc xml:whitespace="preserve">message context_id</doc>
+            <type name="guint" c:type="guint"/>
+          </parameter>
+          <parameter name="format" transfer-ownership="none">
+            <doc xml:whitespace="preserve">message to flash on the statusbar</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter transfer-ownership="none">
+            <varargs>
+            </varargs>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_context_id"
+              c:identifier="gtr_statusbar_get_context_id">
+        <doc xml:whitespace="preserve">Returns a new context identifier, given a description of the actual context.
+Note that the description is not shown in the UI.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">an integer id</doc>
+          <type name="guint" c:type="guint"/>
+        </return-value>
+        <parameters>
+          <parameter name="context_description" transfer-ownership="none">
+            <doc xml:whitespace="preserve">textual description of what context the new message is being used in</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="pop" c:identifier="gtr_statusbar_pop">
+        <doc xml:whitespace="preserve">Removes the first message in the GtkStatusBar's stack with the given context id.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="context_id" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a context identifier</doc>
+            <type name="guint" c:type="guint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="pop_default" c:identifier="gtr_statusbar_pop_default">
+        <doc xml:whitespace="preserve">Pops the text in the statusbar of the default context id.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="push" c:identifier="gtr_statusbar_push">
+        <doc xml:whitespace="preserve">Pushes a new message onto a statusbar's stack.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a message id that can be used with gtk_statusbar_remove()</doc>
+          <type name="guint" c:type="guint"/>
+        </return-value>
+        <parameters>
+          <parameter name="context_id" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the message's context id, as returned by gtk_statusbar_get_context_id()</doc>
+            <type name="guint" c:type="guint"/>
+          </parameter>
+          <parameter name="text" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the text to push in the statusbar</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="push_default" c:identifier="gtr_statusbar_push_default">
+        <doc xml:whitespace="preserve">Pushes a text onto the statusbar in the default context id.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="text" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the text to push in the statusbar</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_overwrite" c:identifier="gtr_statusbar_set_overwrite">
+        <doc xml:whitespace="preserve">Sets the overwrite mode on the statusbar.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="overwrite" transfer-ownership="none">
+            <doc xml:whitespace="preserve">if the overwrite mode is set</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="update_progress_bar"
+              c:identifier="gtr_statusbar_update_progress_bar">
+        <doc xml:whitespace="preserve">Updates the state of the progress bar with the given values.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="translated_count" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the number of translated messages</doc>
+            <type name="gdouble" c:type="gdouble"/>
+          </parameter>
+          <parameter name="messages_count" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the number of messages</doc>
+            <type name="gdouble" c:type="gdouble"/>
+          </parameter>
+        </parameters>
+      </method>
+      <field name="parent">
+        <type name="Gtk.Box" c:type="GtkBox"/>
+      </field>
+      <field name="priv">
+        <type name="StatusbarPrivate" c:type="GtrStatusbarPrivate*"/>
+      </field>
+    </class>
+    <record name="StatusbarClass"
+            c:type="GtrStatusbarClass"
+            glib:is-gtype-struct-for="Statusbar">
+      <field name="parent_class">
+        <type name="Gtk.BoxClass" c:type="GtkBoxClass"/>
+      </field>
+    </record>
+    <record name="StatusbarPrivate" c:type="GtrStatusbarPrivate" disguised="1">
+    </record>
+    <class name="Tab"
+           c:symbol-prefix="tab"
+           c:type="GtrTab"
+           parent="Gtk.Box"
+           glib:type-name="GtrTab"
+           glib:get-type="gtr_tab_get_type"
+           glib:type-struct="TabClass">
+      <implements name="Atk.ImplementorIface"/>
+      <implements name="Gtk.Buildable"/>
+      <implements name="Gtk.Orientable"/>
+      <constructor name="new" c:identifier="gtr_tab_new">
+        <doc xml:whitespace="preserve">Creates a new #GtrTab.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a new #GtrTab object</doc>
+          <type name="Tab" c:type="GtrTab*"/>
+        </return-value>
+        <parameters>
+          <parameter name="po" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrPo</doc>
+            <type name="Po" c:type="GtrPo*"/>
+          </parameter>
+        </parameters>
+      </constructor>
+      <function name="get_from_document"
+                c:identifier="gtr_tab_get_from_document">
+        <doc xml:whitespace="preserve">Returns the #GtrTab for a specific #GtrPo.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the #GtrTab for a specific #GtrPo</doc>
+          <type name="Tab" c:type="GtrTab*"/>
+        </return-value>
+        <parameters>
+          <parameter name="po" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrPo</doc>
+            <type name="Po" c:type="GtrPo*"/>
+          </parameter>
+        </parameters>
+      </function>
+      <virtual-method name="message_changed">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="msg" transfer-ownership="none">
+            <type name="Msg" c:type="GtrMsg*"/>
+          </parameter>
+        </parameters>
+      </virtual-method>
+      <virtual-method name="message_edition_finished">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="msg" transfer-ownership="none">
+            <type name="Msg" c:type="GtrMsg*"/>
+          </parameter>
+        </parameters>
+      </virtual-method>
+      <virtual-method name="selection_changed">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </virtual-method>
+      <virtual-method name="showed_message">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="msg" transfer-ownership="none">
+            <type name="Msg" c:type="GtrMsg*"/>
+          </parameter>
+        </parameters>
+      </virtual-method>
+      <method name="add_widget" c:identifier="gtr_tab_add_widget">
+        <doc xml:whitespace="preserve">Adds a new widget to place in @tab.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="widget" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtkWidget</doc>
+            <type name="Gtk.Widget" c:type="GtkWidget*"/>
+          </parameter>
+          <parameter name="unique_name" transfer-ownership="none">
+            <doc xml:whitespace="preserve">an unique name for the widget</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="name" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the name of @widget</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="stock_id" transfer-ownership="none" allow-none="1">
+            <doc xml:whitespace="preserve">stock id for the icon of @widget or %NULL</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="placement" transfer-ownership="none">
+            <doc xml:whitespace="preserve">where to place @widget in the tab</doc>
+            <type name="TabPlacement" c:type="GtrTabPlacement"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="block_movement" c:identifier="gtr_tab_block_movement">
+        <doc xml:whitespace="preserve">Blocks the movement to the next/prev message.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="clear_msgstr_views"
+              c:identifier="gtr_tab_clear_msgstr_views">
+        <doc xml:whitespace="preserve">Clears all text from msgstr text views.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="copy_to_translation"
+              c:identifier="gtr_tab_copy_to_translation">
+        <doc xml:whitespace="preserve">Copies the text from the original text box to the translation text box.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="get_active_trans_tab"
+              c:identifier="gtr_tab_get_active_trans_tab">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the number of the active translation notebook.</doc>
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </method>
+      <method name="get_active_view" c:identifier="gtr_tab_get_active_view">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the active page of the translation notebook.</doc>
+          <type name="View" c:type="GtrView*"/>
+        </return-value>
+      </method>
+      <method name="get_all_views" c:identifier="gtr_tab_get_all_views">
+        <doc xml:whitespace="preserve">Returns all the views currently present in #GtranslationTab</doc>
+        <return-value transfer-ownership="container">
+          <doc xml:whitespace="preserve">a newly allocated list of #GtranslationTab objects</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="View"/>
+          </type>
+        </return-value>
+        <parameters>
+          <parameter name="original" transfer-ownership="none">
+            <doc xml:whitespace="preserve">TRUE if you want original TextViews.</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+          <parameter name="translated" transfer-ownership="none">
+            <doc xml:whitespace="preserve">TRUE if you want tranlated TextViews.</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_autosave_enabled"
+              c:identifier="gtr_tab_get_autosave_enabled">
+        <doc xml:whitespace="preserve">Gets the current state for the autosave feature</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">TRUE if the autosave is enabled, else FALSE</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="get_autosave_interval"
+              c:identifier="gtr_tab_get_autosave_interval">
+        <doc xml:whitespace="preserve">Gets the current interval for the autosaves</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the value of the autosave</doc>
+          <type name="gint" c:type="gint"/>
+        </return-value>
+      </method>
+      <method name="get_context_panel"
+              c:identifier="gtr_tab_get_context_panel">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the #GtranslaorContextPanel</doc>
+          <type name="ContextPanel" c:type="GtrContextPanel*"/>
+        </return-value>
+      </method>
+      <method name="get_po" c:identifier="gtr_tab_get_po">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the #GtrPo stored in the #GtrTab</doc>
+          <type name="Po" c:type="GtrPo*"/>
+        </return-value>
+      </method>
+      <method name="go_to_first" c:identifier="gtr_tab_go_to_first">
+        <doc xml:whitespace="preserve">Jumps to the first message.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="go_to_last" c:identifier="gtr_tab_go_to_last">
+        <doc xml:whitespace="preserve">Jumps to the last message.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="go_to_next" c:identifier="gtr_tab_go_to_next">
+        <doc xml:whitespace="preserve">Moves to the next message or plural tab in case the message has plurals.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="go_to_next_fuzzy" c:identifier="gtr_tab_go_to_next_fuzzy">
+        <doc xml:whitespace="preserve">If there is a next fuzzy message it jumps to it.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">TRUE if there is a next fuzzy message.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="go_to_next_fuzzy_or_untrans"
+              c:identifier="gtr_tab_go_to_next_fuzzy_or_untrans">
+        <doc xml:whitespace="preserve">If there is a next fuzzy or untranslated message it jumps to it.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">TRUE if there is a next fuzzy or untranslated message.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="go_to_next_untrans"
+              c:identifier="gtr_tab_go_to_next_untrans">
+        <doc xml:whitespace="preserve">If there is a next untranslated message it jumps to it.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">TRUE if there is a next untranslated message.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="go_to_number" c:identifier="gtr_tab_go_to_number">
+        <doc xml:whitespace="preserve">Jumps to the message with the @number in the list, if the message does not
+exists it does not jump.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="number" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the message number you want to jump</doc>
+            <type name="gint" c:type="gint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="go_to_prev" c:identifier="gtr_tab_go_to_prev">
+        <doc xml:whitespace="preserve">Moves to the previous message or plural tab in case the message has plurals.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="go_to_prev_fuzzy" c:identifier="gtr_tab_go_to_prev_fuzzy">
+        <doc xml:whitespace="preserve">If there is a prev fuzzy message it jumps to it.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">TRUE if there is a prev fuzzy message.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="go_to_prev_fuzzy_or_untrans"
+              c:identifier="gtr_tab_go_to_prev_fuzzy_or_untrans">
+        <doc xml:whitespace="preserve">If there is a prev fuzzy or untranslated message it jumps to it.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">TRUE if there is a prev fuzzy or untranslated message.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="go_to_prev_untrans"
+              c:identifier="gtr_tab_go_to_prev_untrans">
+        <doc xml:whitespace="preserve">If there is a prev untranslated message it jumps to it.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">TRUE if there is a prev untranslated message.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="message_go_to" c:identifier="gtr_tab_message_go_to">
+        <doc xml:whitespace="preserve">Jumps to the specific @to_go pointer message and show the message
+in the #GtrView.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="to_go" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the #GtrMsg you want to jump</doc>
+            <type name="Msg" c:type="GtrMsg*"/>
+          </parameter>
+          <parameter name="searching" transfer-ownership="none">
+            <doc xml:whitespace="preserve">TRUE if we are searching in the message list</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+          <parameter name="move" transfer-ownership="none">
+            <type name="TabMove" c:type="GtrTabMove"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="remove_widget" c:identifier="gtr_tab_remove_widget">
+        <doc xml:whitespace="preserve">Removes the @widget from @tab.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="widget" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtkWidget</doc>
+            <type name="Gtk.Widget" c:type="GtkWidget*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_autosave_enabled"
+              c:identifier="gtr_tab_set_autosave_enabled">
+        <doc xml:whitespace="preserve">Enables or disables the autosave feature. It does not install an
+autosave timeout if the document is new or is read-only</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="enable" transfer-ownership="none">
+            <doc xml:whitespace="preserve">enable (TRUE) or disable (FALSE) auto save</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_autosave_interval"
+              c:identifier="gtr_tab_set_autosave_interval">
+        <doc xml:whitespace="preserve">Sets the interval for the autosave feature. It does nothing if the
+interval is the same as the one already present. It removes the old
+interval timeout and adds a new one with the autosave passed as
+argument.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="interval" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the new interval</doc>
+            <type name="gint" c:type="gint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_info_bar" c:identifier="gtr_tab_set_info_bar">
+        <doc xml:whitespace="preserve">Sets the @infobar to be shown in the @tab.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="infobar" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrMessageArea</doc>
+            <type name="Gtk.Widget" c:type="GtkWidget*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="show_widget" c:identifier="gtr_tab_show_widget">
+        <doc xml:whitespace="preserve">Presents the widget if it is not visible</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="widget" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtkWidget</doc>
+            <type name="Gtk.Widget" c:type="GtkWidget*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="unblock_movement" c:identifier="gtr_tab_unblock_movement">
+        <doc xml:whitespace="preserve">Unblocks the movement to the next/prev message.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <property name="autosave" writable="1" transfer-ownership="none">
+        <type name="gboolean"/>
+      </property>
+      <property name="autosave-interval"
+                writable="1"
+                transfer-ownership="none">
+        <type name="gint"/>
+      </property>
+      <property name="name" transfer-ownership="none">
+        <type name="utf8"/>
+      </property>
+      <field name="parent_instance">
+        <type name="Gtk.Box" c:type="GtkBox"/>
+      </field>
+      <field name="priv" readable="0" private="1">
+        <type name="TabPrivate" c:type="GtrTabPrivate*"/>
+      </field>
+      <glib:signal name="message-changed" when="last">
+        <return-value transfer-ownership="none">
+          <type name="none"/>
+        </return-value>
+        <parameters>
+          <parameter name="object" transfer-ownership="none">
+            <type name="Msg"/>
+          </parameter>
+        </parameters>
+      </glib:signal>
+      <glib:signal name="message-edition-finished" when="last">
+        <return-value transfer-ownership="none">
+          <type name="none"/>
+        </return-value>
+        <parameters>
+          <parameter name="object" transfer-ownership="none">
+            <type name="Msg"/>
+          </parameter>
+        </parameters>
+      </glib:signal>
+      <glib:signal name="selection-changed" when="last">
+        <return-value transfer-ownership="none">
+          <type name="none"/>
+        </return-value>
+      </glib:signal>
+      <glib:signal name="showed-message" when="last">
+        <return-value transfer-ownership="none">
+          <type name="none"/>
+        </return-value>
+        <parameters>
+          <parameter name="object" transfer-ownership="none">
+            <type name="Msg"/>
+          </parameter>
+        </parameters>
+      </glib:signal>
+    </class>
+    <interface name="TabActivatable"
+               c:symbol-prefix="tab_activatable"
+               c:type="GtrTabActivatable"
+               glib:type-name="GtrTabActivatable"
+               glib:get-type="gtr_tab_activatable_get_type"
+               glib:type-struct="TabActivatableInterface">
+      <virtual-method name="activate" invoker="activate">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </virtual-method>
+      <virtual-method name="deactivate" invoker="deactivate">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </virtual-method>
+      <method name="activate" c:identifier="gtr_tab_activatable_activate">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="deactivate" c:identifier="gtr_tab_activatable_deactivate">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <property name="tab"
+                writable="1"
+                construct-only="1"
+                transfer-ownership="none">
+        <type name="Tab"/>
+      </property>
+    </interface>
+    <record name="TabActivatableInterface"
+            c:type="GtrTabActivatableInterface"
+            glib:is-gtype-struct-for="TabActivatable">
+      <field name="g_iface">
+        <type name="GObject.TypeInterface" c:type="GTypeInterface"/>
+      </field>
+      <field name="activate">
+        <callback name="activate">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="activatable" transfer-ownership="none">
+              <type name="TabActivatable" c:type="GtrTabActivatable*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+      <field name="deactivate">
+        <callback name="deactivate">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="activatable" transfer-ownership="none">
+              <type name="TabActivatable" c:type="GtrTabActivatable*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+    </record>
+    <record name="TabClass"
+            c:type="GtrTabClass"
+            glib:is-gtype-struct-for="Tab">
+      <field name="parent_class">
+        <type name="Gtk.BoxClass" c:type="GtkBoxClass"/>
+      </field>
+      <field name="showed_message">
+        <callback name="showed_message">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="tab" transfer-ownership="none">
+              <type name="Tab" c:type="GtrTab*"/>
+            </parameter>
+            <parameter name="msg" transfer-ownership="none">
+              <type name="Msg" c:type="GtrMsg*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+      <field name="message_changed">
+        <callback name="message_changed">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="tab" transfer-ownership="none">
+              <type name="Tab" c:type="GtrTab*"/>
+            </parameter>
+            <parameter name="msg" transfer-ownership="none">
+              <type name="Msg" c:type="GtrMsg*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+      <field name="message_edition_finished">
+        <callback name="message_edition_finished">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="tab" transfer-ownership="none">
+              <type name="Tab" c:type="GtrTab*"/>
+            </parameter>
+            <parameter name="msg" transfer-ownership="none">
+              <type name="Msg" c:type="GtrMsg*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+      <field name="selection_changed">
+        <callback name="selection_changed">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="tab" transfer-ownership="none">
+              <type name="Tab" c:type="GtrTab*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+    </record>
+    <enumeration name="TabMove" c:type="GtrTabMove">
+      <member name="none" value="0" c:identifier="GTR_TAB_MOVE_NONE"/>
+      <member name="next" value="1" c:identifier="GTR_TAB_MOVE_NEXT"/>
+      <member name="prev" value="2" c:identifier="GTR_TAB_MOVE_PREV"/>
+    </enumeration>
+    <enumeration name="TabPlacement" c:type="GtrTabPlacement">
+      <member name="none" value="0" c:identifier="GTR_TAB_PLACEMENT_NONE"/>
+      <member name="top" value="1" c:identifier="GTR_TAB_PLACEMENT_TOP"/>
+      <member name="bottom" value="2" c:identifier="GTR_TAB_PLACEMENT_BOTTOM"/>
+      <member name="right" value="3" c:identifier="GTR_TAB_PLACEMENT_RIGHT"/>
+      <member name="left" value="4" c:identifier="GTR_TAB_PLACEMENT_LEFT"/>
+      <member name="center" value="5" c:identifier="GTR_TAB_PLACEMENT_CENTER"/>
+      <member name="floating"
+              value="6"
+              c:identifier="GTR_TAB_PLACEMENT_FLOATING"/>
+    </enumeration>
+    <record name="TabPrivate" c:type="GtrTabPrivate" disguised="1">
+    </record>
+    <class name="View"
+           c:symbol-prefix="view"
+           c:type="GtrView"
+           parent="GtkSource.View"
+           glib:type-name="GtrView"
+           glib:get-type="gtr_view_get_type"
+           glib:type-struct="ViewClass">
+      <implements name="Atk.ImplementorIface"/>
+      <implements name="Gtk.Buildable"/>
+      <implements name="Gtk.Scrollable"/>
+      <constructor name="new" c:identifier="gtr_view_new">
+        <doc xml:whitespace="preserve">Creates a new #GtrView. An empty default buffer will be created for you.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a new #GtrView</doc>
+          <type name="Gtk.Widget" c:type="GtkWidget*"/>
+        </return-value>
+      </constructor>
+      <function name="register_type" c:identifier="gtr_view_register_type">
+        <return-value transfer-ownership="none">
+          <type name="GType" c:type="GType"/>
+        </return-value>
+        <parameters>
+          <parameter name="module" transfer-ownership="none">
+            <type name="GObject.TypeModule" c:type="GTypeModule*"/>
+          </parameter>
+        </parameters>
+      </function>
+      <method name="copy_clipboard" c:identifier="gtr_view_copy_clipboard">
+        <doc xml:whitespace="preserve">Copies the currently-selected text to a clipboard.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="cut_clipboard" c:identifier="gtr_view_cut_clipboard">
+        <doc xml:whitespace="preserve">Copies the currently-selected text to a clipboard,
+then deletes said text if it's editable.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="enable_spellcheck"
+              c:identifier="gtr_view_enable_spellcheck">
+        <doc xml:whitespace="preserve">Enables the spellcheck</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="enable" transfer-ownership="none">
+            <doc xml:whitespace="preserve">TRUE if you want enable the spellcheck</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="enable_visible_whitespace"
+              c:identifier="gtr_view_enable_visible_whitespace">
+        <doc xml:whitespace="preserve">Enables special chars for white spaces including \n and \t</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="enable" transfer-ownership="none">
+            <doc xml:whitespace="preserve">TRUE if you want to enable special chars for white spaces</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_can_search_again"
+              c:identifier="gtr_view_get_can_search_again">
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">TRUE if it can search again</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+      </method>
+      <method name="get_search_text" c:identifier="gtr_view_get_search_text">
+        <doc xml:whitespace="preserve">Returns the text to search for it and the #GtrSearchFlags of that
+text.</doc>
+        <return-value transfer-ownership="full">
+          <doc xml:whitespace="preserve">the text to search for it.</doc>
+          <type name="utf8" c:type="gchar*"/>
+        </return-value>
+        <parameters>
+          <parameter name="flags" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the #GtrSearchFlags of the stored text.</doc>
+            <type name="guint" c:type="guint*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_selected_text"
+              c:identifier="gtr_view_get_selected_text">
+        <doc xml:whitespace="preserve">Gets the selected text region of the #GtrView</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">TRUE if the @selected_text was got correctly.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <parameter name="selected_text" transfer-ownership="none">
+            <doc xml:whitespace="preserve">it stores the text selected in the #GtrView</doc>
+            <type name="utf8" c:type="gchar**"/>
+          </parameter>
+          <parameter name="len" transfer-ownership="none">
+            <doc xml:whitespace="preserve">it stores the length of the @selected_text</doc>
+            <type name="gint" c:type="gint*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="paste_clipboard" c:identifier="gtr_view_paste_clipboard">
+        <doc xml:whitespace="preserve">Pastes the contents of a clipboard at the insertion point,
+or at override_location.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="reload_scheme_color"
+              c:identifier="gtr_view_reload_scheme_color">
+        <doc xml:whitespace="preserve">Reloads the gtksourceview scheme color. Neccessary when the scheme color 
+changes.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="replace_all" c:identifier="gtr_view_replace_all">
+        <doc xml:whitespace="preserve">Replaces all matches of @find with @replace and returns the number of 
+replacements.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the number of replacements made it.</doc>
+          <type name="gint" c:type="gint"/>
+        </return-value>
+        <parameters>
+          <parameter name="find" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the text to find</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="replace" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the text to replace @find</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="flags" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrSearchFlags</doc>
+            <type name="guint" c:type="guint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="search_backward" c:identifier="gtr_view_search_backward">
+        <doc xml:whitespace="preserve">Searches backward for str. Any match is returned by setting match_start to the
+first character of the match and match_end to the first character after the match.
+The search will not continue past limit.
+Note that a search is a linear or O(n) operation, so you may wish to use limit
+to avoid locking up your UI on large buffers.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">whether a match was found</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <parameter name="start" transfer-ownership="none">
+            <doc xml:whitespace="preserve">start of search</doc>
+            <type name="Gtk.TextIter" c:type="const GtkTextIter*"/>
+          </parameter>
+          <parameter name="end" transfer-ownership="none">
+            <doc xml:whitespace="preserve">bound for the search, or %NULL for the end of the buffer</doc>
+            <type name="Gtk.TextIter" c:type="const GtkTextIter*"/>
+          </parameter>
+          <parameter name="match_start" transfer-ownership="none">
+            <doc xml:whitespace="preserve">return location for start of match, or %NULL</doc>
+            <type name="Gtk.TextIter" c:type="GtkTextIter*"/>
+          </parameter>
+          <parameter name="match_end" transfer-ownership="none">
+            <doc xml:whitespace="preserve">return location for end of match, or %NULL</doc>
+            <type name="Gtk.TextIter" c:type="GtkTextIter*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="search_forward" c:identifier="gtr_view_search_forward">
+        <doc xml:whitespace="preserve">Searches forward for str. Any match is returned by setting match_start to the
+first character of the match and match_end to the first character after the match.
+The search will not continue past limit.
+Note that a search is a linear or O(n) operation, so you may wish to use limit
+to avoid locking up your UI on large buffers.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">whether a match was found</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <parameter name="start" transfer-ownership="none">
+            <doc xml:whitespace="preserve">start of search</doc>
+            <type name="Gtk.TextIter" c:type="const GtkTextIter*"/>
+          </parameter>
+          <parameter name="end" transfer-ownership="none">
+            <doc xml:whitespace="preserve">bound for the search, or %NULL for the end of the buffer</doc>
+            <type name="Gtk.TextIter" c:type="const GtkTextIter*"/>
+          </parameter>
+          <parameter name="match_start" transfer-ownership="none">
+            <doc xml:whitespace="preserve">return location for start of match, or %NULL</doc>
+            <type name="Gtk.TextIter" c:type="GtkTextIter*"/>
+          </parameter>
+          <parameter name="match_end" transfer-ownership="none">
+            <doc xml:whitespace="preserve">return location for end of match, or %NULL</doc>
+            <type name="Gtk.TextIter" c:type="GtkTextIter*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_font" c:identifier="gtr_view_set_font">
+        <doc xml:whitespace="preserve">Sets the #GtrView font.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="def" transfer-ownership="none">
+            <doc xml:whitespace="preserve">TRUE if you want to use the default font</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+          <parameter name="font_name" transfer-ownership="none">
+            <doc xml:whitespace="preserve">The name of the font you want to use in the #GtrView</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="set_search_text" c:identifier="gtr_view_set_search_text">
+        <doc xml:whitespace="preserve">Stores the text to search for in the @view with some specific @flags.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="text" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the text to set for searching</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="flags" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrSearchFlags</doc>
+            <type name="guint" c:type="guint"/>
+          </parameter>
+        </parameters>
+      </method>
+      <field name="parent_instance">
+        <type name="GtkSource.View" c:type="GtkSourceView"/>
+      </field>
+      <field name="priv" readable="0" private="1">
+        <type name="ViewPrivate" c:type="GtrViewPrivate*"/>
+      </field>
+    </class>
+    <record name="ViewClass"
+            c:type="GtrViewClass"
+            glib:is-gtype-struct-for="View">
+      <field name="parent_class">
+        <type name="GtkSource.ViewClass" c:type="GtkSourceViewClass"/>
+      </field>
+    </record>
+    <record name="ViewPrivate" c:type="GtrViewPrivate" disguised="1">
+    </record>
+    <class name="Window"
+           c:symbol-prefix="window"
+           c:type="GtrWindow"
+           parent="Gtk.ApplicationWindow"
+           glib:type-name="GtrWindow"
+           glib:get-type="gtr_window_get_type"
+           glib:type-struct="WindowClass">
+      <implements name="Atk.ImplementorIface"/>
+      <implements name="Gio.ActionGroup"/>
+      <implements name="Gio.ActionMap"/>
+      <implements name="Gtk.Buildable"/>
+      <function name="register_type" c:identifier="gtr_window_register_type">
+        <return-value transfer-ownership="none">
+          <type name="GType" c:type="GType"/>
+        </return-value>
+        <parameters>
+          <parameter name="module" transfer-ownership="none">
+            <type name="GObject.TypeModule" c:type="GTypeModule*"/>
+          </parameter>
+        </parameters>
+      </function>
+      <method name="create_tab" c:identifier="gtr_window_create_tab">
+        <doc xml:whitespace="preserve">Adds a new #GtrTab to the #GtrNotebook and returns the
+#GtrTab.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">a new #GtrTab object</doc>
+          <type name="Tab" c:type="GtrTab*"/>
+        </return-value>
+        <parameters>
+          <parameter name="po" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrPo</doc>
+            <type name="Po" c:type="GtrPo*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_active_tab" c:identifier="gtr_window_get_active_tab">
+        <doc xml:whitespace="preserve">Gets the active #GtrTab of the @window.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the active #GtrTab of the @window.</doc>
+          <type name="Tab" c:type="GtrTab*"/>
+        </return-value>
+      </method>
+      <method name="get_active_view" c:identifier="gtr_window_get_active_view">
+        <doc xml:whitespace="preserve">Gets the active translation view in the #GtranslationWindow or
+NULL if there is not tab opened.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the active translation view in the #GtranslationWindow or %NULL if there is not tab opened.</doc>
+          <type name="View" c:type="GtrView*"/>
+        </return-value>
+      </method>
+      <method name="get_all_tabs" c:identifier="gtr_window_get_all_tabs">
+        <doc xml:whitespace="preserve">Gets a list of all tabs in the @window or NULL if there is no tab opened.</doc>
+        <return-value transfer-ownership="container">
+          <doc xml:whitespace="preserve">a list of all tabs in the @window or NULL if there is no tab opened.</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="Tab"/>
+          </type>
+        </return-value>
+      </method>
+      <method name="get_all_views" c:identifier="gtr_window_get_all_views">
+        <doc xml:whitespace="preserve">Returns all the views currently present in #GtranslationWindow</doc>
+        <return-value transfer-ownership="container">
+          <doc xml:whitespace="preserve">a newly allocated list of #GtranslationWindow objects</doc>
+          <type name="GLib.List" c:type="GList*">
+            <type name="View"/>
+          </type>
+        </return-value>
+        <parameters>
+          <parameter name="original" transfer-ownership="none">
+            <doc xml:whitespace="preserve">TRUE if you want original TextViews.</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+          <parameter name="translated" transfer-ownership="none">
+            <doc xml:whitespace="preserve">TRUE if you want transtated TextViews.</doc>
+            <type name="gboolean" c:type="gboolean"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_header_from_active_tab"
+              c:identifier="gtr_window_get_header_from_active_tab">
+        <doc xml:whitespace="preserve">Gets the #GtrHeader of the #GtrPo of in the active
+#GtrTab.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the #GtrHeader of the #GtrPo of in the active #GtrTab</doc>
+          <type name="Header" c:type="GtrHeader*"/>
+        </return-value>
+      </method>
+      <method name="get_notebook" c:identifier="gtr_window_get_notebook">
+        <doc xml:whitespace="preserve">Gets the main #GtrNotebook of the @window.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the #GtrNotebook of the @window</doc>
+          <type name="Notebook" c:type="GtrNotebook*"/>
+        </return-value>
+      </method>
+      <method name="get_statusbar" c:identifier="gtr_window_get_statusbar">
+        <doc xml:whitespace="preserve">Gets the statusbar widget of the window.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the statusbar widget of the window</doc>
+          <type name="Gtk.Widget" c:type="GtkWidget*"/>
+        </return-value>
+      </method>
+      <method name="get_tab_from_location"
+              c:identifier="gtr_window_get_tab_from_location">
+        <doc xml:whitespace="preserve">Gets the #GtrTab of the #GtrWindows that matches with the
+@location.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the #GtrTab which @location matches with its po file.</doc>
+          <type name="Gtk.Widget" c:type="GtkWidget*"/>
+        </return-value>
+        <parameters>
+          <parameter name="location" transfer-ownership="none">
+            <doc xml:whitespace="preserve">the GFile of the po file of the #GtrTab</doc>
+            <type name="Gio.File" c:type="GFile*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="get_ui_manager" c:identifier="gtr_window_get_ui_manager">
+        <doc xml:whitespace="preserve">Gets the #GtkUIManager of the window.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:whitespace="preserve">the #GtkUIManager of the @window</doc>
+          <type name="Gtk.UIManager" c:type="GtkUIManager*"/>
+        </return-value>
+      </method>
+      <method name="set_active_tab" c:identifier="gtr_window_set_active_tab">
+        <doc xml:whitespace="preserve">Sets the active tab for the @window.</doc>
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+        <parameters>
+          <parameter name="tab" transfer-ownership="none">
+            <doc xml:whitespace="preserve">a #GtrTab</doc>
+            <type name="Gtk.Widget" c:type="GtkWidget*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <field name="parent_instance">
+        <type name="Gtk.ApplicationWindow" c:type="GtkApplicationWindow"/>
+      </field>
+      <field name="priv" readable="0" private="1">
+        <type name="WindowPrivate" c:type="GtrWindowPrivate*"/>
+      </field>
+    </class>
+    <interface name="WindowActivatable"
+               c:symbol-prefix="window_activatable"
+               c:type="GtrWindowActivatable"
+               glib:type-name="GtrWindowActivatable"
+               glib:get-type="gtr_window_activatable_get_type"
+               glib:type-struct="WindowActivatableInterface">
+      <virtual-method name="activate" invoker="activate">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </virtual-method>
+      <virtual-method name="deactivate" invoker="deactivate">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </virtual-method>
+      <virtual-method name="update_state" invoker="update_state">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </virtual-method>
+      <method name="activate" c:identifier="gtr_window_activatable_activate">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="deactivate"
+              c:identifier="gtr_window_activatable_deactivate">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <method name="update_state"
+              c:identifier="gtr_window_activatable_update_state">
+        <return-value transfer-ownership="none">
+          <type name="none" c:type="void"/>
+        </return-value>
+      </method>
+      <property name="window"
+                writable="1"
+                construct-only="1"
+                transfer-ownership="none">
+        <type name="Window"/>
+      </property>
+    </interface>
+    <record name="WindowActivatableInterface"
+            c:type="GtrWindowActivatableInterface"
+            glib:is-gtype-struct-for="WindowActivatable">
+      <field name="g_iface">
+        <type name="GObject.TypeInterface" c:type="GTypeInterface"/>
+      </field>
+      <field name="activate">
+        <callback name="activate">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="activatable" transfer-ownership="none">
+              <type name="WindowActivatable" c:type="GtrWindowActivatable*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+      <field name="deactivate">
+        <callback name="deactivate">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="activatable" transfer-ownership="none">
+              <type name="WindowActivatable" c:type="GtrWindowActivatable*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+      <field name="update_state">
+        <callback name="update_state">
+          <return-value transfer-ownership="none">
+            <type name="none" c:type="void"/>
+          </return-value>
+          <parameters>
+            <parameter name="activatable" transfer-ownership="none">
+              <type name="WindowActivatable" c:type="GtrWindowActivatable*"/>
+            </parameter>
+          </parameters>
+        </callback>
+      </field>
+    </record>
+    <record name="WindowClass"
+            c:type="GtrWindowClass"
+            glib:is-gtype-struct-for="Window">
+      <field name="parent_class">
+        <type name="Gtk.ApplicationWindowClass"
+              c:type="GtkApplicationWindowClass"/>
+      </field>
+    </record>
+    <record name="WindowPrivate" c:type="GtrWindowPrivate" disguised="1">
+    </record>
+  </namespace>
+</repository>

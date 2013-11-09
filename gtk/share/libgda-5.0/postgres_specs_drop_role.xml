@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists"></parameter>
+  </parameters>
+  <parameters xml:lang="ar" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name" xml:lang="ar"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="ar"></parameter>
+  </parameters>
+  <parameters xml:lang="az" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name" xml:lang="az"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="az"></parameter>
+  </parameters>
+  <parameters xml:lang="ca" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="Role's name" xml:lang="ca"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="ca"></parameter>
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="Role's name" xml:lang="ca@valencia"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="ca@valencia"></parameter>
+  </parameters>
+  <parameters xml:lang="cs" id="USER_DESC_P" name="Definice role">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Název" descr="Název role" xml:lang="cs"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Pokud existuje" descr="Odstranit roli, jen pokud existuje" xml:lang="cs"></parameter>
+  </parameters>
+  <parameters xml:lang="da" id="USER_DESC_P" name="Rolles definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Navn" descr="Rolles navn" xml:lang="da"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Hvis den findes" descr="Smid kun rolle hvis den findes" xml:lang="da"></parameter>
+  </parameters>
+  <parameters xml:lang="de" id="USER_DESC_P" name="Definition der Rolle">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Name der Rolle" xml:lang="de"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Falls vorhanden" descr="Rolle nur einfügen, wenn sie vorhanden ist" xml:lang="de"></parameter>
+  </parameters>
+  <parameters xml:lang="dz" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="མིང་།" descr="Role's name" xml:lang="dz"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="གནས་ཡོད་པ་ཅིན་" descr="Drop role only if it exists" xml:lang="dz"></parameter>
+  </parameters>
+  <parameters xml:lang="el" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Όνομα" descr="Role's name" xml:lang="el"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="el"></parameter>
+  </parameters>
+  <parameters xml:lang="en_CA" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name" xml:lang="en_CA"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="en_CA"></parameter>
+  </parameters>
+  <parameters xml:lang="en_GB" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name" xml:lang="en_GB"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="en_GB"></parameter>
+  </parameters>
+  <parameters xml:lang="eo" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nomo" descr="Role's name" xml:lang="eo"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Se ekzistas" descr="Drop role only if it exists" xml:lang="eo"></parameter>
+  </parameters>
+  <parameters xml:lang="es" id="USER_DESC_P" name="Definición del rol">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nombre" descr="Nombre del rol" xml:lang="es"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Si existe" descr="Eliminar el rol sólo si existe" xml:lang="es"></parameter>
+  </parameters>
+  <parameters xml:lang="eu" id="USER_DESC_P" name="Rolaren definizioa">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Izena" descr="Rolaren izena" xml:lang="eu"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Existitzen bada" descr="Jaregin rola aurrez existitzen bada soilik" xml:lang="eu"></parameter>
+  </parameters>
+  <parameters xml:lang="fa" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="نام" descr="Role's name" xml:lang="fa"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="fa"></parameter>
+  </parameters>
+  <parameters xml:lang="fi" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nimi" descr="Role's name" xml:lang="fi"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Jos olemassa" descr="Drop role only if it exists" xml:lang="fi"></parameter>
+  </parameters>
+  <parameters xml:lang="fr" id="USER_DESC_P" name="Définition du rôle">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="Nom du rôle" xml:lang="fr"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Si existant" descr="Supprimer le rôle seulement s&apos;il existe" xml:lang="fr"></parameter>
+  </parameters>
+  <parameters xml:lang="ga" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ainm" descr="Role's name" xml:lang="ga"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="ga"></parameter>
+  </parameters>
+  <parameters xml:lang="gl" id="USER_DESC_P" name="Definición de roles">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome ddos roles" xml:lang="gl"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Se existe" descr="Eliminar o rol só se existe" xml:lang="gl"></parameter>
+  </parameters>
+  <parameters xml:lang="hr" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="Role's name" xml:lang="hr"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="hr"></parameter>
+  </parameters>
+  <parameters xml:lang="hu" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Név" descr="Role's name" xml:lang="hu"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="hu"></parameter>
+  </parameters>
+  <parameters xml:lang="id" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nama" descr="Role's name" xml:lang="id"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Bila ada" descr="Drop role only if it exists" xml:lang="id"></parameter>
+  </parameters>
+  <parameters xml:lang="it" id="USER_DESC_P" name="Definizione del roulo">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome del ruolo" xml:lang="it"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Se esiste" descr="Elimina il ruolo solo se esiste" xml:lang="it"></parameter>
+  </parameters>
+  <parameters xml:lang="ja" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名前" descr="Role's name" xml:lang="ja"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="ja"></parameter>
+  </parameters>
+  <parameters xml:lang="ko" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="이름" descr="Role's name" xml:lang="ko"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="ko"></parameter>
+  </parameters>
+  <parameters xml:lang="lt" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Pavadinimas" descr="Role's name" xml:lang="lt"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="lt"></parameter>
+  </parameters>
+  <parameters xml:lang="mk" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Name" descr="Role's name" xml:lang="mk"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="mk"></parameter>
+  </parameters>
+  <parameters xml:lang="ml" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="പേര‍്" descr="Role's name" xml:lang="ml"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="ml"></parameter>
+  </parameters>
+  <parameters xml:lang="ms" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nama" descr="Role's name" xml:lang="ms"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="ms"></parameter>
+  </parameters>
+  <parameters xml:lang="nb" id="USER_DESC_P" name="Rollens definisjon">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Navn" descr="Rollens navn" xml:lang="nb"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="nb"></parameter>
+  </parameters>
+  <parameters xml:lang="ne" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="नाम" descr="Role's name" xml:lang="ne"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="यदि अवस्थित छ भने" descr="Drop role only if it exists" xml:lang="ne"></parameter>
+  </parameters>
+  <parameters xml:lang="nl" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Naam" descr="Role's name" xml:lang="nl"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="nl"></parameter>
+  </parameters>
+  <parameters xml:lang="oc" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nom" descr="Role's name" xml:lang="oc"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="oc"></parameter>
+  </parameters>
+  <parameters xml:lang="pa" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="ਨਾਮ" descr="Role's name" xml:lang="pa"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="pa"></parameter>
+  </parameters>
+  <parameters xml:lang="pl" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nazwa" descr="Role's name" xml:lang="pl"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="pl"></parameter>
+  </parameters>
+  <parameters xml:lang="pt" id="USER_DESC_P" name="Definição da função">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome da função" xml:lang="pt"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Se existir" descr="Descartar função apenas se existir" xml:lang="pt"></parameter>
+  </parameters>
+  <parameters xml:lang="pt_BR" id="USER_DESC_P" name="Definição do cargo">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Nome" descr="Nome do cargo" xml:lang="pt_BR"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Se existir" descr="Descarta o cargo somente se existir" xml:lang="pt_BR"></parameter>
+  </parameters>
+  <parameters xml:lang="ru" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Наименование" descr="Role's name" xml:lang="ru"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="ru"></parameter>
+  </parameters>
+  <parameters xml:lang="rw" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Izina" descr="Role's name" xml:lang="rw"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="rw"></parameter>
+  </parameters>
+  <parameters xml:lang="sk" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Meno" descr="Role's name" xml:lang="sk"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="sk"></parameter>
+  </parameters>
+  <parameters xml:lang="sl" id="USER_DESC_P" name="Določilo vloge">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="Ime vloge" xml:lang="sl"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Če obstaja" descr="Spusti vlogo le, če obstaja" xml:lang="sl"></parameter>
+  </parameters>
+  <parameters xml:lang="sq" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Emri" descr="Role's name" xml:lang="sq"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="sq"></parameter>
+  </parameters>
+  <parameters xml:lang="sr" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Име" descr="Role's name" xml:lang="sr"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="sr"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Ime" descr="Role's name" xml:lang="sr@Latn"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="sr@Latn"></parameter>
+  </parameters>
+  <parameters xml:lang="sv" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Namn" descr="Role's name" xml:lang="sv"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="sv"></parameter>
+  </parameters>
+  <parameters xml:lang="tr" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="İsim" descr="Role's name" xml:lang="tr"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="tr"></parameter>
+  </parameters>
+  <parameters xml:lang="uk" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Назва" descr="Role's name" xml:lang="uk"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="uk"></parameter>
+  </parameters>
+  <parameters xml:lang="vi" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="Tên" descr="Role's name" xml:lang="vi"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="Nếu tồn tại" descr="Drop role only if it exists" xml:lang="vi"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_CN" id="USER_DESC_P" name="角色定义">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名称" descr="角色名称" xml:lang="zh_CN"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="如果存在" descr="Drop role only if it exists" xml:lang="zh_CN"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_HK" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名稱" descr="Role's name" xml:lang="zh_HK"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="zh_HK"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_TW" id="USER_DESC_P" name="Role's definition">
+    <parameter nullok="FALSE" id="USER_NAME" gdatype="gchararray" name="名稱" descr="Role's name" xml:lang="zh_TW"></parameter>
+    <parameter id="USER_IFEXISTS" gdatype="gboolean" name="If exists" descr="Drop role only if it exists" xml:lang="zh_TW"></parameter>
+  </parameters>
+</serv_op>

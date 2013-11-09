@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ar" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="جدول" descr="Table's name" xml:lang="ar"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="ar"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="ar">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="az" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="az"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="az"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="az">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ca" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taula" descr="Table's name" xml:lang="ca"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom del camp" xml:lang="ca"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referències" descr="What to do with references on the column to delete" xml:lang="ca">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taula" descr="Table's name" xml:lang="ca@valencia"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom del camp" xml:lang="ca@valencia"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referències" descr="What to do with references on the column to delete" xml:lang="ca@valencia">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="cs" id="COLUMN_DESC_P" name="Popis sloupce">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabulka" descr="Název tabulky" xml:lang="cs"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Název pole" xml:lang="cs"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Odkazy" descr="Co udělat s odkazy na sloupci, který je mazán" xml:lang="cs">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="da" id="COLUMN_DESC_P" name="Kolonnens beskrivelse">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabel" descr="Tabellens navn" xml:lang="da"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Feltnavn" xml:lang="da"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencer" descr="Hvad der skal gøres med referencer, til den kolonne som slettes" xml:lang="da">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="de" id="COLUMN_DESC_P" name="Spaltenbeschreibung">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabelle" descr="Tabellenname" xml:lang="de"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Feldname" xml:lang="de"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Bezüge" descr="Umgang mit Bezügen der zu löschenden Spalte" xml:lang="de">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="dz" id="COLUMN_DESC_P" name="ཀེར་ཐིག་གི་འགྲེལ་བཤད།">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="ཐིག་ཁྲམ།" descr="ཐིག་ཁྲམ་གྱི་མིང་།" xml:lang="dz"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="ས་སྒོའི་མིང་" xml:lang="dz"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="གཞི་བསྟུན་ཚུ།" descr="ཀེར་ཐིག་གུ་བཏོན་གཏང་ནི་ཨིན་མི་གཏི་བསྟུན་ཚུ་དང་ག་ཅིག་འབད་ནི།" xml:lang="dz">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="el" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Πίνακας" descr="Table's name" xml:lang="el"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Όνομα πεδίου" xml:lang="el"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="el">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="en_CA" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="en_CA"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="en_CA"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="en_CA">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="en_GB" id="COLUMN_DESC_P" name="Column&apos;s description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table&apos;s name" xml:lang="en_GB"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="en_GB"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="en_GB">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="eo" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabelo" descr="Table's name" xml:lang="eo"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Kamponomo" xml:lang="eo"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencoj" descr="What to do with references on the column to delete" xml:lang="eo">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="es" id="COLUMN_DESC_P" name="Descripción de la columna">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabla" descr="Nombre de la tabla" xml:lang="es"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nombre del campo" xml:lang="es"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencias" descr="Qué hacer con las referencias en la columna a eliminar" xml:lang="es">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="eu" id="COLUMN_DESC_P" name="Zutabearen azalpena">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taula" descr="Taularen izena" xml:lang="eu"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Eremu-izena" xml:lang="eu"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Erreferentziak" descr="Zer egin erreferentziekin zutabean ezabatzeko" xml:lang="eu">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="fa" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="جدول" descr="Table's name" xml:lang="fa"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="نام فیلد" xml:lang="fa"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="fa">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="fi" id="COLUMN_DESC_P" name="Sarakkeen kuvaus">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taulu" descr="Taulun nimi" xml:lang="fi"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Kentän nimi" xml:lang="fi"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Viittaukset" descr="Mitä poistettavasta sarakkeesta riippuville viitteille tehdään" xml:lang="fi">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="fr" id="COLUMN_DESC_P" name="Description de colonne">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Nom de la base" xml:lang="fr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom du champ" xml:lang="fr"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Références" descr="Que faire avec les références à la colonne à supprimer" xml:lang="fr">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ga" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="ga"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="ga"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="ga">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="gl" id="COLUMN_DESC_P" name="Descrición da columna">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Táboa" descr="Nome da táboa" xml:lang="gl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome do campo" xml:lang="gl"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencias" descr="Que facer cas referencias da columna que se vai eliminar" xml:lang="gl">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="hr" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tablica" descr="Table's name" xml:lang="hr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Naziv polja" xml:lang="hr"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Reference" descr="What to do with references on the column to delete" xml:lang="hr">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="hu" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="hu"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="hu"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="hu">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="id" id="COLUMN_DESC_P" name="Keterangan kolom">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabel" descr="Nama tabel" xml:lang="id"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nama ruas" xml:lang="id"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Rujukan" descr="What to do with references on the column to delete" xml:lang="id">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="it" id="COLUMN_DESC_P" name="Descrizione colonna">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabella" descr="Nome tabella" xml:lang="it"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome campo" xml:lang="it"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Riferimenti" descr="Cosa fare dei riferimenti in caso di cancellazione della colonna" xml:lang="it">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ja" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="テーブル" descr="テーブル名" xml:lang="ja"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="フィールド名" xml:lang="ja"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="参照" descr="What to do with references on the column to delete" xml:lang="ja">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ko" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="ko"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="필드 이름" xml:lang="ko"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="참조" descr="What to do with references on the column to delete" xml:lang="ko">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="lt" id="COLUMN_DESC_P" name="Stulpelio aprašymas">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Lentelė" descr="Lentelės vardas" xml:lang="lt"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Lauko vardas" xml:lang="lt"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Nuorodos" descr="What to do with references on the column to delete" xml:lang="lt">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="mk" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="mk"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="mk"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="mk">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ml" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="ml"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="ml"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="ml">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ms" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Jadual" descr="Table's name" xml:lang="ms"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nama Medan" xml:lang="ms"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Rujukan" descr="What to do with references on the column to delete" xml:lang="ms">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="nb" id="COLUMN_DESC_P" name="Beskrivelse av kolonne">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabell" descr="Navn på tabell" xml:lang="nb"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Feltnavn" xml:lang="nb"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referanser" descr="What to do with references on the column to delete" xml:lang="nb">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ne" id="COLUMN_DESC_P" name="स्तम्भको वर्णन">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="तालिका" descr="तालिको नाम" xml:lang="ne"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="क्षेत्रको नाम" xml:lang="ne"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="सन्दर्भहरू" descr="मेट्नको लागि स्तम्भमा सन्दर्भसँग के गर्ने हो" xml:lang="ne">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="nl" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabel" descr="Table's name" xml:lang="nl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Veld naam" xml:lang="nl"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referenties" descr="What to do with references on the column to delete" xml:lang="nl">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="oc" id="COLUMN_DESC_P" name="Descripcion">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tablèu" descr="Table's name" xml:lang="oc"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom del camp" xml:lang="oc"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referéncias" descr="What to do with references on the column to delete" xml:lang="oc">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="pa" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="ਸਾਰਣੀ" descr="Table's name" xml:lang="pa"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="ਖੇਤਰ ਨਾਉ" xml:lang="pa"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="ਰੈਫਰਸ(ਹਵਾਲਾ)" descr="What to do with references on the column to delete" xml:lang="pa">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="pl" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Table's name" xml:lang="pl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nazwa pola" xml:lang="pl"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencja" descr="What to do with references on the column to delete" xml:lang="pl">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="pt" id="COLUMN_DESC_P" name="Descrição da coluna">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Nome da tabela" xml:lang="pt"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome do campo" xml:lang="pt"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referências" descr="O que fazer com referências da coluna a eliminar" xml:lang="pt">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="pt_BR" id="COLUMN_DESC_P" name="Descrição da coluna">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Nome da tabela" xml:lang="pt_BR"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome do campo" xml:lang="pt_BR"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referências" descr="O que fazer com as referências à coluna a ser excluída" xml:lang="pt_BR">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="ru" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Таблица" descr="Название таблицы" xml:lang="ru"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Имя поля" xml:lang="ru"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Ссылки" descr="What to do with references on the column to delete" xml:lang="ru">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="rw" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Imbonerahamwe" descr="Table's name" xml:lang="rw"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Izina ry&apos;umwanya" xml:lang="rw"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Indango" descr="What to do with references on the column to delete" xml:lang="rw">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sk" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabuľka" descr="Table's name" xml:lang="sk"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Meno poľa" xml:lang="sk"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencie" descr="What to do with references on the column to delete" xml:lang="sk">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sl" id="COLUMN_DESC_P" name="Opis stolpca">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Razpredelnica" descr="Ime razpredelnice" xml:lang="sl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Ime polja" xml:lang="sl"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Sklici" descr="Kaj storiti s sklici, ob izbrisu stolpca" xml:lang="sl">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sq" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Table's name" xml:lang="sq"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="sq"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="sq">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sr" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Табела" descr="Table's name" xml:lang="sr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Назив поља" xml:lang="sr"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Препоруке" descr="What to do with references on the column to delete" xml:lang="sr">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Table's name" xml:lang="sr@Latn"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Naziv polja" xml:lang="sr@Latn"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Preporuke" descr="What to do with references on the column to delete" xml:lang="sr@Latn">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="sv" id="COLUMN_DESC_P" name="Kolumnens beskrivning">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabell" descr="Tabellnamn" xml:lang="sv"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Fältnamn" xml:lang="sv"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referenser" descr="What to do with references on the column to delete" xml:lang="sv">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="tr" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="tr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="tr"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references on the column to delete" xml:lang="tr">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="uk" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Таблиця" descr="Table's name" xml:lang="uk"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Назва поля" xml:lang="uk"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Посилання" descr="What to do with references on the column to delete" xml:lang="uk">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="vi" id="COLUMN_DESC_P" name="Mô tả của cột">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Bảng" descr="Tên của bảng" xml:lang="vi"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Tên trường" xml:lang="vi"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Tham chiếu" descr="Cách xử lý tham chiếu nằm trên cột cần xoá" xml:lang="vi">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="zh_CN" id="COLUMN_DESC_P" name="列描述">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="表" descr="表名" xml:lang="zh_CN"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="字段名" xml:lang="zh_CN"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="引用" descr="如何处理要删除列的引用" xml:lang="zh_CN">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="zh_HK" id="COLUMN_DESC_P" name="直行的說明">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="表格" descr="表格的名稱" xml:lang="zh_HK"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="欄位名稱" xml:lang="zh_HK"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="參考" descr="What to do with references on the column to delete" xml:lang="zh_HK">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+  <parameters xml:lang="zh_TW" id="COLUMN_DESC_P" name="直行的說明">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="表格" descr="表格的名稱" xml:lang="zh_TW"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="欄位名稱" xml:lang="zh_TW"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="參考" descr="What to do with references on the column to delete" xml:lang="zh_TW">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+
+  
+  <sources>
+    <gda_array name="action_cb">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="text" gdatype="gchararray"/>
+      <gda_array_data>
+        <gda_array_row>
+          <gda_value>CASCADE</gda_value>
+          <gda_value>Automatically drop objects that depend on the column (CASCADE)</gda_value>
+          <gda_value xml:lang="cs">Automaticky odstranit objekty, které závisí na sloupci (CASCADE)</gda_value>
+          <gda_value xml:lang="da">Automatisk smid objekter som afhænger af kolonnen (CASCADE)</gda_value>
+          <gda_value xml:lang="de">Von der Spalte abhängige Objekte automatisch einfügen (CASCADE)</gda_value>
+          <gda_value xml:lang="dz">རང་བཞིན་གྱིས་བཀོག་བཞག་དངོས་པོ་ཚུ་ཀེར་ཐིག་གུ་རྟེནམ་ཨིན།(ཀེསི་ཀེཌི)</gda_value>
+          <gda_value xml:lang="en_GB">Automatically drop objects that depend on the column (CASCADE)</gda_value>
+          <gda_value xml:lang="es">Eliminar automáticamente los objetos que dependan de la tabla (CASCADE)</gda_value>
+          <gda_value xml:lang="eu">Ezabatu zutabearen mende dauden objektuak automatikoki (CASCADE)</gda_value>
+          <gda_value xml:lang="fi">Poista automaattisesti oliot, jotka riippuvat sarakkeesta (CASCADE)</gda_value>
+          <gda_value xml:lang="fr">Supprimer automatiquement les objets qui dépendent de cette colonne (CASCADE)</gda_value>
+          <gda_value xml:lang="gl">Elimina automaticamente os obxectos dependentes da columna (FERVENZA)</gda_value>
+          <gda_value xml:lang="it">Elimina automaticamente gli oggetti che dipendono dalla colonna (CASCADE)</gda_value>
+          <gda_value xml:lang="ne"> स्तम्भ (CASCADE)मा आधारित हुने वस्तु स्वत:रूपले ड्रप हुन्छ</gda_value>
+          <gda_value xml:lang="pt">Descartar automaticamente objectos que dependam da coluna (CASCADE)</gda_value>
+          <gda_value xml:lang="pt_BR">Descartar automaticamente objetos que dependam da coluna (CASCATA)</gda_value>
+          <gda_value xml:lang="sl">Samodejno spusti predmet, ki je odvisen od stolpca (CASCADE)</gda_value>
+          <gda_value xml:lang="vi">Bỏ tự động các đối tượng phụ thuộc vào cột đó (CASCADE [tầng xếp])</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>RESTRICT</gda_value>
+          <gda_value>Refuse to drop the column if any objects depend on it (RESTRICT)</gda_value>
+          <gda_value xml:lang="cs">Zabránit odstranění sloupce, pokud na něm závisí nějaké objekty (RESTRICT)</gda_value>
+          <gda_value xml:lang="da">Nægt at smide kolonnen hvis et objekt afhænger af den (RESTRICT)</gda_value>
+          <gda_value xml:lang="de">Einfügen der Spalte verweigern, falls irgendwelche Objekte davon abhängen (RESTRICT)</gda_value>
+          <gda_value xml:lang="dz">དངོས་པོ་ཚུ་གང་རུང་འདི་གུ་རྟེན་ཡོད་པ་ཅིན་ཀེར་ཐིག་བཀོག་བཞག་ནི་ངོས་ལེན་མི་འབད(བཀག་དམ)།</gda_value>
+          <gda_value xml:lang="en_GB">Refuse to drop the column if any objects depend on it (RESTRICT)</gda_value>
+          <gda_value xml:lang="es">Rehusar eliminar la tabla si cualquier objeto depende de ella (RESTRICT)</gda_value>
+          <gda_value xml:lang="eu">Bertan behera utzi zutabea ezabatzea objekturen batek mendekotasuna badu zutabearekiko (RESTRICT)</gda_value>
+          <gda_value xml:lang="fi">Kieltäydy poistamasta saraketta, jos joku olio riippuu siitä (RESTRICT)</gda_value>
+          <gda_value xml:lang="fr">Refuser la suppression de cette colonne si un objet en dépend (RESTRICT)</gda_value>
+          <gda_value xml:lang="gl">Rexeita a eliminación da columna se algún obxecto depende dela (RESTRINXIDO)</gda_value>
+          <gda_value xml:lang="it">Non eliminare la colonna se qualsiasi oggetto dipende da essa (RESTRICT)</gda_value>
+          <gda_value xml:lang="ne">यदि (RESTRICT) यसमा निर्भर कुनै वस्तु छ भने स्तम्भ ड्रप गर्न इन्कार गर्नुहोस्</gda_value>
+          <gda_value xml:lang="pt">Recusar descartar coluna se algum objecto depender dela (RESTRICT)</gda_value>
+          <gda_value xml:lang="pt_BR">Recusar descarte da coluna se algum objeto depende dela (RESTRITO)</gda_value>
+          <gda_value xml:lang="sl">Zavrni spuščanje stolpca, če je katerikoli predmet od njega odvisen (RESTRICT)</gda_value>
+          <gda_value xml:lang="vi">Từ chối bỏ cột nếu có đối tượng nào phụ thuộc vào nó (RESTRICT [hạn chế])</gda_value>
+        </gda_array_row>
+      </gda_array_data>
+    </gda_array>
+  </sources>
+</serv_op>

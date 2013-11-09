@@ -1,0 +1,40 @@
+# GdkPixbuf Image Loader Modules file
+# Automatically generated file, do not edit
+# Created by gdk-pixbuf-query-loaders.exe from gdk-pixbuf-2.26.5
+#
+# LoaderDir = E:\Work\MSYS\local\gtk36/lib/gdk-pixbuf-2.0/2.10.0/loaders
+#
+"E:/Work/MSYS/local/gtk36/151afe478775e620a4cd93ef9c62f0dd/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.dll"
+"svg" 2 "gdk-pixbuf" "Scalable Vector Graphics" "LGPL"
+"image/svg+xml" "image/svg" "image/svg-xml" "image/vnd.adobe.svg+xml" "text/xml-svg" "image/svg+xml-compressed" ""
+"svg" "svgz" "svg.gz" ""
+" <svg" "*    " 100
+" <!DOCTYPE svg" "*             " 100
+
+"E:/Work/MSYS/local/gtk36/151afe478775e620a4cd93ef9c62f0dd/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tiff.dll"
+"tiff" 5 "gdk-pixbuf" "The TIFF image format" "LGPL"
+"image/tiff" ""
+"tiff" "tif" ""
+"MM *" "  z " 100
+"II* " "   z" 100
+"II* \020   CR\002 " "   z zzz   z" 0
+
+"E:/Work/MSYS/local/gtk36/151afe478775e620a4cd93ef9c62f0dd/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-wmf.dll"
+"wmf" 0 "gtk20" "Windows Metafile" "(null)"
+"image/x-wmf" ""
+"wmf" "apm" ""
+"\327\315\306\232" "" 100
+"\001" "" 100
+
+"E:/Work/MSYS/local/gtk36/151afe478775e620a4cd93ef9c62f0dd/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-psd.dll"
+"psd" 0 "gtk20" "Adobe Photoshop format" "LGPL"
+"image/x-psd" ""
+"psd" ""
+"8BPS" "" 100
+
+"E:/Work/MSYS/local/gtk36/151afe478775e620a4cd93ef9c62f0dd/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-webp.dll"
+"webp" 5 "gdk-pixbuf" "The WebP image format" "LGPL"
+"image/webp" "audio/x-riff" ""
+"webp" ""
+"RIFFsizeWEBP" "    xxxx    " 100
+

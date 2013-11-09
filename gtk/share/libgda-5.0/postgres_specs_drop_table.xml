@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="TABLE_DESC_P">
+    <parameter source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table to delete"></parameter>
+    <parameter xml:lang="ar" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="جدول" descr="Table to delete"></parameter>
+    <parameter xml:lang="az" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table to delete"></parameter>
+    <parameter xml:lang="ca" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taula" descr="Table to delete"></parameter>
+    <parameter xml:lang="ca@valencia" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taula" descr="Table to delete"></parameter>
+    <parameter xml:lang="cs" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabulka" descr="Tabulka, která se má smazat"></parameter>
+    <parameter xml:lang="da" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabel" descr="Tabel der skal slettes"></parameter>
+    <parameter xml:lang="de" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabelle" descr="Zu löschende Tabelle"></parameter>
+    <parameter xml:lang="dz" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="ཐིག་ཁྲམ།" descr="བཏོན་གཏང་ནི་ཐིག་ཁྲམ།"></parameter>
+    <parameter xml:lang="el" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Πίνακας" descr="Table to delete"></parameter>
+    <parameter xml:lang="en_CA" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table to delete"></parameter>
+    <parameter xml:lang="en_GB" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table to delete"></parameter>
+    <parameter xml:lang="eo" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabelo" descr="Table to delete"></parameter>
+    <parameter xml:lang="es" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabla" descr="Tabla para eliminar"></parameter>
+    <parameter xml:lang="eu" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taula" descr="Taula ezabatzeko"></parameter>
+    <parameter xml:lang="fa" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="جدول" descr="Table to delete"></parameter>
+    <parameter xml:lang="fi" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taulu" descr="Poistettava taulu"></parameter>
+    <parameter xml:lang="fr" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table à supprimer"></parameter>
+    <parameter xml:lang="ga" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table to delete"></parameter>
+    <parameter xml:lang="gl" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Táboa" descr="Táboa a eliminar"></parameter>
+    <parameter xml:lang="hr" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tablica" descr="Table to delete"></parameter>
+    <parameter xml:lang="hu" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table to delete"></parameter>
+    <parameter xml:lang="id" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabel" descr="Tabel yang akan dihapus"></parameter>
+    <parameter xml:lang="it" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabella" descr="Tabella da cancellare"></parameter>
+    <parameter xml:lang="ja" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="テーブル" descr="Table to delete"></parameter>
+    <parameter xml:lang="ko" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table to delete"></parameter>
+    <parameter xml:lang="lt" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Lentelė" descr="Ištrinama lentelė"></parameter>
+    <parameter xml:lang="mk" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table to delete"></parameter>
+    <parameter xml:lang="ml" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table to delete"></parameter>
+    <parameter xml:lang="ms" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Jadual" descr="Table to delete"></parameter>
+    <parameter xml:lang="nb" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabell" descr="Tabell som skal slettes"></parameter>
+    <parameter xml:lang="ne" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="तालिका" descr="मेट्ने तालिका"></parameter>
+    <parameter xml:lang="nl" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabel" descr="Table to delete"></parameter>
+    <parameter xml:lang="oc" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tablèu" descr="Table to delete"></parameter>
+    <parameter xml:lang="pa" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="ਸਾਰਣੀ" descr="Table to delete"></parameter>
+    <parameter xml:lang="pl" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Table to delete"></parameter>
+    <parameter xml:lang="pt" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Tabela a eliminar"></parameter>
+    <parameter xml:lang="pt_BR" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Tabela a excluir"></parameter>
+    <parameter xml:lang="ru" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Таблица" descr="Table to delete"></parameter>
+    <parameter xml:lang="rw" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Imbonerahamwe" descr="Table to delete"></parameter>
+    <parameter xml:lang="sk" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabuľka" descr="Table to delete"></parameter>
+    <parameter xml:lang="sl" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Razpredelnica" descr="Razpredelnica za brisanje"></parameter>
+    <parameter xml:lang="sq" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Table to delete"></parameter>
+    <parameter xml:lang="sr" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Табела" descr="Table to delete"></parameter>
+    <parameter xml:lang="sr@Latn" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Table to delete"></parameter>
+    <parameter xml:lang="sv" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabell" descr="Tabell att ta bort"></parameter>
+    <parameter xml:lang="tr" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table to delete"></parameter>
+    <parameter xml:lang="uk" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Таблиця" descr="Table to delete"></parameter>
+    <parameter xml:lang="vi" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Bảng" descr="Bảng cần xoá bỏ"></parameter>
+    <parameter xml:lang="zh_CN" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="表" descr="要删除的表"></parameter>
+    <parameter xml:lang="zh_HK" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="表格" descr="要刪除的表格"></parameter>
+    <parameter xml:lang="zh_TW" source="_DICT_TABLES_" nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="表格" descr="要刪除的表格"></parameter>
+    <parameter source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ar" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="az" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ca" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referències" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ca@valencia" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referències" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="cs" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Odkazy" descr="Co udělat s odkazy">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="da" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencer" descr="Hvad skal der ske med referencer">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="de" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Bezüge" descr="Umgang mit Bezügen">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="dz" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="གཞི་བསྟུན་ཚུ།" descr="གཞི་བསྟུན་ཚུ་དང་གཅིག་ཁར་ག་ཅི་འབད་ནི།">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="el" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="en_CA" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="en_GB" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="eo" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencoj" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="es" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencias" descr="Qué hacer con las referencias">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="eu" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Erreferentziak" descr="Zer egin erreferentziekin">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="fa" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="fi" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Viittaukset" descr="Mitä viitteille tehdään">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="fr" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Références" descr="Que faire avec les références">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ga" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="gl" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencias" descr="Que facer cas referencias">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="hr" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Reference" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="hu" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="id" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Rujukan" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="it" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Riferimenti" descr="Cosa fare con i riferimenti">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ja" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="参照" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ko" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="참조" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="lt" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Nuorodos" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="mk" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ml" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ms" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Rujukan" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="nb" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referanser" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ne" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="सन्दर्भहरू" descr="सन्दर्भसँग के गर्नुहुन्छ">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="nl" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referenties" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="oc" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referéncias" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="pa" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="ਰੈਫਰਸ(ਹਵਾਲਾ)" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="pl" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencja" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="pt" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referências" descr="O que fazer com referências">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="pt_BR" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referências" descr="O que fazer com as referências">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="ru" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Ссылки" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="rw" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Indango" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sk" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referencie" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sl" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Sklici" descr="Kaj narediti s sklici">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sq" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sr" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Препоруке" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sr@Latn" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Preporuke" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="sv" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Referenser" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="tr" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="References" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="uk" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Посилання" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="vi" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="Tham chiếu" descr="Xử lý tham chiếu như thế nào">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_CN" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="引用" descr="如何处理引用">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_HK" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="參考" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_TW" source="action_cb:0" nullok="FALSE" id="REFERENCED_ACTION" gdatype="gchararray" name="參考" descr="What to do with references">
+      <gda_value>RESTRICT</gda_value>
+    </parameter>
+  </parameters>
+
+  
+  <sources>
+    <gda_array name="action_cb">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="text" gdatype="gchararray"/>
+      <gda_array_data>
+	<gda_array_row>
+          <gda_value>CASCADE</gda_value>
+          <gda_value>Automatically drop objects that depend on the table (CASCADE)</gda_value>
+          <gda_value xml:lang="cs">Automaticky odstranit objekty, které závisí na tabulce (CASCADE)</gda_value>
+          <gda_value xml:lang="da">Smid automatisk objekter som afhænger af tabellen (CASCADE)</gda_value>
+          <gda_value xml:lang="de">Automatisches Einfügen von Objekten, die von der Tabelle abhängen (CASCADE)</gda_value>
+          <gda_value xml:lang="dz">རང་བཞིན་གྱིས་དངོས་པོ་ཚུ་བཀོག་བཞག་ནི་དེ་ཐིག་ཁྲམ་གུ་རྟེནམ་ཨིན(ཀེསི་ཀེཌི)</gda_value>
+          <gda_value xml:lang="en_GB">Automatically drop objects that depend on the table (CASCADE)</gda_value>
+          <gda_value xml:lang="es">Eliminar automáticamente los objetos que dependan de la tabla (CASCADE)</gda_value>
+          <gda_value xml:lang="eu">Ezabatu taularen mende dauden (teilakatuta) objektuak automatikoki</gda_value>
+          <gda_value xml:lang="fi">Poista automaattisesti kohteet, jotka riippuvat taulusta (CASCADE)</gda_value>
+          <gda_value xml:lang="fr">Supprimer automatiquement les objets qui dépendent de la table (CASCADE)</gda_value>
+          <gda_value xml:lang="gl">Eliminar automaticamente os obxectos que dependan da táboa (FERVENZA)</gda_value>
+          <gda_value xml:lang="it">Elimina automaticamente gli oggetti che dipendono dalla tabella (CASCADE)</gda_value>
+          <gda_value xml:lang="ne">(CASCADE) तालिकामा निर्भर हुने वस्तु स्वत:रूपले ड्रप हुन्छ</gda_value>
+          <gda_value xml:lang="pt">Descartar automaticamente objectos que dependam da tabela (CASCADE)</gda_value>
+          <gda_value xml:lang="pt_BR">Descartar automaticamente objetos que dependam da tabela (CASCATA)</gda_value>
+          <gda_value xml:lang="sl">Samodejno spusti predmet, ki je odvisen od razpredelnice (CASCADE)</gda_value>
+          <gda_value xml:lang="vi">Thả tự động đối tượng nào phụ thuộc vào bảng (CASCADE [tầng xếp])</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+          <gda_value>RESTRICT</gda_value>
+          <gda_value>Refuse to drop the table if any objects depend on it (RESTRICT)</gda_value>
+          <gda_value xml:lang="cs">Zabránit odstranění tabulky, pokud na ní závisí nějaké objekty (RESTRICT)</gda_value>
+          <gda_value xml:lang="da">Nægt at smide tabellen hvis et objekt afhænger af den (RESTRICT)</gda_value>
+          <gda_value xml:lang="de">Einfügen der Tabelle verweigern, falls irgendwelche Objekte davon abhängen (RESTRICT)</gda_value>
+          <gda_value xml:lang="dz">དངོས་པོ་གང་རུང་འདི་རྟེན་ཡོད་པ་ཅིན་ཐིག་ཁྲམ་འདི་བཀོག་ནི་ངོས་ལེན་མི་འབད(བཀག་དམ)</gda_value>
+          <gda_value xml:lang="en_GB">Refuse to drop the table if any objects depend on it (RESTRICT)</gda_value>
+          <gda_value xml:lang="es">Rechazar el borrado de la tabla si cualquier objeto depende de ella (RESTRICT)</gda_value>
+          <gda_value xml:lang="eu">Bertan behera utzi taula ezabatzea objekturen batek mendekotasuna badu taularekiko (MURRIZTU)</gda_value>
+          <gda_value xml:lang="fi">Kieltäydy poistamasta taulua, jos joku olio riippuu siitä (RESTRICT)</gda_value>
+          <gda_value xml:lang="fr">Refuser de supprimer la table si des objets en dépendent (RESTRICT)</gda_value>
+          <gda_value xml:lang="gl">Rexeita eliminar a táboa se calquera obxecto depende dela RESTRINXIDO)</gda_value>
+          <gda_value xml:lang="it">Non elimina la tabella se esiste qualche oggetto che dipende da essa (RESTRICT)</gda_value>
+          <gda_value xml:lang="ne">यदि कुनै वस्तु यो (RESTRICT) मा निर्भर छ भने तालिकालाई ड्रप गर्न इन्कार गर्नुहोस्</gda_value>
+          <gda_value xml:lang="pt">Recusar descartar tabela se algum objecto depender dela (RESTRICT)</gda_value>
+          <gda_value xml:lang="pt_BR">Recusar descarte da tabela se algum objeto depende dela (RESTRITO)</gda_value>
+          <gda_value xml:lang="sl">Zavrni spuščanje razpredelnice, če je katerikoli predmet od nje odvisen (RESTRICT)</gda_value>
+          <gda_value xml:lang="vi">Từ chối thả bảng nếu có đối tượng nào phụ thuộc vào nó (RESTRICT [hạn chế])</gda_value>
+	</gda_array_row>
+      </gda_array_data>
+    </gda_array>
+  </sources>
+</serv_op>

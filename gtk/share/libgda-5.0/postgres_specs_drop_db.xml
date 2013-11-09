@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting"></parameter>
+  </parameters>
+  <parameters xml:lang="ar" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="خادم قاعدة بيانات" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="ar"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="ar"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="خيارات" descr="Extra connection options" xml:lang="ar"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ar"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ar"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="ar"></parameter>
+  </parameters>
+  <parameters xml:lang="az" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="az"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="az"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="az"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="az"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="az"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="az"></parameter>
+  </parameters>
+  <parameters xml:lang="ca" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="ca"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="ca"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="ca"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ca"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ca"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Si es requereix SSL en connectar" xml:lang="ca"></parameter>
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="ca@valencia"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="ca@valencia"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="ca@valencia"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ca@valencia"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ca@valencia"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Si es requereix SSL en connectar" xml:lang="ca@valencia"></parameter>
+  </parameters>
+  <parameters xml:lang="cs" id="SERVER_CNX_P" name="Parametry přístupu k serveru">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Databázový server" descr="Hostitel, na kterém databázový server běží (pro servery běžící na soketu unixové domény zadejte cestu k soketu (obvykle /tmp) nebo ponechte toto pole prázdné)" xml:lang="cs"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Port databázového portu (pro servery běžící na soketu unixové domény zadejte příponu názvu souboru soketu (obvykle 5432) nebo ponechte toto pole prázdné)" xml:lang="cs"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Volby" descr="Doplňující volby připojení" xml:lang="cs"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Přihlašovací jméno správce" descr="Přihlašovací jméno (které má oprávnění vytvářet databáze)" xml:lang="cs"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Heslo správce" xml:lang="cs"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Vyžadovat SSL" descr="Zda vyžadovat, nebo ne, SSL při připojování" xml:lang="cs"></parameter>
+  </parameters>
+  <parameters xml:lang="da" id="SERVER_CNX_P" name="Parametre for serveradgang">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Databaseserver" descr="Vært hvorpå databaseserveren kører (for servere der kører domænesokler til unix indtastes soklens sti (normalt /tmp), eller feltet efterlades tomt)" xml:lang="da"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Databaseserverport (for servere der kører på unixdomænesokler indtastes soklens filnavnsendelse (normalt 5432), eller feltet efterlades tomt)" xml:lang="da"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Indstillinger" descr="Ekstra forbindelsestilvalg" xml:lang="da"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Logind for administrator" descr="Logindnavn (som har rettigheder til at oprette databaser)" xml:lang="da"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Adgangskode for administrator" xml:lang="da"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Kræv SSL" descr="Hvorvidt der skal kræves SSL eller ej når der forbindes" xml:lang="da"></parameter>
+  </parameters>
+  <parameters xml:lang="de" id="SERVER_CNX_P" name="Parameter für Serverzugriff">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Datenbankserver" descr="Rechner, auf dem der Datenbankserver läuft. Für Server, die auf einem UNIX-Domain-Socket laufen,geben Sie den Pfad des Sockets ein (üblicherweise /tmp) oder lassen Sie dieses Feld leer" xml:lang="de"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Port des Datenbankservers. Für Server, die auf einem UNIX-Domain-Socket laufen,geben Sie die Erweiterung des Namens der Socket-Datei ein (üblicherweise 5432) oder lassen Sie dieses Feld leer" xml:lang="de"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Optionen" descr="Weitere Verbindungsoptionen" xml:lang="de"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator-Benutzername" descr="Anmeldename (mit den Rechten zum Anlegen einer Datenbank)" xml:lang="de"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator-Passwort" xml:lang="de"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Erfordert SSL" descr="Ob SSL beim Verbinden benötigt wird oder nicht" xml:lang="de"></parameter>
+  </parameters>
+  <parameters xml:lang="dz" id="SERVER_CNX_P" name="སར་བར་འཛུལ་སྤྱོད་འབད་ནི་ཚད་བཟུང་ཚུ།">
+    
+    <parameter id="HOST" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་སར་བར།" descr="གནས་སྡུད་གཞི་རྟེན་སར་བར་འདི་གུ་ཧོསིཊི་འདི་གཡོག་བཀོལ་དོ(ཡུ་ནིགསི་ཌོ་མེན་སོ་ཀེཊིསི་གུ་སར་བར་ཚུ་གཡོག་བཀོལ་མི་གི་དོན་ལུ་ སོ་ཀེཊི་གི་འགྲུལ་ལམ་འདི་བཙུགས(སྤྱིར་བཏང་/གནས་སྐབས)ཡང་ན་ས་སྒོ་འདི་སྟོངམ་བཞག)།" xml:lang="dz"></parameter>
+    <parameter id="PORT" gdatype="gint" name="འདྲེན་ལམ།" descr="གནས་སྡུད་གཞི་རྟེན་སར་བར་འདྲེན་ལམ་(ཡུ་ནིགསི་ཌོ་མེན་སོ་ཀེཊིསི་གུ་སར་་བརཚུ་གཡོག་བཀོལ་མི་གི་དོན་ལུ་སོ་ཀེཊི་གི་ཡིག་སྣོད་མིང་རྒྱ་བསྐྱེད་བཙུགས(སྤྱིར་་བཏང་༥༤༣༢)ཡང་ན་ས་སྒོ་འདི་སྟོངམ་བཞག)།" xml:lang="dz"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="གདམ་ཁ་ཚུ།" descr="མཐུད་ལམ་གདམ་ཚུ་ཐེབས་ཚུ།" xml:lang="dz"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="བདག་སྐྱོང་པའི་ནང་བསྐྱོད།" descr="ནང་བསྐྱོད་མིང་(གནས་སྡུད་གཞི་རྟེན་ཚུ་གསར་བསྐྲུན་འབད་ནི་དབང་ཡོད་མི)" xml:lang="dz"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="བདག་སྐྱོང་པའི་ཆོག་ཡིག" xml:lang="dz"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="ཨེསི་ཨེསི་ཨེལ་དགོས་མཁོ་ཡོདཔ།" descr="མཐུད་ལམ་མཐུད་པའི་སྐབས་ཨེསི་ཨེསི་ཨེལ་དགོས་མཁོ་ཡོདཔ་ཨིན་ན་མེན་ན།" xml:lang="dz"></parameter>
+  </parameters>
+  <parameters xml:lang="el" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="el"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Θύρα" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="el"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Επιλογές" descr="Extra connection options" xml:lang="el"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="el"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="el"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="el"></parameter>
+  </parameters>
+  <parameters xml:lang="en_CA" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="en_CA"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="en_CA"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="en_CA"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="en_CA"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="en_CA"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="en_CA"></parameter>
+  </parameters>
+  <parameters xml:lang="en_GB" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket&apos;s path (usually /tmp), or leave this field empty)" xml:lang="en_GB"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket&apos;s file name extension (usually 5432), or leave this field empty)" xml:lang="en_GB"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="en_GB"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="en_GB"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="en_GB"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="en_GB"></parameter>
+  </parameters>
+  <parameters xml:lang="eo" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Datumbaza servilo" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="eo"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Pordo" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="eo"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Agordoj" descr="Extra connection options" xml:lang="eo"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="eo"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="eo"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="eo"></parameter>
+  </parameters>
+  <parameters xml:lang="es" id="SERVER_CNX_P" name="Parámetros de acceso al servidor">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Servidor de bases de datos" descr="El equipo en el que se está ejecutando la base de datos (para los servidores ejecutándose bajo sockets de dominio UNIX, introduzca la ruta del socket (generalmente /tmp), o deje este campo vacío)" xml:lang="es"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Puerto" descr="El puerto del servidor de la base de datos (para los servidores ejecutándose bajo sockets de dominio UNIX, introduzca la extensión del nombre del socket (generalmente 5432), o deje este campo vacío)" xml:lang="es"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Opciones" descr="Opciones de conexión adicionales" xml:lang="es"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Entrada del administrador" descr="Nombre de usuario (que tenga derechos para crear bases de datos)" xml:lang="es"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Contraseña del administrador" xml:lang="es"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Requiere SSL" descr="Indica si se requiere SSL o no al conectar" xml:lang="es"></parameter>
+  </parameters>
+  <parameters xml:lang="eu" id="SERVER_CNX_P" name="Zerbitzariaren sarbideko parametroak">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Datu-base zerbitzaria" descr="Ostalaria, datu-basearen zerbitzaria exekutatzen ari dena (unix domeinuko socket-ean exekutatzen diren zerbitzarien socket-en bide-izena idatzi, normalean /tmp, edo eremu hau hutsi utzi)" xml:lang="eu"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Ataka" descr="Datu-base zerbitzariaren ataka (unix domeinuko socket-etan exekutatzen diren zerbitzarien socket-en fitxategi-luzapena idatzi, normalean 5432, edo eremu hau hutsik utzi)" xml:lang="eu"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Aukerak" descr="Konexio-aukera gehigarriak" xml:lang="eu"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administratzailearen saio-hasiera" descr="Erabiltzaile-izena (datu-baseak sortzeko baimena duena)" xml:lang="eu"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administratzailearen pasahitza" xml:lang="eu"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="SSL behar du" descr="Konektatzean SSL beharrezkoa izango den ala ez" xml:lang="eu"></parameter>
+  </parameters>
+  <parameters xml:lang="fa" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="fa"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="fa"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="fa"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="fa"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="fa"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="fa"></parameter>
+  </parameters>
+  <parameters xml:lang="fi" id="SERVER_CNX_P" name="Palvelimen pääsyparametrit">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Tietokantapalvelin" descr="Tietokantapalvelimen verkkonimi. UNIX-pistoketta käyttäville palvelimille anna pistokkeen polku (yleensä /tmp), tai jätä kenttä tyhjäksi." xml:lang="fi"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Portti" descr="Tietokantapalvelimen portti. UNIX-pistoketta käyttäville palvelimille anna pistokkeen tiedostopääte (yleensä 5432), tai jätä kenttä tyhjäksi." xml:lang="fi"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Valinnat" descr="Yhteyden lisävalinnat" xml:lang="fi"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Ylläpitäjän kirjautuminen" descr="Kirjautumisnimi, jolla on oikeus luoda tietokantoja" xml:lang="fi"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Ylläpitäjän salasana" xml:lang="fi"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Vaadi SSL:ää" descr="Vaaditaanko SSL:n käyttöä yhdistettäessä" xml:lang="fi"></parameter>
+  </parameters>
+  <parameters xml:lang="fr" id="SERVER_CNX_P" name="Paramètres d&apos;accès au serveur">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Serveur de base de données" descr="Hôte sur lequel fonctionne le serveur de base de données (pour les serveurs fonctionnant avec les sockets de domaine Unix, saisissez le chemin du socket (généralement /tmp) ou laissez le champ vide)" xml:lang="fr"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Port du serveur de base de données (pour les serveurs fonctionnant avec les sockets de domaine Unix, saisissez l&apos;extension du nom de fichier du socket (généralement 5432) ou laissez le champ vide)" xml:lang="fr"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Options de connexion supplémentaires" xml:lang="fr"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Identifiant administrateur" descr="Nom de connexion (avec le droit de créer des bases de données)" xml:lang="fr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Mot de passe administrateur" xml:lang="fr"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Utiliser une connexion sécurisée" descr="Indique si l&apos;on doit utiliser une connexion sécurisée par SSL" xml:lang="fr"></parameter>
+  </parameters>
+  <parameters xml:lang="ga" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="ga"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="ga"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="ga"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ga"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ga"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="ga"></parameter>
+  </parameters>
+  <parameters xml:lang="gl" id="SERVER_CNX_P" name="Parámetros de acceso ao servidor">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Servidor de bases de datos" descr="O equipo anfitrión no que o servidor da base de datos está a executarse (para servidores executándose sobre conectadores de dominio UNIX, introduza a ruta do conectador (usualmente /tmp), ou deixe este campo baleiro)" xml:lang="gl"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Porto" descr="Porto do servidor da base de datos (para servidores executándose sobre conectadores de dominio UNIX, introduza a extensión do nome do conectador do ficheiro (usualmente 5432), ou deixe este campo baleiro)" xml:lang="gl"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Opcións" descr="Opcións adicionais de conexión" xml:lang="gl"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Acceso de administrador" descr="Nome de usuario (que teña dereitos para crear bases de datos)" xml:lang="gl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Contrasinal do administrador" xml:lang="gl"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Requirir SSL" descr="Requirir o uso de SSL ao conectar ou non" xml:lang="gl"></parameter>
+  </parameters>
+  <parameters xml:lang="hr" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="hr"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="hr"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="hr"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="hr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="hr"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="hr"></parameter>
+  </parameters>
+  <parameters xml:lang="hu" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="hu"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="hu"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="hu"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="hu"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="hu"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="hu"></parameter>
+  </parameters>
+  <parameters xml:lang="id" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Server basis data" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="id"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="id"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Opsi" descr="Opsi koneksi ekstra" xml:lang="id"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Log masuk administrator" descr="Login name (which has the rights to create databases)" xml:lang="id"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Sandi administrator" xml:lang="id"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Perlu SSL" descr="Whether to require SSL or not when connecting" xml:lang="id"></parameter>
+  </parameters>
+  <parameters xml:lang="it" id="SERVER_CNX_P" name="Parametri di accesso al server">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Server database" descr="Host sul quale funzioni il server del database (per i server che funzionino su socket in dominio Unix, inserire il percorso del socket, normalmente /tmp, o lasciare questo campo vuoto)" xml:lang="it"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Porta" descr="Porta del database server (per i server che funzionino su socket in dominio Unix, inserire l&apos;estensione del nome file del socket, normalmente 5432, o lasciare questo campo vuoto)" xml:lang="it"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Opzioni" descr="Opzioni di connessione extra" xml:lang="it"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Login amministratore" descr="Nome di login (che possiede i permessi per creare database)" xml:lang="it"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Password amministratore" xml:lang="it"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Richiede SSL" descr="Uso di SSL per la connessione" xml:lang="it"></parameter>
+  </parameters>
+  <parameters xml:lang="ja" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="データベース・サーバー" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="ja"></parameter>
+    <parameter id="PORT" gdatype="gint" name="ポート" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="ja"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="オプション" descr="追加接続オプション" xml:lang="ja"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ja"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ja"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="接続時に SSL を使用するかしないか" xml:lang="ja"></parameter>
+  </parameters>
+  <parameters xml:lang="ko" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="ko"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="ko"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="ko"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ko"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ko"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="ko"></parameter>
+  </parameters>
+  <parameters xml:lang="lt" id="SERVER_CNX_P" name="Serverio prisijungimo parametrai">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Duomenų bazės serveris" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="lt"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Prievadas" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="lt"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Nustatymai" descr="Papildomi prisijungimo nustatymai" xml:lang="lt"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administracinis prisijungimas" descr="Prisijungimo vardas (su duomenų bazių kūrimo teisėmis)" xml:lang="lt"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administracinis slaptažodis" xml:lang="lt"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Būtinas SSL" descr="Nustato, ar prisijungimo metu bus naudojamas SSL kodavimas" xml:lang="lt"></parameter>
+  </parameters>
+  <parameters xml:lang="mk" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="mk"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="mk"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="mk"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="mk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="mk"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="mk"></parameter>
+  </parameters>
+  <parameters xml:lang="ml" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="ml"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="ml"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="ml"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ml"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ml"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="ml"></parameter>
+  </parameters>
+  <parameters xml:lang="ms" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="ms"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="ms"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="ms"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ms"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ms"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="ms"></parameter>
+  </parameters>
+  <parameters xml:lang="nb" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Databasetjener" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="nb"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="nb"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Alternativer" descr="Ekstra alternativer for tilkobling" xml:lang="nb"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="nb"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Passord for administrator" xml:lang="nb"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Krev SSL" descr="Whether to require SSL or not when connecting" xml:lang="nb"></parameter>
+  </parameters>
+  <parameters xml:lang="ne" id="SERVER_CNX_P" name="सर्भर पहुँच परिमिति">
+    
+    <parameter id="HOST" gdatype="gchararray" name="डाटाबेस सर्भर" descr="होस्ट जसको डाटाबेस सर्भर चलिरहेको छ ( युनिक्स डोमेन सकेटहरूमा सर्भरहरू चलाउन, सकेट मार्ग(प्राय /tmp) प्रविष्ट गर्नुहोस्), वा यो फिन्ड छोड्नुहोस्)" xml:lang="ne"></parameter>
+    <parameter id="PORT" gdatype="gint" name="पोर्ट" descr="डाटाबेस सर्भर पोर्ट ( युनिक्स डोमेन सकेटहरूमा सर्भरहरू चलाउन, सकेटको फाइलनाम विस्तार प्रविष्ट गर्नुहोस् (प्राय ५४३२), वा यो फिन्ड खाली गर्नुहोस् )" xml:lang="ne"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="विकल्पहरू" descr="अतिरिक्त जडान विकल्पहरू" xml:lang="ne"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="प्रशासक लगइन" descr="लगइन नाम ( जोसँग डाटाबेस सिर्जना गर्ने अधिकारहरू छ)" xml:lang="ne"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="प्रशासक पासवर्ड" xml:lang="ne"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="SSL आवश्यक पर्छ" descr="जडानको बेला SSL चाहिन्छ वा चाहिँदैन" xml:lang="ne"></parameter>
+  </parameters>
+  <parameters xml:lang="nl" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Databaseserver" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="nl"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Poort" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="nl"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Opties" descr="Extra connection options" xml:lang="nl"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="nl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="nl"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Vereist SSL" descr="Of er wel of geen SSL vereist wordt voor de verbinding" xml:lang="nl"></parameter>
+  </parameters>
+  <parameters xml:lang="oc" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Servidor de basa de donadas" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="oc"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Pòrt" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="oc"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Opcions" descr="Extra connection options" xml:lang="oc"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="oc"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="oc"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="oc"></parameter>
+  </parameters>
+  <parameters xml:lang="pa" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="pa"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="pa"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="pa"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="pa"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="pa"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="pa"></parameter>
+  </parameters>
+  <parameters xml:lang="pl" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="pl"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="pl"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="pl"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="pl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="pl"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="pl"></parameter>
+  </parameters>
+  <parameters xml:lang="pt" id="SERVER_CNX_P" name="Parâmetros de acesso ao servidor">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Servidor de base de dados" descr="Host no qual o servidor da base de dados está a correr (para servidores a correr em sockets de domínio unix, digite o caminho para o socket (normalmente /tmp), ou deixe este campo vazio)" xml:lang="pt"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Porto" descr="Porta do servidor da base de dados (para servidores a correr em sockets de domínio unix, digite a extensão do nome do ficheiro do socket (normalmente 5432), ou deixe este campo vazio)" xml:lang="pt"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Opções" descr="Opções extra de ligação" xml:lang="pt"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Login de administrador" descr="Nome de login (que tem direito de criação de bases de dados)" xml:lang="pt"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Palavra-chave do administrador" xml:lang="pt"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Requerer SSL" descr="Se requerer ou não SSL ao estabelecer uma ligação" xml:lang="pt"></parameter>
+  </parameters>
+  <parameters xml:lang="pt_BR" id="SERVER_CNX_P" name="Parâmetros de acesso ao servidor">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Servidor de banco de dados" descr="A máquina na qual o servidor de banco de dados está executando (para servidores operando em soquetes de domínio Unix, informe o caminho do soquete (normalmente /tmp) ou deixe este campo em branco)" xml:lang="pt_BR"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Porta" descr="A porta do servidor do banco de dados (para servidores operando em soquetes de domínio Unix, informe a extensão do nome de arquivo do soquete (normalmente 5432) ou deixe este campo em branco)" xml:lang="pt_BR"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Opções" descr="Opções extras de conexão" xml:lang="pt_BR"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Usuário administrador" descr="Nome de usuário (que tem direito de criar bancos de dados)" xml:lang="pt_BR"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Senha de administrador" xml:lang="pt_BR"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Exige SSL" descr="Se exige ou não SSL ao se conectar" xml:lang="pt_BR"></parameter>
+  </parameters>
+  <parameters xml:lang="ru" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Сервер баз данных" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="ru"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Порт" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="ru"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Параметры" descr="Дополнительные параметры соединения" xml:lang="ru"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ru"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ru"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="ru"></parameter>
+  </parameters>
+  <parameters xml:lang="rw" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="rw"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Umuyoboro" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="rw"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="rw"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="rw"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="rw"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="rw"></parameter>
+  </parameters>
+  <parameters xml:lang="sk" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="sk"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="sk"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="sk"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="sk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="sk"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="sk"></parameter>
+  </parameters>
+  <parameters xml:lang="sl" id="SERVER_CNX_P" name="Parametri dostopa do strežnika">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Strežnik podatkovnih zbirk" descr="Gostitelj na katerem teče podatkovni strežnik (za strežnike ki so zagnani na unix domeni vtiča, je treba vnesti pot vtiča (običajno /tmp), ali pa je treba polje pustiti prazno)" xml:lang="sl"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Vrata" descr="Vrata strežnika podatkovne zbirke (za strežnike ki so zagnani na unix domeni vtiča, je treba vnesti pripono datoteke vtiča (običajno 5432), ali pa je treba polje pustiti prazno)" xml:lang="sl"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Možnosti" descr="Dodatne možnosti povezave" xml:lang="sl"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Skrbniška prijava" descr="Prijavno ime (z dovoljenji za ustvarjanje podatkovnih zbirk)" xml:lang="sl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Skrbniško geslo" xml:lang="sl"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Zahtevan SSL" descr="Ali naj se zahteva SSL šifriranje ob povezovanju" xml:lang="sl"></parameter>
+  </parameters>
+  <parameters xml:lang="sq" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="sq"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="sq"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="sq"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="sq"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="sq"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="sq"></parameter>
+  </parameters>
+  <parameters xml:lang="sr" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="sr"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="sr"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="sr"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="sr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="sr"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="sr"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="sr@Latn"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="sr@Latn"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="sr@Latn"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="sr@Latn"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="sr@Latn"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="sr@Latn"></parameter>
+  </parameters>
+  <parameters xml:lang="sv" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Databasserver" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="sv"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="sv"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Alternativ" descr="Extra connection options" xml:lang="sv"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="sv"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="sv"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Kräver SSL" descr="Whether to require SSL or not when connecting" xml:lang="sv"></parameter>
+  </parameters>
+  <parameters xml:lang="tr" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="tr"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="tr"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="tr"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="tr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="tr"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether to require SSL or not when connecting" xml:lang="tr"></parameter>
+  </parameters>
+  <parameters xml:lang="uk" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running (for servers running on unix domain sockets, enter the socket's path (usually /tmp), or leave this field empty)" xml:lang="uk"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Порт" descr="Database server port (for servers running on unix domain sockets, enter the socket's file name extension (usually 5432), or leave this field empty)" xml:lang="uk"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Options" descr="Extra connection options" xml:lang="uk"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="uk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="uk"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Потребує SSL" descr="Використовувати SSL чи не використовувати" xml:lang="uk"></parameter>
+  </parameters>
+  <parameters xml:lang="vi" id="SERVER_CNX_P" name="Tham số truy cập máy phục vụ">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Máy phục vụ cơ sở dữ liệu" descr="Máy trên đó chạy trình phục vụ cơ sở dữ liệu (đối với máy phục vụ chạy trên ổ cắm miền UNIX, hãy nhập vào đường dẫn của ổ cắm [thường là « /tmp »], hoặc bỏ rỗng trường này)" xml:lang="vi"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Cổng" descr="Cổng máy phục vụ cơ sở dữ liệu (đối với máy phục vụ chạy trên ổ cắm miền UNIX, hãy nhập vào phần mở rộng tên tập tin của ổ cắm [thường là 5342], hoặc bỏ rỗng trường này)" xml:lang="vi"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="Tùy chọn" descr="Tùy chọn kết nối thêm" xml:lang="vi"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Tên đăng nhập quản trị" descr="Tên đăng nhập (mà có quyền tạo cơ sở dữ liệu)" xml:lang="vi"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Mật khẩu quản trị" xml:lang="vi"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Cần thiết SSL" descr="Có nên cần thiết SSL khi kết nối hay không" xml:lang="vi"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_CN" id="SERVER_CNX_P" name="服务器访问参数">
+    
+    <parameter id="HOST" gdatype="gchararray" name="数据库服务器" descr="正在运行数据库服务器的主机 (对于运行在 Unix 域套接字上的服务器，输入套接字的路径 (通常为 /tmp)，或留此字段为空)" xml:lang="zh_CN"></parameter>
+    <parameter id="PORT" gdatype="gint" name="端口" descr="数据库服务器端口 (对于运行在 Unix 域套接字上的服务器，输入套接字文件名的扩展名 (通常为 5432)，或留此字段为空)" xml:lang="zh_CN"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="选项" descr="额外连接选项" xml:lang="zh_CN"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="管理员登录" descr="登录名 (其有创建数据库的权利)" xml:lang="zh_CN"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="管理员口令" xml:lang="zh_CN"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="要求 SSL" descr="连接时是否要求 SSL" xml:lang="zh_CN"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_HK" id="SERVER_CNX_P" name="伺服器存取參數">
+    
+    <parameter id="HOST" gdatype="gchararray" name="資料庫伺服器" descr="運行資料庫伺服器的主機（對於運行於 unix domain socket 的伺服器，輸入 socket 的路徑（通常是 /tmp），或將欄位留空）" xml:lang="zh_HK"></parameter>
+    <parameter id="PORT" gdatype="gint" name="連接埠" descr="資料庫伺服器連接埠（對於運行於 unix domain socket 的伺服器，輸入 socket 的檔案延伸名稱（通常是 5432），或將欄位留空）" xml:lang="zh_HK"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="選項" descr="額外連線選項" xml:lang="zh_HK"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="管理員登入" descr="登入名稱（具有建立資料庫權利的）" xml:lang="zh_HK"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="管理員密碼" xml:lang="zh_HK"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="連線時是否需要 SSL" xml:lang="zh_HK"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_TW" id="SERVER_CNX_P" name="伺服器存取參數">
+    
+    <parameter id="HOST" gdatype="gchararray" name="資料庫伺服器" descr="運行資料庫伺服器的主機（對於運行於 unix domain socket 的伺服器，輸入 socket 的路徑（通常是 /tmp），或將欄位留空）" xml:lang="zh_TW"></parameter>
+    <parameter id="PORT" gdatype="gint" name="連接埠" descr="資料庫伺服器連接埠（對於運行於 unix domain socket 的伺服器，輸入 socket 的檔案延伸名稱（通常是 5432），或將欄位留空）" xml:lang="zh_TW"></parameter>
+    <parameter id="OPTIONS" gdatype="gchararray" name="選項" descr="額外連線選項" xml:lang="zh_TW"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="管理員登入" descr="登入名稱（具有建立資料庫權利的）" xml:lang="zh_TW"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="管理員密碼" xml:lang="zh_TW"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="連線時是否需要 SSL" xml:lang="zh_TW"></parameter>
+  </parameters>
+
+  <parameters id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop"></parameter>
+  </parameters>
+  <parameters xml:lang="ar" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="ar"></parameter>
+  </parameters>
+  <parameters xml:lang="az" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="az"></parameter>
+  </parameters>
+  <parameters xml:lang="ca" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to drop" xml:lang="ca"></parameter>
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to drop" xml:lang="ca@valencia"></parameter>
+  </parameters>
+  <parameters xml:lang="cs" id="DB_DESC_P" name="Popis databáze">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Název databáze" descr="Název databáze, kterou se má odstranit" xml:lang="cs"></parameter>
+  </parameters>
+  <parameters xml:lang="da" id="DB_DESC_P" name="Databasebeskrivelse">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="Navnet på en database der skal smides" xml:lang="da"></parameter>
+  </parameters>
+  <parameters xml:lang="de" id="DB_DESC_P" name="Datenbankbeschreibung">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datenbankname" descr="Name der einzufügenden Datenbank" xml:lang="de"></parameter>
+  </parameters>
+  <parameters xml:lang="dz" id="DB_DESC_P" name="གནས་སྡུད་གཞི་རྟེན་གྱི་འགྲེལ་བཤད།">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་མིང་།" descr="བཀོག་བཞག་ནི་གནས་སྡུད་གཞི་རྟེན་ཅིག་གི་མིང་འདི།" xml:lang="dz"></parameter>
+  </parameters>
+  <parameters xml:lang="el" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="el"></parameter>
+  </parameters>
+  <parameters xml:lang="en_CA" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="en_CA"></parameter>
+  </parameters>
+  <parameters xml:lang="en_GB" id="DB_DESC_P" name="Database&apos;s description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="en_GB"></parameter>
+  </parameters>
+  <parameters xml:lang="eo" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datumbaznomo" descr="The name of a database to drop" xml:lang="eo"></parameter>
+  </parameters>
+  <parameters xml:lang="es" id="DB_DESC_P" name="Descripción de la base de datos">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nombre de la base de datos" descr="El nombre de la base de datos para eliminar" xml:lang="es"></parameter>
+  </parameters>
+  <parameters xml:lang="eu" id="DB_DESC_P" name="Datu-basearen azalpena">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datu-basearen izena" descr="Datu-basearen izena ezabatzeko" xml:lang="eu"></parameter>
+  </parameters>
+  <parameters xml:lang="fa" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="fa"></parameter>
+  </parameters>
+  <parameters xml:lang="fi" id="DB_DESC_P" name="Tietokannan kuvaus">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tietokannan nimi" descr="Poistettavan tietokannan nimi" xml:lang="fi"></parameter>
+  </parameters>
+  <parameters xml:lang="fr" id="DB_DESC_P" name="Description de la base de données">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de données" descr="Le nom d&apos;une base de données à supprimer" xml:lang="fr"></parameter>
+  </parameters>
+  <parameters xml:lang="ga" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="ga"></parameter>
+  </parameters>
+  <parameters xml:lang="gl" id="DB_DESC_P" name="Descrición da base de datos">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de datos" descr="O nome da base de datos a borrar" xml:lang="gl"></parameter>
+  </parameters>
+  <parameters xml:lang="hr" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="hr"></parameter>
+  </parameters>
+  <parameters xml:lang="hu" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Adatbázis neve" descr="The name of a database to drop" xml:lang="hu"></parameter>
+  </parameters>
+  <parameters xml:lang="id" id="DB_DESC_P" name="Deskripsi basis data">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nama basis data" descr="The name of a database to drop" xml:lang="id"></parameter>
+  </parameters>
+  <parameters xml:lang="it" id="DB_DESC_P" name="Descrizione database">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome database" descr="Nome di un database da eliminare" xml:lang="it"></parameter>
+  </parameters>
+  <parameters xml:lang="ja" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="データベース名" descr="削除するデータベースの名前" xml:lang="ja"></parameter>
+  </parameters>
+  <parameters xml:lang="ko" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="ko"></parameter>
+  </parameters>
+  <parameters xml:lang="lt" id="DB_DESC_P" name="Duomenų bazės aprašymas">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Duomenų bazės vardas" descr="Panaikinamos duomenų bazės vardas" xml:lang="lt"></parameter>
+  </parameters>
+  <parameters xml:lang="mk" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="mk"></parameter>
+  </parameters>
+  <parameters xml:lang="ml" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="ml"></parameter>
+  </parameters>
+  <parameters xml:lang="ms" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="ms"></parameter>
+  </parameters>
+  <parameters xml:lang="nb" id="DB_DESC_P" name="Beskrivelse av database">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="Navn på databasen som skal droppes" xml:lang="nb"></parameter>
+  </parameters>
+  <parameters xml:lang="ne" id="DB_DESC_P" name="डाटावेशको वर्णन">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="डाटाबेस नाम" descr="ड्रपगर्नको लागि डाटाबेसको नाम" xml:lang="ne"></parameter>
+  </parameters>
+  <parameters xml:lang="nl" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database naam" descr="The name of a database to drop" xml:lang="nl"></parameter>
+  </parameters>
+  <parameters xml:lang="oc" id="DB_DESC_P" name="Descripcion">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="oc"></parameter>
+  </parameters>
+  <parameters xml:lang="pa" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="pa"></parameter>
+  </parameters>
+  <parameters xml:lang="pl" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="pl"></parameter>
+  </parameters>
+  <parameters xml:lang="pt" id="DB_DESC_P" name="Descrição da base de dados">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de dados" descr="O nome de uma base de dados a descartar" xml:lang="pt"></parameter>
+  </parameters>
+  <parameters xml:lang="pt_BR" id="DB_DESC_P" name="Descrição do banco de dados">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome do banco de dados" descr="O nome do banco de dados a ser descartado" xml:lang="pt_BR"></parameter>
+  </parameters>
+  <parameters xml:lang="ru" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Название базы данных" descr="The name of a database to drop" xml:lang="ru"></parameter>
+  </parameters>
+  <parameters xml:lang="rw" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="rw"></parameter>
+  </parameters>
+  <parameters xml:lang="sk" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="sk"></parameter>
+  </parameters>
+  <parameters xml:lang="sl" id="DB_DESC_P" name="Opis podatkovne zbirke">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Ime podatkovne zbirke" descr="Ime podatkovne zbirke za zavrnitev" xml:lang="sl"></parameter>
+  </parameters>
+  <parameters xml:lang="sq" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="sq"></parameter>
+  </parameters>
+  <parameters xml:lang="sr" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="sr"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="sr@Latn"></parameter>
+  </parameters>
+  <parameters xml:lang="sv" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasnamn" descr="The name of a database to drop" xml:lang="sv"></parameter>
+  </parameters>
+  <parameters xml:lang="tr" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to drop" xml:lang="tr"></parameter>
+  </parameters>
+  <parameters xml:lang="uk" id="DB_DESC_P" name="Database's description">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Назва бази даних" descr="The name of a database to drop" xml:lang="uk"></parameter>
+  </parameters>
+  <parameters xml:lang="vi" id="DB_DESC_P" name="Mô tả co sở dữ liệu">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tên cơ sở dữ liệu" descr="Tên của cơ sở dữ liệu cần thả" xml:lang="vi"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_CN" id="DB_DESC_P" name="数据库描述">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="数据库名" descr="The name of a database to drop" xml:lang="zh_CN"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_HK" id="DB_DESC_P" name="資料庫的說明">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="要捨棄的資料庫的名稱" xml:lang="zh_HK"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_TW" id="DB_DESC_P" name="資料庫的說明">
+    
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="要捨棄的資料庫的名稱" xml:lang="zh_TW"></parameter>
+  </parameters>
+  <sources>
+    <gda_array name="csets">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="text" gdatype="gchararray"/>
+      <gda_array_data>
+	<gda_array_row>
+	  <gda_value>UNICODE</gda_value>
+	  <gda_value>Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="ar">يونيكود (UTF-8)</gda_value>
+	  <gda_value xml:lang="cs">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="da">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="de">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="dz">ཡུ་ནི་ཀོཌི(ཡུ་ཊི་ཨེཕ་-༨)</gda_value>
+	  <gda_value xml:lang="en_GB">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="eo">Unikodo (UTF-8)</gda_value>
+	  <gda_value xml:lang="es">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="eu">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="fi">Unicode(UTF-8)</gda_value>
+	  <gda_value xml:lang="fr">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="gl">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="id">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="it">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="ja">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="lt">Unikodas (UTF-8)</gda_value>
+	  <gda_value xml:lang="nb">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="ne">युनिकोड (UTF-८)</gda_value>
+	  <gda_value xml:lang="oc">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="pt">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="pt_BR">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="ru">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="sl">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="sv">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="vi">Unicode (UTF-8)</gda_value>
+	  <gda_value xml:lang="zh_CN">Unicode (UTF-8)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>SQL_ASCII</gda_value>
+	  <gda_value>ASCII</gda_value>
+	  <gda_value xml:lang="cs">ASCII</gda_value>
+	  <gda_value xml:lang="da">ASCII</gda_value>
+	  <gda_value xml:lang="de">ASCII</gda_value>
+	  <gda_value xml:lang="dz">ཨེ་ཨེསི་སི་ཨའི་ཨའི།</gda_value>
+	  <gda_value xml:lang="en_GB">ASCII</gda_value>
+	  <gda_value xml:lang="es">ASCII</gda_value>
+	  <gda_value xml:lang="eu">ASCII</gda_value>
+	  <gda_value xml:lang="fi">ASCII</gda_value>
+	  <gda_value xml:lang="fr">ASCII</gda_value>
+	  <gda_value xml:lang="gl">ASCII</gda_value>
+	  <gda_value xml:lang="id">ASCII</gda_value>
+	  <gda_value xml:lang="it">ASCII</gda_value>
+	  <gda_value xml:lang="ja">ASCII</gda_value>
+	  <gda_value xml:lang="lt">ASCII</gda_value>
+	  <gda_value xml:lang="nb">ASCII</gda_value>
+	  <gda_value xml:lang="ne">ASCII</gda_value>
+	  <gda_value xml:lang="oc">ASCII</gda_value>
+	  <gda_value xml:lang="pt">ASCII</gda_value>
+	  <gda_value xml:lang="pt_BR">ASCII</gda_value>
+	  <gda_value xml:lang="sl">ASCII</gda_value>
+	  <gda_value xml:lang="sv">ASCII</gda_value>
+	  <gda_value xml:lang="vi">ASCII</gda_value>
+	  <gda_value xml:lang="zh_CN">ASCII</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>EUC_JP</gda_value>
+	  <gda_value>Japanese EUC</gda_value>
+	  <gda_value xml:lang="cs">EUC / japonština</gda_value>
+	  <gda_value xml:lang="da">Japansk EUC</gda_value>
+	  <gda_value xml:lang="de">Japanisch EUC</gda_value>
+	  <gda_value xml:lang="dz">ཇ་པ་ནིསི་ཨི་ཡུ་སི།</gda_value>
+	  <gda_value xml:lang="en_GB">Japanese EUC</gda_value>
+	  <gda_value xml:lang="es">EUC japonés</gda_value>
+	  <gda_value xml:lang="eu">EUC Japoniera</gda_value>
+	  <gda_value xml:lang="fi">Japanilainen EUC</gda_value>
+	  <gda_value xml:lang="fr">Japonais (EUC)</gda_value>
+	  <gda_value xml:lang="gl">Xaponés EUC</gda_value>
+	  <gda_value xml:lang="id">Jepang EUC</gda_value>
+	  <gda_value xml:lang="it">Giapponese EUC</gda_value>
+	  <gda_value xml:lang="ja">日本語 EUC</gda_value>
+	  <gda_value xml:lang="lt">Japonų EUC</gda_value>
+	  <gda_value xml:lang="ne">जापानी EUC</gda_value>
+	  <gda_value xml:lang="pt">EUC Japonês</gda_value>
+	  <gda_value xml:lang="pt_BR">EUC Japonês</gda_value>
+	  <gda_value xml:lang="sl">Japonsko (EUC)</gda_value>
+	  <gda_value xml:lang="sv">Japansk EUC</gda_value>
+	  <gda_value xml:lang="vi">EUC Nhật</gda_value>
+	  <gda_value xml:lang="zh_CN">日语 EUC</gda_value>
+	  <gda_value xml:lang="zh_HK">日文 EUC</gda_value>
+	  <gda_value xml:lang="zh_TW">日文 EUC</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>EUC_CN</gda_value>
+	  <gda_value>Chinese EUC</gda_value>
+	  <gda_value xml:lang="cs">EUC / čínština</gda_value>
+	  <gda_value xml:lang="da">Kinesisk EUC</gda_value>
+	  <gda_value xml:lang="de">Chinesisch EUC</gda_value>
+	  <gda_value xml:lang="dz">རྒྱ་ནག་གི་ ཨི་ཡུ་སི།</gda_value>
+	  <gda_value xml:lang="en_GB">Chinese EUC</gda_value>
+	  <gda_value xml:lang="es">EUC chino</gda_value>
+	  <gda_value xml:lang="eu">EUC Txinera</gda_value>
+	  <gda_value xml:lang="fi">Kiinalainen EUC</gda_value>
+	  <gda_value xml:lang="fr">Chinois (EUC)</gda_value>
+	  <gda_value xml:lang="gl">Chinés EUC</gda_value>
+	  <gda_value xml:lang="id">Cina EUC</gda_value>
+	  <gda_value xml:lang="it">Cinese EUC</gda_value>
+	  <gda_value xml:lang="ja">中国語 EUC</gda_value>
+	  <gda_value xml:lang="lt">Kinų EUC</gda_value>
+	  <gda_value xml:lang="nb">Kinesisk EUC</gda_value>
+	  <gda_value xml:lang="ne">चिनीयाँ EUC</gda_value>
+	  <gda_value xml:lang="pt">EUC Chinês</gda_value>
+	  <gda_value xml:lang="pt_BR">EUC Chinês</gda_value>
+	  <gda_value xml:lang="sl">Kitajsko (EUC)</gda_value>
+	  <gda_value xml:lang="sv">Kinesisk EUC</gda_value>
+	  <gda_value xml:lang="vi">EUC Hoà</gda_value>
+	  <gda_value xml:lang="zh_CN">中文 EUC</gda_value>
+	  <gda_value xml:lang="zh_HK">中文 EUC</gda_value>
+	  <gda_value xml:lang="zh_TW">中文 EUC</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>EUC_KR</gda_value>
+	  <gda_value>Korean EUC</gda_value>
+	  <gda_value xml:lang="cs">EUC / korejština</gda_value>
+	  <gda_value xml:lang="da">Koreansk EUC</gda_value>
+	  <gda_value xml:lang="de">Koreanisch EUC</gda_value>
+	  <gda_value xml:lang="dz">ཀོ་རི་ཡའི་ཨི་ཡུ་སི།</gda_value>
+	  <gda_value xml:lang="en_GB">Korean EUC</gda_value>
+	  <gda_value xml:lang="es">EUC coreano</gda_value>
+	  <gda_value xml:lang="eu">EUC Koreera</gda_value>
+	  <gda_value xml:lang="fi">Korealainen EUC</gda_value>
+	  <gda_value xml:lang="fr">Coréen (EUC)</gda_value>
+	  <gda_value xml:lang="gl">Coreano EUC</gda_value>
+	  <gda_value xml:lang="id">Korea EUC</gda_value>
+	  <gda_value xml:lang="it">Coreano EUC</gda_value>
+	  <gda_value xml:lang="ja">韓国語 EUC</gda_value>
+	  <gda_value xml:lang="lt">Korėjiečių EUC</gda_value>
+	  <gda_value xml:lang="ne">कोरियाली EUC</gda_value>
+	  <gda_value xml:lang="pt">EUC Coreano</gda_value>
+	  <gda_value xml:lang="pt_BR">EUC Coreano</gda_value>
+	  <gda_value xml:lang="sl">Korejsko (EUC)</gda_value>
+	  <gda_value xml:lang="sv">Koreansk EUC</gda_value>
+	  <gda_value xml:lang="vi">EUC Triều Tiên</gda_value>
+	  <gda_value xml:lang="zh_CN">朝鲜语 EUC</gda_value>
+	  <gda_value xml:lang="zh_HK">韓文 EUC</gda_value>
+	  <gda_value xml:lang="zh_TW">韓文 EUC</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>JOHAB</gda_value>
+	  <gda_value>Korean EUC (Hangle base)</gda_value>
+	  <gda_value xml:lang="cs">EUC / korejština (založeno na hangle)</gda_value>
+	  <gda_value xml:lang="da">Koreansk EU (Hangle base)</gda_value>
+	  <gda_value xml:lang="de">Koreanisch EUC (Hangle-basiert)</gda_value>
+	  <gda_value xml:lang="dz">ཀོ་རི་ཡའི་ ཨི་ཡུ་སི(ཧེང་ག་གཞི་རྟེན།)</gda_value>
+	  <gda_value xml:lang="en_GB">Korean EUC (Hangle base)</gda_value>
+	  <gda_value xml:lang="es">EUC coreano (base hangle)</gda_value>
+	  <gda_value xml:lang="eu">EUC Koreera (Hangle oinarria)</gda_value>
+	  <gda_value xml:lang="fi">Korealainen EUC (Hangle-kanta)</gda_value>
+	  <gda_value xml:lang="fr">Coréen (EUC, base Hangle)</gda_value>
+	  <gda_value xml:lang="gl">Coreano EUC (base hangle)</gda_value>
+	  <gda_value xml:lang="it">Coreano EUC (base Hangle)</gda_value>
+	  <gda_value xml:lang="ja">韓国語 EUC（ハングル文字）</gda_value>
+	  <gda_value xml:lang="lt">Korėjiečių EUC (Hangul bazė)</gda_value>
+	  <gda_value xml:lang="ne">कोरियाली EUC (ह्याङ्गल आधार)</gda_value>
+	  <gda_value xml:lang="pt">EUC Coreano  (base Hangle)</gda_value>
+	  <gda_value xml:lang="pt_BR">EUC Coreano (base Hangul)</gda_value>
+	  <gda_value xml:lang="sl">Korejsko (EUC s Hangle osnovo)</gda_value>
+	  <gda_value xml:lang="vi">EUC Triều Tiên (cơ bản Hangul)</gda_value>
+	  <gda_value xml:lang="zh_HK">韓文 EUC (Hangle base)</gda_value>
+	  <gda_value xml:lang="zh_TW">韓文 EUC (Hangle base)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>EUC_TW</gda_value>
+	  <gda_value>Taiwan EUC</gda_value>
+	  <gda_value xml:lang="cs">EUC / tajwanština</gda_value>
+	  <gda_value xml:lang="da">Taiwansk EUC</gda_value>
+	  <gda_value xml:lang="de">Taiwanesisch EUC</gda_value>
+	  <gda_value xml:lang="dz">ཏ་ཡེ་ཝཱན་ཨི་ཡུ་སི།</gda_value>
+	  <gda_value xml:lang="en_GB">Taiwan EUC</gda_value>
+	  <gda_value xml:lang="es">EUC taiwanés</gda_value>
+	  <gda_value xml:lang="eu">EUC Taiwan</gda_value>
+	  <gda_value xml:lang="fi">Taiwanilainen EUC</gda_value>
+	  <gda_value xml:lang="fr">Taiwanais (EUC)</gda_value>
+	  <gda_value xml:lang="gl">Taiwan EUC</gda_value>
+	  <gda_value xml:lang="id">Taiwan EUC</gda_value>
+	  <gda_value xml:lang="it">Taiwan EUC</gda_value>
+	  <gda_value xml:lang="lt">Taivanio EUC</gda_value>
+	  <gda_value xml:lang="nb">Taiwan EUC</gda_value>
+	  <gda_value xml:lang="ne">ताइवान EUC</gda_value>
+	  <gda_value xml:lang="pt">EUC Ilha Formosa</gda_value>
+	  <gda_value xml:lang="pt_BR">EUC Taiwanês</gda_value>
+	  <gda_value xml:lang="sl">Tajvansko (EUC)</gda_value>
+	  <gda_value xml:lang="sv">Taiwanesisk EUC</gda_value>
+	  <gda_value xml:lang="vi">EUC Hoà Dài Loan</gda_value>
+	  <gda_value xml:lang="zh_CN">台湾 EUC</gda_value>
+	  <gda_value xml:lang="zh_HK">台灣 EUC</gda_value>
+	  <gda_value xml:lang="zh_TW">台灣 EUC</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>LATIN1</gda_value>
+	  <gda_value>ISO 8859-1/ECMA 94 (Latin alphabet no.1)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-1/ECMA 94 (latinská abeceda č. 1)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-1/ECMA 94 (Latinsk alfabet nr. 1)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-1/ECMA 94 (Lateinisches Alphabet Nr. 1)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསེ་ཨོ་ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ་ ༩༤(ལེ་ཊིན་གསལ་བྱེད་ཡི་གུ་ ཨང་ ༡)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-1/ECMA 94 (Latin alphabet no.1)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-1/ECMA 94 (alfabeto latino nº 1)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-1/ECMA 94 (Latinaren 1. alfabetoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 885-1/ECMA 94 (latinalainen aakkosto nro 1)</gda_value>
+	  <gda_value xml:lang="fr">Latin 1 (ISO 8859-1/ECMA 94)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-1/ECMA 94 (Alfabeto latino num.1)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-1/ECMA 94 (alfabeto Latino n. 1)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-1/ECMA 94 (Lotynų abėcėlė nr.1)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-१/ECMA ९४ (लेटिन अल्फावेट नं.१)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-1/ECMA 94 (Alfabeto Latino nº1)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-1/ECMA 94 (Alfabeto latino no.1)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-1/ECMA 94 (Latinica št.1)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-1/ECMA 94 (Bảng chữ cái số 1)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-1/ECMA 94 (Latin alphabet no.1)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁字母 1 號)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁字母 1 號)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>LATIN2</gda_value>
+	  <gda_value>ISO 8859-1/ECMA 94 (Latin alphabet no.2)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-1/ECMA 94 (latinská abeceda č. 2)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-1/ECMA 94 (Latinsk alfabet nr. 2)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-1/ECMA 94 (Lateinisches Alphabet Nr. 2)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ་ ༩༤(ལེ་ཊིན་གསལ་བྱེད་ཡི་གུ་ཨང་ ༢)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-1/ECMA 94 (Latin alphabet no.2)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-1/ECMA 94 (alfabeto latino nº 2)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-1/ECMA 94 (Latinaren 2. alfabetoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 885-1/ECMA 94 (latinalainen aakkosto nro 2)</gda_value>
+	  <gda_value xml:lang="fr">Latin 2 (ISO 8859-1/ECMA 94)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-1/ECMA 94 (Alfabeto latino num.2)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-1/ECMA 94 (alfabeto Latino n. 2)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-1/ECMA 94 (Lotynų abėcėlė nr.2)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-१/ECMA ९४ (लेटिन अल्फावेट नं.२)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-1/ECMA 94 (Alfabeto Latino nº2)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-1/ECMA 94 (Alfabeto latino no.2)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-1/ECMA 94 (Latinica št.2)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-1/ECMA 94 (Bảng chữ cái số 2)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-1/ECMA 94 (Latin alphabet no.2)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁字母 2 號)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁字母 2 號)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>LATIN3</gda_value>
+	  <gda_value>ISO 8859-1/ECMA 94 (Latin alphabet no.3)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-1/ECMA 94 (latinská abeceda č. 3)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-1/ECMA 94 (Latinsk alfabet nr. 3)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-1/ECMA 94 (Lateinisches Alphabet Nr. 3)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ་ ༩༤(ལེ་ཊིན་གསལ་བྱེད་ཡི་གུ་ཨང་ ༣)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-1/ECMA 94 (Latin alphabet no.3)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-1/ECMA 94 (alfabeto latino nº 3)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-1/ECMA 94 (Latinaren 3. alfabetoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 885-1/ECMA 94 (latinalainen aakkosto nro 3)</gda_value>
+	  <gda_value xml:lang="fr">Latin 3 (ISO 8859-1/ECMA 94)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-1/ECMA 94 (Alfabeto latino num.3)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-1/ECMA 94 (alfabeto Latino n. 3)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-1/ECMA 94 (Lotynų abėcėlė nr.3)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-१/ECMA ९४ (लेटिन अल्फावेट नं.३)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-1/ECMA 94 (Alfabeto Latino nº3)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-1/ECMA 94 (Alfabeto latino no.3)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-1/ECMA 94 (Latinica št.3)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-1/ECMA 94 (Bảng chữ cái số 3)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-1/ECMA 94 (Latin alphabet no.3)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁字母 3 號)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁字母 3 號)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>LATIN4</gda_value>
+	  <gda_value>ISO 8859-1/ECMA 94 (Latin alphabet no.4)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-1/ECMA 94 (latinská abeceda č. 4)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-1/ECMA 94 (Latinsk alfabet nr. 4)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-1/ECMA 94 (Lateinisches Alphabet Nr. 4)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ་ ༩༤(ལེ་ཊིན་གསལ་བྱེད་ཡི་གུ་ཨང་ ༤)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-1/ECMA 94 (Latin alphabet no.4)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-1/ECMA 94 (alfabeto latino nº 4)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-1/ECMA 94 (Latinaren 4. alfabetoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 885-1/ECMA 94 (latinalainen aakkosto nro 4)</gda_value>
+	  <gda_value xml:lang="fr">Latin 4 (ISO 8859-1/ECMA 94)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-1/ECMA 94 (Alfabeto latino num.4)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-1/ECMA 94 (alfabeto Latino n. 4)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-1/ECMA 94 (Lotynų abėcėlė nr.4)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-१/ECMA ९४ (लेटिन अल्फावेट नं.४)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-1/ECMA 94 (Alfabeto Latino nº4)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-1/ECMA 94 (Alfabeto latino no.4)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-1/ECMA 94 (Latinica št.4)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-1/ECMA 94 (Bảng chữ cái số 4)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-1/ECMA 94 (Latin alphabet no.4)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁字母 4 號)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁字母 4 號)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>LATIN5</gda_value>
+	  <gda_value>ISO 8859-1/ECMA 94 (Latin alphabet no.5)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-1/ECMA 94 (latinská abeceda č. 5)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-1/ECMA 94 (Latinsk alfabet nr. 5)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-1/ECMA 94 (Lateinisches Alphabet Nr. 5)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ་ ༩༤(ལེ་ཊིན་གསལ་བྱེད་ཡི་གུ་ཨང་ ༥)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-1/ECMA 94 (Latin alphabet no.5)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-1/ECMA 94 (alfabeto latino nº 5)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-1/ECMA 94 (Latinaren 5. alfabetoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 885-1/ECMA 94 (latinalainen aakkosto nro 5)</gda_value>
+	  <gda_value xml:lang="fr">Latin 5 (ISO 8859-1/ECMA 94)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-1/ECMA 94 (Alfabeto latino num.5)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-1/ECMA 94 (alfabeto Latino n. 5)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-1/ECMA 94 (Lotynų abėcėlė nr.5)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-१/ECMA ९४ (लेटिन अल्फावेट नं. ५)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-1/ECMA 94 (Alfabeto Latino nº5)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-1/ECMA 94 (Alfabeto latino no.5)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-1/ECMA 94 (Latinica št.5)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-1/ECMA 94 (Bảng chữ cái số 4)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-1/ECMA 94 (Latin alphabet no.5)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁字母 5 號)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁字母 5 號)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>LATIN6</gda_value>
+	  <gda_value>ISO 8859-1/ECMA 94 (Latin alphabet no.6)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-1/ECMA 94 (latinská abeceda č. 6)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-1/ECMA 94 (Latinsk alfabet nr. 6)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-1/ECMA 94 (Lateinisches Alphabet Nr. 6)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ་ ༩༤(ལེ་ཊིན་གསལ་བྱེད་ཡི་གུ་ཨང་ ༦)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-1/ECMA 94 (Latin alphabet no.6)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-1/ECMA 94 (alfabeto latino nº 6)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-1/ECMA 94 (Latinaren 6. alfabetoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 885-1/ECMA 94 (latinalainen aakkosto nro 6)</gda_value>
+	  <gda_value xml:lang="fr">Latin 6 (ISO 8859-1/ECMA 94)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-1/ECMA 94 (Alfabeto latino num.6)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-1/ECMA 94 (alfabeto Latino n. 6)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-1/ECMA 94 (Lotynų abėcėlė nr.6)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-१/ECMA ९४(लेटिन अल्फावेट नं. ६)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-1/ECMA 94 (Alfabeto Latino nº6)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-1/ECMA 94 (Alfabeto latino no.6)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-1/ECMA 94 (Latinica št.6)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-1/ECMA 94 (Bảng chữ cái số 6)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-1/ECMA 94 (Latin alphabet no.6)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁字母 6 號)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁字母 6 號)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>LATIN7</gda_value>
+	  <gda_value>ISO 8859-1/ECMA 94 (Latin alphabet no.7)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-1/ECMA 94 (latinská abeceda č. 7)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-1/ECMA 94 (Latinsk alfabet nr. 7)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-1/ECMA 94 (Lateinisches Alphabet Nr. 7)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ ༩༤(ལེ་ཊིན་གསལ་བྱེད་ཡི་གུ་ཨང་ ༧)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-1/ECMA 94 (Latin alphabet no.7)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-1/ECMA 94 (alfabeto latino nº 7)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-1/ECMA 94 (Latinaren 7. alfabetoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 885-1/ECMA 94 (latinalainen aakkosto nro 7)</gda_value>
+	  <gda_value xml:lang="fr">Latin 7 (ISO 8859-1/ECMA 94)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-1/ECMA 94 (Alfabeto latino num.7)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-1/ECMA 94 (alfabeto Latino n. 7)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-1/ECMA 94 (Lotynų abėcėlė nr.7)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-१/ECMA ९४ (लेटिन अल्फावेट नं. ७)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-1/ECMA 94 (Alfabeto Latino nº7)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-1/ECMA 94 (Alfabeto latino no.7)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-1/ECMA 94 (Latinica št.7)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-1/ECMA 94 (Bảng chữ cái số 7)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-1/ECMA 94 (Latin alphabet no.7)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁字母 7 號)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁字母 7 號)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>LATIN8</gda_value>
+	  <gda_value>ISO 8859-1/ECMA 94 (Latin alphabet no.8)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-1/ECMA 94 (latinská abeceda č. 8)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-1/ECMA 94 (Latinsk alfabet nr. 8)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-1/ECMA 94 (Lateinisches Alphabet Nr. 8)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ་ ༩༤(ལེ་ཊིན་ཡཝགསལ་བྱེད་ཡི་གུ་ ཨང་༨)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-1/ECMA 94 (Latin alphabet no.8)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-1/ECMA 94 (alfabeto latino nº 8)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-1/ECMA 94 (Latinaren 8. alfabetoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 885-1/ECMA 94 (latinalainen aakkosto nro 8)</gda_value>
+	  <gda_value xml:lang="fr">Latin 8 (ISO 8859-1/ECMA 94)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-1/ECMA 94 (Alfabeto latino num.8)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-1/ECMA 94 (alfabeto Latino n. 8)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-1/ECMA 94 (Lotynų abėcėlė nr.8)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-१/ECMA ९४ (लेटिन अल्फावेट नं. ८)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-1/ECMA 94 (Alfabeto Latino nº8)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-1/ECMA 94 (Alfabeto latino no.8)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-1/ECMA 94 (Latinica št.8)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-1/ECMA 94 (Bảng chữ cái số 8)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-1/ECMA 94 (Latin alphabet no.8)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁字母 8 號)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁字母 8 號)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>LATIN9</gda_value>
+	  <gda_value>ISO 8859-1/ECMA 94 (Latin alphabet no.9)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-1/ECMA 94 (latinská abeceda č. 9)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-1/ECMA 94 (Latinsk alfabet nr. 9)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-1/ECMA 94 (Lateinisches Alphabet Nr. 9)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ ༩༤(ལེ་ཊིན་གསལ་བྱེད་ཡི་གུ་ཨང་ ༩)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-1/ECMA 94 (Latin alphabet no.9)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-1/ECMA 94 (alfabeto latino nº 9)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-1/ECMA 94 (Latinaren 9. alfabetoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 885-1/ECMA 94 (latinalainen aakkosto nro 9)</gda_value>
+	  <gda_value xml:lang="fr">Latin 9 (ISO 8859-1/ECMA 94)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-1/ECMA 94 (Alfabeto latino num.9)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-1/ECMA 94 (alfabeto Latino n. 9)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-1/ECMA 94 (Lotynų abėcėlė nr.9)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-१/ECMA ९४ (लेटिन अल्फावेट नं. ९)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-1/ECMA 94 (Alfabeto Latino nº9)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-1/ECMA 94 (Alfabeto latino no.9)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-1/ECMA 94 (Latinica št.9)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-1/ECMA 94 (Bảng chữ cái số 9)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-1/ECMA 94 (Latin alphabet no.9)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁字母 9 號)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁字母 9 號)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>LATIN10</gda_value>
+	  <gda_value>ISO 8859-1/ECMA 94 (Latin alphabet no.10)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-1/ECMA 94 (latinská abeceda č. 10)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-1/ECMA 94 (Latinsk alfabet nr. 10)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-1/ECMA 94 (Lateinisches Alphabet Nr. 10)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ་ ༩༤(ལེ་ཊིན་གསལ་བྱེད་ཡི་གུ་ ཨང་༡༠)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-1/ECMA 94 (Latin alphabet no.10)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-1/ECMA 94 (alfabeto latino nº 10)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-1/ECMA 94 (Latinaren 10. alfabetoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 885-1/ECMA 94 (latinalainen aakkosto nro 10)</gda_value>
+	  <gda_value xml:lang="fr">Latin 10 (ISO 8859-1/ECMA 94)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-1/ECMA 94 (Alfabeto latino num.10)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-1/ECMA 94 (alfabeto Latino n. 10)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-1/ECMA 94 (Lotynų abėcėlė nr.10)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-१/ECMA ९४ (लेटिन अल्फावेट नं.१०)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-1/ECMA 94 (Alfabeto Latino nº10)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-1/ECMA 94 (Alfabeto latino no.10)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-1/ECMA 94 (Latinica št.10)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-1/ECMA 94 (Bảng chữ cái số 10)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-1/ECMA 94 (Latin alphabet no.10)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁字母 10 號)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁字母 10 號)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>ISO_8859_5</gda_value>
+	  <gda_value>ISO 8859-5/ECMA 113 (Latin/Cyrillic)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-5/ECMA 113 (latinka/cyrilice)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-5/ECMA 113 (Latinsk/kyrillisk)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-5/ECMA 113 (Lateinisch/Kyrillisch)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡/ཨི་སི་ཨེམ་ཨེ་ ༡༡༣(ལེ་ཊིན/སི་རི་ལིཀ)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-5/ECMA 113 (Latin/Cyrillic)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-5/ECMA 113 (latino/cirílico)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-5/ECMA 113 (Latina/Zirilikoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 8859-5/ECMA 113 (latinalainen/kyrillinen)</gda_value>
+	  <gda_value xml:lang="fr">Latin/cyrillique (ISO 8859-5/ECMA 113)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-5/ECMA 113 (Latino/Cirílico)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-5/ECMA 113 (Latino/Cirillico)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-5/ECMA 113 (Lotynų/Kirilica)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-५/ECMA ११३ (लेटिन्/सिरिलिक)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-5/ECMA 113 (Latino/Cirílico)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-5/ECMA 113 (Latino/Cirílico)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-5/ECMA 113 (Latinica/Cirilica)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-5/ECMA 113 (La-tinh/ki-rin)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-5/ECMA 113 (Latin/Cyrillic)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁／西里爾字母)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁／西里爾字母)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>ISO_8859_6</gda_value>
+	  <gda_value>ISO 8859-6/ECMA 114 (Latin/Arabic)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-6/ECMA 114 (latinka/arabština)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-6/ECMA 114 (Latinsk/arabisk)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-6/ECMA 114 (Lateinisch/Arabisch)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༦/ཨི་སི་ཨེམ་ཨེ ༡༡༤(ལེ་ཊིན/ཨ་ར་བིཀ)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-6/ECMA 114 (Latin/Arabic)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-6/ECMA 114 (latino/árabe)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-6/ECMA 114 (Latina/Arabiera)</gda_value>
+	  <gda_value xml:lang="fi">ISO 8859-6/ECMA 114 (latinalainen/arabialainen)</gda_value>
+	  <gda_value xml:lang="fr">Latin/arabe (ISO 8859-6/ECMA 114)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-6/ECMA 114 (Latino/Árabe)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-6/ECMA 114 (Latino/Arabo)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-6/ECMA 114 (Lotynų/Arabų)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-६/ECMA ११४ (लेटिन्/अरेबिक)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-6/ECMA 114 (Latino/Arábico)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-6/ECMA 114 (Latino/Árabe)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-6/ECMA 114 (Latinica/Arabsko)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-6/ECMA 114 (La-tinh/A Rập)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-6/ECMA 114 (Latin/Arabic)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁／阿拉伯字母)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁／阿拉伯字母)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>ISO_8859_7</gda_value>
+	  <gda_value>ISO 8859-7/ECMA 118 (Latin/Greek)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-7/ECMA 118 (latinka/řečtina)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-7/ECMA 118 (Latinsk/græsk)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-7/ECMA 118 (Lateinisch/Griechisch)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ ༨༨༥༩-༧/ཨི་སི་ཨེམ་ཨེ ༡༡༨(ལེ་ཊིན/གི་རིཀ)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-7/ECMA 118 (Latin/Greek)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-7/ECMA 118 (latino/griego)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-7/ECMA 118 (Latina/Grekoa)</gda_value>
+	  <gda_value xml:lang="fi">ISO 8859-7/ECMA 118 (latinalainen/kreikkalainen)</gda_value>
+	  <gda_value xml:lang="fr">Latin/grec (ISO 8859-7/ECMA 118)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-7/ECMA 118 (Latino/Grego)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-7/ECMA 118 (Latino/Greco)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-7/ECMA 118 (Lotynų/Graikų)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-७/ECMA ११८ (लेटिन/ग्रीक)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-7/ECMA 118 (Latino/Grego)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-7/ECMA 118 (Latino/Grego)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-7/ECMA 118 (Latinica/Grško)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-7/ECMA 118 (La-tinh/Hy Lạp)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-7/ECMA 118 (Latin/Greek)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁／希臘字母)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁／希臘字母)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>ISO_8859_8</gda_value>
+	  <gda_value>ISO 8859-8/ECMA 121 (Latin/Hebrew)</gda_value>
+	  <gda_value xml:lang="cs">ISO 8859-8/ECMA 121 (latinka/hebrejština)</gda_value>
+	  <gda_value xml:lang="da">ISO 8859-8/ECMA 121 (Latinsk/hebraisk)</gda_value>
+	  <gda_value xml:lang="de">ISO 8859-8/ECMA 121 (Lateinisch/Hebräisch)</gda_value>
+	  <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༨/ཨི་སི་ཨེམ་ཨེ ༡༢༡(ལེ་ཊིན/ཧི་བིརིའུ)</gda_value>
+	  <gda_value xml:lang="en_GB">ISO 8859-8/ECMA 121 (Latin/Hebrew)</gda_value>
+	  <gda_value xml:lang="es">ISO 8859-8/ECMA 121 (latino/hebreo)</gda_value>
+	  <gda_value xml:lang="eu">ISO 8859-8/ECMA 121 (Latina/Hebreera)</gda_value>
+	  <gda_value xml:lang="fi">ISO 8859-8/ECMA 121 (latinalainen/heprealainen)</gda_value>
+	  <gda_value xml:lang="fr">Latin/hébreux (ISO 8859-8/ECMA 121)</gda_value>
+	  <gda_value xml:lang="gl">ISO 8859-8/ECMA 121 (Latino/Hebreo)</gda_value>
+	  <gda_value xml:lang="it">ISO 8859-8/ECMA 121 (Latino/Ebraico)</gda_value>
+	  <gda_value xml:lang="lt">ISO 8859-8/ECMA 121 (Lotynų/Žydų)</gda_value>
+	  <gda_value xml:lang="ne">ISO ८८५९-८/ECMA १२१ (लेटिन/हिब्रु)</gda_value>
+	  <gda_value xml:lang="pt">ISO 8859-8/ECMA 121 (Latino/Hebreu)</gda_value>
+	  <gda_value xml:lang="pt_BR">ISO 8859-8/ECMA 121 (Latino/Hebreu)</gda_value>
+	  <gda_value xml:lang="sl">ISO 8859-8/ECMA 121 (Latinica/Hebrejsko)</gda_value>
+	  <gda_value xml:lang="vi">ISO 8859-8/ECMA 121 (La-tinh/Do Thái)</gda_value>
+	  <gda_value xml:lang="zh_CN">ISO 8859-8/ECMA 121 (Latin/Hebrew)</gda_value>
+	  <gda_value xml:lang="zh_HK">ISO 8859-1/ECMA 94 (拉丁／希伯來字母)</gda_value>
+	  <gda_value xml:lang="zh_TW">ISO 8859-1/ECMA 94 (拉丁／希伯來字母)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>KOI8</gda_value>
+	  <gda_value>KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="cs">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="da">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="de">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="dz">ཀེ་ཨོ་ཨའི་༨-ཨར་(ཡུ)</gda_value>
+	  <gda_value xml:lang="en_GB">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="es">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="eu">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="fi">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="fr">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="gl">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="id">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="it">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="ja">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="lt">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="ne">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="pt">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="pt_BR">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="ru">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="sl">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="sv">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="vi">KOI8-R(U)</gda_value>
+	  <gda_value xml:lang="zh_CN">KOI8-R(U)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>ALT</gda_value>
+	  <gda_value>Windows CP866</gda_value>
+	  <gda_value xml:lang="cs">Windows CP866</gda_value>
+	  <gda_value xml:lang="da">Windows CP866</gda_value>
+	  <gda_value xml:lang="de">Windows CP866</gda_value>
+	  <gda_value xml:lang="dz">ཝིནཌོསི་ སི་པི་༨༦༦</gda_value>
+	  <gda_value xml:lang="en_GB">Windows CP866</gda_value>
+	  <gda_value xml:lang="es">Windows CP866</gda_value>
+	  <gda_value xml:lang="eu">Windows CP866</gda_value>
+	  <gda_value xml:lang="fi">Window CP866</gda_value>
+	  <gda_value xml:lang="fr">Windows CP866</gda_value>
+	  <gda_value xml:lang="gl">Windows CP866</gda_value>
+	  <gda_value xml:lang="id">Windows CP866</gda_value>
+	  <gda_value xml:lang="it">Windows CP866</gda_value>
+	  <gda_value xml:lang="ja">Windows CP866</gda_value>
+	  <gda_value xml:lang="lt">Windows CP866</gda_value>
+	  <gda_value xml:lang="nb">Windows CP866</gda_value>
+	  <gda_value xml:lang="ne">विन्डोज CP866</gda_value>
+	  <gda_value xml:lang="pt">Windows CP866</gda_value>
+	  <gda_value xml:lang="pt_BR">Windows CP866</gda_value>
+	  <gda_value xml:lang="ru">Windows CP866</gda_value>
+	  <gda_value xml:lang="sl">Windows CP866</gda_value>
+	  <gda_value xml:lang="sv">Windows CP866</gda_value>
+	  <gda_value xml:lang="vi">Windows CP866</gda_value>
+	  <gda_value xml:lang="zh_CN">Windows CP866</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>WIN874</gda_value>
+	  <gda_value>Windows CP874 (Thai)</gda_value>
+	  <gda_value xml:lang="cs">Windows CP874 (thajština)</gda_value>
+	  <gda_value xml:lang="da">Windows CP874 (thai)</gda_value>
+	  <gda_value xml:lang="de">Windows CP874 (Thai)</gda_value>
+	  <gda_value xml:lang="dz">ཝིནཌོསི་ སི་པི་༨༧༤(ཐཱའི)</gda_value>
+	  <gda_value xml:lang="en_GB">Windows CP874 (Thai)</gda_value>
+	  <gda_value xml:lang="es">Windows CP874 (tailandés)</gda_value>
+	  <gda_value xml:lang="eu">Windows CP874 (Thailandiera)</gda_value>
+	  <gda_value xml:lang="fi">Windows CP874 (thaimaalainen)</gda_value>
+	  <gda_value xml:lang="fr">Thaï (Windows CP874)</gda_value>
+	  <gda_value xml:lang="gl">Windows CP874 (Tailandés)</gda_value>
+	  <gda_value xml:lang="id">Windows CP874 (Thai)</gda_value>
+	  <gda_value xml:lang="it">Windows CP874 (Thai)</gda_value>
+	  <gda_value xml:lang="ja">Windows CP874（タイ語）</gda_value>
+	  <gda_value xml:lang="lt">Windows CP874 (Tajų)</gda_value>
+	  <gda_value xml:lang="nb">Windows CP874 (Thai)</gda_value>
+	  <gda_value xml:lang="ne">विन्डोज CP874 (थाई)</gda_value>
+	  <gda_value xml:lang="pt">Windows CP874 (Tailandês)</gda_value>
+	  <gda_value xml:lang="pt_BR">Windows CP874 (Tailandês)</gda_value>
+	  <gda_value xml:lang="sl">Windows CP874 (Tajsko)</gda_value>
+	  <gda_value xml:lang="sv">Windows CP874 (Thailändska)</gda_value>
+	  <gda_value xml:lang="vi">Windows CP874 (Thái)</gda_value>
+	  <gda_value xml:lang="zh_CN">Windows CP874 (泰国)</gda_value>
+	  <gda_value xml:lang="zh_HK">Windows CP874 (泰文)</gda_value>
+	  <gda_value xml:lang="zh_TW">Windows CP874 (泰文)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>WIN1250</gda_value>
+	  <gda_value>Windows CP1250</gda_value>
+	  <gda_value xml:lang="cs">Windows CP1250</gda_value>
+	  <gda_value xml:lang="da">Windows CP1250</gda_value>
+	  <gda_value xml:lang="de">Windows CP1250</gda_value>
+	  <gda_value xml:lang="dz">ཝིནཌོསི་ སི་པི་༡༢༥༠</gda_value>
+	  <gda_value xml:lang="en_GB">Windows CP1250</gda_value>
+	  <gda_value xml:lang="es">Windows CP1250</gda_value>
+	  <gda_value xml:lang="eu">Windows CP1250</gda_value>
+	  <gda_value xml:lang="fi">Windows CP1250</gda_value>
+	  <gda_value xml:lang="fr">Windows CP1250</gda_value>
+	  <gda_value xml:lang="gl">Windows CP1250</gda_value>
+	  <gda_value xml:lang="id">Windows CP1250</gda_value>
+	  <gda_value xml:lang="it">Windows CP1250</gda_value>
+	  <gda_value xml:lang="ja">Windows CP1250</gda_value>
+	  <gda_value xml:lang="lt">Windows CP1250</gda_value>
+	  <gda_value xml:lang="nb">Windows CP1250</gda_value>
+	  <gda_value xml:lang="ne">विन्डोज CP1250</gda_value>
+	  <gda_value xml:lang="pt">Windows CP1250</gda_value>
+	  <gda_value xml:lang="pt_BR">Windows CP1250</gda_value>
+	  <gda_value xml:lang="ru">Windows CP1250</gda_value>
+	  <gda_value xml:lang="sl">Windows CP1250</gda_value>
+	  <gda_value xml:lang="sv">Windows CP1250</gda_value>
+	  <gda_value xml:lang="vi">Windows CP1250</gda_value>
+	  <gda_value xml:lang="zh_CN">Windows CP1250</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>WIN</gda_value>
+	  <gda_value>Windows CP1251</gda_value>
+	  <gda_value xml:lang="cs">Windows CP1251</gda_value>
+	  <gda_value xml:lang="da">Windows CP1251</gda_value>
+	  <gda_value xml:lang="de">Windows CP1251</gda_value>
+	  <gda_value xml:lang="dz">ཝིནཌོསི་ སི་པི་༡༢༥༡</gda_value>
+	  <gda_value xml:lang="en_GB">Windows CP1251</gda_value>
+	  <gda_value xml:lang="es">Windows CP1251</gda_value>
+	  <gda_value xml:lang="eu">Windows CP1251</gda_value>
+	  <gda_value xml:lang="fi">Windows CP1251</gda_value>
+	  <gda_value xml:lang="fr">Windows CP1251</gda_value>
+	  <gda_value xml:lang="gl">Windows CP1251</gda_value>
+	  <gda_value xml:lang="id">Windows CP1251</gda_value>
+	  <gda_value xml:lang="it">Windows CP1251</gda_value>
+	  <gda_value xml:lang="ja">Windows CP1251</gda_value>
+	  <gda_value xml:lang="lt">Windows CP1251</gda_value>
+	  <gda_value xml:lang="nb">Windows CP1251</gda_value>
+	  <gda_value xml:lang="ne">विन्डोज CP1251</gda_value>
+	  <gda_value xml:lang="pt">Windows CP1251</gda_value>
+	  <gda_value xml:lang="pt_BR">Windows CP1251</gda_value>
+	  <gda_value xml:lang="ru">Windows CP1251</gda_value>
+	  <gda_value xml:lang="sl">Windows CP1251</gda_value>
+	  <gda_value xml:lang="sv">Windows CP1251</gda_value>
+	  <gda_value xml:lang="vi">Windows CP1251</gda_value>
+	  <gda_value xml:lang="zh_CN">Windows CP1251</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>WIN1256</gda_value>
+	  <gda_value>Windows CP1256 (Arabic)</gda_value>
+	  <gda_value xml:lang="cs">Windows CP1256 (arabština)</gda_value>
+	  <gda_value xml:lang="da">Windows CP1256 (arabisk)</gda_value>
+	  <gda_value xml:lang="de">Windows CP1256 (Arabisch)</gda_value>
+	  <gda_value xml:lang="dz">ཝིནཌོསི་ སི་པི་༡༢༥༦(ཨ་ར་བིཀ་)</gda_value>
+	  <gda_value xml:lang="en_GB">Windows CP1256 (Arabic)</gda_value>
+	  <gda_value xml:lang="es">Windows CP1256 (árabe)</gda_value>
+	  <gda_value xml:lang="eu">Windows CP1256 (Arabiera)</gda_value>
+	  <gda_value xml:lang="fi">Windows 1CP1256 (arabialainen)</gda_value>
+	  <gda_value xml:lang="fr">Arabe (Windows CP1256)</gda_value>
+	  <gda_value xml:lang="gl">Windows CP1256 (Árabe)</gda_value>
+	  <gda_value xml:lang="id">Windows CP1256 (Arab)</gda_value>
+	  <gda_value xml:lang="it">Windows CP1256 (Arabo)</gda_value>
+	  <gda_value xml:lang="ja">Windows CP1256（アラビア語）</gda_value>
+	  <gda_value xml:lang="lt">Windows CP1256 (Arabų)</gda_value>
+	  <gda_value xml:lang="nb">Windows CP1256 (Arabisk)</gda_value>
+	  <gda_value xml:lang="ne">विन्डोज CP1256 (अरबी)</gda_value>
+	  <gda_value xml:lang="pt">Windows CP1256 (Arábico)</gda_value>
+	  <gda_value xml:lang="pt_BR">Windows CP1256 (Árabe)</gda_value>
+	  <gda_value xml:lang="sl">Arabski (Windows CP1256)</gda_value>
+	  <gda_value xml:lang="sv">Windows CP1256 (Arabiska)</gda_value>
+	  <gda_value xml:lang="vi">Windows CP1256 (A Rập)</gda_value>
+	  <gda_value xml:lang="zh_CN">Windows CP1256 (阿拉伯语)</gda_value>
+	  <gda_value xml:lang="zh_HK">Windows CP1256 (阿拉伯文)</gda_value>
+	  <gda_value xml:lang="zh_TW">Windows CP1256 (阿拉伯文)</gda_value>
+	</gda_array_row>
+	<gda_array_row>
+	  <gda_value>TCVN</gda_value>
+	  <gda_value>TCVN-5712/Windows CP1258 (Vietnamese)</gda_value>
+	  <gda_value xml:lang="cs">TCVN-5712/Windows CP1258 (vietnamština)</gda_value>
+	  <gda_value xml:lang="da">TCVN-5712/Windows CP1258 (Vietnamesisk)</gda_value>
+	  <gda_value xml:lang="de">TCVN-5712/Windows CP1258 (Vietnamesisch)</gda_value>
+	  <gda_value xml:lang="dz">ཊི་སི་ཝི་ཨེན་-༥༧༡༢/ཝིནཌོསི་ སི་པི་༡༢༥༨(ཝེཊི་ན་མིསི)</gda_value>
+	  <gda_value xml:lang="en_GB">TCVN-5712/Windows CP1258 (Vietnamese)</gda_value>
+	  <gda_value xml:lang="es">TCVN-5712/Windows CP1258 (vietnamita)</gda_value>
+	  <gda_value xml:lang="eu">TCVN-5712/Windows CP1258 (Vietnamera)</gda_value>
+	  <gda_value xml:lang="fi">TCVN-5712/Windows CP1258 (vietnamilainen)</gda_value>
+	  <gda_value xml:lang="fr">Vietnamien (TCVN-5712/Windows CP1258)</gda_value>
+	  <gda_value xml:lang="gl">TCVN-5712/Windows CP1258 (Vietnamita)</gda_value>
+	  <gda_value xml:lang="it">TCVN-5712/Windows CP1258 (Vietnamita)</gda_value>
+	  <gda_value xml:lang="lt">TCVN-5712/Windows CP1258 (Vietnamiečių)</gda_value>
+	  <gda_value xml:lang="ne">TCVN-५७१२/सञ्झ्याल CP१२५८ (विट नामहरु)</gda_value>
+	  <gda_value xml:lang="pt">TCVN-5712/Windows CP1258 (Vietnamita)</gda_value>
+	  <gda_value xml:lang="pt_BR">TCVN-5712/Windows CP1258 (Vietnamita)</gda_value>
+	  <gda_value xml:lang="sl">Vietnamsko (TCVN-5712/Windows CP1258)</gda_value>
+	  <gda_value xml:lang="sv">TCVN-5712/Windows CP1258 (Vietnamesiska)</gda_value>
+	  <gda_value xml:lang="vi">TCVN-5712/Windows CP1258 (Việt)</gda_value>
+	  <gda_value xml:lang="zh_CN">TCVN-5712/Windows CP1258 (越南文)</gda_value>
+	  <gda_value xml:lang="zh_HK">TCVN-5712/Windows CP1258 (越南文)</gda_value>
+	  <gda_value xml:lang="zh_TW">TCVN-5712/Windows CP1258 (越南文)</gda_value>
+	</gda_array_row>
+      </gda_array_data>
+    </gda_array>
+  </sources>
+</serv_op>

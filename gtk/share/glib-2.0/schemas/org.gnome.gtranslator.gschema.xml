@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <enum id="org.gnome.gtranslator.SwitcherStyle">
+    <value value="0" nick="text"/>
+    <value value="1" nick="icon"/>
+    <value value="2" nick="both"/>
+    <value value="3" nick="toolbar"/>
+    <value value="4" nick="tabs"/>
+    <value value="5" nick="none"/>
+  </enum>
+
+  <schema path="/org/gnome/gtranslator/" id="org.gnome.gtranslator" gettext-domain="gtranslator">
+    <child schema="org.gnome.gtranslator.preferences" name="preferences"/>
+    <child schema="org.gnome.gtranslator.state" name="state"/>
+    <child schema="org.gnome.gtranslator.plugins" name="plugins"/>
+  </schema>
+  <schema path="/org/gnome/gtranslator/preferences/" id="org.gnome.gtranslator.preferences" gettext-domain="gtranslator">
+    <child schema="org.gnome.gtranslator.preferences.files" name="files"/>
+    <child schema="org.gnome.gtranslator.preferences.editor" name="editor"/>
+    <child schema="org.gnome.gtranslator.preferences.ui" name="ui"/>
+  </schema>
+  <schema path="/org/gnome/gtranslator/preferences/files/" id="org.gnome.gtranslator.preferences.files" gettext-domain="gtranslator">
+    <key type="b" name="warn-if-contains-fuzzy">
+      <default>true</default>
+      <summary>Warn if file contains fuzzy translations</summary>
+      <description>If true, warn the user when saving a PO translation file containing fuzzy strings.</description>
+    </key>
+    <key type="b" name="auto-save">
+      <default>false</default>
+      <summary>Auto save files</summary>
+      <description>If true, automatically save files at specified intervals.</description>
+    </key>
+    <key type="i" name="auto-save-interval">
+      <default>4</default>
+      <summary>Auto save interval</summary>
+      <description>Interval in minutes at which to automatically save files.</description>
+    </key>
+    <key type="b" name="create-backup">
+      <default>true</default>
+      <summary>Create backup before saving</summary>
+      <description>If true, create a backup copy of a file before saving it.</description>
+    </key>
+    <key type="b" name="use-profile-values">
+      <default>true</default>
+      <summary>Use profile values for header</summary>
+      <description>If true, overwrite the values in the PO header with those in the active profile.</description>
+    </key>
+  </schema>
+  <schema path="/org/gnome/gtranslator/preferences/editor/" id="org.gnome.gtranslator.preferences.editor" gettext-domain="gtranslator">
+    <key type="b" name="highlight-syntax">
+      <default>true</default>
+      <summary>Highlight syntax in edit fields</summary>
+      <description>If true, apply syntax highlighting to strings in edit fields.</description>
+    </key>
+    <key type="b" name="visible-whitespace">
+      <default>true</default>
+      <summary>Make whitespace visible</summary>
+      <description>If true, display whitespace in strings as representative symbols.</description>
+    </key>
+    <key type="b" name="use-custom-font">
+      <default>false</default>
+      <summary>Use custom font</summary>
+      <description>If true, use a custom font for edit fields.</description>
+    </key>
+    <key type="s" name="editor-font">
+      <default>'Sans 10'</default>
+      <summary>Editor font</summary>
+      <description>Custom font to use for edit fields.</description>
+    </key>
+    <key type="b" name="unmark-fuzzy-when-changed">
+      <default>true</default>
+      <summary>Remove fuzzy status when message is changed</summary>
+      <description>If true, remove fuzzy status from translations when they are changed.</description>
+    </key>
+    <key type="b" name="spellcheck">
+      <default>true</default>
+      <summary>Check spelling</summary>
+      <description>If true, check the spelling of translated messages.</description>
+    </key>
+  </schema>
+  <schema path="/org/gnome/gtranslator/preferences/ui/" id="org.gnome.gtranslator.preferences.ui" gettext-domain="gtranslator">
+    <key name="panel-switcher-style" enum="org.gnome.gtranslator.SwitcherStyle">
+      <default>'both'</default>
+      <summary>Side panel switcher style</summary>
+      <description>Style for switchers in the side panel.</description>
+    </key>
+    <key type="s" name="color-scheme">
+      <default>'classic'</default>
+      <summary>Color scheme</summary>
+      <description>Name of a gtksourceview color scheme to use for syntax highlighting.</description>
+    </key>
+    <key type="s" name="sort-order">
+      <default>'id'</default>
+      <summary>Message list sort order</summary>
+      <description>Sort order to use in the message list. Possible values are "status", "id", "original-text" and "translated-text".</description>
+    </key>
+  </schema>
+  <schema path="/org/gnome/gtranslator/state/" id="org.gnome.gtranslator.state">
+    <child schema="org.gnome.gtranslator.state.window" name="window"/>
+    <child schema="org.gnome.gtranslator.state.history-entry" name="history-entry"/>
+  </schema>
+  <schema path="/org/gnome/gtranslator/state/window/" id="org.gnome.gtranslator.state.window">
+    <key type="i" name="state">
+      <default>0</default>
+    </key>
+    <key type="(ii)" name="size">
+      <default>(775, 500)</default>
+    </key>
+    <key type="i" name="content-panel-size">
+      <default>325</default>
+    </key>
+    <key type="i" name="context-panel-size">
+      <default>525</default>
+    </key>
+  </schema>
+  <schema path="/org/gnome/gtranslator/state/history-entry/" id="org.gnome.gtranslator.state.history-entry">
+    <key type="as" name="search-for-entry">
+      <default>['']</default>
+    </key>
+    <key type="as" name="replace-with-entry">
+      <default>['']</default>
+    </key>
+  </schema>
+  <schema path="/org/gnome/gtranslator/plugins/" id="org.gnome.gtranslator.plugins" gettext-domain="gtranslator">
+    <key type="as" name="active-plugins">
+      <default>['translation-memory']</default>
+      <summary>Active plugins</summary>
+      <description>List of active plugins. It contains the "Location" of the active plugins. See the .gtranslator-plugin file for obtaining the "Location" of a given plugin.</description>
+    </key>
+  </schema>
+</schemalist>

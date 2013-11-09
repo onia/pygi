@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="ar" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="az" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="ca" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="ca@valencia" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="cs" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Základní název" descr="Základní rozlišovací název, počáteční bod pro hledání"></parameter>
+    <parameter xml:lang="da" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="de" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Basisname" descr="Eindeutiger Name der obersten Ebene, Ausgangspunkt für die Suchvorgänge"></parameter>
+    <parameter xml:lang="dz" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="el" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="en_CA" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="en_GB" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="eo" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="es" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nombre de la base de datos" descr="Nombre base distintivo, punto de partida para las búsquedas"></parameter>
+    <parameter xml:lang="eu" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="fa" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="fi" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="fr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de base" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="ga" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="gl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="hr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="hu" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="id" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="it" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, punto di inizio per le ricerche"></parameter>
+    <parameter xml:lang="ja" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="ko" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="lt" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="mk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="ml" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="ms" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="nb" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="ne" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="nl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="oc" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="pa" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="pl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="pt" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="pt_BR" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="ru" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="rw" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="sk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="sl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Osnovno ime" descr="Osnovno razločno ime, začetna točka iskanja"></parameter>
+    <parameter xml:lang="sq" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="sr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="sr@Latn" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="sv" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="tr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="uk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="vi" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="zh_CN" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="基名" descr="基础的可区别名称，搜索的起点"></parameter>
+    <parameter xml:lang="zh_HK" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter xml:lang="zh_TW" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Base name" descr="Base distinguished name, starting point for the searches"></parameter>
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="ar" id="HOST" gdatype="gchararray" name="خادم قاعدة بيانات" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="az" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="ca" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="ca@valencia" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="cs" id="HOST" gdatype="gchararray" name="Databázový server" descr="Počítač, na kterém server LDAP běží"></parameter>
+    <parameter xml:lang="da" id="HOST" gdatype="gchararray" name="Databaseserver" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="de" id="HOST" gdatype="gchararray" name="Datenbankserver" descr="Rechner, auf dem der LDAP-Server läuft"></parameter>
+    <parameter xml:lang="dz" id="HOST" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་སར་བར།" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="el" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="en_CA" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="en_GB" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="eo" id="HOST" gdatype="gchararray" name="Datumbaza servilo" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="es" id="HOST" gdatype="gchararray" name="Servidor de bases de datos" descr="Equipo en el que el servidor LDAP se está ejecutando"></parameter>
+    <parameter xml:lang="eu" id="HOST" gdatype="gchararray" name="Datu-base zerbitzaria" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="fa" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="fi" id="HOST" gdatype="gchararray" name="Tietokantapalvelin" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="fr" id="HOST" gdatype="gchararray" name="Serveur de base de données" descr="Hôte sur lequel fonctionne le serveur LDAP"></parameter>
+    <parameter xml:lang="ga" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="gl" id="HOST" gdatype="gchararray" name="Servidor de bases de datos" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="hr" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="hu" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="id" id="HOST" gdatype="gchararray" name="Server basis data" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="it" id="HOST" gdatype="gchararray" name="Server database" descr="Host su cui è in esecuzione il server LDAP"></parameter>
+    <parameter xml:lang="ja" id="HOST" gdatype="gchararray" name="データベース・サーバー" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="ko" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="lt" id="HOST" gdatype="gchararray" name="Duomenų bazės serveris" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="mk" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="ml" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="ms" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="nb" id="HOST" gdatype="gchararray" name="Databasetjener" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="ne" id="HOST" gdatype="gchararray" name="डाटाबेस सर्भर" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="nl" id="HOST" gdatype="gchararray" name="Databaseserver" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="oc" id="HOST" gdatype="gchararray" name="Servidor de basa de donadas" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="pa" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="pl" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="pt" id="HOST" gdatype="gchararray" name="Servidor de base de dados" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="pt_BR" id="HOST" gdatype="gchararray" name="Servidor de banco de dados" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="ru" id="HOST" gdatype="gchararray" name="Сервер баз данных" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="rw" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="sk" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="sl" id="HOST" gdatype="gchararray" name="Strežnik podatkovnih zbirk" descr="Gostitelj na katerem teče strežnik LDAP"></parameter>
+    <parameter xml:lang="sq" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="sr" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="sr@Latn" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="sv" id="HOST" gdatype="gchararray" name="Databasserver" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="tr" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="uk" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="vi" id="HOST" gdatype="gchararray" name="Máy phục vụ cơ sở dữ liệu" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="zh_CN" id="HOST" gdatype="gchararray" name="数据库服务器" descr="正在运行 LDAP 服务器的主机"></parameter>
+    <parameter xml:lang="zh_HK" id="HOST" gdatype="gchararray" name="資料庫伺服器" descr="Host on which the LDAP server is running"></parameter>
+    <parameter xml:lang="zh_TW" id="HOST" gdatype="gchararray" name="資料庫伺服器" descr="Host on which the LDAP server is running"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="ar" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="az" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="ca" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="ca@valencia" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="cs" id="PORT" gdatype="gint" name="Port" descr="Port databázového serveru (ponechte prázdné, pokud chcete použít výchozí hodnotu)"></parameter>
+    <parameter xml:lang="da" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="de" id="PORT" gdatype="gint" name="Port" descr="Port des Datenbankservers (leer lassen, um Vorgabe zu verwenden)"></parameter>
+    <parameter xml:lang="dz" id="PORT" gdatype="gint" name="འདྲེན་ལམ།" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="el" id="PORT" gdatype="gint" name="Θύρα" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="en_CA" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="en_GB" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="eo" id="PORT" gdatype="gint" name="Pordo" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="es" id="PORT" gdatype="gint" name="Puerto" descr="Puerto del servidor de base de datos (deje este campo vacío para usar el puerto pretederminado)"></parameter>
+    <parameter xml:lang="eu" id="PORT" gdatype="gint" name="Ataka" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="fa" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="fi" id="PORT" gdatype="gint" name="Portti" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="fr" id="PORT" gdatype="gint" name="Port" descr="Port du serveur de base de données (laissez le champ vide pour la valeur par défaut)"></parameter>
+    <parameter xml:lang="ga" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="gl" id="PORT" gdatype="gint" name="Porto" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="hr" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="hu" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="id" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="it" id="PORT" gdatype="gint" name="Porta" descr="La porta del server del database (lasciare questo campo vuoto per usare la porta predefinita)"></parameter>
+    <parameter xml:lang="ja" id="PORT" gdatype="gint" name="ポート" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="ko" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="lt" id="PORT" gdatype="gint" name="Prievadas" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="mk" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="ml" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="ms" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="nb" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="ne" id="PORT" gdatype="gint" name="पोर्ट" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="nl" id="PORT" gdatype="gint" name="Poort" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="oc" id="PORT" gdatype="gint" name="Pòrt" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="pa" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="pl" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="pt" id="PORT" gdatype="gint" name="Porto" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="pt_BR" id="PORT" gdatype="gint" name="Porta" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="ru" id="PORT" gdatype="gint" name="Порт" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="rw" id="PORT" gdatype="gint" name="Umuyoboro" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="sk" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="sl" id="PORT" gdatype="gint" name="Vrata" descr="Vrata podatkovnega strežnika (prazno polje določa privzeto vrednost)"></parameter>
+    <parameter xml:lang="sq" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="sr" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="sr@Latn" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="sv" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="tr" id="PORT" gdatype="gint" name="Port" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="uk" id="PORT" gdatype="gint" name="Порт" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="vi" id="PORT" gdatype="gint" name="Cổng" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="zh_CN" id="PORT" gdatype="gint" name="端口" descr="数据库服务器端口(不填这个字段来使用默认端口)"></parameter>
+    <parameter xml:lang="zh_HK" id="PORT" gdatype="gint" name="連接埠" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter xml:lang="zh_TW" id="PORT" gdatype="gint" name="連接埠" descr="Database server port (leave this field empty to use the default port)"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ar" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="az" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ca" id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ca@valencia" id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="cs" id="USE_SSL" gdatype="gboolean" name="Vyžadovat SSL" descr="Zda používat nebo nepoužívat SSL pro navázání spojení"></parameter>
+    <parameter xml:lang="da" id="USE_SSL" gdatype="gboolean" name="Kræv SSL" descr="Hvorvidt der skal bruges SSL for at etablere forbindelsen"></parameter>
+    <parameter xml:lang="de" id="USE_SSL" gdatype="gboolean" name="Erfordert SSL" descr="Legt fest, ob SSL für den Verbindungsaufbau verwendet werden soll"></parameter>
+    <parameter xml:lang="dz" id="USE_SSL" gdatype="gboolean" name="ཨེསི་ཨེསི་ཨེལ་དགོས་མཁོ་ཡོདཔ།" descr="མཐུད་ལམ་གཞི་བཙུགས་འབད་ནི་ཨེསི་ཨེསི་ཨེལ་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"></parameter>
+    <parameter xml:lang="el" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="en_CA" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="en_GB" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="eo" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="es" id="USE_SSL" gdatype="gboolean" name="Requiere SSL" descr="Indica si se debe usar o no SSL para establecer la conexión"></parameter>
+    <parameter xml:lang="eu" id="USE_SSL" gdatype="gboolean" name="SSL behar du" descr="Konexioak ezartzean SSL erabili edo ez"></parameter>
+    <parameter xml:lang="fa" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="fi" id="USE_SSL" gdatype="gboolean" name="Vaadi SSL:ää" descr="Käytetäänkö SSL-salausta yhteyden muodostamisessa"></parameter>
+    <parameter xml:lang="fr" id="USE_SSL" gdatype="gboolean" name="Utiliser une connexion sécurisée" descr="Indique si l&apos;on doit utiliser une connexion sécurisée par SSL"></parameter>
+    <parameter xml:lang="ga" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="gl" id="USE_SSL" gdatype="gboolean" name="Requirir SSL" descr="Usar ou non SSL para estabelecer a conexión"></parameter>
+    <parameter xml:lang="hr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="hu" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="id" id="USE_SSL" gdatype="gboolean" name="Perlu SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="it" id="USE_SSL" gdatype="gboolean" name="Richiede SSL" descr="Uso di SSL per l&apos;instaurazione della connessione"></parameter>
+    <parameter xml:lang="ja" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ko" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="lt" id="USE_SSL" gdatype="gboolean" name="Būtinas SSL" descr="Nustato, ar prisijungimo metu bus naudojamas SSL kodavimas"></parameter>
+    <parameter xml:lang="mk" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ml" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ms" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="nb" id="USE_SSL" gdatype="gboolean" name="Krev SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ne" id="USE_SSL" gdatype="gboolean" name="SSL आवश्यक पर्छ" descr="जडान स्थापानाका लागि SSL प्रयोग गर्न पर्छ वा पर्दैन"></parameter>
+    <parameter xml:lang="nl" id="USE_SSL" gdatype="gboolean" name="Vereist SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="oc" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pa" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pl" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pt" id="USE_SSL" gdatype="gboolean" name="Requerer SSL" descr="Utilizar ou não SSL para estabelecer ligação"></parameter>
+    <parameter xml:lang="pt_BR" id="USE_SSL" gdatype="gboolean" name="Exige SSL" descr="Se utiliza ou não SSL para estabelecer a conexão"></parameter>
+    <parameter xml:lang="ru" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="rw" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sk" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sl" id="USE_SSL" gdatype="gboolean" name="Zahtevan SSL" descr="Ali naj bo uporabljen SSL za ustvarjanje povezave"></parameter>
+    <parameter xml:lang="sq" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sr@Latn" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sv" id="USE_SSL" gdatype="gboolean" name="Kräver SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="tr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="uk" id="USE_SSL" gdatype="gboolean" name="Потребує SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="vi" id="USE_SSL" gdatype="gboolean" name="Cần thiết SSL" descr="Có nên dùng SSL để thiết lập kết nối hay không"></parameter>
+    <parameter xml:lang="zh_CN" id="USE_SSL" gdatype="gboolean" name="要求 SSL" descr="是否使用 SSL 创建连接"></parameter>
+    <parameter xml:lang="zh_HK" id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="是否要使用 SSL 建立連線"></parameter>
+    <parameter xml:lang="zh_TW" id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="是否要使用 SSL 建立連線"></parameter>
+    <parameter id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="ar" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="az" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="ca" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="ca@valencia" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="cs" id="USE_CACHE" gdatype="gboolean" name="Ukládat data serveru do mezipaměti" descr="Použít mezipaměť k uchování některých statistických dat serveru (soubory mezipaměti jsou jsou v uživatelské složce mezipaměti), výchozí je ZAPNUTO">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="da" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="de" id="USE_CACHE" gdatype="gboolean" name="Serverdaten zwischespeichern" descr="Einen Zwischespeicher zum Ablegen einiger statischer Serverdaten verwenden. Die gespeicherten Daten befinden sich im Benutzerordner. Vorgabe ist »wahr«">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="dz" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="el" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="en_CA" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="en_GB" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="eo" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="es" id="USE_CACHE" gdatype="gboolean" name="Datos del servidor caché" descr="Usar una memoria caché para almacenar algunos datos del servidor estático (los archivos almacenados en la memoria caché están en la carpeta caché del usuario), de manera predeterminada es cierto">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="eu" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="fa" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="fi" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="fr" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="ga" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="gl" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="hr" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="hu" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="id" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="it" id="USE_CACHE" gdatype="gboolean" name="Dati server cache" descr="Usa una cache per memorizzare alcuni dati statici del server (i file nella cache sono nella directory della cache dell&apos;utente), il valore predefinito è TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="ja" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="ko" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="lt" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="mk" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="ml" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="ms" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="nb" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="ne" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="nl" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="oc" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="pa" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="pl" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="pt" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="pt_BR" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="ru" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="rw" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="sk" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="sl" id="USE_CACHE" gdatype="gboolean" name="Podatki strežnika predpomnika" descr="Uporabi predpomnilnik za shranjevanje statičnih podatkov strežnika (te datoteke so v uporabnikovi mapi predpomnilnika), privzeto je določena izbrana možnost.">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="sq" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="sr" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="sr@Latn" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="sv" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="tr" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="uk" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="vi" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_CN" id="USE_CACHE" gdatype="gboolean" name="缓存服务器数据" descr="使用存储来存储一些静态服务器数据(缓存的文件在用户的缓存目录中)，默认为 TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_HK" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_TW" id="USE_CACHE" gdatype="gboolean" name="Cache server data" descr="Use a cache to store some static server data (the cached files are in the user's cache directory), default is TRUE">
+      <gda_value>TRUE</gda_value>
+    </parameter>
+  </parameters>
+</data-set-spec>

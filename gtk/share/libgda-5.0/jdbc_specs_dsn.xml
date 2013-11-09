@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="ar" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="az" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="ca" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="ca@valencia" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="cs" nullok="FALSE" id="URL" gdatype="gchararray" name="Adresa URL připojení" descr=""></parameter>
+    <parameter xml:lang="da" nullok="FALSE" id="URL" gdatype="gchararray" name="URL for forbindelse" descr=""></parameter>
+    <parameter xml:lang="de" nullok="FALSE" id="URL" gdatype="gchararray" name="Verbindungszeichenkette" descr=""></parameter>
+    <parameter xml:lang="dz" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="el" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="en_CA" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="en_GB" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="eo" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="es" nullok="FALSE" id="URL" gdatype="gchararray" name="URL de conexión" descr=""></parameter>
+    <parameter xml:lang="eu" nullok="FALSE" id="URL" gdatype="gchararray" name="Konexioaren URLa" descr=""></parameter>
+    <parameter xml:lang="fa" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="fi" nullok="FALSE" id="URL" gdatype="gchararray" name="Yhteyden URL-osoite" descr=""></parameter>
+    <parameter xml:lang="fr" nullok="FALSE" id="URL" gdatype="gchararray" name="URL de connexion" descr=""></parameter>
+    <parameter xml:lang="ga" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="gl" nullok="FALSE" id="URL" gdatype="gchararray" name="URL de conexión" descr=""></parameter>
+    <parameter xml:lang="hr" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="hu" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="id" nullok="FALSE" id="URL" gdatype="gchararray" name="URL koneksi" descr=""></parameter>
+    <parameter xml:lang="it" nullok="FALSE" id="URL" gdatype="gchararray" name="URL di connessione" descr=""></parameter>
+    <parameter xml:lang="ja" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="ko" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="lt" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="mk" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="ml" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="ms" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="nb" nullok="FALSE" id="URL" gdatype="gchararray" name="Tilkoblings-URL" descr=""></parameter>
+    <parameter xml:lang="ne" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="nl" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="oc" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="pa" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="pl" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="pt" nullok="FALSE" id="URL" gdatype="gchararray" name="URL de ligação" descr=""></parameter>
+    <parameter xml:lang="pt_BR" nullok="FALSE" id="URL" gdatype="gchararray" name="URL de conexão" descr=""></parameter>
+    <parameter xml:lang="ru" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="rw" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="sk" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="sl" nullok="FALSE" id="URL" gdatype="gchararray" name="Naslov URL povezave" descr=""></parameter>
+    <parameter xml:lang="sq" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="sr" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="sr@Latn" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="sv" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="tr" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="uk" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="vi" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="zh_CN" nullok="FALSE" id="URL" gdatype="gchararray" name="连接 URL" descr=""></parameter>
+    <parameter xml:lang="zh_HK" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+    <parameter xml:lang="zh_TW" nullok="FALSE" id="URL" gdatype="gchararray" name="Connection URL" descr=""></parameter>
+  </parameters>
+</data-set-spec>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="ar" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="az" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="ca" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="ca@valencia" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="cs" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Název databáze" descr="Název databáze, která se má použít (název souboru bez .mdb)"></parameter>
+    <parameter xml:lang="da" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="Navnet på databasen der skal bruges (filnavn uden .mdb)"></parameter>
+    <parameter xml:lang="de" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datenbankname" descr="Name der zu verwendenden Datenbank (Dateiname ohne .mdb)"></parameter>
+    <parameter xml:lang="dz" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་མིང་།" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="el" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="en_CA" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="en_GB" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="eo" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datumbaznomo" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="es" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nombre de la base de datos" descr="El nombre de la base de datos que usar (nombre del archivo sin el .mdb)"></parameter>
+    <parameter xml:lang="eu" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datu-basearen izena" descr="Datu-basearen izena (fitxategi-izena, &apos;.mdb&apos; luzapenik gabe)"></parameter>
+    <parameter xml:lang="fa" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="fi" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tietokannan nimi" descr="Käytettävän tietokannan nimi (tiedostonimi ilman .mdb-päätettä)"></parameter>
+    <parameter xml:lang="fr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de données" descr="Le nom d&apos;une base de données à utiliser (nom de fichier sans l&apos;extension .mdb)"></parameter>
+    <parameter xml:lang="ga" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="gl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de datos" descr="O nome da base de datos a usar (nome de ficheiro sen .mdb)"></parameter>
+    <parameter xml:lang="hr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="hu" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Adatbázis neve" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="id" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nama basis data" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="it" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome database" descr="Nome di un database da usare (il nome file senza l&apos;estensione .mdb)"></parameter>
+    <parameter xml:lang="ja" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="データベース名" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="ko" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="lt" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Duomenų bazės vardas" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="mk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="ml" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="ms" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="nb" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="ne" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="डाटाबेस नाम" descr="प्रयोग गर्न डाटाबेसको नाम(mdbबिनाको फाइलनाम )"></parameter>
+    <parameter xml:lang="nl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database naam" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="oc" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="pa" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="pl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="pt" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de dados" descr="Nome da base de dados a ser utilizada (nome do ficheiro sem .mdb)"></parameter>
+    <parameter xml:lang="pt_BR" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome do banco de dados" descr="O nome de um banco de dados a ser utilizado (nome de arquivo sem a .mdb)"></parameter>
+    <parameter xml:lang="ru" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Название базы данных" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="rw" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="sk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="sl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Ime podatkovne zbirke" descr="Ime podatkovne zbirke za uporabo (ime datoteke brez pripone .mdb)"></parameter>
+    <parameter xml:lang="sq" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="sr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="sr@Latn" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="sv" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasnamn" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="tr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="uk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Назва бази даних" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="vi" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tên cơ sở dữ liệu" descr="Tên của cơ sở dữ liệu cần dùng (tên tập tin không có phần mở rộng « mdb »)"></parameter>
+    <parameter xml:lang="zh_CN" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="数据库名" descr="要使用的数据库的名字 (不带 .mdb 的文件名)"></parameter>
+    <parameter xml:lang="zh_HK" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter xml:lang="zh_TW" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="The name of a database to use (filename without the .mdb)"></parameter>
+    <parameter plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="ar" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="دليل" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="az" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="ca" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directori" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="ca@valencia" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directori" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="cs" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Složka" descr="Složka, ve které je soubor s databází uchován"></parameter>
+    <parameter xml:lang="da" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Mappe" descr="Mappe hvor databasefilen er gemt"></parameter>
+    <parameter xml:lang="de" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Ordner" descr="Ordner, in dem die Datenbankdatei gespeichert ist"></parameter>
+    <parameter xml:lang="dz" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="སྣོད་ཐོ།" descr="གནས་སྡུད་གཞི་རྟེན་ཡིག་སྣོད་འདི་གསོག་འཇོག་འབད་ཡོད་མི་སྣོད་ཐོ།"></parameter>
+    <parameter xml:lang="el" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Κατάλογος" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="en_CA" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="en_GB" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="eo" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Dosierujo" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="es" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Carpeta" descr="Carpeta donde se almacena el archivo con la base de datos"></parameter>
+    <parameter xml:lang="eu" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Direktorioa" descr="Datu-basearen fitxategia gordeta dagoen direktorioa"></parameter>
+    <parameter xml:lang="fa" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="fi" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Hakemisto" descr="Kansio, johon tietokantatiedosto on tallennettu"></parameter>
+    <parameter xml:lang="fr" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Répertoire" descr="Répertoire contenant le fichier de base de données"></parameter>
+    <parameter xml:lang="ga" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Fillteán" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="gl" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directorio" descr="Directorio onde está o ficheiro de base de datos"></parameter>
+    <parameter xml:lang="hr" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="hu" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="id" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Direktori" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="it" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Cartella" descr="Cartella dove è memorizzato il database"></parameter>
+    <parameter xml:lang="ja" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="ディレクトリ" descr="データベースが配置されるディレクトリ"></parameter>
+    <parameter xml:lang="ko" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="lt" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Katalogas" descr="Katalogas, kuriame saugoma duomenų bazės byla"></parameter>
+    <parameter xml:lang="mk" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="ml" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="ms" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="nb" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Katalog" descr="Katalog hvor databasefilen er lagret"></parameter>
+    <parameter xml:lang="ne" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="डाइरेक्टरी" descr="डाटाबेस फाइल भण्डारण गरिएको ठाउँमा डाइरेक्टरी"></parameter>
+    <parameter xml:lang="nl" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Map" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="oc" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Repertòri" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="pa" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="pl" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="pt" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directório" descr="Directório onde o ficheiro da base de dados está guardado"></parameter>
+    <parameter xml:lang="pt_BR" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Diretório" descr="Diretório em que o arquivo de banco de dados está armazenado"></parameter>
+    <parameter xml:lang="ru" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="rw" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Ububiko" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="sk" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="sl" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Mapa" descr="Mapa v kateri je shranjena datoteka podatkovne zbirke"></parameter>
+    <parameter xml:lang="sq" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="sr" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="sr@Latn" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="sv" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Katalog" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="tr" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Directory" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="uk" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Каталог" descr="Directory where the database file is stored"></parameter>
+    <parameter xml:lang="vi" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="Thư mục" descr="Thư mục chứa tập tin co sở dữ liệu"></parameter>
+    <parameter xml:lang="zh_CN" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="目录" descr="存储数据库文件的目录"></parameter>
+    <parameter xml:lang="zh_HK" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="目錄" descr="儲存資料庫檔案的目錄"></parameter>
+    <parameter xml:lang="zh_TW" plugin="filesel:MODE=PICKFOLDER" nullok="FALSE" id="DB_DIR" gdatype="gchararray" name="目錄" descr="儲存資料庫檔案的目錄"></parameter>
+  </parameters>
+</data-set-spec>

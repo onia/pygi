@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Password" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="ar" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Password" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="az" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Password" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="ca" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Contrasenya" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="ca@valencia" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Contrasenya" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="cs" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Heslo" descr="Připojovací heslo, jak je definováno na webovém serveru"></parameter>
+    <parameter xml:lang="da" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Adgangskode" descr="Forbindelsesadgangskode som defineret på webserveren"></parameter>
+    <parameter xml:lang="de" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Passwort" descr="Verbindungspasswort, wie für den Webserver festgelegt"></parameter>
+    <parameter xml:lang="dz" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="ཆོག་ཡིག" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="el" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Κωδικός" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="en_CA" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Password" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="en_GB" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Password" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="eo" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Pasvorto" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="es" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Contraseña" descr="Contraseña de conexión como está definida por el servidor web"></parameter>
+    <parameter xml:lang="eu" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Pasahitza" descr="Konexioaren pasahitza (web zerbitzarian definituta bezala)"></parameter>
+    <parameter xml:lang="fa" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="گذرواژه" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="fi" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Salasana" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="fr" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Mot de passe" descr="Mot de passe de connexion tel qu&apos;il est défini sur le serveur Web"></parameter>
+    <parameter xml:lang="ga" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Password" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="gl" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Contrasinal" descr="Contrasinal da conexión tal e como se definiu no servidor web"></parameter>
+    <parameter xml:lang="hr" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Lozinka" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="hu" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Jelszó" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="id" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Kata Sandi" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="it" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Password" descr="Password di connessione come definita sul server web"></parameter>
+    <parameter xml:lang="ja" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="パスワード" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="ko" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="비밀번호" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="lt" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Slaptažodis" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="mk" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Password" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="ml" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="അടയാളവാക്യം" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="ms" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Katalaluan" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="nb" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Passord" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="ne" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="पासवर्ड" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="nl" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Wachtwoord" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="oc" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Mot de pas" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="pa" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="ਗੁਪਤ-ਕੋਡ" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="pl" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Hasło" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="pt" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Senha" descr="Palavra passe da ligação como definida no servidor web"></parameter>
+    <parameter xml:lang="pt_BR" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Senha" descr="A senha de conexão como definida no servidor web"></parameter>
+    <parameter xml:lang="ru" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Пароль" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="rw" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Ijambobanga" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="sk" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Heslo" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="sl" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Geslo" descr="Geslo povezave kot je določeno na spletnem strežniku"></parameter>
+    <parameter xml:lang="sq" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Fjalëkalimi" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="sr" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Лозинка" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="sr@Latn" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Lozinka" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="sv" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Lösenord" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="tr" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Password" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="uk" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Пароль" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="vi" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="Mật khẩu" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="zh_CN" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="口令" descr="在网页服务器中定义的连接口令"></parameter>
+    <parameter xml:lang="zh_HK" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="密碼" descr="Connection password as defined on the web server"></parameter>
+    <parameter xml:lang="zh_TW" plugin="string:HIDDEN=true" nullok="FALSE" id="PASSWORD" gdatype="gchararray" name="密碼" descr="Connection password as defined on the web server"></parameter>
+  </parameters>
+</data-set-spec>

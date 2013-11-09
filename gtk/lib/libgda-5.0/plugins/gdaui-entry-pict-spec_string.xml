@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="ar" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="التشفيرة" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="az" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="ca" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="ca@valencia" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="cs" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Kódování" descr="Kódování použité k převodu binárních dat na řetězec">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="da" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Kodning" descr="Kodning brugt til at konvertere binære data til strengen">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="de" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Zeichenkodierung" descr="Zum Umwandeln von Binärdaten in eine Zeichenkette verwendete Zeichenkodierung">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="dz" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="ཨིན་ཀོ་ཌིང་།" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="el" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="en_CA" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="en_GB" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="eo" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="es" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Codificación" descr="Codificación usada para convertir datos binarios a la cadena">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="eu" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Kodeketa" descr="Erabiliko den kodeketa datu bitarrak kate bihurtzeko">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="fa" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="fi" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Merkistökoodaus" descr="Binääritiedon merkkijonoksi muuntamisessa käytetty koodaus">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="fr" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Codage" descr="Codage utilisé pour convertir les données binaires en chaîne de caractères">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="ga" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="gl" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Codificación" descr="Codificación que se vai usar para converter os datos binarios dunha cadea">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="hr" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="hu" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="id" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Pengkodean" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="it" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Codifica" descr="Codifica usata per convertire i dati binari nella stringa">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="ja" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="ko" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="lt" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Koduotė" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="mk" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="ml" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="ms" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="nb" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Koding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="ne" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="सङ्केतन" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="nl" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Codering" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="oc" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="pa" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="pl" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="pt" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Codificação" descr="Codificação usada para converter dados binários para a cadeia de caracteres">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="pt_BR" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Codificação" descr="Codificação usada para converter dados binários em texto">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="ru" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="rw" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="sk" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="sl" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Nabor znakov" descr="Kodiranje uporabljeno za pretvarjanje dvojiških podatkov v nize">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="sq" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="sr" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="sr@Latn" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="sv" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Teckenkodning" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="tr" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="uk" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Encoding" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="vi" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="Bộ ký tự" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_CN" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="编码" descr="用于转换二进制数据到字符串的编码">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_HK" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="編碼" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter xml:lang="zh_TW" source="encodings:0" nullok="FALSE" id="ENCODING" gdatype="gchararray" name="編碼" descr="Encoding used to convert binary data to the string">
+      <gda_value>base64</gda_value>
+    </parameter>
+    <parameter id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ar" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="az" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ca" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ca@valencia" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="cs" id="SERIALIZE" gdatype="gboolean" name="Serializovaný obrázek" descr="Nastavte na ZAPNUTO, pokud data přicházejí ze serializovaného GdkPixbuf (například F-Spot)"></parameter>
+    <parameter xml:lang="da" id="SERIALIZE" gdatype="gboolean" name="Serialiseret billede" descr="Angiv som TRUE hvis data kommer fra en serialiseret GdkPixbuf (F-Spot for eksempel)"></parameter>
+    <parameter xml:lang="de" id="SERIALIZE" gdatype="gboolean" name="Serialisiertes Bild" descr="Auf »Wahr« setzen, falls die Daten aus einem serialisierten GdkPixbuf stammen (z.B. F-Spot)"></parameter>
+    <parameter xml:lang="dz" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="el" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="en_CA" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="en_GB" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="eo" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="es" id="SERIALIZE" gdatype="gboolean" name="Imagen serializada" descr="Establezca a TRUE si los datos vienen de un GdkPixbuf serializado (F-Spot por ejemplo)"></parameter>
+    <parameter xml:lang="eu" id="SERIALIZE" gdatype="gboolean" name="Serializatutako irudia" descr="Ezarri EGIA gisa datuak serializatutako GdkPixbuf-etik badator (F-Spot adib.)"></parameter>
+    <parameter xml:lang="fa" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="fi" id="SERIALIZE" gdatype="gboolean" name="Sarjallistettu kuva" descr="Aseta arvoon TRUE, jos tiedot tulevat sarjallistetusta GdkPixbufista (esimerkiksi F-Spotilta)"></parameter>
+    <parameter xml:lang="fr" id="SERIALIZE" gdatype="gboolean" name="Image sérialisée" descr="Défini comme VRAI si les données proviennent d&apos;un GdkPixbuf sérialisé (F-Spot par exemple)"></parameter>
+    <parameter xml:lang="ga" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="gl" id="SERIALIZE" gdatype="gboolean" name="Imaxe serializada" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="hr" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="hu" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="id" id="SERIALIZE" gdatype="gboolean" name="Gambar terserialisasi" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="it" id="SERIALIZE" gdatype="gboolean" name="Immagine serializzata" descr="Impostare a VERO se i dati provengono da un GdkPixbuf serializzato (come per esempio F-Spot)"></parameter>
+    <parameter xml:lang="ja" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ko" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="lt" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="mk" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ml" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ms" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="nb" id="SERIALIZE" gdatype="gboolean" name="Serialisert bilde" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ne" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="nl" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="oc" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="pa" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="pl" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="pt" id="SERIALIZE" gdatype="gboolean" name="Figura serializada" descr="Defina como VERDADEIRO se os dados vêem de um GdkPixbuf serializador (F-Spot por exemplo)"></parameter>
+    <parameter xml:lang="pt_BR" id="SERIALIZE" gdatype="gboolean" name="Imagem serializada" descr="Defina como VERDADEIRO se os dados vêm de um GdkPixbuf serializado (F-Spot, por exemplo)"></parameter>
+    <parameter xml:lang="ru" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="rw" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="sk" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="sl" id="SERIALIZE" gdatype="gboolean" name="Zaporedna slika" descr="Izbrana možnost določa, da so podatki vstavljeni zaporedno preko GdkPixbuf (F-Spot)"></parameter>
+    <parameter xml:lang="sq" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="sr" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="sr@Latn" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="sv" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="tr" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="uk" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="vi" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="zh_CN" id="SERIALIZE" gdatype="gboolean" name="序列化图片" descr="若数据来自一个序列化的 GdkPixbuf (如 F-Spot)，设为 TRUE"></parameter>
+    <parameter xml:lang="zh_HK" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="zh_TW" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+  </parameters>
+  <sources>
+    <gda_array name="encodings">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="text" gdatype="gchararray"/>
+      <gda_array_data>
+        <gda_array_row>
+          <gda_value>base64</gda_value>
+          <gda_value>Base 64</gda_value>
+          <gda_value xml:lang="cs">Base 64</gda_value>
+          <gda_value xml:lang="da">Base 64</gda_value>
+          <gda_value xml:lang="de">Base 64</gda_value>
+          <gda_value xml:lang="es">Base 64</gda_value>
+          <gda_value xml:lang="eu">64 oinarria</gda_value>
+          <gda_value xml:lang="fr">Base 64</gda_value>
+          <gda_value xml:lang="gl">Base 64</gda_value>
+          <gda_value xml:lang="id">Base 64</gda_value>
+          <gda_value xml:lang="it">Base 64</gda_value>
+          <gda_value xml:lang="nb">Base 64</gda_value>
+          <gda_value xml:lang="pt">Base 64</gda_value>
+          <gda_value xml:lang="pt_BR">Base 64</gda_value>
+          <gda_value xml:lang="sl">Base 64</gda_value>
+          <gda_value xml:lang="zh_CN">Base 64</gda_value>
+        </gda_array_row>
+      </gda_array_data>
+    </gda_array>
+  </sources>
+</data-set-spec>

@@ -1,0 +1,2 @@
+gtk-2.0
+import distutils.sysconfig, os; os.putenv('PATH', os.path.join(distutils.sysconfig.get_python_lib(),'gtk;') + os.getenv('PATH'))

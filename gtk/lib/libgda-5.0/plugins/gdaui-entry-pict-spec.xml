@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ar" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="az" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ca" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ca@valencia" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="cs" id="SERIALIZE" gdatype="gboolean" name="Serializovaný obrázek" descr="Nastavte na ZAPNUTO, pokud data přicházejí ze serializovaného GdkPixbuf (například F-Spot)"></parameter>
+    <parameter xml:lang="da" id="SERIALIZE" gdatype="gboolean" name="Serialiseret billede" descr="Angiv som TRUE hvis data kommer fra en serialiseret GdkPixbuf (F-Spot for eksempel)"></parameter>
+    <parameter xml:lang="de" id="SERIALIZE" gdatype="gboolean" name="Serialisiertes Bild" descr="Auf »Wahr« setzen, falls die Daten aus einem serialisierten GdkPixbuf stammen (z.B. F-Spot)"></parameter>
+    <parameter xml:lang="dz" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="el" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="en_CA" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="en_GB" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="eo" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="es" id="SERIALIZE" gdatype="gboolean" name="Imagen serializada" descr="Establezca a TRUE si los datos vienen de un GdkPixbuf serializado (F-Spot por ejemplo)"></parameter>
+    <parameter xml:lang="eu" id="SERIALIZE" gdatype="gboolean" name="Serializatutako irudia" descr="Ezarri EGIA gisa datuak serializatutako GdkPixbuf-etik badator (F-Spot adib.)"></parameter>
+    <parameter xml:lang="fa" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="fi" id="SERIALIZE" gdatype="gboolean" name="Sarjallistettu kuva" descr="Aseta arvoon TRUE, jos tiedot tulevat sarjallistetusta GdkPixbufista (esimerkiksi F-Spotilta)"></parameter>
+    <parameter xml:lang="fr" id="SERIALIZE" gdatype="gboolean" name="Image sérialisée" descr="Défini comme VRAI si les données proviennent d&apos;un GdkPixbuf sérialisé (F-Spot par exemple)"></parameter>
+    <parameter xml:lang="ga" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="gl" id="SERIALIZE" gdatype="gboolean" name="Imaxe serializada" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="hr" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="hu" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="id" id="SERIALIZE" gdatype="gboolean" name="Gambar terserialisasi" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="it" id="SERIALIZE" gdatype="gboolean" name="Immagine serializzata" descr="Impostare a VERO se i dati provengono da un GdkPixbuf serializzato (come per esempio F-Spot)"></parameter>
+    <parameter xml:lang="ja" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ko" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="lt" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="mk" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ml" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ms" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="nb" id="SERIALIZE" gdatype="gboolean" name="Serialisert bilde" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="ne" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="nl" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="oc" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="pa" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="pl" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="pt" id="SERIALIZE" gdatype="gboolean" name="Figura serializada" descr="Defina como VERDADEIRO se os dados vêem de um GdkPixbuf serializador (F-Spot por exemplo)"></parameter>
+    <parameter xml:lang="pt_BR" id="SERIALIZE" gdatype="gboolean" name="Imagem serializada" descr="Defina como VERDADEIRO se os dados vêm de um GdkPixbuf serializado (F-Spot, por exemplo)"></parameter>
+    <parameter xml:lang="ru" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="rw" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="sk" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="sl" id="SERIALIZE" gdatype="gboolean" name="Zaporedna slika" descr="Izbrana možnost določa, da so podatki vstavljeni zaporedno preko GdkPixbuf (F-Spot)"></parameter>
+    <parameter xml:lang="sq" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="sr" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="sr@Latn" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="sv" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="tr" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="uk" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="vi" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="zh_CN" id="SERIALIZE" gdatype="gboolean" name="序列化图片" descr="若数据来自一个序列化的 GdkPixbuf (如 F-Spot)，设为 TRUE"></parameter>
+    <parameter xml:lang="zh_HK" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+    <parameter xml:lang="zh_TW" id="SERIALIZE" gdatype="gboolean" name="Serialized picture" descr="Set to TRUE if data comes from a serialized GdkPixbuf (F-Spot for example)"></parameter>
+  </parameters>
+</data-set-spec>
